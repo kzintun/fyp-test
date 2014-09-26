@@ -1,0 +1,60 @@
+// pseudo code //
+//Script: Indexing XML content using Lucene //
+
+
+// main method //
+
+call loadAllXML()
+println message "loading complete"
+
+
+//function: loadAllXML() //
+
+	//get all XML files under the folder
+	for each XML file under directory
+	
+		set 'xName' = (String)fileName
+		get rootNode 'rN'
+		
+		//get all documents info under <database> tag
+		get all NodteList 'docL' with tag <document> under 'rN' ( child nodes under rootNode <database>) // usually only 1 node as 1 doc per xml file  //rN-root node, docL-document node list
+	
+		for each node in NodeList 'docL'
+			set 'docName' = docL.getTagName()
+			set 'docID' = docL.getAttribute("id").getValue()
+			
+			
+			//		OPTIONAL			//
+			//get all metadata info under <document> tag
+			get all NodeList 'metL' with tag <metadata> under 'docL' ( child nodes under Node <document> ) //only 1 metadata node per 1 doc node //metL-metadata node list
+			set 'spkName' = metL.getAttribute("name").getValue()
+			set 'spkID' = metL.getAttribute("Id").getValue()
+			//		/OPTIONAL			//
+			
+			
+			//get all content info under <document> tag
+			get all NodeList 'conL' with tag <content> under 'docL' ( child nodes under Node <document> ) // only 1 content node per 1 doc node //conL-content node list
+			
+			//get all segment info under <document> tag
+			get all NodeList 'segL' with tag <segment> under 'conL' ( child nodes under Node <content> ) // segL-segment node list
+		
+			for each node in NodeList 'segL'
+				set 'segID' = segL.getAttribute("id").getValue()
+				
+				//get all sentence info under <segment> tag
+				get all NodeList 'senL' with tag <sentence> under 'segL' ( child nodes under Node <segment> ) //senL - sentence node list
+
+				for each node in NodeList 'senL'
+					set 'senID' = senL.getAttribute("id").getValue()
+					
+					//get all word info under <sentence> tag
+					get all NodeList 'wordL' with tag <word> under 'senL' ( child nodes under Node <sentence> ) //wordL - word node list
+					concatenate all word values as String sentenceToIndex ( wordL.[0] + ' ' + wordL.[1] + ' ' + wordL.[n] )
+					concatenate all ID values as String keytoReturn ( docName + ' ' + docID + ' ' + spkID + ' ' + segID + ' ' + senID )
+					
+					//method call
+					call addToLucene(sentenceToIndex, keyToReturn)
+						
+// end loadAllXML()	//
+
+	
