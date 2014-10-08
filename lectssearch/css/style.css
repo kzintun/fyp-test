@@ -1,0 +1,189 @@
+﻿<style type="text/css">  
+.navbar-default { 
+	background-color: #b7ebe4;
+	border-color: #E7E7E7;
+}
+ 
+.navbar-default .navbar-brand{
+	color: #8000ff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ff0080;
+}
+.navbar-default .navbar-text {
+	color: #8000ff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #8000ff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ff0080;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ff0080;
+	background-color: #ead5ff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ff0080;
+	background-color: #ead5ff;
+}
+.navbar-default .navbar-toggle {
+	border-color: #ead5ff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #ead5ff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #8000ff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #8000ff;
+}
+.navbar-default .navbar-link {
+	color: #8000ff;
+}
+.navbar-default .navbar-link:hover {
+	color: #ff0080;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #8000ff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ff0080;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ff0080;
+		background-color: #ead5ff;
+	}
+}
+.container {
+	/*width: auto;*/
+	/*max-width: 680px;*/
+	max-width: 1000px;
+}
+
+.jumbotron{
+		background: #F8F8F8;
+		color:#fff;
+}
+
+
+.center{
+	margin:0 auto;
+}
+
+.upload {
+	background: #8000ff;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #000000;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+.upload:hover {
+	background: #FA377B;
+	cursor: pointer;
+}	  
+/*footer*/
+html,
+      body {
+        height: 100%;
+        padding-top: 25px;
+       
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+		 /* Pad bottom by footer height */
+		padding: 0 0 60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+	  /*end footer*/
+	  
+	  
+/*videoPage*/
+.thumbnail{
+	margin-bottom:30px;
+}
+
+.thumbnail img{
+	min-width:100%;
+	width:100%;
+}
+	  
+.nav-tabs{
+	margin-bottom:15px;
+}
+
+/************* VIDEO *******************************/
+
+.fluid-width-video-wrapper {
+	width: 100%;
+	position: relative;
+	padding: 0;
+}
+
+.vendor {
+	margin-bottom: 0px;
+}
+
+.container-video {
+	width: 100%;
+	min-width: 100%;
+	position: relative;
+	padding: 0;
+	height: 100%;
+}
+
+.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border:0px;
+}
+
+@media (max-width: 768px) {
+
+.nav-tabs.nav-justified > li{
+	float:left;
+}
+}
+
+</style>
