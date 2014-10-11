@@ -8,6 +8,7 @@ if (file_exists($xmlFile)){
 	global $xml;
 	$xml=loadDatabase($xmlFile);
 	$_SESSION['xml'] = $xml->asXML();
+	 
 	//~ $xml->formatOutput = true;
 	//~ $_SESSION['xml'] =  $xml->saveXML(); 
 	//print_r($xml);
@@ -23,15 +24,17 @@ if (file_exists($xmlFile)){
 		$docList=getDocListFromXml($xml);
 	
 		if ($docList === 0){
-			$errorMessage="No documentfound in the database";
+			$errorMessage="No document found in the database";
 			include_once("view/errorFile.php");
 		}
 		else{
 		//~ show doc in a table
 		include_once("model/getInfoFromDocList.php");
 		//print_r($docList);
+		//global $docInfo;
 		$docInfo=getInfoFromDocList($docList);
-		//print_r($docInfo);
+		$_SESSION['docInfo'] = $docInfo;
+		
 		include_once("view/displayAllXML.php");
 		}
 	}

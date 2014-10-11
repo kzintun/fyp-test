@@ -62,8 +62,13 @@
 .container {
 	/*width: auto;*/
 	/*max-width: 680px;*/
-	max-width: 1000px;
+	/*max-width: 1000px;*/
 }
+
+p {
+    max-height: 300px;
+    overflow-x: hidden;
+} 
 
 .jumbotron{
 		background: #F8F8F8;

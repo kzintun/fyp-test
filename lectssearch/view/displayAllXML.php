@@ -1,9 +1,10 @@
 <!--Version 1.0 created on 30/09/2014 by JH-->
+<!--Version 1.1 modified on 11/10/2014 by JH-->
 <?php include_once('header.php'); ?>
 
 
 <div class="container">
-	<div class="row">
+	<div class="rowa">
 		<div class="col-lg-3">
 			<div class="well">
 				Temp Placeholder 
@@ -12,14 +13,31 @@
 		</div>
 		<div class="col-lg-7 col-lg-offset-1">
 			<table>
-				<?php foreach($docList as $doc) { 
-					$fileName = preg_replace('/\\.[^.\\s]{3,4}$/', '', $doc);?>
+				<?php foreach($docList as $docX) { 
+					//print_r($docInfo);
+					$doc = $docX['name'];
+					$docLoc = $docX['loc'];
+					$fileName = preg_replace('/\\.[^.\\s]{3,4}$/', '', $doc);
+					//echo $doc;
+					//$fileLoc = './databaseOut/'.$doc; 
+					$keyTime = '00:00:00:00'; ?>
 				<tr>
 					<td>
 						<div class="col-lg-2">
-							<a href="index.php?document=<?php echo './databaseOut/'.$doc; ?>">
+							<?php $param= $docInfo[(string)$doc]['fileLoc'];
+							//echo $param?>
+							<!--DYNAMIC LOADING OF VIDEOS NOT WORKING-->
+							<script type="text/javascript">
+								var para = <?php echo json_encode($param);?>;
+								var id = <?php echo json_encode($doc); ?>;
+								//alert(para);
+								document.getElementById(id).onclick =loadVideo(para); 
+								//onclick="javascript:loadVideo(\''.$param.'\');"
+							</script>
+							<a id="<?php echo $doc; ?>" class ="inline"  href="index.php?document=<?php echo $doc; ?>">							
+							<!--//loadVideo(para);"  href="index.php?document=<?php echo $doc; ?>">-->
 							<img src="<?php echo './thumbnail/'.$fileName.'.png'?>" border="0" alt="database icon" height="128" width="128" onerror='this.onerror = null; this.src="./img/audio.png"'>
-							</a>
+							<?php echo '</a>'?>
 						</div>
 					</td>
 					<td>
@@ -27,19 +45,19 @@
 							<table>
 								<tr>
 									<td>Title: </td>
-									<td><?php echo $fileName?> </td>
+									<td>&emsp;<?php echo $fileName?><br></td>
 								</tr>
 								<tr>
-									<td>Category: </td>
-									<td><?php echo 'TEST'?></td>
+									<td>Content Type: </td>
+									<td>&emsp;<?php echo $docInfo[(string)$doc]['type']?><br></td>
 								</tr>
 								<tr>
-									<td>Speaker: </td>
-									<td><?php echo $docInfo[(string)$doc]['speaker']?> </td>
+									<td>Speaker(s): </td>
+									<td>&emsp;<?php echo $docInfo[(string)$doc]['speaker']?><br></td>
 								</tr>
 								<tr>
 									<td>Description: </td>
-									<td><?php echo $docInfo[(string)$doc]['description']?> </td>
+									<td>&emsp;<?php echo $docInfo[(string)$doc]['description']?><br></td>
 								</tr>
 							</table>
 						</div>

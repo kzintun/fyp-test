@@ -12,8 +12,7 @@
 		<link href="./css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
 		<link href="./css/style.css" rel="stylesheet" type="text/css" />
 		<link href="./css/jquery-ui.css"rel="stylesheet" type="text/css"  />
-	</head>
-
+		
 	<body>
 		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 			<div class="container">
@@ -33,7 +32,7 @@
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">More..
 							<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Upload Content</a></li>
+								<li><a href="uploadContent.php">Upload Content</a></li>
 								<li><a href="#">About LS</a></li>
 								<li><a href="#">FAQ</a></li>
 								<li class="divider"></li>
@@ -54,11 +53,12 @@
 						<img alt="logo" class="pull-left" height="35" src="img/banner.png" width="200" />
 					</div>
 					<div class="col-lg-7 ">
+					<form class="form-search" method="post" action="search.php" >
 						<div class="input-group">
-							<input class="form-control" type="text"/>
+							<input class="form-control" type="text" name="searchfield"/>
 								<span class="input-group-btn">
-								<button class="btn btn-default" type="button">Go!</button>
-							</span></div>
+								<button class="btn btn-default" type="submit" name="go">Go!</button>
+							</span></div></form>
 					</div>
 				</div>
 			</div>
