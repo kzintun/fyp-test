@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <database date="25/09/2014" name="databaseOut/AaronHuey_2010X.xml">
-	<document name="AaronHuey_2010X" video="AaronHuey_2010X.wav">
+	<document name="AaronHuey_2010X" video="AaronHuey_2010X.mp3">
 		<metadata>
 			<speakers />
 			<speaker id="0" name="Aaron Huey" />
-
+			<speaker id="1" name="Tim Ho" />
 			<description id ="0" name="This is a description for AH2010X" />
 		</metadata>
 		<content>

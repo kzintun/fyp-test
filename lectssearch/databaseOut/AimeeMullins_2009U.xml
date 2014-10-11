@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <database date="25/09/2014" name="databaseOut/AimeeMullins_2009U.xml">
-	<document name="AimeeMullins_2009U" video="AimeeMullins_2009U.wav">
+	<document name="AimeeMullins_2009U" video="AimeeMullins_2009U.mp3">
 		<metadata>
 			<speakers />
 			<speaker id="0" name="Aimee Mullins" />
