@@ -52,12 +52,19 @@
 		function updateURL(){
 			var currentURL = window.location.href;
 			//alert(currentURL);
-			if (currentURL.search("database")==-1) {
+			
+			if (currentURL.search("document=")>-1) {
+				currentURL = currentURL.substring(0, currentURL.search("document=")-1);
+			}
+			if (currentURL.search("find=")>-1) {
+				currentURL = currentURL.substring(0, currentURL.search("find=")-1);
+			}
+			if (currentURL.search("database=")==-1) {
 				currentURL = currentURL+ "?database=all";
 			}
 		    var userInput = document.getElementById('userInput').value;
 		    var lnk = document.getElementById('searchForm');
-		    searchForm.action = currentURL+"&search=" + userInput;
+		    searchForm.action = currentURL+"&find=" + userInput;
 		}
 		</script>
 		
