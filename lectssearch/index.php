@@ -13,7 +13,7 @@ if (!isset($_GET) OR empty($_GET)){
 elseif ( isset($_GET['database']) ){
 	//~ one xml file selected - load the xml object and show info
 	$xmlFile=$_GET['database'];
-	$xmlFile='./databaseOut/'.$xmlFile.'.xml';
+	$xmlFile='./database/'.$xmlFile.'.xml';
 	//echo $xmlFile;
 	include_once('controller/loadDatabase.php');
 }
