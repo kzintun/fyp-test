@@ -34,7 +34,7 @@
 								document.getElementById(id).onclick =loadVideo(para); 
 								//onclick="javascript:loadVideo(\''.$param.'\');"
 							</script>
-							<a id="<?php echo $doc; ?>" class ="inline"  href="index.php?document=<?php echo $doc; ?>">							
+							<a id="<?php echo $doc; ?>" class ="inline"  href="index.php?database=<?php echo $docInfo[(string)$doc]['category'];?>&document=<?php echo $doc; ?>">							
 							<!--//loadVideo(para);"  href="index.php?document=<?php echo $doc; ?>">-->
 							<img src="<?php echo './thumbnail/'.$fileName.'.png'?>" border="0" alt="database icon" height="128" width="128" onerror='this.onerror = null; this.src="./img/audio.png"'>
 							<?php echo '</a>'?>

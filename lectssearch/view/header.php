@@ -46,6 +46,15 @@
 				<!-- /.container-fluid --></div>
 		</nav>
 		
+		<script type="text/javascript">
+		<!-- Written by JH to pass in search text into URL-->
+		function updateURL(){
+		    var userInput = document.getElementById('userInput').value;
+		    var lnk = document.getElementById('searchForm');
+		    searchForm.action = "index.php?search=" + userInput;
+		}
+		</script>
+		
 		<div class="jumbotron">
 			<div class="container">
 				<div class="row">
@@ -53,11 +62,11 @@
 						<img alt="logo" class="pull-left" height="35" src="img/banner.png" width="200" />
 					</div>
 					<div class="col-lg-7 ">
-					<form class="form-search" method="post" action="search.php" >
+					<form class="form-search" id="searchForm" method="post">
 						<div class="input-group">
-							<input class="form-control" type="text" name="searchfield"/>
+							<input class="form-control" type="text" name="searchfield" id="userInput"/>
 								<span class="input-group-btn">
-								<button class="btn btn-default" type="submit" name="go">Go!</button>
+								<button class="btn btn-default" type="submit" name="go" onclick="updateURL()">Go!</button>
 							</span></div></form>
 					</div>
 				</div>

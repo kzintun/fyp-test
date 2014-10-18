@@ -22,20 +22,23 @@ if (file_exists($xmlFile)){
 		// LIST DOCUMENT AND RETURN $DOCLIST
 		include_once("model/getDocListFromXml.php");
 		$docList=getDocListFromXml($xml);
-	
+		//print_r($docList);
 		if ($docList === 0){
 			$errorMessage="No document found in the database";
 			include_once("view/errorFile.php");
 		}
 		else{
-		//~ show doc in a table
-		include_once("model/getInfoFromDocList.php");
-		//print_r($docList);
-		//global $docInfo;
-		$docInfo=getInfoFromDocList($docList);
-		$_SESSION['docInfo'] = $docInfo;
-		
-		include_once("view/displayAllXML.php");
+			//remove need to transverse thru each doc
+			//include_once("model/getInfoFromDocList.php");
+			//$docInfo=getInfoFromDocList($docList);
+			
+			//new method to read metadata directly from xml
+			include_once("model/getMetadataFromXml.php");
+			$docInfo=getMetaDataFromXml($xml);
+			
+			$_SESSION['docInfo'] = $docInfo;
+			//~ show doc in a table
+			include_once("view/displayAllXML.php");
 		}
 	}
 }

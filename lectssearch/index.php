@@ -10,13 +10,6 @@ if (!isset($_GET) OR empty($_GET)){
 	$extension='.xml';
 	include_once('controller/listDatabase.php');
 }
-elseif ( isset($_GET['database']) ){
-	//~ one xml file selected - load the xml object and show info
-	$xmlFile=$_GET['database'];
-	$xmlFile='./database/'.$xmlFile.'.xml';
-	//echo $xmlFile;
-	include_once('controller/loadDatabase.php');
-}
 elseif ( isset($_GET['document']) ){
 	//~ one xml file selected - load the xml object and show info
 	$document=$_GET['document'];
@@ -39,6 +32,27 @@ elseif ( isset($_GET['document']) ){
 	
 }
 
+elseif ( isset($_GET['database']) ){
+	//~ one xml file selected - load the xml object and show info
+	$xmlFile=$_GET['database'];
+	$xmlFile='./database/'.$xmlFile.'.xml';
+	//echo $xmlFile;
+	include_once('controller/loadDatabase.php');
+}
+
+elseif (isset($_POST['go'])){ 
+	if(preg_match("/[A-Z  | a-z]+/", $_POST['searchfield'])){ 
+		$keyword=$_POST['searchfield']; 
+		echo "This search query, ".$keyword." would be passed to lucene.";
+		//include_once("controller/searchLucene.php");
+	}
+	else {
+		
+		$errorMessage="Please enter a search query!";
+		include_once("view/errorFile.php");
+	
+	}
+}
 
 
 
