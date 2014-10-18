@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--Version 1.0 created on 14/09/2014 by JH-->
 <!--Version 1.1 modified on 30/09/2014 by JH-->
+<!--Version 1.2 modified on 18/10/2014 by JH to add in search url-->
 
 <html>
 	<head>
@@ -49,9 +50,14 @@
 		<script type="text/javascript">
 		<!-- Written by JH to pass in search text into URL-->
 		function updateURL(){
+			var currentURL = window.location.href;
+			//alert(currentURL);
+			if (currentURL.search("database")==-1) {
+				currentURL = currentURL+ "?database=all";
+			}
 		    var userInput = document.getElementById('userInput').value;
 		    var lnk = document.getElementById('searchForm');
-		    searchForm.action = "index.php?search=" + userInput;
+		    searchForm.action = currentURL+"&search=" + userInput;
 		}
 		</script>
 		

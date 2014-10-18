@@ -31,15 +31,6 @@ elseif ( isset($_GET['document']) ){
 	include_once('controller/showDocument.php');
 	
 }
-
-elseif ( isset($_GET['database']) ){
-	//~ one xml file selected - load the xml object and show info
-	$xmlFile=$_GET['database'];
-	$xmlFile='./database/'.$xmlFile.'.xml';
-	//echo $xmlFile;
-	include_once('controller/loadDatabase.php');
-}
-
 elseif (isset($_POST['go'])){ 
 	if(preg_match("/[A-Z  | a-z]+/", $_POST['searchfield'])){ 
 		$keyword=$_POST['searchfield']; 
@@ -53,6 +44,15 @@ elseif (isset($_POST['go'])){
 	
 	}
 }
+
+elseif ( isset($_GET['database']) ){
+	//~ one xml file selected - load the xml object and show info
+	$xmlFile=$_GET['database'];
+	$xmlFile='./database/'.$xmlFile.'.xml';
+	//echo $xmlFile;
+	include_once('controller/loadDatabase.php');
+}
+
 
 
 
