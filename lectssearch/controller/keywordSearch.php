@@ -61,25 +61,12 @@ if (isset($keyword)){
 		include_once('./model/findKeyword.php');
 		$resultArray=highlightStr($resultArray,$wordList);
 		
-		// -----------------------testing------------------------------
-		// Printing the results
-		/* for ($k=0 ; $k < sizeof($resultArray); $k++){
-			echo '</br></br>';
-			echo $k+1 .'. '.$resultArray[$k]['docname'] . '</br>';
-			echo $resultArray[$k]['segmentID'] . '</br>';
-			echo $resultArray[$k]['speakerID'] . '</br>';
-			echo $resultArray[$k]['sentenceID'] . '</br>';
-			echo $resultArray[$k]['startTime'] . '</br></br>';
-			echo $resultArray[$k]['text'] . '</br></br>';
-			} */
-		
-		
 		//	6.	create a 3D array by sorting the 2D resultArray 
 		//	Array C
 		include_once('./model/sortResults.php');
 		$sortedResultArray= aggregate($resultArray);
 		
-		// -----------------------testing------------------------------
+		// -----------------------testing block------------------------------
 		//	You can clear comment  below codes to view the array format 
 		/* echo 'Array B:</br>';
 		print_r($vals);			//<---- Output 1: Array $vals
@@ -87,10 +74,23 @@ if (isset($keyword)){
 		
 		echo 'Array C:</br>';
 		print_r($sortedResultArray);   // <---- Output 2: Array $sortedResultArray
-		echo '</br></br>'; */
+		echo '</br></br>';  */
 		
+		// Printing the contents of sorted result array (Array C)
+		/*  foreach ($sortedResultArray as $key => $value){
+			echo '</br><u>'.$key . '</u></br>';
+			for ($k=0 ; $k < sizeof($value); $k++){
+				echo '</br>';
+				echo $value[$k]['segmentID'] . '</br>';
+				echo $value[$k]['speakerID'] . '</br>';
+				echo $value[$k]['sentenceID'] . '</br>';
+				echo $value[$k]['startTime'] . '</br></br>';
+				echo $value[$k]['text'] . '</br>';
+				} 
+		} */
+		// ----------------- block end ----------------------------------------
 		
-		 /* Pass to VIEW page
+		 /* 7.	Pass to VIEW page
 		 ** To be implemented next ** */
 		//include_once('view/display???.php');
 	}	
