@@ -3,6 +3,9 @@
 function getFileList($dir, $extension){
 	//~ echo $dir . ' ';
 	//~ echo $extension . ' ';
+	//if $extension = null
+	//$extension = '';
+	
 	$listing = scandir($dir);
 	$outList = array();
 	

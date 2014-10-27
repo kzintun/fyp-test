@@ -57,10 +57,10 @@ if (isset($keyword)){
 			
 		/* 	5.	Highlight the all the keywords contained in the search result
 		 Highlight keyword from the search results text */
-		$wordList = explode(" ", $keyword);
-		include_once('./model/findKeyword.php');
-		$resultArray=highlightStr($resultArray,$wordList);
-		
+		//$wordList = explode(" ", $keyword);
+		include_once('./model/highlightKeyword.php');
+		//$resultArray=highlightKeyword($resultArray,$wordList);
+		$resultArray=highlightKeyword($resultArray,$keyword);
 		//	6.	create a 3D array by sorting the 2D resultArray 
 		//	Array C
 		include_once('./model/sortResults.php');
@@ -77,7 +77,7 @@ if (isset($keyword)){
 		echo '</br></br>';  */
 		
 		// Printing the contents of sorted result array (Array C)
-		/*  foreach ($sortedResultArray as $key => $value){
+		  foreach ($sortedResultArray as $key => $value){
 			echo '</br><u>'.$key . '</u></br>';
 			for ($k=0 ; $k < sizeof($value); $k++){
 				echo '</br>';
@@ -87,7 +87,7 @@ if (isset($keyword)){
 				echo $value[$k]['startTime'] . '</br></br>';
 				echo $value[$k]['text'] . '</br>';
 				} 
-		} */
+		} 
 		// ----------------- block end ----------------------------------------
 		
 		 /* 7.	Pass to VIEW page

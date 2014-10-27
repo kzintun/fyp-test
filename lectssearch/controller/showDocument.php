@@ -1,6 +1,6 @@
 <?php
 
-if (isset($document)){
+
 	//print $document . "</br>";
 	// model does nothing !! youpi !!
 	//include_once("model/populateXML.php");		
@@ -19,12 +19,32 @@ if (isset($document)){
 	
 	*/
 	
-	// the view is a three level loop?
-	include_once("view/displayContent.php");
-	
-}	
-else{
-	$errorMessage="problem with docuement entry";
-	include_once('view/errorFile.php');
-}
+	$document=$_GET['document'];
+
+	if (isset($document)){
+		
+		$selected = $_SESSION['docInfo'][(String)$document];
+		$docLoc = $selected['xmlLoc'];
+		
+		include_once ('model/loadXML.php');
+		$xml = loadXML((String)$docLoc);
+		
+		if ($xml === 0 )
+		{
+			$errorMessage="Error while loading xml document: " . $document;
+			include_once('view/errorFile.php');
+		}
+		else{
+			// Add here
+			// Prepare the data before passing to view
+			
+		
+			include_once("view/displayContent.php");
+		}
+		
+	}	
+	else{
+		$errorMessage="problem with docuement entry";
+		include_once('view/errorFile.php');
+	}
 

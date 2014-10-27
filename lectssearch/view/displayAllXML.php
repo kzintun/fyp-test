@@ -13,11 +13,12 @@
 		</div>
 		<div class="col-lg-7 col-lg-offset-1">
 			<table>
-				<?php foreach($docList as $docX) { 
+				<?php foreach($docInfo as $key => $value) { 
 					//print_r($docInfo);
-					$doc = $docX['name'];
-					$docLoc = $docX['loc'];
-					$fileName = preg_replace('/\\.[^.\\s]{3,4}$/', '', $doc);
+					$doc = $key;
+					$docLoc = $docInfo[(string)$doc]['xmlLoc'];
+					$fileName = $doc;
+					//preg_replace('/\\.''[^.\\s]{3,4}$/', '', $doc);
 					//echo $doc;
 					//$fileLoc = './databaseOut/'.$doc; 
 					$keyTime = '00:00:00:00'; ?>
@@ -67,7 +68,7 @@
 			</table>
 			<!--<?php
 			$j = 0;
-			$countDoc = count($docList);
+			$countDoc = count($docInfo);
 			while ($j < $countDoc) { 
 				$fileName = preg_replace('/\\.[^.\\s]{3,4}$/', '', $docList[$j]);?>
 			<div class="col-lg-2">

@@ -1,9 +1,12 @@
-<?php
+ <?php
 
-if (isset($dir)){
 	//~ echo $dir;
 	//~ get array with xml files
 	//~ TODO:search in collection (longer)
+	$dir='./database';
+	$extension='.xml';
+	
+if (is_dir($dir)){
 	include_once('model/getFileList.php');
 	$fileList=getFileList($dir, $extension);
 	//~ echo count($fileList);
