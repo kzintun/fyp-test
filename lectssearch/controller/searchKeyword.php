@@ -1,6 +1,7 @@
 <?php
 
 $keyword=$_POST['searchfield'];
+$collList = $_GET['database'];
 
 if (isset($keyword)){
 	
@@ -13,41 +14,40 @@ if (isset($keyword)){
 	// GET database/collection name here (currently hard-coded)
 	//$collection = 'aerospace';
 	
-	$collList = $_GET['database'];
 	
-	if ($collList = 'all')
+	
+	if ($collList == 'all')
 	{
 		//echo $collList;
 		$colDir = './database' ;
 		$ext = '.xml';
 		include_once('model/getFileList.php');
-		$colList = getFileList($colDir,$ext);	
+		$collList = getFileList($colDir,$ext);	
 	}
 	//print_r($colList);
-	foreach ($colList as $collection)
+	foreach ((array)$collList as $collection)
 	{
 			$collection = preg_replace('/\\.[^.\\s]{3,4}$/', '', $collection);
-			//echo '</br> Searching in '. $collection . ' !</br>';
 			//	1. Search from Lucene
 			include_once('./model/searchLucene.php');
 			$luceneOut = searchLucene($keyword,$collection);
 			
-			if ( sizeof($luceneOut) == 1 ){
+			/* if ( sizeof($luceneOut) == 1 ){
 				
 				 
 				$value = $luceneOut[0];
-				$errorMessage='No search results are found.</br>Error Details: '. $value;
+				$errorMessage='No search results are found in ' .$collection.'</br>Error Details: '. $value;
 				
 				include_once('./view/errorFile.php');
 			}
-			else{
+			else{ */
 			
 				include_once('./model/getInfoFromSearch.php');
 				$resultArray = getInfoFromSearch($luceneOut);
 				
 				
 				
-				 array_multisort($resultArray);
+				array_multisort($resultArray);
 				
 				
 				$vals = array_count_values(array_column($resultArray,'docname'));
@@ -63,22 +63,23 @@ if (isset($keyword)){
 				$resultArray=highlightKeyword($resultArray,$keyword);
 		
 				include_once('./model/sortResults.php');
-				$sortedResultArray= aggregate($resultArray);
+				$sortedResultArray= aggregate($resultArray,$collection);
 				
 				 
 				$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
 				$finalDisplayArray = array_merge($finalDisplayArray,$vals);
+				array_multisort($finalDisplayArray, SORT_DESC);
 				
 				/* echo '<pre>';
 				echo '</br>';
 				print_r($sortedResultArray);
-				print_r($finalDisplayArray);
-				array_multisort($finalDisplayArray, SORT_DESC);
+				//print_r($finalDisplayArray);
+				
 				
 				print_r($finalDisplayArray);
 				echo '</pre>'; */
 				// Printing the contents of sorted result array (Array C)
-				  foreach ($sortedResultArray as $key => $value){
+				/*   foreach ($sortedResultArray as $key => $value){
 					echo '</br>Document Name: <u>'.$key . '</u></br>';
 					for ($k=0 ; $k < sizeof($value); $k++){
 						echo '</br>';
@@ -89,16 +90,28 @@ if (isset($keyword)){
 						echo 'Text: '.$value[$k]['text'] . '</br>';
 						echo 'Collection: '.$collection . '</br></br>';
 						} 
-				} 
+				}  */
 				// ----------------- block end ----------------------------------------
 				 /* 7.	Pass to VIEW page
 				 ** To be implemented next ** */
-				//include_once('view/display???.php');
-			}	
-	}	// end of foreach $collList loop	
-		//print_r($finalResultArray);
-		//print_r($finalDisplayArray);
 				
+			//}	
+	}	// end of foreach $collList loop	
+		
+		if ( sizeof($finalResultArray) == 0 )
+		{
+				//echo sizeof($finalResultArray);
+				//print_r($finalResultArray);
+				$errorMessage='No search results are found. ';
+				include_once('./view/errorFile.php');
+		}
+		
+		else{
+		include_once('view/displaySearch.php');	
+		/* echo '<pre>';
+		print_r($finalDisplayArray);
+		echo '</pre>'; */
+		}
 }
 else{
 	$errorMessage="Enter a keyword in the search box";
