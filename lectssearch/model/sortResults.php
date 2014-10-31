@@ -11,7 +11,7 @@
 //	input = sorted 2D array that stored search results
 //	output = a multidimensional array following the above mentioned format.
 
-function aggregate($srList){
+function aggregate($srList,$collection){
   $aggregated = array();
   $counter = 0;
   foreach($srList as $result){
@@ -24,6 +24,7 @@ function aggregate($srList){
 	  $aggregated[$result['docname']][$counter]['sentenceID']= $result['speakerID'];
 	  $aggregated[$result['docname']][$counter]['startTime']= $result['startTime'];
 	  $aggregated[$result['docname']][$counter]['text']= $result['text'];
+	  $aggregated[$result['docname']][$counter]['collection']= $collection;
 	  $counter++;
   }
   return $aggregated;

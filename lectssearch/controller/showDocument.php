@@ -20,6 +20,7 @@
 	*/
 	
 	$document=$_GET['document'];
+	//echo $document;
 
 	if (isset($document)){
 		

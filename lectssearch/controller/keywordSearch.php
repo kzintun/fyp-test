@@ -77,7 +77,7 @@ if (isset($keyword)){
 		echo '</br></br>';  */
 		
 		// Printing the contents of sorted result array (Array C)
-		  foreach ($sortedResultArray as $key => $value){
+		/*   foreach ($sortedResultArray as $key => $value){
 			echo '</br><u>'.$key . '</u></br>';
 			for ($k=0 ; $k < sizeof($value); $k++){
 				echo '</br>';
@@ -87,7 +87,7 @@ if (isset($keyword)){
 				echo $value[$k]['startTime'] . '</br></br>';
 				echo $value[$k]['text'] . '</br>';
 				} 
-		} 
+		}  */
 		// ----------------- block end ----------------------------------------
 		
 		 /* 7.	Pass to VIEW page
