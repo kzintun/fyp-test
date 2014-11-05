@@ -22,13 +22,6 @@
 				<div id="video44">asd</div>
 				
 			</div>
-			<!-- /VIDEO
-			<div class="well">
-				<p>Description of the video. XXX </p>
-				<p>Vimeo from template source. I have not figured out how to emb JWPlayer yet.</p>
-
-			</div>
-			/ VIDEO -->
 			<div class="panel panel-default hidden-xs" style="margin-top: 30px;">
 				<div class="panel-body">
 					<!-- TABS CONTROLS -->
@@ -68,7 +61,7 @@
 							
 						</div>
 						<div id="profile" class="tab-pane fade widget-tags ">
-							<p><?php echo $xml->asXML();?></p>
+							<p><?php echo $printScript?></p>
 								
 												
 						</div>

@@ -3,7 +3,7 @@
 <database date="25/09/2014" name="databaseOut/AaronHuey_2010X.xml">
 	<document name="AaronHuey_2010X" video="AaronHuey_2010X.mp3">
 		<metadata>
-			<speakers />
+			<category id="0" name="aerospace" />
 			<speaker id="0" name="Aaron Huey" />
 			<speaker id="1" name="Tim Ho" />
 			<description id ="0" name="This is a description for AH2010X" />
@@ -47,7 +47,7 @@
 					<word endTime="25.98" id="19" spkName="0" startTime="24.14">Sioux</word>
 				</sentence>
 			</segment>
-			<segment endTime="32.77" id="2" spkName="0" startTime="25.98">
+			<segment endTime="32.77" id="2" spkName="1" startTime="25.98">
 				<sentence endTime="32.77" id="0" spkName="0" startTime="25.98">
 					<word endTime="26.06" id="0" spkName="0" startTime="25.98">The</word>
 					<word endTime="26.38" id="1" spkName="0" startTime="26.06">Lakota</word>

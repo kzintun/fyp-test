@@ -46,23 +46,3 @@ function getMetadataFromXml($xml){
 	return $docInfo;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>
