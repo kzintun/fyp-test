@@ -21,8 +21,10 @@ function highlightKeyword($haystackArray, $keyword) {
 					foreach ($matches[0] as $match) {
 						$haystack= str_replace($match, '<b>'.$match.'</b>', $haystack);
 					}
+				$haystackArray[$k]['word'] .= $match . " ";	
 				}
-				$haystackArray[$k]['text']=$haystack;
+				$haystackArray[$k]['text'] = $haystack;
+				
 				}
 			}
 			

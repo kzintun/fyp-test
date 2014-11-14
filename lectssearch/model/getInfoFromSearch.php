@@ -31,6 +31,9 @@ function getInfoFromSearch($luceneOut){
 				$searchDocInfo[$counter-1]['startTime'] = $fileinfo[$s];
 				elseif ($s == 5)
 				$searchDocInfo[$counter-1]['text'] = $fileinfo[$s];
+				
+				$searchDocInfo[$counter-1]['word'] = "";
+				
 			}
 		}
 		$counter++;	

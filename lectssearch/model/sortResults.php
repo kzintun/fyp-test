@@ -18,12 +18,12 @@ function aggregate($srList,$collection){
 	if(!array_key_exists($result['docname'], $aggregated)){
 	  $counter = 0;
 	}
-	  //$aggregated[$result['docname']][$counter]= $result;
 	  $aggregated[$result['docname']][$counter]['segmentID']= $result['segmentID'];
 	  $aggregated[$result['docname']][$counter]['speakerID']= $result['speakerID'];
-	  $aggregated[$result['docname']][$counter]['sentenceID']= $result['speakerID'];
+	  $aggregated[$result['docname']][$counter]['sentenceID']= $result['sentenceID'];
 	  $aggregated[$result['docname']][$counter]['startTime']= $result['startTime'];
 	  $aggregated[$result['docname']][$counter]['text']= $result['text'];
+	  $aggregated[$result['docname']][$counter]['word']= $result['word'];
 	  $aggregated[$result['docname']][$counter]['collection']= $collection;
 	  $counter++;
   }

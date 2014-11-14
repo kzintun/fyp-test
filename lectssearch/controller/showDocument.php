@@ -27,8 +27,17 @@ if (isset($document)){
 	//print_r($xml);
 	$transcript = loadTranscript($xml);
 	
+	
+	/* echo '<pre>';
+	print_r($transcript);
+	echo '</br>'; */
+	
 	include_once("model/prepareTranscript.php");
-	$printScript = prepTranscript($transcript, $selected);
+	$printScript = prepTranscript($transcript, $selected, $document);
+	
+	/* echo '<pre>';
+	print_r($printScript);
+	echo '</br>'; */
 	
 	if ($transcript === 0) {
 		$errorMessage="Something is wrong with your transcript";

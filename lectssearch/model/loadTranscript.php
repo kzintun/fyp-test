@@ -57,7 +57,11 @@ function loadTranscript($xml) {
 			// Set Words
 			//$words = array();
 			foreach ($sen->word as $wd) {
-				//print_r($wd);
+				///echo sizeof($sen->word);
+				//$wwdd = (string)$sen->word[1];
+				
+				//print_r($wwdd);
+				
 				$word = array();
 				$wordInfo = array();
 				for ($a=0; $a<sizeof($wordNode); $a++) {
@@ -70,10 +74,24 @@ function loadTranscript($xml) {
 				}
 				
 				$wordID = (string) $wordInfo['id'];
+				//echo $wordID;
 				$word['wordInfo'] = $wordInfo;
-				$word['word'] = $wd->asXml();				
+				//echo '<pre>';
+				//print_r($wd->asXml);
+				//echo '<br>';
+				//var_dump($wd);
+				
+				// start from here to work on string
+				/* for ($b =0; $b<sizeof($sen->word); $b++){
+					$word['word'] = (string)$sen->word[$b];
+				} */
+					
+				$word['word'] = (string)$wd->asXml();
+				//
+				//var_dump($word['word']);	
 				$sentence[$wordID] = $word;
 				//print_r($word);
+			
 			}
 			
 			$segment[$senID] = $sentence; 
@@ -81,7 +99,9 @@ function loadTranscript($xml) {
 		$transcript[$segmentID] = $segment;	
 	}
 	
-	
+	/* echo '<pre>';
+	print_r($transcript);
+	echo '</pre>'; */
 	return $transcript;
 }
 

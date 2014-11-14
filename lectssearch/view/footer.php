@@ -10,7 +10,12 @@
 		<p class="muted credit">This website requires javascript.</p>
       </div>
     </div>
-			
+	<script type="text/javascript">
+	<?php 
+		$myArr=json_encode($document);
+		echo"var myArr=".$myArr.";\n";
+	?>
+	</script>		
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./js/jwplayer.js"></script>
@@ -21,24 +26,26 @@
 	<script src="./js/videoDesChange.js" type="text/javascript"></script>
 	
 	<script type="text/javascript">
-		 jwplayer("video44").setup({
-	        file: "./data/AdamGrosser_2007.mp3",
-	        autostart: "false",
-			 
-	        width: "100%",
-	        aspectratio: "16:9"
-	        
-	    });
-
-	    function loadVideo(myFile) 
-	    {
-	    	alert(myFile);
-		    jwplayer().load([{	
-			file:myFile }]);
-
-			//jwplayer().play();
-				
-	    };
+			
+jwplayer("video44").setup({
+				"flashplayer":"jwplayer.flash.swf",
+				file: "./data/"+myArr+".mp3",
+				"autostart": "false",
+                "controlbar.position": "bottom",
+				width: "100%",
+				aspectratio: "16:9"
+		
+         });
+function loadVideo(myFile)
+{
+	jwplayer().load([{	
+		//"file":myFile+"image/"+myFile+".mp4",
+		//file:myFile	
+		file: "./data/"+myFile+".mp3"
+		}]);
+	jwplayer().play();
+	
+};	     
 	</script>
 	
 	

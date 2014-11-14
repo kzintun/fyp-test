@@ -19,7 +19,7 @@
 			<!-- VIDEO-->
 			<div class="vendor">
 				<h2><?php echo $document?></h2>
-				<div id="video44">asd</div>
+				<div id="video44">...Loading video...</div>
 				
 			</div>
 			<div class="panel panel-default hidden-xs" style="margin-top: 30px;">
