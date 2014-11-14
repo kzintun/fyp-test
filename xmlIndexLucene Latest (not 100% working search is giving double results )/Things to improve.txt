@@ -1,0 +1,19 @@
+Error Handler
+------------- 
+
+loadALLXML - make sure only XML file are loaded
+	   - show error message if there are no XML folder
+
+
+sendToLucene - check whether the record already existed in the lucecne before indexing
+	     - check 'word' and 'ids' fields together
+
+
+
+
+Improve speed
+-------------
+
+extractXML - instead of calling the method to addIndex for every entry of xml
+	   -  first store all the ids and words in 2D array
+	   - then dump into lunce with one method call to addDoc
