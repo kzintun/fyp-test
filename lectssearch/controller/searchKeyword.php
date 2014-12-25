@@ -1,7 +1,11 @@
 <?php
 
-$keyword=$_POST['searchfield'];
-$collList = $_GET['database'];
+//$keyword=$_POST['searchfield'];
+if (!isset( $_GET['database']))
+	$collList = "all";
+else
+	$collList = $_GET['database'];
+$keyword = $_GET['keyword'];
 
 if (isset($keyword)){
 	
@@ -19,7 +23,7 @@ if (isset($keyword)){
 	if ($collList == 'all')
 	{
 		//echo $collList;
-		$colDir = './database' ;
+		$colDir = './collections' ;
 		$ext = '.xml';
 		include_once('model/getFileList.php');
 		$collList = getFileList($colDir,$ext);	
@@ -27,67 +31,50 @@ if (isset($keyword)){
 	//print_r($colList);
 	foreach ((array)$collList as $collection)
 	{
+			//echo $collList;
 			$collection = preg_replace('/\\.[^.\\s]{3,4}$/', '', $collection);
 			//	1. Search from Lucene
 			include_once('./model/searchLucene.php');
 			$luceneOut = searchLucene($keyword,$collection);
 			
-			/* echo '<pre>';
-			echo $collection. '</br>';
-			print_r($luceneOut);
-			echo '</pre>';  */
-			 
-			
-			include_once('./model/getInfoFromSearch.php');
-			$resultArray = getInfoFromSearch($luceneOut);
-				
-			/* echo '<pre>';
-			echo 'Printing resultArray after getInfoFromSearch '. $collection. '</br>';
-			print_r($resultArray);
-			echo '</pre>';  */
-				
-				
-			$vals = array_count_values(array_column($resultArray,'docname'));
-			array_multisort($vals, SORT_DESC); 
-				
-			
-			include_once('./model/removeStopWords.php');
-			$keyword = removeStopWords($keyword);
-			$_SESSION['searchWord']= $keyword;	
 	
-			include_once('./model/highlightKeyword.php');
-		
-			$resultArray=highlightKeyword($resultArray,$keyword);
-	
-			/* if (sizeof($resultArray) > 0){
-				foreach ($resultArray as $key => $row) {
-					$docname[$key]  = $row['docname'];
-					$word[$key] = $row['word'];
-				}
-				array_multisort($docname, SORT_ASC, $word, SORT_ASC, $resultArray);
-			}	 */		
-
-			 
-			
-			array_multisort($resultArray);
-			
-			/* echo '<pre>';
-			echo 'Printing resultArray after highlightKeyword and multisort'. $collection. '</br>';
-			print_r($resultArray);
-			echo '</pre>'; */
-			
-			include_once('./model/sortResults.php');
-			$sortedResultArray= aggregate($resultArray,$collection);
-			
-			/* echo '<pre>';
-			echo 'Printing sortedResultArray after sorting resultArray </br>';
-			print_r($sortedResultArray);
-			echo '</pre>'; */
-			
+			/* if ( sizeof($luceneOut) == 1 ){
+				
 				 
-			$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
-			$finalDisplayArray = array_merge($finalDisplayArray,$vals);
-			array_multisort($finalDisplayArray, SORT_DESC);
+				$value = $luceneOut[0];
+				$errorMessage='No search results are found in ' .$collection.'</br>Error Details: '. $value;
+				
+				include_once('./view/errorFile.php');
+			}
+			else{ */
+			
+				include_once('./model/getInfoFromSearch.php');
+				$resultArray = getInfoFromSearch($luceneOut);
+				
+				
+				
+				array_multisort($resultArray);
+				
+				
+				$vals = array_count_values(array_column($resultArray,'docname'));
+				array_multisort($vals, SORT_DESC);
+				
+			
+				include_once('./model/removeStopWords.php');
+				$keyword = removeStopWords($keyword);
+					
+			
+				include_once('./model/highlightKeyword.php');
+		
+				$resultArray=highlightKeyword($resultArray,$keyword);
+		
+				include_once('./model/sortResults.php');
+				$sortedResultArray= aggregate($resultArray,$collection);
+				
+				 
+				$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
+				$finalDisplayArray = array_merge($finalDisplayArray,$vals);
+				array_multisort($finalDisplayArray, SORT_DESC);
 				
 				/* echo '<pre>';
 				echo '</br>';
@@ -126,20 +113,10 @@ if (isset($keyword)){
 		}
 		
 		else{
-		
-		// prepare Coordinate
-		include_once('model/prepareCoordinate.php');
-		$arrayCord=  array();
-		$arrayCord = prepareCoordinate($finalResultArray);
-		
-		
-		
-		
 		include_once('view/displaySearch.php');	
-		/* echo 'Printing finalResultArray and $Coordinate array <pre>';
-		print_r($finalResultArray);
-		print_r($arrayCord);
-		echo '</pre>';  */
+		/* echo '<pre>';
+		print_r($finalDisplayArray);
+		echo '</pre>'; */
 		}
 }
 else{

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<collection name="documents/signalprocessing.xml" date="10/06/2014" >
+	<document name="AdamGrosser_2007" video="documents/AdamGrosser_2007.mp3" xref="documents/AdamGrosser_2007.xml">
+		<metadata>
+			<media name="AdamGrosser_2007.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="Adam Grosser" id="0"/>
+				<speaker name="Glenn" id="1"/>
+				<speaker name="Lucky" id="2"/>
+			</speakers>	
+			<description> This is a description for AdamGrosser_2007" </description>
+		</metadata>
+	</document>
+	<document name="AditiShankardass_2009I" video="documents/AditiShankardass_2009I.mp3" xref="documents/AditiShankardass_2009I.xml">
+		<metadata>
+			<media name="AditiShankardass_2009I.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="AditiShankardass_2009I" id="0"/>
+			</speakers>	
+			<description> This is a description for AditiShankardass_2009I" </description>
+		</metadata>
+	</document>
+	<document name="AimeeMullins_1998" video="documents/AimeeMullins_1998.mp3" xref="documents/AimeeMullins_1998.xml">
+		<metadata>
+			<media name="AimeeMullins_1998.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="AimeeMullins_1998" id="0"/>
+			</speakers>	
+			<description> This is a description for AimeeMullins_1998" </description>
+		</metadata>
+	</document>
+	<document name="AdoraSvitak_2010" video="documents/AdoraSvitak_2010.mp3" xref="documents/AdoraSvitak_2010.xml">
+	<metadata>
+			<media name="AdoraSvitak_2010.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="AdoraSvitak_2010" id="0"/>
+			</speakers>	
+			<description> This is a description for AdoraSvitak_2010" </description>
+		</metadata>
+	</document>
+	<document name="AJJacobs_2007P" video="documents/AJJacobs_2007P.mp3" xref="documents/AJJacobs_2007P.xml">
+		<metadata>
+			<media name="AJJacobs_2007P.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="AJJacobs_2007P" id="0"/>
+			</speakers>	
+			<description> This is a description for AJJacobs_2007P" </description>
+		</metadata>
+	</document>
+	<document name="AlaindeBotton_2009G" video="documents/AlaindeBotton_2009G.mp3" xref="documents/AlaindeBotton_2009G.xml">
+		<metadata>
+			<media name="AlaindeBotton_2009G.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="AlaindeBotton_2009G" id="0"/>
+			</speakers>	
+			<description> This is a description for AlaindeBotton_2009G" </description>
+		</metadata>
+	</document>
+	<document name="AlanKay_2007" video="documents/AlanKay_2007.mp3" xref="documents/AlanKay_2007.xml">
+		<metadata>
+			<media name="AlanKay_2007.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="AlanKay_2007" id="0"/>
+			</speakers>	
+			<description> This is a description for AlanKay_2007" </description>
+		</metadata>
+	</document>
+	<document name="AlanRussell_2006" video="documents/AlanRussell_2006.mp3" xref="documents/AlanRussell_2006.xml">
+		<metadata>
+			<media name="AlanRussell_2006.mp3"/>
+			<cateogry name="signalprocessing" id="1"/>
+			<speakers>
+				<speaker name="AlanRussell_2006" id="0"/>
+			</speakers>	
+			<description> This is a description for AlanRussell_2006" </description>
+		</metadata>
+	</document>
+
+</collection>

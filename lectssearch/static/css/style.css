@@ -1,0 +1,284 @@
+﻿@font-face {
+	font-family: bebas;
+	src: url('../fonts/BebasNeue Regular.ttf');
+}
+
+@font-face {
+	font-family: bebasbk;
+	src: url('../fonts/BebasNeue Book.ttf');
+}
+
+
+/* CSS for NavBar */
+.navbar-default { 
+	background-color: #b7ebe4;
+	border-color: #E7E7E7;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 7px 0px;
+    padding-left:50px;
+    color: white;
+    font-family: bebas;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #045BB3 ;
+}
+.navbar-inverse .navbar-text {
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #045BB3;
+}
+
+.lsicon {
+	max-height:30px;
+	max-width:30px;
+	height:30px;
+	width:30px;
+	margin-right:5px;
+}
+
+body {
+  	background-image: url("../../img/default/bg.jpg");
+   	font-family: Tahoma, sans-serif;
+}
+
+
+
+/* CSS for Jumbotron*/
+.lslogo {
+	height:100px;
+	width:100px;
+	margin-right:10px;
+}
+
+
+.jumbotron p#lslabel {
+	padding-top:30px;
+	font-family: bebas;
+	font-size:30px !important;
+	
+}
+
+.jumbotron{
+	background: #045BB3;
+	color:#fff;
+}
+
+#userSearchInput {
+	margin-top:30px;
+	
+}
+
+#searchBtn {
+	margin-top:30px;
+	font-family: bebas;
+
+}
+
+
+
+/* CSS for Footer*/
+html, body {
+	height: 100%;
+	padding-top: 25px;
+
+/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+	height: 60px;
+}
+
+#footer {
+	background: rgba(0,104,209, 0.7); 
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+	  margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+}
+
+#footerline{
+	font-family: bebas;
+	color: white;
+}
+
+/* End Footer*/
+	  
+/* CSS for displayALLDB page */
+.well {
+ 	background:white;
+}
+
+.img-with-text {
+	font-family: bebas;
+	font-size:18px;
+	color: white;
+	text-align: center;
+	width: 128px;
+}	  
+
+.collectionImg {
+	display: block;
+    margin: 0 auto;
+	height: 128px;
+	width: 128px;
+}
+
+.collectionName {
+	
+	padding-top: 4px;
+}
+
+/* CSS for displayAllXML page*/
+.docIcon {
+	height: 128px;
+	width: 128px;
+}
+
+.tableContainer {
+	padding: 10px;
+	table-layout: fixed;
+}
+
+.leftTableCol {
+	min-width: 120px;
+	vertical-align: top;
+	font-weight:bold;
+	padding: 5px;
+}
+
+
+/* CSS for displayContent page*/
+.videoTitle {
+	font-family: bebasbk;
+	color: white;
+	text-align:	center;
+	
+}
+
+.mediaContainer {
+
+	width: 635px;
+	color:white;
+}
+
+audio {
+	width:635px;
+    background-color: #95B9C7;
+    margin: 0 auto; 
+}
+
+#media {
+	width: 100%;
+	max-width:635px;
+	
+}
+
+.nav-tabs{
+	font-family: bebasbk;
+	margin-bottom:15px;
+	font-size: 18px;
+}
+
+#myTabContent {
+	font-family:"Lora",Georgia,"Times New Roman",Times,serif;
+	font-size: 14px;
+	line-height: 26px;
+	height: 438px;
+}
+
+.transcriptions {
+	height: 438px;
+	overflow-y: scroll;
+	text-align:justify;
+
+}
+.transcriptions p {
+	margin-left: 5px;
+	max-width:575px;
+}
+.transcriptions span {
+  color: #494848;
+  cursor: hand;
+  cursor: pointer;
+  padding: 4px 1px;
+}
+.transcriptions span:hover {
+  color: black;
+  background: #e99232;
+}
+.transcriptions .matched {
+  /*color: #e78b24;*/
+  font-weight: bold;
+  background-color: #eee;
+}
+.transcriptions .highlight {
+  background-color: #ffff88;
+}
+.transcriptions .speaker {
+  color: #045BB3;
+}
+
+
+
+/************* VIDEO *******************************/
+
+.fluid-width-video-wrapper {
+	width: 100%;
+	position: relative;
+	padding: 0;
+}
+
+.vendor {
+	margin-bottom: 0px;
+}
+
+.container-video {
+	width: 100%;
+	min-width: 100%;
+	position: relative;
+	padding: 0;
+	height: 100%;
+}
+
+.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border:0px;
+}
+
+@media (max-width: 768px) {
+
+.nav-tabs.nav-justified > li{
+	float:left;
+}
+}
+

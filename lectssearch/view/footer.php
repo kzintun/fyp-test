@@ -1,54 +1,69 @@
-<!--Version 1.0 created on 14/09/2014 by JH-->
-<!--Version 1.1 modified on 30/09/2014 by JH-->
-<!--Version 1.2 modified on 09/10/2014 by JH-->
-
 <div id="push"></div>
 </div>
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy 2014</p>
-		<p class="muted credit">This website requires javascript.</p>
+		<p class="muted credit" id="footerline"></br>This website requires javascript.</p>
       </div>
     </div>
-	<script type="text/javascript">
-	<?php 
-		$myArr=json_encode($document);
-		echo"var myArr=".$myArr.";\n";
-	?>
-	</script>		
-	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./js/jwplayer.js"></script>
-	<script type="text/javascript" src="./js/jwplayer.html5.js"></script>
-	
 
-	<script src="./js/jquery-ui.js"></script>
-	<script src="./js/videoDesChange.js" type="text/javascript"></script>
-	
-	<script type="text/javascript">
-			
-jwplayer("video44").setup({
-				"flashplayer":"jwplayer.flash.swf",
-				file: "./data/"+myArr+".mp3",
-				"autostart": "false",
-                "controlbar.position": "bottom",
-				width: "100%",
-				aspectratio: "16:9"
-		
-         });
-function loadVideo(myFile)
-{
-	jwplayer().load([{	
-		//"file":myFile+"image/"+myFile+".mp4",
-		//file:myFile	
-		file: "./data/"+myFile+".mp3"
-		}]);
-	jwplayer().play();
-	
-};	     
-	</script>
-	
-	
+    <script type="text/javascript" src="./static/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./static/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="./static/js/checkSearchBar.js"></script>
+    <script src="./static/js/video.js" type="text/javascript"></script>
+	<script src="./static/js/jquery.tinyscrollbar.min.js" type="text/javascript"></script>
+	<script src="./static/js/magor.js" type="text/javascript"></script>
+    <script src="./static/js/magor-player.js" type="text/javascript"></script>
+    <script src="./static/js/magor-filter.js" type="text/javascript"></script>
+    
+
+
+	<!-- NOT ADDED YET-->
+    <script src="./static/js/jquery-1.8.0.min.js" type='text/javascript'></script>
+    
+    
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      //activate video player tooltips
+      $(".control-btn").tooltip({ 'placement': 'top', 'container': 'body' });
+
+      //handling the affix effect of column1
+      var navbarHeight = $('.navbar').height();
+
+      $(document).scroll(function(){
+        var startAffixAt = $('.document-title').position().top + $('.document-title').height() + 50;
+        var scroll = $(document).scrollTop();
+        if (scroll >= startAffixAt) {
+          if (!$('.column1').hasClass('affix'))
+            $('.column1').addClass('affix').css({ top: $('.navbar').height() + 20 });
+          }
+          else {
+            $('.column1').removeClass('affix');
+          }
+        });
+
+
+        <?php	echo "var segments = [" ;
+        foreach($printScript as $key => $value){
+          foreach ($printScript[$key]['table']  as $line){
+            echo 'new magor.Segment('. $line."),\n" ;
+          }
+        }
+        echo "];" 	;
+        ?>
+
+        //var matches = [40653, 40654, 40655, 40658, 40659, 40660, 40661, 40663, 40668, 40670, 40672, 40698, ];
+        var matches = [0, 4, 6];
+
+        magor.magorPlayer = new magor.MagorPlayer(segments);
+        magor.magorPlayer.highlightMatches(matches);
+
+
+      });
+      </script>
+
+
 
 </body>
 </html>

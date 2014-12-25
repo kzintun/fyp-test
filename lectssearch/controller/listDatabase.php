@@ -3,7 +3,7 @@
 	//~ echo $dir;
 	//~ get array with xml files
 	//~ TODO:search in collection (longer)
-	$dir='./database';
+	$dir='./collections';
 	$extension='.xml';
 	
 if (is_dir($dir)){

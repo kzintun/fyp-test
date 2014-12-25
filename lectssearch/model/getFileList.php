@@ -9,10 +9,10 @@ function getFileList($dir, $extension){
 	$listing = scandir($dir);
 	$outList = array();
 	
-	foreach( $listing as $File ){
+	foreach( $listing as $file ){
 		//~ echo $File ;
-		if (strpos($File, $extension) !== false) {
-			$outList[] = $File;
+		if (strpos($file, $extension) !== false) {
+			$outList[] = $file;
 		}
 	}
 	return $outList;

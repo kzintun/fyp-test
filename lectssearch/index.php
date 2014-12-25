@@ -1,57 +1,49 @@
-<!--Version 1.0 created on 30/09/2014 by JH-->
 <?php 
 session_start();
-//session_unset();
-//$docInfo = array();
+//~ for i in $(find documents -name *.xml); dojava -jar indexDoc.jar $i MIT_Aerospace ;echo $i  ; done
 
-
-//	Scenario 1
-if (!isset($_GET) OR empty($_GET)){
-	//list all XML files
+if ( !isset($_GET) OR empty($_GET) ){
+	//	Scenario 1 : home page, list the collections present in the database directory
 	include_once('controller/listDatabase.php');
 }
 
-//	Scenario 2
-elseif ( isset($_GET['database']) AND  (!isset($_GET['document']) OR empty($_GET['document'])) AND !isset($_POST['go']) ){
-	//~ one xml file selected - load the xml object and show info
-	
-	//echo $xmlFile;
-	include_once('controller/loadDatabase.php');
+elseif ( isset($_GET['database']) AND  (!isset($_GET['document']) OR empty($_GET['document'])) AND !isset($_GET['keyword']) ){
+	//	Scenario 2 - one collection selected, no document selected, no keyword 
+	// => show the list of doc in the collection	
+	//~ include_once('controller/loadAndShowCollectionFiles.php');
+	include_once('controller/showOneCollection.php');
 }
 
-//	Scenario 3
-elseif ( isset($_GET['document'])  AND  isset($_GET['database']) ){
-	//~ one xml file selected - load the xml object and show info
-	include_once('controller/showDocument.php');
-	
+elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND ( !isset($_GET['keyword'])  OR  empty($_GET['keyword']) )){
+	//	Scenario 3 - collection selected, a document is selected, no keyword searched => show the transcription of the document. starting time is zero
+	// show doc without search
+	//~ include_once('controller/loadAndShowDocument.php');
+	include_once('controller/showOneDocument.php');
 }
 
-//	Scenario 4
-elseif (isset($_POST['go'])){ 
-	if(preg_match("/[A-Z  | a-z]+/", $_POST['searchfield'])){ 
-		 
-		//echo "This search query, ".$keyword." would be passed to lucene.";
-		//include_once('controller/keywordSearch.php');
-		include_once('controller/searchKeyword.php');
-	}
-	else {
-		
-		$errorMessage="Please enter a search query!";
-		include_once("view/errorFile.php");
-	
-	}
+elseif ( !isset($_GET['document'])  AND  !isset($_GET['database']) AND isset($_GET['keyword'])  AND ( !isset($_GET['seek'])  OR  empty($_GET['seek']) )){
+	//	Scenario 4 - no collection selected, no document selected, one keyword selected
+	// => search in all databases
+	//echo "search in all db";
+	include_once('controller/searchKeyword.php');
 }
 
+elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword'])  AND ( !isset($_GET['seek'])  OR  empty($_GET['seek'])  )){
+	//	Scenario 5 - one collection selected, one keyword selected
+	include_once('controller/searchKeyword.php');
+}
 
+elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword']) AND ( !isset($_GET['seek'])  OR  empty($_GET['seek']) )){
+	//	Scenario 6 - one collection selected, one document selected, one keyword selected
+	include_once('controller/searchKeywordInDocument.php');
+}
 
-
-
-
-
-
-
-
-
-
+elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword']) AND isset($_GET['seek']) ){
+	// seek defined means that a search has been done
+	//	Scenario 6 - one collection selected, one document selected, one keyword selected
+	//~ include_once('controller/searchKeywordInDocument.php');
+	include_once('controller/naviguateInDocumentSearch');
+}
 
 ?>
+

@@ -1,21 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--Version 1.0 created on 14/09/2014 by JH-->
-<!--Version 1.1 modified on 30/09/2014 by JH-->
-<!--Version 1.2 modified on 18/10/2014 by JH to add in search url-->
-
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<title>Lects Search</title>
+		<link rel="shortcut icon" href="./img/default/favicon.png" />
+
+		<link href="./static/css/bootstrap.css" rel="stylesheet" type="text/css" />
+		<link href="./static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="./static/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+		<link href="./static/css/video-js.min.css" rel="stylesheet"  />
+		<link href="./static/css/jquery-ui.css" rel="stylesheet" type="text/css"  />
+		<!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>-->
+		<link href="./static/css/font-awesome.min.css" rel="stylesheet"  />
 		
-		<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
-		<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-		<link href="./css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
-		<link href="./css/style.css" rel="stylesheet" type="text/css" />
-		<link href="./css/jquery-ui.css"rel="stylesheet" type="text/css"  />
-		
+
+		<link href="./static/css/style.css" rel="stylesheet" type="text/css" />
+		<!--<link href="./static/css/fa-style.css" rel="stylesheet" type="text/css"  />-->
+
+
+
+		<!-- <link href="./static/css/style.css"  rel="stylesheet" type="text/css" />
+		<link href="./static/css/styles.css"  rel="stylesheet" type="text/css" />
+		<link href="./static/css/speaker-info.css"  rel="stylesheet" type="text/css" />
+		<link href="./static/libs/font-awesome/css/font-awesome.css" rel="stylesheet" />
+		<link href="./static/css/bootswatch/readable-2.3.1.min.css" rel="stylesheet" />
+		<link href="./static/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" /> -->
+	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+
+
+
+		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 			<div class="container">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -24,35 +39,21 @@
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span><span class="icon-bar"></span>
 						<span class="icon-bar"></span></button>
-						<a class="navbar-brand" href="index.php">Home</a> </div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<!--<li><a href="index.php">Home</a></li>-->
-							<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">More..
-							<span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="uploadContent.php">Upload Content</a></li>
-								<li><a href="#">About LS</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Temp Video Page</a></li>
-								<li><a href="#">Credits</a></li>
-							</ul>
-							</li>
-						</ul>
+						<a class="navbar-brand" href="index.php">
+							<img class="lsicon" alt="logo" src="./img/default/logo.png"/>
+							Lects Search
+						</a>
 					</div>
-					<!-- /.navbar-collapse --></div>
 				<!-- /.container-fluid --></div>
+				</div>
 		</nav>
-		
+
 		<script type="text/javascript">
-		<!-- Written by JH to pass in search text into URL-->
-		function updateURL(){
+		<!-- To pass in search text into URL-->
+		function updateURL1(){
 			var currentURL = window.location.href;
 			//alert(currentURL);
-			
+
 			if (currentURL.search("document=")>-1) {
 				currentURL = currentURL.substring(0, currentURL.search("document=")-1);
 			}
@@ -64,31 +65,69 @@
 			}
 		    var userInput = document.getElementById('userInput').value;
 		    var lnk = document.getElementById('searchForm');
-		    searchForm.action = currentURL+"&find=" + userInput;
+		    searchForm.action = currentURL+"&keyword=" + userInput;
 		}
 		</script>
-		
+
+		<script type="text/javascript">
+			function getUrlVars() {
+				var vars = {};
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+				vars[key] = value;
+				});
+				return vars;
+			}
+
+			// Written by JH to pass in search text into URL
+			// Modified by BB to mak it more generic
+			function updateURL(){
+				var currentURL = window.location.href;
+				var rootLink = location.protocol + '//' + location.host + location.pathname;
+				var x = document.getElementById("userInput");
+				var db = getUrlVars()["database"];
+				var doc = getUrlVars()["document"];
+				var myData = new Array();
+				var out = new Array();
+
+				if ( db != null ) {
+					myData['database'] = db;
+				}
+				if ( doc != null ){
+					myData['document'] = doc;
+				}
+				if (( x.value != '')) {
+					myData['keyword'] = x.value;
+				}
+				for (key in myData) {
+					out.push(key + '=' + myData[key]);
+				}
+
+				var out2 = out.join('&');
+				if (out2 != ''){
+					rootLink = rootLink + "?" + out2;
+				}
+				alert(rootLink);
+				searchform.action = rootLink;
+			}
+		</script>
+
 		<div class="jumbotron">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-lg-offset-1">
-						<img alt="logo" class="pull-left" height="35" src="img/banner.png" width="200" />
+						<img alt="logo" class="lslogo pull-left" src="./img/default/logo.png" />
+						<p id="lslabel">   Lects Search</p>
 					</div>
 					<div class="col-lg-7 ">
 					<form class="form-search" id="searchForm" method="post">
 						<div class="input-group">
-							<input class="form-control" type="text" name="searchfield" id="userInput"/>
+							<input class="form-control searchBar" type="text" name="searchfield" id="userSearchInput" placeholder="Search documents" input=""/>
 								<span class="input-group-btn">
-								<button class="btn btn-default" type="submit" name="go" onclick="updateURL()">Go!</button>
+								<button class="btn btn-default" id="searchBtn" type="submit" name="go" onclick="updateURL1()">Search!</button>
 							</span></div></form>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+
 		<div id="wrap">
-
-
-
-
-

@@ -1,107 +1,49 @@
 <?php 
 
 function loadTranscript($xml) {
-	include_once("model/getXMLAttribute.php");
-
-	//print_r($xml);
-	$transcript = array();
+	// load transcription  from an $xml object in an array
+	// currently like this but not correct
+	// $transcript ["idSegment"] => segment['segInfo']// ["idSentence"] => sentence["sentenceInfo"] ["idWord"] => word["wordInfo"]	
+	// the following is more accessible
 	
-	$segmentNode = array('id','spkName','startTime','endTime');
-	$sentenceNode = array('id','spkName','startTime','endTime');
-	$wordNode = array('id','spkName','startTime','endTime');
-
+	// $transcript is the final array
+	$transcript = array();	
+	$content = $xml->content;
+	$sentCounter = 0;	
 	
-	foreach ($xml->document->content->segment as $seg) {
-		
-		$segment = array();
-		
-		// Set Segment Info Data
-		$segmentInfo = array();
-		for ($a=0; $a<sizeof($segmentNode); $a++) {
-			
-			if (isset($seg->attributes()->$segmentNode[$a])) {
-				$segmentInfo[$segmentNode[$a]] = xml_attribute($seg, $segmentNode[$a]);
-				//$test = xml_attribute($seg, $segmentNode[$a]);
-				//print $test;
-
-			}
-			else {
-				return -1;
-			}
-			
-		}
-		//print_r ($segmentInfo); 
-		$segmentID = (string) $segmentInfo['id'];
-		$segment['segInfo'] = $segmentInfo;
-	
-		// Set Sentences
+	// ============================= //
+	// For each segment in the content of the current XML
+	foreach ($content->segment as $seg) {		
+		$segId = (int) $seg->attributes()->id;				
+		$transcript[$segId] = array();
+		$transcript[$segId]['content'] = array();
+		$transcript[$segId]['spkName'] = (string) $seg->attributes()->spkName;
+		$transcript[$segId]['startTime'] = (string) $seg->attributes()->startTime;
+		$transcript[$segId]['endTime'] = (string) $seg->attributes()->endTime;
+				
+		// ============================= //
+		// Set Sentences for each sentence of the current segment				
 		foreach ($seg->sentence as $sen) {
-			//print_r($sen);
-			$sentence = array();
+			$sentId = (int) $sen->attributes()->id;
+			$transcript[$segId]['content'][$sentId]['content'] = array();
+			$transcript[$segId]['content'][$sentId]['spkName'] = (string) $sen->attributes()->spkName;
+			$transcript[$segId]['content'][$sentId]['startTime'] = (string) $sen->attributes()->startTime;
+			$transcript[$segId]['content'][$sentId]['endTime'] = (string) $sen->attributes()->endTime;
+			$transcript[$segId]['content'][$sentId]['id'] = $sentCounter++;
 			
-			// Set Sentence Info Data
-			$sentenceInfo = array();
-			for ($a=0; $a<sizeof($sentenceNode); $a++) {
-				if (isset($sen->attributes()->$sentenceNode[$a])) {
-					$sentenceInfo[$sentenceNode[$a]] = xml_attribute($sen, $sentenceNode[$a]);
-				}
-				else {
-					return -1;
-					//$segment[$sentenceNode[$a]] = "N.A.";
-				}
-			}
-			
-			$senID = (string) $sentenceInfo['id'];
-			$sentence['senInfo'] = $sentenceInfo;
-			
-			// Set Words
-			//$words = array();
-			foreach ($sen->word as $wd) {
-				///echo sizeof($sen->word);
-				//$wwdd = (string)$sen->word[1];
-				
-				//print_r($wwdd);
-				
-				$word = array();
-				$wordInfo = array();
-				for ($a=0; $a<sizeof($wordNode); $a++) {
-					if (isset($wd->attributes()->$wordNode[$a])) {
-						$wordInfo[$wordNode[$a]] = xml_attribute($wd, $wordNode[$a]);
-					}
-					else {
-						return -1;
-					}
-				}
-				
-				$wordID = (string) $wordInfo['id'];
-				//echo $wordID;
-				$word['wordInfo'] = $wordInfo;
-				//echo '<pre>';
-				//print_r($wd->asXml);
-				//echo '<br>';
-				//var_dump($wd);
-				
-				// start from here to work on string
-				/* for ($b =0; $b<sizeof($sen->word); $b++){
-					$word['word'] = (string)$sen->word[$b];
-				} */
-					
-				$word['word'] = (string)$wd->asXml();
-				//
-				//var_dump($word['word']);	
-				$sentence[$wordID] = $word;
-				//print_r($word);
-			
-			}
-			
-			$segment[$senID] = $sentence; 
-		}
-		$transcript[$segmentID] = $segment;	
+			// ============================= //
+			// Set Words, foreach word contained in the current sentence, in the current segment
+			foreach ( $sen->word as $wd ){
+				$wordId = (int) $wd->attributes()->id;
+				//~ $transcript[$segId]['content'][$sentId]['content'] = array();
+				//~ $transcript[$segId]['content'][$sentId]['content'][$wordId] = array();
+				$transcript[$segId]['content'][$sentId]['content'][$wordId]['spkName'] = (string) $wd->attributes()->spkName;
+				$transcript[$segId]['content'][$sentId]['content'][$wordId]['startTime'] = (string) $wd->attributes()->startTime;
+				$transcript[$segId]['content'][$sentId]['content'][$wordId]['endTime'] = (string) $wd->attributes()->endTime;
+				$transcript[$segId]['content'][$sentId]['content'][$wordId]['word'] = strip_tags($wd->asXml());
+			}	
+		}		
 	}
-	
-	/* echo '<pre>';
-	print_r($transcript);
-	echo '</pre>'; */
 	return $transcript;
 }
 

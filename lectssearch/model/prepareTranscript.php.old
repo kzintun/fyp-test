@@ -1,0 +1,62 @@
+<?php
+function prepTranscript($transcriptArray, $docInfo) {
+	// input = array of arrays with segment, sentence, and word informations
+	
+	//$transcriptString = '<p align="justify" style="text-align:justify">' ;
+	$transcriptString = " " ;
+	$speakers = explode(",",$docInfo['speaker']);
+	
+	// reduce the unknown to a shorten token
+	foreach($speakers as &$spk){		
+		if (preg_match("/unknown_/" , $spk )){
+			$spk = (string) "unknown";
+		}
+	}
+	
+	foreach ($transcriptArray as $segment) {
+		$numSen = count($segment);
+		if ($numSen <= 1) continue;
+		$spkID = (int) $segment["segInfo"]["spkName"];
+		$speaker = (string) $speakers[$spkID];  
+		$transcriptString .= "<b>".$speaker.": </b>";
+				
+		// add the fact that a speaker change occurs or not.				
+		foreach ($segment as $a=>$sentence) {
+			$numWords = count($sentence);
+			//if no actual sentence exist
+			if ($numWords <= 1) continue; 			
+			$index = 0;
+			foreach ($sentence as $b=>$words) {
+				if (isset($words["word"])) {					
+					$word = $words["word"];	
+					
+					if ($index == 0){
+						$word = ucfirst($word);
+					}
+					
+					$index = $index + 1;
+					
+					// preparing link for each given word of the transcript which has a startTime.
+					if (isset($words["wordInfo"]["startTime"])) {
+						$time = (string)$words["wordInfo"]["startTime"];
+						$transcriptString .= '<a href="#video44" style="text-decoration:none; onclick="jwplayer().seek('.$time.');">'.$word."</a>\n";
+					}
+					else {
+						$transcriptString .= $word;
+					}
+					
+					// add a space to the string
+					$transcriptString .= " ";
+				}
+			}
+			
+			// end of the sentence/ segment
+			if(is_numeric($a)){
+				$transcriptString = rtrim($transcriptString);
+				$transcriptString .= ". ";
+			}
+		}
+		$transcriptString .= "<br>\n";
+	}
+	return $transcriptString;
+}

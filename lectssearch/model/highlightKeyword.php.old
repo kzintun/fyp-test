@@ -1,0 +1,48 @@
+<?php
+
+// input = subject array , keywords array
+// output = subject array with keywords bol
+// highlight the keywords
+// $filterSW == true => filter by stopWords
+function highlightKeyword($inputArray, $keyword, $filterSW) {
+
+	if ($filterSW){
+		$stopWords = array ("a", "an", "and", "are", "as", "at", "be", "but", "by",
+							"for", "if", "in", "into", "is", "it",
+							"no", "not", "of", "on", "or", "such",
+							"that", "the", "their", "then", "there", "these",
+							"they", "this", "to", "was", "will", "with");
+		$keyword = preg_replace('/\b('.implode('|',$stopWords).')\b/','',$keyword);
+	}
+	
+	$keywordList = explode(" ", $keyword);
+	
+	// use array reference instead for direct modifcation of the value
+	foreach ($inputArray as &$document){
+		foreach ($document as &$segment){
+			foreach ($segment as &$sentence){
+
+				$haystack= $sentence['text'];
+					
+				foreach($keywordList as $word){
+					if ((strlen($haystack) > 0) AND (strlen($word) > 0)) {
+
+						preg_match_all("/\s$word\s|^$word\s|^$word$|\s$word$/i", $haystack, $matches);
+
+						if (is_array($matches[0]) && count($matches[0]) >= 1) {
+
+							foreach ($matches[0] as $match) {
+								$haystack= str_replace($match, '<b>'.$match.'</b>', $haystack);
+							}
+
+							$sentence['text'] = $haystack;
+							
+						}
+					}
+				}
+			}			
+		}
+	}
+    return $inputArray;
+}
+?>
