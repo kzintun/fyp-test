@@ -9,8 +9,7 @@
 		<link href="./static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		<link href="./static/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
 		<link href="./static/css/video-js.min.css" rel="stylesheet"  />
-		<link href="./static/css/jquery-ui.css" rel="stylesheet" type="text/css"  />
-		<!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>-->
+		<!--<link href="./static/css/jquery-ui.css" rel="stylesheet" type="text/css"  />-->
 		<link href="./static/css/font-awesome.min.css" rel="stylesheet"  />
 		
 
@@ -52,20 +51,24 @@
 		<!-- To pass in search text into URL-->
 		function updateURL1(){
 			var currentURL = window.location.href;
+			var userInput = document.getElementById('userSearchInput').value;
 			//alert(currentURL);
 
 			if (currentURL.search("document=")>-1) {
 				currentURL = currentURL.substring(0, currentURL.search("document=")-1);
 			}
-			if (currentURL.search("find=")>-1) {
-				currentURL = currentURL.substring(0, currentURL.search("find=")-1);
+			if (currentURL.search("keyword=")>-1) {
+				currentURL = currentURL.substring(0, currentURL.search("keyword=")-1);
 			}
+			searchForm.action = currentURL+"&keyword=" + userInput;
+			
 			if (currentURL.search("database=")==-1) {
-				currentURL = currentURL+ "?database=all";
+				//currentURL = currentURL+ "?database=all";
+				searchForm.action = currentURL+"?keyword=" + userInput;
 			}
-		    var userInput = document.getElementById('userInput').value;
-		    var lnk = document.getElementById('searchForm');
-		    searchForm.action = currentURL+"&keyword=" + userInput;
+		   
+		    //var lnk = document.getElementById('searchForm');
+		    //searchForm.action = currentURL+"&keyword=" + userInput;
 		}
 		</script>
 
@@ -83,7 +86,7 @@
 			function updateURL(){
 				var currentURL = window.location.href;
 				var rootLink = location.protocol + '//' + location.host + location.pathname;
-				var x = document.getElementById("userInput");
+				var x = document.getElementById("userSearchInput");
 				var db = getUrlVars()["database"];
 				var doc = getUrlVars()["document"];
 				var myData = new Array();
@@ -106,7 +109,7 @@
 				if (out2 != ''){
 					rootLink = rootLink + "?" + out2;
 				}
-				alert(rootLink);
+				//alert(rootLink);
 				searchform.action = rootLink;
 			}
 		</script>

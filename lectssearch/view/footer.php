@@ -14,13 +14,7 @@
 	<script src="./static/js/jquery.tinyscrollbar.min.js" type="text/javascript"></script>
 	<script src="./static/js/magor.js" type="text/javascript"></script>
     <script src="./static/js/magor-player.js" type="text/javascript"></script>
-    <script src="./static/js/magor-filter.js" type="text/javascript"></script>
-    
-
-
-	<!-- NOT ADDED YET-->
-    <script src="./static/js/jquery-1.8.0.min.js" type='text/javascript'></script>
-    
+    <script src="./static/js/magor-filter.js" type="text/javascript"></script>        
     
 
     <script type="text/javascript">
