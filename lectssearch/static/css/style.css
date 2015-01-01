@@ -10,7 +10,7 @@
 
 
 /* CSS for NavBar */
-.navbar-default { 
+.navbar-default {
 	background-color: #b7ebe4;
 	border-color: #E7E7E7;
 }
@@ -44,7 +44,16 @@
 }
 
 body {
-  	background-image: url("../../img/default/bg.jpg");
+	background: #1c1e20;
+	background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555a5f), color-stop(100%, #1c1e20));
+	background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background-color: #2b2b2b; 
+
+  	/*background-image: url("../../img/default/bg.jpg");*/
    	font-family: Tahoma, sans-serif;
 }
 
@@ -62,7 +71,7 @@ body {
 	padding-top:30px;
 	font-family: bebas;
 	font-size:30px !important;
-	
+
 }
 
 .jumbotron{
@@ -72,7 +81,7 @@ body {
 
 #userSearchInput {
 	margin-top:30px;
-	
+
 }
 
 #searchBtn {
@@ -109,7 +118,7 @@ html, body {
 }
 
 #footer {
-	background: rgba(0,104,209, 0.7); 
+	background: rgba(0,104,209, 0.7);
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -128,7 +137,7 @@ html, body {
 }
 
 /* End Footer*/
-	  
+
 /* CSS for displayALLDB page */
 .well {
  	background:white;
@@ -140,7 +149,7 @@ html, body {
 	color: white;
 	text-align: center;
 	width: 128px;
-}	  
+}
 
 .collectionImg {
 	display: block;
@@ -150,7 +159,7 @@ html, body {
 }
 
 .collectionName {
-	
+
 	padding-top: 4px;
 }
 
@@ -178,7 +187,7 @@ html, body {
 	font-family: bebasbk;
 	color: white;
 	text-align:	center;
-	
+
 }
 
 .mediaContainer {
@@ -186,7 +195,7 @@ html, body {
 	color:white;
 	margin-left:auto;
 	margin-right:auto;
-	
+
 }
 
 .media-box {
@@ -262,7 +271,7 @@ html, body {
 .progress-bar {
 	height: 12px;
   width: auto;
-	
+
 }
 .progress .highlight {
   position: absolute;
@@ -433,5 +442,3 @@ html, body {
 .transcriptions .speaker {
   color: #045BB3;
 }
-
-
