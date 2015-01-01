@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 //~ for i in $(find documents -name *.xml); dojava -jar indexDoc.jar $i MIT_Aerospace ;echo $i  ; done
 
@@ -8,8 +8,8 @@ if ( !isset($_GET) OR empty($_GET) ){
 }
 
 elseif ( isset($_GET['database']) AND  (!isset($_GET['document']) OR empty($_GET['document'])) AND !isset($_GET['keyword']) ){
-	//	Scenario 2 - one collection selected, no document selected, no keyword 
-	// => show the list of doc in the collection	
+	//	Scenario 2 - one collection selected, no document selected, no keyword
+	// => show the list of doc in the collection
 	//~ include_once('controller/loadAndShowCollectionFiles.php');
 	include_once('controller/showOneCollection.php');
 }
@@ -33,17 +33,16 @@ elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GE
 	include_once('controller/searchKeyword.php');
 }
 
-elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword']) AND ( !isset($_GET['seek'])  OR  empty($_GET['seek']) )){
+elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword'])){
 	//	Scenario 6 - one collection selected, one document selected, one keyword selected
 	include_once('controller/searchKeywordInDocument.php');
 }
 
-elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword']) AND isset($_GET['seek']) ){
+//elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword']) AND isset($_GET['seek']) ){
 	// seek defined means that a search has been done
 	//	Scenario 6 - one collection selected, one document selected, one keyword selected
 	//~ include_once('controller/searchKeywordInDocument.php');
-	include_once('controller/naviguateInDocumentSearch');
-}
+	//include_once('controller/naviguateInDocumentSearch');
+//}
 
 ?>
-

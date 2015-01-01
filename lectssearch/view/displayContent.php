@@ -19,26 +19,80 @@
 					<?php  $audioFormat = array('wav','mp3','aac');
 						   $videoFormat = array('mp4');
 						if (in_array($docInfo['type'],$audioFormat)) {
-							$elementStartTag = "audio controls";
+							$elementStartTag = "audio id='media'";
 							$elementType = "audio/".$docInfo['type'];
 							$elementEndTag = "/audio";
 						}
 						elseif (in_array($docInfo['type'],$videoFormat)) {
-							$elementStartTag = "video id='media' controls preload='none' height='320'";
+							$elementStartTag = "video id='media' height='320'";
 							$elementType = "video/".$docInfo['type'];
 							$elementEndTag = "/video";
 						}
 						else {
 							$elementName = "video";
 						}
-						
+
 					?>
 
-					<<?php echo $elementStartTag ?>>
-						<source src="<?php  echo $docInfo['media'] ?>" type="<?php echo $elementType?>" >
-						<?php  echo $docInfo['media'] ?>
-						<p>Your browser doesn't support HTML5 video.</p>
-					<<?php echo $elementEndTag ?>>
+			<div id="player" class="paused scroll-locked">
+				<<?php echo $elementStartTag ?>>
+					<source src="<?php  echo $docInfo['media'] ?>" type="<?php echo $elementType?>">
+					<p>Your browser doesn't support HTML5 video.</p>
+				<<?php echo $elementEndTag ?>>
+
+				<div class="watermark">
+					<div class="watermark-button">
+						<i class="fa fa-play fa-3x"></i>
+					</div>
+				</div>
+
+				<div class="control-box">
+					<div class="control-box-inner">
+						<div class="control">
+							<div class="progress">
+								<div class="progress-bar">
+
+								<div class="track" style="width: 00%"></div>
+								<div class="knob" style="left: 0%"></div>
+								</div>
+								<div class="highlights">
+
+								</div>
+								<div class="progress-bar">
+
+								<div class="knob" style="left: 0%"></div>
+								</div>
+
+
+
+							</div>
+						</div>
+						<!--</div>-->
+
+
+						<div class="pull-right">
+							<div class="control-btn scroll-unlock" data-toggle="tooltip" title="Scroll locked"><i class="fa fa-lock"></i></div>
+							<div class="control-btn scroll-lock" data-toggle="tooltip" title="Turn on scroll lock"><i class="fa fa-unlock"></i></div>
+							<div class="control-btn subtitle-language" data-toggle="tooltip" title="Subtitle language">EN</div>
+						</div>
+
+						<div>
+							<div class="control-btn play-btn" data-toggle="tooltip" title="Play"><i class="fa fa-play"></i></div>
+							<div class="control-btn pause-btn" data-toggle="tooltip" title="Pause"><i class="fa fa-pause"></i></div>
+							<span class="time-current">12:04</span>
+							<span class="time-separator"> / </span>
+							<span class="time-duration">30:00</span>
+
+							<!-- TODO: put these controls in a drop-up menu -->
+							<div class="control-btn prev-segment-btn" data-toggle="tooltip" title="Previous segment"><i class="fa fa-step-backward"></i></div>
+							<div class="control-btn next-segment-btn" data-toggle="tooltip" title="Next segment"><i class="fa fa-step-forward"></i></div>
+							<div class="control-btn prev-match-btn" data-toggle="tooltip" title="Previous match"><i class="fa fa-caret-up"></i></div>
+							<div class="control-btn next-match-btn" data-toggle="tooltip" title="Next match"><i class="fa fa-caret-down"></i></div>
+						</div>
+					</div><!-- .control-box-inner -->
+				</div><!-- .control-box -->
+			</div><!-- #player -->
+
 				</div><!-- .media-box -->
 
 
@@ -64,7 +118,7 @@
 							}?>
 						</div>
 					</div>
-					
+
 					<div id="profile" class="tab-pane fade widget-tags ">
 
 							<table class="tableContainer">
@@ -92,5 +146,55 @@
 		</div>
 	</div>
 </div>
+<script src="./static/js/jquery-1.8.0.min.js" type='text/javascript'></script>
+<script src="./static/js/magor.js" type="text/javascript"></script>
+<script src="./static/js/magor-player.js" type="text/javascript"></script>
+<script src="./static/js/magor-filter.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	//activate video player tooltips
+	/*$(".control-btn").tooltip({ 'placement': 'top', 'container': 'body' });
+
+	//handling the affix effect of column1
+	var navbarHeight = $('.navbar').height();
+
+	$(document).scroll(function(){
+	/*var startAffixAt = $('.document-title').position().top + $('.document-title').height() + 50;
+	var scroll = $(document).scrollTop();
+	if (scroll >= startAffixAt) {
+	if (!$('.column1').hasClass('affix'))
+	$('.column1').addClass('affix').css({ top: $('.navbar').height() + 20 });
+}
+else {
+$('.column1').removeClass('affix');
+}
+});*/
+
+
+<?php	echo "var segments = [" ;
+foreach($printScript as $key => $value){
+	foreach ($printScript[$key]['table']  as $line){
+		echo 'new magor.Segment('. $line."),\n" ;
+	}
+}
+echo "];" 	;
+?>
+
+<?php
+if( isset($matchList) ){
+	echo 'var matches = [' . join(', ', $matchList) .'];'. "\n";
+}
+else{
+	echo 'var matches = [];'. "\n";
+}
+?>
+
+magor.magorPlayer = new magor.MagorPlayer(segments);
+magor.magorPlayer.highlightMatches(matches);
+
+
+});
+</script>
 
 		<?php include ('footer.php'); ?>

@@ -120,8 +120,8 @@
     this.$_timeDuration = $('#player .time-duration');
     this.$_progressTrack = $('#player .progress-bar .track');
     this.$_progressKnob = $('#player .progress-bar .knob');
-    this.$_progressBar = $('#player .progress-bar');
-    this.$_progressHighlights = $('#player .progress-bar .highlights');
+    this.$_progressBar = $('#player .progress');
+    this.$_progressHighlights = $('#player .highlights');
     this.$_scrollLockBtn = $('#player .scroll-lock');
     this.$_scrollUnlockBtn = $('#player .scroll-unlock');
     this.$_subtitleLanguageBtn = $('#player .subtitle-language');
@@ -156,7 +156,7 @@
     this.$_waterMarkButton = $('#player .watermark');
 
     // sort the segments by startTime, then duration
-    segments.sort(function(s1, s2) { 
+    segments.sort(function(s1, s2) {
       if (s1.startTime != s2.startTime)
         return s1.startTime < s2.startTime ? -1 : 1;
       else
@@ -197,9 +197,10 @@
       if ($(this).attr('id')) {
         var id = $(this).attr('id').slice('sid_'.length);
         self.currentTime(self._segmentMap[id].startTime);
+        //~ self.currentTime= 95.55;
       }
     });
-    
+
     // events for the player
     this.$_media.bind("timeupdate", function(evt) {
       self._onTimeUpdate(evt);
@@ -244,19 +245,19 @@
       // the popup.
       self.$_subtitleLanguageList.removeClass('popup');
     });
-    
+
     //previous segment
     this.$_prevSegmentButton.click(function() { self.prevSegment(); });
-    
+
     //next segment
     this.$_nextSegmentButton.click(function() { self.nextSegment(); });
-    
+
     //previous match
     this.$_prevMatchButton.click(function() { self.prevMatch(); });
-    
+
     //next match
     this.$_nextMatchButton.click(function() { self.nextMatch(); });
-    
+
   };
 
   /** This event is fired once the media file has response from the server.
@@ -388,7 +389,7 @@
             self._segmentMap[sid].translations[self._language] = translation;
             $('#subtitle_'+sid).html(magor.parseTranscription(self._segmentMap[sid].translations[self._language]));
           };
-          this.translate(s.text, s.language, this._language, s.id, callback);
+          //~ this.translate(s.text, s.language, this._language, s.id, callback);
         }
         else {
           if (this._segmentMap[s.id].translations[this._language]) {
@@ -401,6 +402,7 @@
 
   magor.MagorPlayer.prototype._highlightMatches = function() {
     this.$_progressHighlights.empty();
+    //console.log(this._matchedSegmentIds.length);
     for (var i = 0; i < this._matchedSegmentIds.length; i++) {
       var segment = this._segmentMap[this._matchedSegmentIds[i]];
       // highlight the transcription
@@ -412,12 +414,14 @@
         left: (segment.startTime / this._duration * 100) + '%',
         width: (segment.duration / this._duration * 100) + '%'
       });
+      //console.log($highlight);
       this.$_progressHighlights.append($highlight);
     }
   }
 
   magor.MagorPlayer.prototype.highlightMatches = function(sids) {
     this._matchedSegmentIds = sids;
+    //console.log(this._matchedSegmentIds);
     if (this._duration > 0) // the media is ready
       this._highlightMatches();
   }
@@ -429,7 +433,7 @@
     var segmentHeight = $segment.height();
     var windowHeight = $(window).height();
 
-    if (currentScroll > segmentTop || 
+    if (currentScroll > segmentTop ||
         currentScroll + windowHeight < segmentTop + segmentHeight) {
       $('html, body').animate({
         scrollTop: segmentTop - windowHeight / 2
@@ -456,7 +460,7 @@
     }
     this.$_player.toggleClass("paused");
   }
-  
+
   /**
    * get lastest segment which is being play
    */
@@ -470,10 +474,10 @@
     }
     return curSeg;
   }
-  
+
   /**
    * jump to next segment
-   * 
+   *
    */
   magor.MagorPlayer.prototype.nextSegment = function() {
     var curSeg = this._getSingleCurrentSeg();
@@ -486,7 +490,7 @@
       this.currentTime(nextSegment.startTime);
     }
   }
-  
+
   /**
    * jump to previous segment
    */
@@ -517,7 +521,7 @@
       this.currentTime(nextMatchedSeg.startTime);
     }
   }
-  
+
   /**
    * jump to previous match
    */
@@ -547,34 +551,34 @@
 
   /* Strips all annotations (in preparation for sending to Google Translate).
    */
-  magor.MagorPlayer.prototype._stripAnnotations = function(text) {
-    text = magor.parseTranscription(text);
-    text = text.replace(/<[^>]*>/g, '');
-    text = text.replace(/\((breath|lipsmack|clapping[^)]*|ah|uh|eh|er|um|lah|meh|lor|hah|oh|)\)/g, "");
-    text = text.replace('&amp;', '');
-    text = text.replace('$', '');
-    text = text.replace('~', '');
-    text = text.replace('.', '');
-    return text;
-  }
+  //~ magor.MagorPlayer.prototype._stripAnnotations = function(text) {
+    //~ text = magor.parseTranscription(text);
+    //~ text = text.replace(/<[^>]*>/g, '');
+    //~ text = text.replace(/\((breath|lipsmack|clapping[^)]*|ah|uh|eh|er|um|lah|meh|lor|hah|oh|)\)/g, "");
+    //~ text = text.replace('&amp;', '');
+    //~ text = text.replace('$', '');
+    //~ text = text.replace('~', '');
+    //~ text = text.replace('.', '');
+    //~ return text;
+  //~ }
 
-  magor.MagorPlayer.prototype.translate = function(text, sourceLanguage, targetLanguage, segmentId, callback, context) {
-    text = this._stripAnnotations(text);
-    if (text.trim()) {
-      var url = '/translate?q=' + encodeURI(text)
-              + '&source=' + sourceLanguage + '&target=' + targetLanguage + '&segment_id='+segmentId.toString();
-      $.ajax({
-        url: url,
-        dataType: 'json',
-      }).success(function(response) {
-        if (response.data.translations.length > 0) {
-          callback.call(context, response.segment_id, response.data.translations[0].translatedText);
-        }
-      });
-    } else {
-      callback.call(context, segmentId, text);
-    }
-  }
+  //~ magor.MagorPlayer.prototype.translate = function(text, sourceLanguage, targetLanguage, segmentId, callback, context) {
+    //~ text = this._stripAnnotations(text);
+    //~ if (text.trim()) {
+      //~ var url = '/translate?q=' + encodeURI(text)
+              //~ + '&source=' + sourceLanguage + '&target=' + targetLanguage + '&segment_id='+segmentId.toString();
+      //~ $.ajax({
+        //~ url: url,
+        //~ dataType: 'json',
+      //~ }).success(function(response) {
+        //~ if (response.data.translations.length > 0) {
+          //~ callback.call(context, response.segment_id, response.data.translations[0].translatedText);
+        //~ }
+      //~ });
+    //~ } else {
+      //~ callback.call(context, segmentId, text);
+    //~ }
+  //~ }
 
   /**
    * play(): play the media from the current location.
@@ -598,5 +602,5 @@
   magor.MagorPlayer.prototype.pause = function() {
     this.$_media.get(0).pause();
   }
-  
+
 })(magor);

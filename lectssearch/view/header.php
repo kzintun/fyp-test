@@ -5,16 +5,16 @@
 		<title>Lects Search</title>
 		<link rel="shortcut icon" href="./img/default/favicon.png" />
 
+
+
 		<link href="./static/css/bootstrap.css" rel="stylesheet" type="text/css" />
-		<link href="./static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="./static/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
 		<link href="./static/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
 		<link href="./static/css/video-js.min.css" rel="stylesheet"  />
-		<!--<link href="./static/css/jquery-ui.css" rel="stylesheet" type="text/css"  />-->
 		<link href="./static/css/font-awesome.min.css" rel="stylesheet"  />
-		
+
 
 		<link href="./static/css/style.css" rel="stylesheet" type="text/css" />
-		<!--<link href="./static/css/fa-style.css" rel="stylesheet" type="text/css"  />-->
 
 
 
@@ -61,15 +61,15 @@
 				currentURL = currentURL.substring(0, currentURL.search("keyword=")-1);
 			}
 			searchForm.action = currentURL+"&keyword=" + userInput;
-			
+
 			if (currentURL.search("database=")==-1) {
 				//currentURL = currentURL+ "?database=all";
 				searchForm.action = currentURL+"?keyword=" + userInput;
 			}
-		   
+
 		    //var lnk = document.getElementById('searchForm');
 		    //searchForm.action = currentURL+"&keyword=" + userInput;
-		}
+		};
 		</script>
 
 		<script type="text/javascript">
@@ -86,9 +86,10 @@
 			function updateURL(){
 				var currentURL = window.location.href;
 				var rootLink = location.protocol + '//' + location.host + location.pathname;
-				var x = document.getElementById("userSearchInput");
+				var x = document.getElementById('userSearchInput');
 				var db = getUrlVars()["database"];
 				var doc = getUrlVars()["document"];
+				var kw = getUrlVars()["keyword"];
 				var myData = new Array();
 				var out = new Array();
 
@@ -98,19 +99,43 @@
 				if ( doc != null ){
 					myData['document'] = doc;
 				}
-				if (( x.value != '')) {
+				if ( x.value != '') {
 					myData['keyword'] = x.value;
+				}
+				else if (kw != null) {
+					myData['keyword'] = kw;
 				}
 				for (key in myData) {
 					out.push(key + '=' + myData[key]);
 				}
+				//console.log(out);
+
 
 				var out2 = out.join('&');
 				if (out2 != ''){
 					rootLink = rootLink + "?" + out2;
 				}
 				//alert(rootLink);
-				searchform.action = rootLink;
+				searchForm.action = rootLink;
+				localStorage.setItem("input", x.value);
+			};
+
+
+			window.onload = function(e){
+				var db = getUrlVars()["database"];
+				var doc = getUrlVars()["document"];
+				var kw = getUrlVars()["keyword"];
+				var x = document.getElementById('userSearchInput');
+				if ((db === undefined)&&(doc === undefined)&&(kw === undefined)) {
+						window.localStorage.removeItem(input);
+						console.log(input);
+						console.log("LS cleared!");
+				}
+				else {
+					var input = localStorage.getItem("input");
+				}
+				if (input !== undefined) x.value = input;
+				updateURL();
 			}
 		</script>
 
@@ -124,9 +149,9 @@
 					<div class="col-lg-7 ">
 					<form class="form-search" id="searchForm" method="post">
 						<div class="input-group">
-							<input class="form-control searchBar" type="text" name="searchfield" id="userSearchInput" placeholder="Search documents" input=""/>
+							<input class="form-control searchBar" type="text" name="searchfield" id="userSearchInput" placeholder="Search documents"/>
 								<span class="input-group-btn">
-								<button class="btn btn-default" id="searchBtn" type="submit" name="go" onclick="updateURL1()">Search!</button>
+								<button class="btn btn-default" id="searchBtn" type="submit" name="go" onclick="updateURL()">Search!</button>
 							</span></div></form>
 					</div>
 				</div>
