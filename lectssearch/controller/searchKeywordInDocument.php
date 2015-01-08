@@ -1,9 +1,11 @@
 <?php
 //$keyword=$_POST['searchfield'];
+//echo "HERE";
 $collection = html_entity_decode($_GET['database']);
 $document = html_entity_decode($_GET['document']);
 if (isset($_GET['keyword'])		){
 	$keyword   = html_entity_decode($_GET['keyword']);
+	//echo $keyword;
 }
 //~ $searchResultArray = html_entity_decode($_SESSION['keywordSearchResult']);
 //~ $dir='./collections';
@@ -11,7 +13,6 @@ if (isset($_GET['keyword'])		){
 // if undefined $keyword => do nothing or prompt a message
 
 if ( isset($keyword) AND !(empty($keyword) )){
-
 	include_once('./model/searchLucene.php');
 	include_once('./model/getInfoFromSearch.php');
 	include_once('model/getFileList.php');
@@ -115,8 +116,8 @@ if ( isset($keyword) AND !(empty($keyword) )){
 	//~ $_SESSION['resultArray'] = $sortedResultArray;
 
 	//~ print_r($sortedResultArray);
-	include_once("view/displayContent.php");
-
+	//include_once("view/displayContent.php");
+	echo json_encode($matchList);
 	//~ $_SESSION['resultArray'] = $sortedResultArray;
 	//~ print_r($sortedResultArray);
 

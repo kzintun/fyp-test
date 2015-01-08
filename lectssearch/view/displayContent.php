@@ -3,7 +3,8 @@
 	<div class="rowa">
 		<!-- LEFT SIDE-->
 		<div class="col-lg-3">
-			<div class="well hidden">
+			<div class="well" >
+				<p id="test"></p>
 				Temp Placeholder
 				<p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
 			</div>
@@ -184,12 +185,13 @@ echo "];" 	;
 <?php
 if( isset($matchList) ){
 	echo 'var matches = [' . join(', ', $matchList) .'];'. "\n";
+
 }
 else{
 	echo 'var matches = [];'. "\n";
 }
 ?>
-
+//console.log(matches);
 magor.magorPlayer = new magor.MagorPlayer(segments);
 magor.magorPlayer.highlightMatches(matches);
 

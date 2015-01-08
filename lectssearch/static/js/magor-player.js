@@ -406,6 +406,7 @@
     for (var i = 0; i < this._matchedSegmentIds.length; i++) {
       var segment = this._segmentMap[this._matchedSegmentIds[i]];
       // highlight the transcription
+      //console.log(segment);
       segment.view().addClass('matched');
       // now highlight the progress bar
       var $highlight = $('<div></div>');

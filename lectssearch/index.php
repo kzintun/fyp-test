@@ -1,5 +1,7 @@
 <?php
+
 session_start();
+
 //~ for i in $(find documents -name *.xml); dojava -jar indexDoc.jar $i MIT_Aerospace ;echo $i  ; done
 
 if ( !isset($_GET) OR empty($_GET) ){
@@ -18,6 +20,7 @@ elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND ( !isset($_
 	//	Scenario 3 - collection selected, a document is selected, no keyword searched => show the transcription of the document. starting time is zero
 	// show doc without search
 	//~ include_once('controller/loadAndShowDocument.php');
+
 	include_once('controller/showOneDocument.php');
 }
 
@@ -35,6 +38,7 @@ elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GE
 
 elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword'])){
 	//	Scenario 6 - one collection selected, one document selected, one keyword selected
+	//echo "GOING IN";
 	include_once('controller/searchKeywordInDocument.php');
 }
 

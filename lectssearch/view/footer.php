@@ -12,7 +12,7 @@
     <script type="text/javascript" src="./static/js/checkSearchBar.js"></script>
   <!--  <script src="./static/js/video.js" type="text/javascript"></script>-->
 	<script src="./static/js/jquery.tinyscrollbar.min.js" type="text/javascript"></script>
-
+  <script src="./static/js/ajaxSearch.js"></script>
 
 
 

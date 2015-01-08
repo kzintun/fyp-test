@@ -73,6 +73,7 @@
 		</script>
 
 		<script type="text/javascript">
+
 			function getUrlVars() {
 				var vars = {};
 				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
@@ -151,7 +152,7 @@
 						<div class="input-group">
 							<input class="form-control searchBar" type="text" name="searchfield" id="userSearchInput" placeholder="Search documents"/>
 								<span class="input-group-btn">
-								<button class="btn btn-default" id="searchBtn" type="submit" name="go" onclick="updateURL()">Search!</button>
+								<button class="btn btn-default" id="searchBtn" type="submit" name="go" >Search!</button>
 							</span></div></form>
 					</div>
 				</div>

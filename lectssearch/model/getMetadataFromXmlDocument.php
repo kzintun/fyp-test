@@ -1,7 +1,8 @@
-<!--Created on 18/10/2014 by JH-->
-<!--Modlfied on 14/11/10/2014 by BB-->
+
 
 <?php 
+//Created on 18/10/2014 by JH-->
+//Modlfied on 14/11/10/2014 by BB-->
 function getMetadataFromXmlDocument($xml){
 	
 	//~ Improvement could be to load directly the attributes
