@@ -427,6 +427,25 @@
       this._highlightMatches();
   }
 
+  //   Newly added to unhighlight old matches
+  magor.MagorPlayer.prototype._unhighlightMatches = function() {
+    //this.$_progressHighlights.empty();
+    //console.log(this._unmatchedSegmentIds.length);
+    for (var i = 0; i < this._unmatchedSegmentIds.length; i++) {
+      var segment = this._segmentMap[this._unmatchedSegmentIds[i]];
+      // unhighlight the transcription
+      segment.view().removeClass('matched');
+    }
+  }
+
+  magor.MagorPlayer.prototype.unhighlightMatches = function(sids) {
+    this._unmatchedSegmentIds = sids;
+    //console.log(this._matchedSegmentIds);
+    if (this._duration > 0) // the media is ready
+      this._unhighlightMatches();
+  }
+
+
   magor.MagorPlayer.prototype._scrollTo = function(sid) {
     var currentScroll = $(document).scrollTop();
     var $segment = $('#sid_' + sid);

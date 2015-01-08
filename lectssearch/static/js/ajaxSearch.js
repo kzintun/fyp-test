@@ -7,6 +7,8 @@ $('#searchBtn').click(function () {
 	var kw = searchField;
 	//var kw = getUrlVars()["keyword"];
 	var results = [];
+	var matches = localStorage.getItem("matches");
+	matches = JSON.parse(matches);
 	//console.log(db);
 	//console.log(doc);
 	//console.log(kw);
@@ -17,6 +19,12 @@ $('#searchBtn').click(function () {
 	if (( db != null) && (doc != null )){
 		//console.log("Bef ajax");
 		//console.log(urlSearch);
+		if(matches !== null) {
+			//console.log("IN");
+			//console.log(matches);
+			magor.magorPlayer.unhighlightMatches(matches);
+			window.localStorage.removeItem(matches);
+		}
 		$.ajax({
 	        url: urlSearch,
 	        type: 'POST',
@@ -27,6 +35,7 @@ $('#searchBtn').click(function () {
 	        	//$( "#test" ).html( data );
 	        	//console.log(data);
 	        	console.log(results);
+	        	localStorage.setItem("matches", JSON.stringify(results));
 	        	magor.magorPlayer.highlightMatches(results);
 	        },
 	        dataType:'json'
