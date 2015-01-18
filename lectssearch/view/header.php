@@ -135,6 +135,11 @@
 				else {
 					var input = localStorage.getItem("input");
 				}
+				if (doc === undefined) {
+					var matches = localStorage.getItem("matches");
+					window.localStorage.removeItem(matches);
+					console.log("Cleared matches");
+				}
 				if (input !== undefined) x.value = input;
 				updateURL();
 			}

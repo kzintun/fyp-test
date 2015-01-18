@@ -3,7 +3,7 @@
 	<div class="rowa">
 		<!-- LEFT SIDE-->
 		<div class="col-lg-3">
-			<div class="well" >
+			<div class="well hidden" >
 				<p id="test"></p>
 				Temp Placeholder
 				<p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
