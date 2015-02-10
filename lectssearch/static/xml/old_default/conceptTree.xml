@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * jXMLTree jQuery Plugin
+ * Examples and documentation at: http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp
+ * Copyright (c) 2010 Roy Jin
+ * Version: 1.0.0 (18-JUN-2010)
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ * Requires: jQuery v1.4.2 or later
+ -->
+<!-- 
+   Please convert following special characters 
+   1. & - &amp;
+   2. < - &lt;
+   3. > - &gt;
+   4. " - &quot;
+   5. ' - &#39; 
+ -->
+
+ <!-- NOTE FROM JIA HUI: THIS IS A SAMPLE, NO ALL ATTRIBUTES ARE ADDED -->
+ <!-- NOTE FROM JIA HUI: ALL EXPANDABLE ARE NAMED AS PARENTS, CLICKABLE CONCEPTS AS CHILD -->
+ <!-- NOTE FROM JIA HUI: ALL CHILD NODES MUST HAVE linkOnClick="appendToSearchBar('KEYWORD/CONCEPT')"!! This is a javascript function written for GUI to do search -->
+<menuTree>
+	<link linkName="Digital Signal Processing" type="parent" parentId="dsp" parentIcon="homeIcon">
+		<link linkName="Transform" type="parent" parentId="0" linkOnClick="appendToSearchBar('TED');" parentIcon="computerIcon">
+			<link linkName="Test 1" type="child" childIcon="contactUs"></link>
+			<link linkName="Test 2" type="child" childIcon="discussion"></link>
+			<link linkName="Fourier Transform" type="parent" parentId="0.1" parentIcon="lectureIcon">
+				<link linkName="Subconcept Name 1" type="child" childIcon="pdfIcon"></link>
+				<link linkName="Subconcept Name 2" type="child" childIcon="pdfIcon"></link>
+				<link linkName="Power" type="parent" parentId="0.1.1" parentIcon="pdfIcon">
+					<link linkName="Electricity" linkOnClick="appendToSearchBar('electricity');" type="child" childIcon="cPlusPlusIcon"></link>
+				</link>
+				<link linkName="Subconcept Name 4" type="child" childIcon="pdfIcon"></link>
+			</link>
+			<link linkName="LT" type="parent" parentId="0.2" parentIcon="tutorialIcon">
+				<link linkName="Subconcept Name 1" type="child" childIcon="pdfIcon"></link>
+				<link linkName="Subconcept Name 2" type="child" childIcon="pdfIcon"></link>
+			</link>
+			<link linkName="CTFT" type="parent" parentId="0.3" parentIcon="assignmentIcon">
+				<link linkName="C++" type="child" childIcon="cPlusPlusIcon"></link>
+				<link linkName="Java" type="child" childIcon="javaIcon"></link>
+			</link>
+			<link linkName="STFT" type="parent" parentId="0.4" parentIcon="testsIcon">
+				<link linkName="Subconcept Name 1" type="child" childIcon="pdfIcon"></link>
+				<link linkName="Subconcept Name 2" type="child" childIcon="pdfIcon"></link>
+			</link>
+			<link linkName="Winning"  linkOnClick="alert('Clicked Winning Link');" type="child" childIcon="winning"></link>
+		</link>
+		<link linkName="ANOTHER DSP Concept" type="parent" parentId="0" parentIcon="computerIcon">
+			<link linkName="Test 3" type="parent" parentId="0.1" parentIcon="lectureIcon">
+				<link linkName="Subconcept Name 1" type="child" childIcon="pdfIcon"></link>
+				<link linkName="Subconcept Name 2" type="child" childIcon="pdfIcon"></link>
+			</link>
+		</link>
+	</link>
+	<link linkName="Aerospace" type="parent" parentId="aero" parentIcon="homeIcon">
+		<link linkName="Space" type="parent" parentId="0" parentIcon="computerIcon">
+			<link linkName="Test 1" type="child" childIcon="contactUs"></link>
+			<link linkName="Test 2" type="child" childIcon="discussion"></link>
+			<link linkName="Spaceships" type="parent" parentId="0.1" parentIcon="lectureIcon">
+				<link linkName="Subconcept Name 1" type="child" childIcon="pdfIcon"></link>
+				<link linkName="Subconcept Name 2" type="child" childIcon="pdfIcon"></link>
+				<link linkName="Subconcept Name 3" type="parent" parentId="0.1.1" parentIcon="pdfIcon">
+					<link linkName="Subsubconcept Name 3" type="child" childIcon="cPlusPlusIcon"></link>
+				</link>
+				<link linkName="Subconcept Name 4" type="child" childIcon="pdfIcon"></link>
+			</link>
+			<link linkName="Winning"  linkOnClick="alert('Clicked Winning Link');" type="child" childIcon="winning"></link>
+		</link>
+	</link>
+</menuTree>

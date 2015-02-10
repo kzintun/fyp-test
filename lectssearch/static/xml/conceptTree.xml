@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+ * Concept Tree for DSP
+ * Version: 2.0
+ -->
+
+<menuTree>
+  <link linkName="Digital Signal Processing " parentId="root" type="parent">
+    <link linkName="Signals" linkOnClick="appendToSearchBar('S0','signalprocessing')" parentId="0" type="parent">
+      <link linkName="Sinusoidal Signals" linkOnClick="appendToSearchBar('SS01','signalprocessing')" parentId="01" type="parent">sinusoidal signal, sinusoidal signals
+        <link childId="011" linkName="Continuous-time Sinusoidal Signals" linkOnClick="appendToSearchBar('CSS011','signalprocessing')" type="child">sinusoidal signals for both continuous-time, continuous-time sinusoids, continuous-time and discrete-time sinusoidal signals</link>
+        <link childId="012" linkName="Discrete-time Sinusoidal Signals" linkOnClick="appendToSearchBar('DSS012','signalprocessing')" type="child">discrete-time sinusoidal signals, discrete-time sinusoids, discrete-time sinusoidal sequence</link>
+      </link>
+      <link linkName="Exponential Signals" linkOnClick="appendToSearchBar('ES02','signalprocessing')" parentId="02" type="parent">exponential signals
+        <link childId="021" linkName="Real Exponentials" linkOnClick="appendToSearchBar('RE021','signalprocessing')" type="child">real exponentials</link>
+        <link linkName="Complex Exponentials" linkOnClick="appendToSearchBar('CE022','signalprocessing')" parentId="022" type="parent">complex exponential, complex exponentials
+            <link childId="0221" linkName="Continuous-time Complex Exponentials" linkOnClick="appendToSearchBar('CCE0221','signalprocessing')" type="child">continuous-time and discrete-time complex exponentials</link>
+            <link childId="0222" linkName="Discrete-time Complex Exponentials" linkOnClick="appendToSearchBar('DCE0222','signalprocessing')" type="child">discrete-time complex exponentials, for discrete time the complex exponential</link>
+        </link>
+      </link>
+      <link linkName="Unit Step" linkOnClick="appendToSearchBar('US03','signalprocessing')" parentId="03" type="parent">unit step, zero for negative time and unity for positive time
+        <link childId="031" linkName="Continuous-time Unit Step" linkOnClick="appendToSearchBar('CUS031','signalprocessing')" type="child">continuous-time unit step, mathematical complication of a discontinuity at the origin, running integral of the impulse</link>
+        <link childId="032" linkName="Discrete-time Unit Step" linkOnClick="appendToSearchBar('DUS032','signalprocessing')" type="child">in discrete time the unit step, running sum of the unit impulse</link>
+      </link>
+      <link linkName="Unit Impulse" linkOnClick="appendToSearchBar('UI04','signalprocessing')" parentId="04" type="parent">unit impulse, delayed unit impulses
+        <link childId="041" linkName="Continuous-time Unit Impulse" linkOnClick="appendToSearchBar('CUI041','signalprocessing')" type="child">being of infinite height, zero width but having a finite area, derivative of the unit step</link>
+        <link childId="042" linkName="Discrete-time Unit Impulse" linkOnClick="appendToSearchBar('DUI042','signalprocessing')" type="child">in discrete time the unit impulse, a sequence that is zero except, first difference of the unit step</link>
+      </link>
+    </link>
+    <link linkName="Systems" linkOnClick="appendToSearchBar('S1','signalprocessing')" parentId="1" type="parent">property of LTI systems, LTI systems, continuous-time LTI systems, discrete-time LTI systems, system analysis,continuous-time linear, systems that are both linear and time-invariant, system design, system properties, system analysis, LTI system, system response,basic inputs,impulse response,system impulse response,properties of linear,Linear constant-coefficient differential equation,Linear constant-coefficient difference equation,basic inputs
+      <link childId="11" linkName="Linear System" linkOnClick="appendToSearchBar('LS11','signalprocessing')" type="child">system is linear, properties of linearity, linear system, same linear combination of the individual responses, linear combinations, linear combination,linear combination of basic signals</link>
+      <link childId="12" linkName="Time Invariance System" linkOnClick="appendToSearchBar('TIS12','signalprocessing')" type="child">time invariance, not sensitive to the time origin, time-invariant systems, time invariance states</link>
+    </link>
+    <link linkName="Algebra" linkOnClick="appendToSearchBar('A2','signalprocessing')" parentId="2" type="parent">
+      <link linkName="Algebraic Operation And Expression" linkOnClick="appendToSearchBar('AOAE21','signalprocessing')" parentId="21" type="parent">
+        <link childId="211" linkName="Convolution" linkOnClick="appendToSearchBar('C211','signalprocessing')" type="child">linear combination of delayed impulses, convolution sum, convolution integral,properties of convolution</link>
+      </link>
+      <link linkName="Equation" linkOnClick="appendToSearchBar('E22','signalprocessing')" parentId="22" type="parent">
+        <link childId="221" linkName="Differential Equations" linkOnClick="appendToSearchBar('DE221','signalprocessing')" type="child">differential equation,linear constant-coefficient differential equations,differential,linear constant-coefficient differential,linear constant coefficient differential equations,differential equations,satisfy differential equations</link>
+        <link childId="222" linkName="Difference Equations" linkOnClick="appendToSearchBar('DE222','signalprocessing')" type="child">difference equation,first-order difference equation,linear constant-coefficient difference equations,difference equations</link>
+        <link childId="223" linkName="Synthesis Equation" linkOnClick="appendToSearchBar('SE223','signalprocessing')" type="child">synthesis equation,fourier synthesis equation,fourier transform synthesis equation,fourier series synths equation</link>
+        <link childId="224" linkName="Analysis Equation" linkOnClick="appendToSearchBar('AE224','signalprocessing')" type="child">analysis equation,fourier series analysis equation</link>
+      </link>
+    </link>
+    <link linkName="Transform" linkOnClick="appendToSearchBar('T3','signalprocessing')" parentId="3" type="parent">
+      <link linkName="Z-Transform" linkOnClick="appendToSearchBar('ZT31','signalprocessing')" parentId="31" type="parent">z-transform,discrete-time fourier transform
+        <link childId="311" linkName="Region Of Convergence" linkOnClick="appendToSearchBar('ROC311','signalprocessing')" type="child">region of convergence</link>
+        <link childId="312" linkName="Z-Plane" linkOnClick="appendToSearchBar('ZP312','signalprocessing')" type="child">z-plane</link>
+      </link>
+      <link linkName="Fourier Transform" linkOnClick="appendToSearchBar('FT32','signalprocessing')" parentId="32" type="parent">fourier transform,fourier transform synthesis equation,continuous-time fourier transform,inverse fourier transform,discrete-time fourier transform,aperiodic signals,fourier series,fourier series coefficients,fourier transform synthesis equation,fourier series synthesis equation,fourier series representation, fourier transform properties, symmetry property,time and frequency scaling,duality between the time and frequency domains,Parseval's relation,time-shifting property,differentiation property,convolution property,modulation property,fourier transform maps convolution,real-valued time functions
+        <link linkName="Discrete Fourier Transform" linkOnClick="appendToSearchBar('DFT321','signalprocessing')" parentId="321" type="parent">discrete fourier transform<link childId="3211" linkName="Fast Fourier Transform" linkOnClick="appendToSearchBar('FFT3211','signalprocessing')" type="child">fast fourier transform</link>
+        </link>
+        <link childId="322" linkName="Discrete-Time Fourier Transform" linkOnClick="appendToSearchBar('DTFT322','signalprocessing')" type="child">discrete-time fourier transform,fourier transform,discrete-time fourier transform,continuous-time fourier transform,continuous-time fourier series,modulation property,fourier series,fourier series coefficients,basic fourier representations,individual fourier transforms,z-Transform,convolution property</link>
+        <link childId="323" linkName="Continuous-Time Fourier Transform" linkOnClick="appendToSearchBar('CTFT323','signalprocessing')" type="child">continuous-time fourier transform,Laplace tranform</link>
+        <link linkName="Short-Time Fourier Transform" linkOnClick="appendToSearchBar('STFT324','signalprocessing')" parentId="324" type="parent">short-time fourier transform,STFT
+          <link childId="3241" linkName="Continuous-Time STFT" linkOnClick="appendToSearchBar('CTSTFT3241','signalprocessing')" type="child">continuous-time short-time fourier transform,continuous-time STFT</link>
+          <link childId="3242" linkName="Discrete-Time STFT" linkOnClick="appendToSearchBar('DTSTFT3242','signalprocessing')" type="child">discrete-time short-time fourier transform,discrete-time STFT</link>
+        </link>
+      </link>
+      <link linkName="Laplace Transform" linkOnClick="appendToSearchBar('LT33','signalprocessing')" parentId="33" type="parent">laplace transform,inverse Laplace Transform,continuous-time fourier transform
+        <link childId="331" linkName="Laplace Transform Converges" linkOnClick="appendToSearchBar('LTC331','signalprocessing')" type="child">laplace transform converge,Laplace Transform Converge</link>
+      </link>
+    </link>
+    <link linkName="Filter" linkOnClick="appendToSearchBar('F4','signalprocessing')" parentId="4" type="parent">filter,filtering
+      <link childId="41" linkName="Frequency-Selective Filter" linkOnClick="appendToSearchBar('FSF41','signalprocessing')" type="child">frequency-selective filter,frequency-selective discrete-time filters,ideal frequency-selective filters,nonideal frequency-selective filters,highpass filter,bandpass filters,discrete-time filter,lowpass filter,discrete-time lowpass,stopband,stopband region,passband region,recursive discrete-time filters,frequency-selective filtering,frequency-shaping filters</link>
+      <link childId="42" linkName="Moving Average Filter" linkOnClick="appendToSearchBar('MAF42','signalprocessing')" type="child">moving average filter,stock market averages,discrete-time moving average filters</link>
+      <link childId="43" linkName="Finite-Impulse Response Filter" linkOnClick="appendToSearchBar('FIRF43','signalprocessing')" type="child">finite-impulse response filter,FIR</link>
+      <link childId="44" linkName="Infinite-Impulse Response Filter" linkOnClick="appendToSearchBar('IIRF44','signalprocessing')" type="child">infinite-impulse response filter,IIR</link>
+      <link childId="45" linkName="Adaptive Filter" linkOnClick="appendToSearchBar('AF45','signalprocessing')" type="child">adaptive filter</link>
+      <link childId="46" linkName="Butterworth Filter" linkOnClick="appendToSearchBar('BF46','signalprocessing')" type="child">butterworth filter,continuous-time butterworth filters,cutoff frequency,filter order,s-plane,bilinear transformation</link>
+    </link>
+    <link linkName="Modulation" linkOnClick="appendToSearchBar('M5','signalprocessing')" parentId="5" type="parent">modulation,carrier signal,modulating signal,modulation theorem,original modulating signal,frequency division multiplexing,modulation signal,modulated output,demodulation,modulator,demodulator,asynchronous demodulation,sinusoidal carrier signals,modulation property,communications systems,communication systems,digital modulation systems,discrete-time modulation,modulation shift,continuous-time modulation,modulation system
+      <link childId="51" linkName="Sinusoidal Frequency Modulation" linkOnClick="appendToSearchBar('SFM51','signalprocessing')" type="child">sinusoidal frequency modulation</link>
+      <link childId="52" linkName="Sinusoidal Amplitude Modulation" linkOnClick="appendToSearchBar('SAM52','signalprocessing')" type="child">sinusoidal amplitude modulation,amplitude modulation,modulator box,pulse-amplitude modulation,pulse-amplitude-modulated signal,pulse amplitude modulation</link>
+    </link>
+    <link childId="6" linkName="Sampling And Reconstruction" linkOnClick="appendToSearchBar('SAR6','signalprocessing')" type="child">sampling theorem,sampling frequency,sampling process,sampling ratebandlimited,bandlimited time function,bandlimited continuous-time signal,ideal lowpass filter,reconstructed signal,reconstructing lowpass filter,reconstruct,reconstruction,reconstruction procedure,reconstruction consistent,discrete-time sampling,sampling of continuous-time signal</link>
+  </link>
+</menuTree>

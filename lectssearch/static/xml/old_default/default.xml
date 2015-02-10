@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * jXMLTree jQuery Plugin
+ * Examples and documentation at: http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp
+ * Copyright (c) 2010 Roy Jin
+ * Version: 1.0.0 (18-JUN-2010)
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ * Requires: jQuery v1.4.2 or later
+ -->
+<!-- 
+   Please convert following special characters 
+   1. & - &amp;
+   2. < - &lt;
+   3. > - &gt;
+   4. " - &quot;
+   5. ' - &#39; 
+ -->
+<menuTree>
+	<link linkName="300-Level" linkOnClick="alert('UoW &quot;300 Level Subjects&quot;');" type="parent" parentId="300-Level" parentIcon="homeIcon">
+		<link linkName="CSCI340: &quot;Operating System&quot;" linkTarget="https://sols.uow.edu.au/owa/sid/CAL.USER_SUBJECTLIST_SCREEN?p_faccde=18&amp;p_depabb=CSSE&amp;p_year=2010&amp;p_cal_type=U&amp;p_cal_types=UP" type="parent" parentId="CSCI340" linkTargetStatus="_blank" parentIcon="computerIcon">
+			<link linkName="Contact Us" linkOnClick="window.location=&#39; http://royjin.wufoo.com/forms/z7x4a9/&#39;" type="child" childIcon="contactUs"></link>
+			<link linkName="Discussion"  linkOnClick="alert('Clicked Discussion Link');" type="child" childIcon="discussion"></link>
+			<link linkName="Lectures" type="parent" parentId="CSCI102Lectures" parentIcon="lectureIcon">
+				<link linkName="Lecture 1: Introduction to operating systems" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="pdfIcon"></link>
+				<link linkName="Lecture 2: Operating system history" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="pdfIcon"></link>
+				<link linkName="Lecture 3: Processes, threads and process states" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="pdfIcon"></link>
+				<link linkName="Lecture 4: Real-time processes" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="pdfIcon"></link>
+				<link linkName="Lecture 5: The problems of concurrency and some of the solutions" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="pdfIcon"></link>
+			</link>
+			<link linkName="Tutorials" type="parent" parentId="CSCI340Tutorials" parentIcon="tutorialIcon">
+				<link linkName="Tutorial 1: Operating systems overivew" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="powerPointer"></link>
+				<link linkName="Tutorial 2: Processes and threads Java implementation" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="docIcon"></link>
+				<link linkName="Tutorial 3: Deadlock Overview" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="docIcon"></link>
+				<link linkName="Tutorial 4: Assignment One Preview" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="powerPointer"></link>
+			</link>
+			<link linkName="Assignments" type="parent" parentId="CSCI340Assignments" parentIcon="assignmentIcon">
+				<link linkName="Assignment 1: OS Theories, Processes and Threads C++" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="cPlusPlusIcon"></link>
+				<link linkName="Assignment 2: Real-Time Java" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="javaIcon"></link>
+			</link>
+			<link linkName="Tests" type="parent" parentId="CSCI340Tests" parentIcon="testsIcon">
+				<link linkName="Test 1: 2009 Test 1 with Solution Review" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="pdfIcon"></link>
+				<link linkName="Test 2: 2008 Test 1 with Solution Review" type="child" linkTarget="http://roy-jin.appspot.com/jsp/jqueryXmlMenuTreeDemo.jsp" linkTargetStatus="_blank" childIcon="pdfIcon"></link>
+			</link>
+			<link linkName="Winning"  linkOnClick="alert('Clicked Winning Link');" type="child" childIcon="winning"></link>
+		</link>
+	</link>
+</menuTree>

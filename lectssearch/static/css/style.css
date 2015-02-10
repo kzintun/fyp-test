@@ -172,6 +172,8 @@ html, body {
 .tableContainer {
 	padding: 10px;
 	table-layout: fixed;
+  font-size: 12px;
+  min-width: 120px;
 }
 
 .leftTableCol {
@@ -181,6 +183,14 @@ html, body {
 	padding: 5px;
 }
 
+.rightTableCol {
+  max-width: 290px;
+  overflow: hidden;
+
+}
+.ellipsis{
+  max-height: 50px;
+}
 
 /* CSS for displayContent page*/
 .videoTitle {

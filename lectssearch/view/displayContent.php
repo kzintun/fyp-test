@@ -1,17 +1,26 @@
 <?php include ('header.php'); ?>
 <div class="container">
+	<!--<script type="text/javascript">
+			$(document).ready(function(){
+				var options = {  
+					xmlUrl: './static/xml/conceptTree.xml',
+					storeState: true
+				};
+				console.log(options);
+				$('#xmlMenuTree').xmltree(options);
+			});
+	</script>-->
 	<div class="rowa">
 		<!-- LEFT SIDE-->
 		<div class="col-lg-3">
 			<div class="well hidden" >
-				<p id="test"></p>
-				Temp Placeholder
-				<p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+				<div id="xmlMenuTree"></div>
 			</div>
 		</div>
 		<!-- /LEFT SIDE-->
 		<div class="col-lg-7 col-lg-offset-1">
 			<!-- VIDEO-->
+			<div id="alertResults"></div>
 			<div class="mediaContainer">
 				<h2 class="videoTitle"><?php echo $document?></h2>
 				<!-- Video pane=======================================-->
@@ -106,6 +115,8 @@
 						<i class="icon-info-sign"></i>TRANSCRIPT TAB </a></li>
 						<li><a data-toggle="tab" href="#profile">
 							<i class="icon-info-sign"></i>DESCRIPTION TAB </a></li>
+							<li><a data-toggle="tab" href="#search">
+							<i class="icon-info-sign"></i>SUGGESTED VIDEOS </a></li>
 				</ul>
 				<!-- /TABS CONTROLS -->
 				<!-- PANES -->
@@ -140,6 +151,8 @@
 									<td class="rightTableCol"><?php echo $docInfo['description']?><br></td>
 								</tr>
 							</table>
+					</div>
+					<div id="search" class="tab-pane fade widget-tags ">
 					</div>
 				</div>
 				</div>
@@ -188,9 +201,14 @@ if( isset($matchList) ){
 
 }
 else{
+	echo 'if (localStorage.getItem("matches") != undefined) {'."\n";
+	echo 'var matches = localStorage.getItem("matches");'. "\n";
+	echo 'matches = matches.split(",").map(Number); }'."\n";
+	echo 'else'."\n";
 	echo 'var matches = [];'. "\n";
 }
 ?>
+
 //console.log(matches);
 magor.magorPlayer = new magor.MagorPlayer(segments);
 magor.magorPlayer.highlightMatches(matches);
@@ -198,5 +216,21 @@ magor.magorPlayer.highlightMatches(matches);
 
 });
 </script>
+<script>
 
+/*$(document).ready(function () {
+	var input = localStorage.getItem("input");
+	if (input != null) {
+		var x = document.getElementById('userSearchInput');
+		x.value = input;
+		localStorage.setItem("keyword", x.value);
+		$('#searchBtn').click();
+		console.log("HERE1");
+		localStorage.removeItem("keyword");
+	}
+	
+	
+	//localStorage.removeItem("input");
+});*/
+</script>
 		<?php include ('footer.php'); ?>

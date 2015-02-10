@@ -3,11 +3,21 @@
 
 
 <div class="container">
+	<!--<script type="text/javascript">
+			$(document).ready(function(){
+				var options = {  
+					xmlUrl: './static/xml/conceptTree.xml',
+					storeState: true
+				};
+				console.log(options);
+				$('#xmlMenuTree').xmltree(options);
+			});
+		</script>-->
 	<div class="rowa">
-		<div class="col-lg-3 ">
-			<div class="well hidden">
-				Temporary Placeholder Here
-				<p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+		<!-- LEFT SIDE-->
+		<div class="col-lg-3">
+			<div class="well" >
+				<div id="xmlMenuTree"></div>
 			</div>
 		</div>
 		<div class="col-lg-7 col-lg-offset-1">

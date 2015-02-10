@@ -429,7 +429,7 @@
 
   //   Newly added to unhighlight old matches
   magor.MagorPlayer.prototype._unhighlightMatches = function() {
-    //this.$_progressHighlights.empty();
+    this.$_progressHighlights.empty();
     //console.log(this._unmatchedSegmentIds.length);
     for (var i = 0; i < this._unmatchedSegmentIds.length; i++) {
       var segment = this._segmentMap[this._unmatchedSegmentIds[i]];

@@ -36,7 +36,7 @@ if (isset($keyword)){
 			//	1. Search from Lucene
 			include_once('./model/searchLucene.php');
 			$luceneOut = searchLucene($keyword,$collection);
-			
+			//print_r($luceneOut);
 	
 			/* if ( sizeof($luceneOut) == 1 ){
 				
@@ -70,13 +70,19 @@ if (isset($keyword)){
 		
 				include_once('./model/sortResults.php');
 				$sortedResultArray= aggregate($resultArray,$collection);
+
+				
 				
 				 
 				$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
 				$finalDisplayArray = array_merge($finalDisplayArray,$vals);
 				array_multisort($finalDisplayArray, SORT_DESC);
+
+				include_once('./model/extractMatchListFromArray.php');
+				$matchSegmentArray = extractMatchListFromArray($finalResultArray);
+				//print_r($finalDisplayArray);
 				
-				/* echo '<pre>';
+				/*echo '<pre>';
 				echo '</br>';
 				print_r($sortedResultArray);
 				//print_r($finalDisplayArray);

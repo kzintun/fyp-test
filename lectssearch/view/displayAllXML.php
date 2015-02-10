@@ -2,11 +2,21 @@
 
 
 <div class="container">
+	<!--<script type="text/javascript">
+			$(document).ready(function(){
+				var options = {  
+					xmlUrl: './static/xml/conceptTree.xml',
+					storeState: true
+				};
+				console.log(options);
+				$('#xmlMenuTree').xmltree(options);
+			});
+	</script>-->
 	<div class="rowa">
+		<!-- LEFT SIDE-->
 		<div class="col-lg-3">
-			<div class="well hidden">
-				Temp Placeholder
-				<p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+			<div class="well" >
+				<div id="xmlMenuTree"></div>
 			</div>
 		</div>
 		<div class="col-lg-7 col-lg-offset-1">
@@ -49,7 +59,7 @@
 							</table>
 						 </div>
 						 <a class="media-right media-middle" href="index.php?database=<?php echo $_GET['database'];?>&document=<?php echo $key; ?>">
-				    		<img class="docIcon" src="<?php echo './img/thumbnail/'.$key.'.png'?>" border="0" alt="database icon" onerror='this.onerror = null; this.src="<?php echo $defaultIcon?>"'>
+				    		<img class="docIcon" src="<?php echo './img/thumbnails/'.$key.'.png'?>" border="0" alt="database icon" onerror='this.onerror = null; this.src="<?php echo $defaultIcon?>"'>
 					  	</a>
 					</div>
 			  </li>

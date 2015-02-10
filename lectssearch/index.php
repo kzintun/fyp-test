@@ -1,5 +1,6 @@
 <?php
-
+ini_set('session.cache_limiter','public');
+session_cache_limiter(false);
 session_start();
 
 //~ for i in $(find documents -name *.xml); dojava -jar indexDoc.jar $i MIT_Aerospace ;echo $i  ; done
@@ -34,6 +35,11 @@ elseif ( !isset($_GET['document'])  AND  !isset($_GET['database']) AND isset($_G
 elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword'])  AND ( !isset($_GET['seek'])  OR  empty($_GET['seek'])  )){
 	//	Scenario 5 - one collection selected, one keyword selected
 	include_once('controller/searchKeyword.php');
+}
+
+elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['concept'])  AND ( !isset($_GET['seek'])  OR  empty($_GET['seek'])  )){
+	//	Scenario 5 - one collection selected, one keyword selected
+	include_once('controller/searchConcept.php');
 }
 
 elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword'])){
