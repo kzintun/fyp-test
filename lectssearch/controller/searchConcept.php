@@ -5,7 +5,7 @@ if (!isset( $_GET['database']))
 	$collList = "all";
 else
 	$collList = $_GET['database'];
-$concept = $_GET['concept'];
+	$concept = $_GET['concept'];
 
 if (isset($concept)){
 	
@@ -15,100 +15,45 @@ if (isset($concept)){
 	$finalResultArray = array();
 	$finalDisplayArray = array();
 	
-	// GET database/collection name here (currently hard-coded)
-	//$collection = 'aerospace';
 	
-	
-	
-	if ($collList == 'all')
-	{
-		//echo $collList;
-		$colDir = './collections' ;
-		$ext = '.xml';
-		include_once('model/getFileList.php');
-		$collList = getFileList($colDir,$ext);	
-	}
-	//print_r($colList);
 	foreach ((array)$collList as $collection)
 	{
-			//echo $collList;
-			$collection = preg_replace('/\\.[^.\\s]{3,4}$/', '', $collection);
-			//	1. Search from Lucene
-			include_once('./model/searchLucene.php');
-			$luceneOut = searchLucene($concept,$collection);
-			//print_r($luceneOut);
+		$conceptXMLFile = $collection.".xml";
 	
-			/* if ( sizeof($luceneOut) == 1 ){
+	
+		include_once('./model/searchConceptXML.php');
+		$xmlOut = searchConceptXML($concept, $conceptXMLFile);
+
+	
+		include_once('./model/getInfoFromConceptSearch.php');
+		$resultArray = getInfoFromConceptSearch($xmlOut);
 				
-				 
-				$value = $luceneOut[0];
-				$errorMessage='No search results are found in ' .$collection.'</br>Error Details: '. $value;
-				
-				include_once('./view/errorFile.php');
-			}
-			else{ */
-			
-				include_once('./model/getInfoFromSearch.php');
-				$resultArray = getInfoFromSearch($luceneOut);
+		array_multisort($resultArray);
 				
 				
-				
-				array_multisort($resultArray);
-				
-				
-				$vals = array_count_values(array_column($resultArray,'docname'));
-				array_multisort($vals, SORT_DESC);
+		$vals = array_count_values(array_column($resultArray,'docname'));
+		array_multisort($vals, SORT_DESC);
 				
 			
-				include_once('./model/removeStopWords.php');
-				$concept = removeStopWords($concept);
+		//include_once('./model/removeStopWords.php');
+		//$concept = removeStopWords($concept);
 					
 			
-				include_once('./model/highlightconcept.php');
+		//include_once('./model/highlightconcept.php');
+		//$resultArray=highlightconcept($resultArray,$concept);
 		
-				$resultArray=highlightconcept($resultArray,$concept);
-		
-				include_once('./model/sortResults.php');
-				$sortedResultArray= aggregate($resultArray,$collection);
+		include_once('./model/sortResults.php');
+		$sortedResultArray= aggregate($resultArray,$collection);
+		 
+		$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
+		$finalDisplayArray = array_merge($finalDisplayArray,$vals);
+		array_multisort($finalDisplayArray, SORT_DESC);
 
+		include_once('./model/extractMatchListFromArray.php');
+		$matchSegmentArray = extractMatchListFromArray($finalResultArray);
 				
 				
-				 
-				$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
-				$finalDisplayArray = array_merge($finalDisplayArray,$vals);
-				array_multisort($finalDisplayArray, SORT_DESC);
-
-				include_once('./model/extractMatchListFromArray.php');
-				$matchSegmentArray = extractMatchListFromArray($finalResultArray);
-				//print_r($finalDisplayArray);
-				
-				/*echo '<pre>';
-				echo '</br>';
-				print_r($sortedResultArray);
-				//print_r($finalDisplayArray);
-				
-				
-				print_r($finalDisplayArray);
-				echo '</pre>'; */
-				// Printing the contents of sorted result array (Array C)
-				/*   foreach ($sortedResultArray as $key => $value){
-					echo '</br>Document Name: <u>'.$key . '</u></br>';
-					for ($k=0 ; $k < sizeof($value); $k++){
-						echo '</br>';
-						echo 'SegmentID: '.$value[$k]['segmentID'] . '</br>';
-						echo 'SpeakerID: '.$value[$k]['speakerID'] . '</br>';
-						echo 'SentenceID: '.$value[$k]['sentenceID'] . '</br>';
-						echo 'StartTime: '.$value[$k]['startTime'] . '</br></br>';
-						echo 'Text: '.$value[$k]['text'] . '</br>';
-						echo 'Collection: '.$collection . '</br></br>';
-						} 
-				}  */
-				// ----------------- block end ----------------------------------------
-				 /* 7.	Pass to VIEW page
-				 ** To be implemented next ** */
-				
-			//}	
-	}	// end of foreach $collList loop	
+		}// end of foreach $collList loop	
 		
 		if ( sizeof($finalResultArray) == 0 )
 		{
@@ -120,9 +65,7 @@ if (isset($concept)){
 		
 		else{
 		include_once('view/displaySearch.php');	
-		/* echo '<pre>';
-		print_r($finalDisplayArray);
-		echo '</pre>'; */
+	
 		}
 }
 else{
