@@ -53,7 +53,16 @@ if (isset($concept)){
 		include_once('./model/extractMatchListFromArray.php');
 		$matchSegmentArray = extractMatchListFromArray($finalResultArray);
 				
+		/*echo '<pre>';
+				echo '</br>';
+				//print_r($sortedResultArray);
+				//print_r($finalDisplayArray);
 				
+				
+				print_r($finalResultArray);
+				print_r($matchSegmentArray);
+				echo '</pre>'; */
+
 		}// end of foreach $collList loop	
 		
 		//echo '<pre>';

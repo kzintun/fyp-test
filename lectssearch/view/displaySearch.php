@@ -156,7 +156,9 @@ $(document).ready(function() {
 				//console.log(passArray);
 				//console.log(arr);
 				var currentURL = window.location.href;
-				currentURL= currentURL.substring(0,currentURL.search("&keyword="));
+				console.log(currentURL);
+				if (currentURL.search("&keyword=") > -1) currentURL= currentURL.substring(0,currentURL.search("&keyword="));
+				else if (currentURL.search("&concept=") > -1) currentURL= currentURL.substring(0,currentURL.search("&concept="));
 				var urlSearch = currentURL + "&document=" + key;
 				console.log(urlSearch);
 				

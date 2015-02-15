@@ -13,7 +13,7 @@
 	<div class="rowa">
 		<!-- LEFT SIDE-->
 		<div class="col-lg-3">
-			<div class="well hidden" >
+			<div class="well" >
 				<div id="xmlMenuTree"></div>
 			</div>
 		</div>

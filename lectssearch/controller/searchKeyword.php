@@ -72,7 +72,7 @@ if (isset($keyword)){
 				$sortedResultArray= aggregate($resultArray,$collection);
 
 				
-				
+				 
 				 
 				$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
 				$finalDisplayArray = array_merge($finalDisplayArray,$vals);
@@ -90,7 +90,7 @@ if (isset($keyword)){
 				//print_r($finalDisplayArray);
 				
 				
-				//print_r($finalResultArray);
+				print_r($finalResultArray);
 				print_r($matchSegmentArray);
 				echo '</pre>'; */
 				// Printing the contents of sorted result array (Array C)

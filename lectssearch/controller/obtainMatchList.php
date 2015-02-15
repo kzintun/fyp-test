@@ -30,9 +30,12 @@ if (isset($document)){
 		//print_r($printScript);
 		// need to preprare also the text for the description. (no loop in the view)
 		if  (isset($matches)) {
+			
+			include_once('./model/createEquivalence.php');
+			$equivalence = createEquivalence($printScript);
 			include_once("model/getMatchList.php");
-
-			$matchList = getMatchList($printScript[0]['eq'], $matches);
+			$matchList = getMatchList($equivalence, $matches);
+			//$matchList = getMatchList($printScript[0]['eq'], $matches);
 		}
 		else{
 			$matchList = array();

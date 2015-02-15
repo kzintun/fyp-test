@@ -162,10 +162,11 @@
 						//console.log(conceptList);
 						keywordList = input.substring(end+1,input.length);
 						//console.log(keywordList);
-						var conceptArray = conceptList.split(",");
-						console.log(conceptArray);
+						var conceptArray = conceptList.split(", ");
+						//console.log("Printing conceptArray");
+						//console.log(conceptArray);
 						for (i = 0; i < conceptArray.length; i++) {
-							if(conceptArray[i]===concept){
+							if(conceptArray[i]==concept){
 								repeated = 1;
 								break;
 							}
@@ -176,8 +177,9 @@
 
 
 				if (concept !== undefined)  {
-					if(conceptList != "") {
-						console.log("in this loop");
+					//console.log(x.value);
+					if((conceptList != "")&&(x.value != "")) {
+						//console.log("in this loop");
 						if (repeated == -1) {
 							conceptList += ", ";
 							conceptList += concept;
@@ -196,7 +198,10 @@
 					localStorage.setItem("input", searchString);
 					
 					console.log(localStorage);
-					$('#searchBtn').click();
+					if (repeated == -1) {
+						$('#searchBtn').click();
+					}
+					
 				}
 			}
 

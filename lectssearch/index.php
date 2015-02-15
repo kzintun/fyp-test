@@ -10,8 +10,8 @@ if ( !isset($_GET) OR empty($_GET) ){
 	include_once('controller/listDatabase.php');
 }
 elseif ( isset($_POST['document'])  AND  isset($_POST['database']) AND isset($_POST['matches'])){
-	//	Scenario 6 - one collection selected, one document selected, one keyword selected
-	//echo "GOING IN";
+	//	Scenario X - one collection selected, one document selected, matches selected
+	//  AJAX Function;
 	include_once('controller/obtainMatchList.php');
 }
 
@@ -49,8 +49,14 @@ elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GE
 
 elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword'])){
 	//	Scenario 6 - one collection selected, one document selected, one keyword selected
-	//echo "GOING IN";
+	//echo "GOING IN KEYWORD SEARCH";
 	include_once('controller/searchKeywordInDocument.php');
+}
+
+elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['concept'])){
+	//	Scenario 6 - one collection selected, one document selected, one keyword selected
+	//echo "GOING IN CONCEPT SEARCH";
+	include_once('controller/searchConceptInDocument.php');
 }
 
 //elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['keyword']) AND isset($_GET['seek']) ){
