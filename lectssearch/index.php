@@ -15,14 +15,14 @@ elseif ( isset($_POST['document'])  AND  isset($_POST['database']) AND isset($_P
 	include_once('controller/obtainMatchList.php');
 }
 
-elseif ( isset($_GET['database']) AND  (!isset($_GET['document']) OR empty($_GET['document'])) AND !isset($_GET['keyword']) ){
+elseif ( isset($_GET['database']) AND  (!isset($_GET['document']) OR empty($_GET['document'])) AND !isset($_GET['keyword']) AND !isset($_GET['concept']) ){
 	//	Scenario 2 - one collection selected, no document selected, no keyword
 	// => show the list of doc in the collection
 	//~ include_once('controller/loadAndShowCollectionFiles.php');
 	include_once('controller/showOneCollection.php');
 }
 
-elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND ( !isset($_GET['keyword'])  OR  empty($_GET['keyword']) )){
+elseif ( isset($_GET['document'])  AND  isset($_GET['database']) AND ( !isset($_GET['keyword'])  OR  empty($_GET['keyword']) ) AND !isset($_GET['concept'])){
 	//	Scenario 3 - collection selected, a document is selected, no keyword searched => show the transcription of the document. starting time is zero
 	// show doc without search
 	//~ include_once('controller/loadAndShowDocument.php');
