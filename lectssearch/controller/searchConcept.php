@@ -42,7 +42,8 @@ if (isset($concept)){
 		//include_once('./model/highlightconcept.php');
 		//$resultArray=highlightconcept($resultArray,$concept);
 		
-		include_once('./model/sortResults.php');
+		//include_once('./model/sortResults.php');
+		include_once('./model/sortConceptResults.php');
 		$sortedResultArray= aggregate($resultArray,$collection);
 		 
 		$finalResultArray = array_merge($finalResultArray,$sortedResultArray);
@@ -55,10 +56,17 @@ if (isset($concept)){
 				
 		}// end of foreach $collList loop	
 		
+		//echo '<pre>';
+		//print_r($finalResultArray);
+		//echo '</pre>';
+		
+		
 		if ( sizeof($finalResultArray) == 0 )
 		{
 				//echo sizeof($finalResultArray);
+				//echo '<pre>';
 				//print_r($finalResultArray);
+				//echo '</pre>';
 				$errorMessage='No search results are found. ';
 				include_once('./view/errorFile.php');
 		}

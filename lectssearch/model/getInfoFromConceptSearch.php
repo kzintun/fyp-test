@@ -15,6 +15,8 @@ function getInfoFromConceptSearch($xmlOut){
 		$searchDocInfo[$counter]['segmentID'] = (string)$value['segID'];
 		$searchDocInfo[$counter]['speakerID'] = (string)$value['spkID'];
 		$searchDocInfo[$counter]['sentenceID'] = (string)$value['senID'];
+		$searchDocInfo[$counter]['swID'] = (string)$value['startWID'];
+		$searchDocInfo[$counter]['ewID'] = (string)$value['endWID'];
 		$searchDocInfo[$counter]['startTime'] = (string)$value['startWID'];
 		$searchDocInfo[$counter]['text'] = (string)$value['text'];
 		$searchDocInfo[$counter]['word'] = "";
