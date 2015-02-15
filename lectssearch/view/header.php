@@ -198,9 +198,9 @@
 					localStorage.setItem("input", searchString);
 					
 					console.log(localStorage);
-					if (repeated == -1) {
+					//if (repeated == -1) {
 						$('#searchBtn').click();
-					}
+					//}
 					
 				}
 			}
