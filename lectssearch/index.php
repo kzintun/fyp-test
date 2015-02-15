@@ -9,6 +9,11 @@ if ( !isset($_GET) OR empty($_GET) ){
 	//	Scenario 1 : home page, list the collections present in the database directory
 	include_once('controller/listDatabase.php');
 }
+elseif ( isset($_POST['document'])  AND  isset($_POST['database']) AND isset($_POST['matches'])){
+	//	Scenario 6 - one collection selected, one document selected, one keyword selected
+	//echo "GOING IN";
+	include_once('controller/obtainMatchList.php');
+}
 
 elseif ( isset($_GET['database']) AND  (!isset($_GET['document']) OR empty($_GET['document'])) AND !isset($_GET['keyword']) ){
 	//	Scenario 2 - one collection selected, no document selected, no keyword

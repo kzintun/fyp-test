@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <document date="23/01/2015" name="Lecture1IntroductionMITRES6007SignalsandSystemsSpring2011">
+	<metadata>
+		<media name="Lecture1IntroductionMITRES6007SignalsandSystemsSpring2011.mp4" />
+		<speakers>
+			<speaker id="0" name="PR_AL_OPPENHEIM" />
+			<speaker id="1" name="unknown" />
+		</speakers>
+	</metadata>
 	<content>
 		<segment endTime="42.33" id="0" spkName="1" startTime="0.000">
 			<sentence endTime="42.33" id="0" spkName="1" startTime="0.000" />

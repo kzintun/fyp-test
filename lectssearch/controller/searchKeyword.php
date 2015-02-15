@@ -80,15 +80,18 @@ if (isset($keyword)){
 
 				include_once('./model/extractMatchListFromArray.php');
 				$matchSegmentArray = extractMatchListFromArray($finalResultArray);
+				//$_SESSION['matchSegmentArray'] = $matchSegmentArray;
+				//$_SESSION['keyword'] = $keyword;
 				//print_r($finalDisplayArray);
 				
 				/*echo '<pre>';
 				echo '</br>';
-				print_r($sortedResultArray);
+				//print_r($sortedResultArray);
 				//print_r($finalDisplayArray);
 				
 				
-				print_r($finalDisplayArray);
+				//print_r($finalResultArray);
+				print_r($matchSegmentArray);
 				echo '</pre>'; */
 				// Printing the contents of sorted result array (Array C)
 				/*   foreach ($sortedResultArray as $key => $value){

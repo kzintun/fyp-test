@@ -164,7 +164,6 @@
 <script src="./static/js/magor.js" type="text/javascript"></script>
 <script src="./static/js/magor-player.js" type="text/javascript"></script>
 <script src="./static/js/magor-filter.js" type="text/javascript"></script>
-
 <script type="text/javascript">
 $(document).ready(function() {
 	//activate video player tooltips
@@ -202,14 +201,14 @@ if( isset($matchList) ){
 }
 else{
 	echo 'if (localStorage.getItem("matches") != undefined) {'."\n";
-	echo 'var matches = localStorage.getItem("matches");'. "\n";
+	echo 'var matches = JSON.parse(localStorage.getItem("matches"));	'. "\n";
 	echo 'matches = matches.split(",").map(Number); }'."\n";
 	echo 'else'."\n";
 	echo 'var matches = [];'. "\n";
 }
 ?>
 
-//console.log(matches);
+console.log(matches);
 magor.magorPlayer = new magor.MagorPlayer(segments);
 magor.magorPlayer.highlightMatches(matches);
 
@@ -222,7 +221,7 @@ magor.magorPlayer.highlightMatches(matches);
 	var input = localStorage.getItem("input");
 	if (input != null) {
 		var x = document.getElementById('userSearchInput');
-		x.value = input;
+		x.value = input;	
 		localStorage.setItem("keyword", x.value);
 		$('#searchBtn').click();
 		console.log("HERE1");
@@ -231,6 +230,7 @@ magor.magorPlayer.highlightMatches(matches);
 	
 	
 	//localStorage.removeItem("input");
+
 });*/
 </script>
 		<?php include ('footer.php'); ?>

@@ -128,7 +128,7 @@ $(document).ready(function() {
 			<script>
 			$('.img-redirect').click(function() { 
 				//console.log("CLICKED");
-				console.log(this.id);
+				//console.log(this.id);
 				var key = this.id;
 				
 				/*<?php
@@ -136,13 +136,68 @@ $(document).ready(function() {
 					echo "var passArray = ". $js_array . ";\n";
 				?>*/
 				var passArray = <?php echo json_encode($matchSegmentArray);?>;
-				passArray = passArray[key];
-				//var arr = $.map(passArray, function(el) { return el; });
 				console.log(passArray);
+				passArray = passArray[key];
+				var outerArray = {};
+				outerArray[0] = passArray;
+				outerArray = JSON.stringify(outerArray);
+
+				//console.log(outerArray);
+
+				var vars = {};
+				var url = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+					vars[key] = value;
+				});
+				var db =  vars["database"];
+				//console.log(db);
+				//console.log(urlSearch);
+
+				//var arr = $.map(passArray, function(el) { return el; });
+				//console.log(passArray);
 				//console.log(arr);
-				localStorage.setItem("matches", passArray);
-				console.log(localStorage.getItem("matches"));
+				var currentURL = window.location.href;
+				currentURL= currentURL.substring(0,currentURL.search("&keyword="));
+				var urlSearch = currentURL + "&document=" + key;
+				console.log(urlSearch);
+				
+				$.ajax({
+			        url: urlSearch,
+			        type: 'POST',
+			        data: {'database':db, 'document':key,'matches': outerArray},
+			        success: function(data){
+			        	results = data.trim();
+
+			        	results = results.substring(1,results.length-1);
+			        	console.log(results);
+			        	console.log("IT WORKED");
+			        	//console.log(results);
+			        	localStorage.setItem("matches", JSON.stringify(results));
+						console.log(localStorage.getItem("matches"));
+			        	//if (results.length == 0) {
+		        			//message=results;
+			        		//$('#alertResults').html('<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
+		        		//}
+			        },
+			        //dataType:'json'
+			        
+			    });
+			    //return false;
+			    //'./controller/obtainMatchList.php'
+			    //'database':db, 'document':key, 
+				/*$.ajax({
+					type: 'POST',
+					url: urlSearch,
+					
+					success: function(data){
+						console.log(data);
+					},
+					dataType:'json'
+				});*/
+
+				
+
 				//this.href="index.php?database="+<?php echo $finalResultArray[$key][0]['collection'];?>="&document="+key;
+				//href="index.php?database=<?php echo $finalResultArray[$key][0]['collection'];?>&document=<?php echo $key; ?>"
 				//return false; 
 
 			});

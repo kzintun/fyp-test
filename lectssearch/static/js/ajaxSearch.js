@@ -10,19 +10,19 @@ function() {
 	var matches = localStorage.getItem("matches");
 	//console.log("PRINTING MATCHES");
 	//console.log(matches);
-	var keyword = localStorage.getItem("keyword");
+	//var keyword = localStorage.getItem("keyword");
 
 	if (kw.length === 0) {
 
-		if (keyword !== null ) {
-			console.log(localStorage);
-			kw = keyword;
-			localStorage.removeItem("keyword");
-		}
-		else {
+		//if (keyword !== null ) {
+		//	console.log(localStorage);
+		//	kw = keyword;
+		//	localStorage.removeItem("keyword");
+		//}
+		//else {
 			if (matches !== null) {
 				//if(typeof(matches)==String) 
-				//matches = JSON.parse(matches);
+				matches = JSON.parse(localStorage.getItem("matches"));
 				matches = matches.split(",").map(Number);
 				magor.magorPlayer.unhighlightMatches(matches);
 				localStorage.removeItem("matches");
@@ -32,7 +32,7 @@ function() {
 			$('#alertResults').html('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
 		
 			return false;
-		}
+		//}
 	}
 	console.log("IN AJAXSEARCH WITH INPUT");
 	//var kw = getUrlVars()["keyword"];
@@ -41,17 +41,17 @@ function() {
 	//console.log(doc);
 	//console.log(kw);
 	//console.log(searchField);
-	urlSearch = currentURL + "&keyword=" + kw;
+	var urlSearch = currentURL + "&keyword=" + kw;
 	//urlSearch = "./controller/searchKeywordInDocument.php";
 	results = new Array();
 	if (( db != null) && (doc != null )){
 		console.log("Bef ajax");
 		//console.log(urlSearch);
 		if(matches !== null) {
-			//console.log(matches);
-			//matches = JSON.parse(matches);
+			console.log(matches);
+			matches = JSON.parse(localStorage.getItem("matches"));
 			matches = matches.split(",").map(Number);
-			//console.log(matches);
+			console.log(matches);
 			magor.magorPlayer.unhighlightMatches(matches);
 			localStorage.removeItem("matches");
 			matches = localStorage.getItem("matches");
@@ -62,24 +62,28 @@ function() {
 	        type: 'POST',
 	        success: function(data){
 	        	//alert("HERE!");
-	        	results = data;
+	        	results = data.trim();
+	        	results = results.substring(1,results.length-1);
+	        	
+	        	//if(data != null) results = results.trim();
 	        	
 	        	//$( "#test" ).html( data );
 	        	console.log("AJAXSEARCH PRINTING RESULTS");
 	        	console.log(results);
-        		if (results.length == 0) {
+        		if ((results.length == 0)||(results == null)) {
         			message="No occurence found for <strong>"+kw+"</strong>, please refine your search.";
 	        		$('#alertResults').html('<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
         		}
         		else {
-		        	//localStorage.setItem("matches", JSON.stringify(results));
-		        	localStorage.setItem("matches",results);
+		        	localStorage.setItem("matches", JSON.stringify(results));
+		        	//localStorage.setItem("matches",results);
+		        	results = results.split(",").map(Number);
 		        	message="<strong>"+ results.length +"</strong> occurrence(s) of <strong>" + kw+"</strong> found in this document.";
 		        	$('#alertResults').html('<div class="alert alert-success alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
 		        	magor.magorPlayer.highlightMatches(results);
 	        	}
-	        },
-	        dataType:'json'
+	        }
+	        //dataType:'json'
 	        
 	    });
 

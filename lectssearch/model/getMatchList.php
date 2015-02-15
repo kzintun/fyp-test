@@ -1,15 +1,16 @@
-<?php 
+<?php  
 function getMatchList($equivalence, $searchResult){
-	//print_r($equivalence);
+	//print_r($searchResult);
 	$output = array();
 	//print_r($output);
-	
+
 	foreach($searchResult as $spkTurnId){
 		foreach($spkTurnId['results'] as $keySeg => $value){
 			foreach($spkTurnId['results'][$keySeg] as $keySent => $value2){
 				//~ echo "$keySeg,$keySent\n";
 				$keyEq = (string)$keySeg . ',' . (string)$keySent;
-				//~ echo $equivalence[$keyEq]. "\n";
+				//echo $keyEq;
+				// echo $equivalence[$keyEq]. "\n";
 				$output[] = $equivalence[$keyEq];
 		//~ foreach($searchResult[$spkTurnId]['results'] as $key1 => $value){
 			//~ foreach ($searchResult[$spkTurnId]['results'][$key1] as $key2 => $value1){

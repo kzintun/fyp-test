@@ -84,7 +84,7 @@ if ( isset($keyword) AND !(empty($keyword) )){
 		include_once('model/sortByDocumentAndCount.php');
 		//~ print_r($searchResultArray);
 		$sortedResultArray = sortByDocumentAndCount($searchResultArray[$keyword], $document, $keyword);
-		// print_r($sortedResultArray);
+
 	}
 
 
@@ -109,7 +109,11 @@ if ( isset($keyword) AND !(empty($keyword) )){
 	else{
 		include_once("model/getMatchList.php");
 		//print_r($printScript);
-		$matchList = getMatchList($printScript[0]['eq'], $sortedResultArray);
+		//$matchList = getMatchList($printScript[0]['eq'], $sortedResultArray);
+		include_once('./model/createEquivalence.php');
+		$equivalence = createEquivalence($printScript);
+
+		$matchList = getMatchList($equivalence, $sortedResultArray);
 		//$matchList = getMatchList($printScript['eq'], $sortedResultArray);
 	}
 	//print_r($matchList);
@@ -117,6 +121,13 @@ if ( isset($keyword) AND !(empty($keyword) )){
 
 	//~ print_r($sortedResultArray);
 	//include_once("view/displayContent.php");
+	/*		print_r("<pre>");
+		//	print_r($searchResultArray);
+		//print_r($sortedResultArray);
+		print_r($equivalence);
+
+		print_r($printScript);
+		print_r("</pre>");	*/
 	echo json_encode($matchList);
 	//~ $_SESSION['resultArray'] = $sortedResultArray;
 	//~ print_r($sortedResultArray);
