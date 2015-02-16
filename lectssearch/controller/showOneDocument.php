@@ -2,6 +2,7 @@
 
 $document=$_GET['document'];
 $database =$_GET['database'];
+if(isset($_GET['seek'])) $seekTime = $_GET['seek'];
 
 if (isset($document)){	
 	$xmlLoc = './documents/'.$document.'.xml';

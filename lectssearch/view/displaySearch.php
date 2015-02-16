@@ -96,7 +96,7 @@ $(document).ready(function() {
 													<?php for ($k= 0 ; $k < sizeof($finalResultArray[$key]); $k++){
 																$time = $finalResultArray[$key][$k]['startTime'];?>
 													<tr>
-														<td><a id="<?php echo 'tid-'.$key; ?>" class ="inline img-redirect"  href="index.php?database=<?php echo $finalResultArray[$key][$k]['collection'];?>&document=<?php echo $key;?>&seek=<?php echo $time;?>">
+														<td><a id="<?php echo $key; ?>" class ="inline img-redirect"  href="index.php?database=<?php echo $finalResultArray[$key][$k]['collection'];?>&document=<?php echo $key;?>&seek=<?php echo $time;?>">
 														<?php echo $finalResultArray[$key][$k]['startTime'] ?></a></td>
 														<td><?php echo $finalResultArray[$key][$k]['text'] ?></td>
 													</tr>

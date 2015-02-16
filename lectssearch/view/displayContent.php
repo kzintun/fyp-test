@@ -1,15 +1,5 @@
 <?php include ('header.php'); ?>
 <div class="container">
-	<!--<script type="text/javascript">
-			$(document).ready(function(){
-				var options = {  
-					xmlUrl: './static/xml/conceptTree.xml',
-					storeState: true
-				};
-				console.log(options);
-				$('#xmlMenuTree').xmltree(options);
-			});
-	</script>-->
 	<div class="rowa">
 		<!-- LEFT SIDE-->
 		<div class="col-lg-3">
@@ -211,6 +201,11 @@ else{
 console.log(matches);
 magor.magorPlayer = new magor.MagorPlayer(segments);
 magor.magorPlayer.highlightMatches(matches);
+<?php if(isset($seekTime)) {?>;
+	var seekTime = <?php echo $seekTime?>;
+	if (seekTime != null) magor.magorPlayer.currentTime(seekTime * 1000);
+<?php }?>
+
 
 
 });

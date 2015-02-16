@@ -371,6 +371,7 @@
    */
   magor.MagorPlayer.prototype._updateProgress = function() {
     this.$_timeCurrent.text(this._formatTime(this.currentTime()));
+    //console.log(this.currentTime());
     this._setProgressBar(this.currentTime());
   }
 

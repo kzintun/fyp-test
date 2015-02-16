@@ -13,7 +13,7 @@
 
 function aggregate($srList,$collection){
   $aggregated = array();
-  echo 'sorting result array <br>';
+  //echo 'sorting result array <br>';
   $counter = 0;
   foreach($srList as $result){
 	if(!array_key_exists($result['docname'], $aggregated)){
