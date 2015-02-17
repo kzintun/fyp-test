@@ -11,36 +11,68 @@ if (isset($concept)){
 	
 	//	initialize
 	$resultArray = array();
+	$resultArray1 = array();
+	$resultArray2 = array();
 	$sortedResultArray = array();
 	$finalResultArray = array();
 	$finalDisplayArray = array();
+	$conceptArry = array ();
+	
+	
+	$conceptArry = explode(", ", $concept);
+	
+	//print_r($conceptArry);
+	
 	
 	
 	foreach ((array)$collList as $collection)
 	{
+	
 		$conceptXMLFile = $collection.".xml";
-	
-	
+		
 		include_once('./model/searchConceptXML.php');
-		$xmlOut = searchConceptXML($concept, $conceptXMLFile);
-
+		//$xmlOut = searchConceptXML($concept, $conceptXMLFile);
+		$xmlOut = searchConceptXML($conceptArry[0], $conceptXMLFile);
 	
 		include_once('./model/getInfoFromConceptSearch.php');
 		$resultArray = getInfoFromConceptSearch($xmlOut);
+		
+		if (sizeof($conceptArry) > 1)
+		{
+			//$xmlOut1 = searchConceptXML($conceptArry[0], $conceptXMLFile);
+			//$resultArray1 = getInfoFromConceptSearch($xmlOut1);
+			
+			include_once('./model/compareConceptAND.php');
+			//echo 'no of search concepts: ' . sizeof($conceptArry) .'<br>';
+			for ($i=1 ; $i< sizeof($conceptArry); $i++)
+			{
+				//echo $i.'th concept:'.$conceptArry[1] . '<br>';
+				$xmlOut2 = searchConceptXML($conceptArry[$i], $conceptXMLFile);
+				//$xmlOut2 = searchConceptXML('SS01', $conceptXMLFile);
+				//print_r($xmlOut2);
+				$resultArray2 = getInfoFromConceptSearch($xmlOut2);
+				//echo '<pre>';
+				//print_r($resultArray2);
+				//echo '</pre>';
+				$resultArray = compareConcepts($resultArray,$resultArray2);
 				
+			}
+		}
+
 		array_multisort($resultArray);
 				
 				
 		$vals = array_count_values(array_column($resultArray,'docname'));
 		array_multisort($vals, SORT_DESC);
-				
-			
-		//include_once('./model/removeStopWords.php');
-		//$concept = removeStopWords($concept);
+					
 					
 			
-		//include_once('./model/highlightconcept.php');
-		//$resultArray=highlightconcept($resultArray,$concept);
+		include_once('./model/highlightConcept.php');
+		$resultArray=highlightConcept($resultArray);
+		
+		//echo '<pre>';
+		//print_r($resultArray);
+		//echo '</pre>';
 		
 		//include_once('./model/sortResults.php');
 		include_once('./model/sortConceptResults.php');
@@ -53,16 +85,7 @@ if (isset($concept)){
 		include_once('./model/extractMatchListFromArray.php');
 		$matchSegmentArray = extractMatchListFromArray($finalResultArray);
 				
-		/*echo '<pre>';
-				echo '</br>';
-				//print_r($sortedResultArray);
-				//print_r($finalDisplayArray);
 				
-				
-				print_r($finalResultArray);
-				print_r($matchSegmentArray);
-				echo '</pre>'; */
-
 		}// end of foreach $collList loop	
 		
 		//echo '<pre>';
@@ -81,8 +104,7 @@ if (isset($concept)){
 		}
 		
 		else{
-		include_once('view/displaySearch.php');	
-	
+			include_once('view/displaySearch.php');	
 		}
 }
 else{
