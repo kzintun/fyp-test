@@ -1,7 +1,7 @@
 <?php
 //$concept=$_POST['searchfield'];
 //echo "HERE";
-$collection = html_entity_decode($_GET['database']);
+$database = html_entity_decode($_GET['database']);
 $document = html_entity_decode($_GET['document']);
 if (isset($_GET['concept'])		){
 	$concept   = html_entity_decode($_GET['concept']);
@@ -25,13 +25,13 @@ if ( isset($concept) AND !(empty($concept) )){
 	//1. get list of Databases
 	//~ if (is_dir($dir)){
 	//~ $databaseList=getFileList($dir, $extension);
-	$databaseList[]=$collection;
+	$databaseList[]=$database;
 	//~ }
 
 
 	// 2. for each database, look into lucene
 	foreach ($databaseList as $db){
-		//~  let's simplify the process the extraction of the name of the collection
+		//~  let's simplify the process the extraction of the name of the database
 		$db = pathinfo($db, PATHINFO_FILENAME);
 		if ( !(isset($searchResultArray[$concept][$db] ))){
 			$conceptXMLFile = $db.".xml";
@@ -54,7 +54,7 @@ if ( isset($concept) AND !(empty($concept) )){
 				//~ highlight the concept in the text
 				//~ $resultArray=highlightconcept($resultArray, $concept, true);
 
-				//~ then append the new array to the collection
+				//~ then append the new array to the database
 				// ~ if not empty table we append it to the big search result variable
 
 

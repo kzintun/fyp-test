@@ -19,7 +19,7 @@
 			storeState: false,
 			toggleSpeed: 400
 		};
-		console.log("IN XMLTREEJS");
+		//console.log("IN XMLTREEJS");
 		
 		var options = $.extend(defaults, options);
 		
@@ -35,6 +35,7 @@
 				link : 'link', 
 				type : 'type',				
 				parentId : 'parentId', 
+				childId : 'childId',
 				linkName : 'linkName', 
 				linkTarget : 'linkTarget',				
 				linkOnClick : 'linkOnClick', 
@@ -135,6 +136,7 @@
 				var closeToggle = $(this).parent('span').siblings('.toggleIcon');
 				closeToggle.trigger('click');
 			});
+
 		}
 		
 		function traverseTree(node){
@@ -162,7 +164,7 @@
 				parentBlockParentIcon.addClass(treeData[XML_TREE_KEYWORDS.parentIcon]);
 			}
 			var parentBlockSpan = $("<span></span>");
-			var parentBlockLink = $("<a>" + treeData[XML_TREE_KEYWORDS.linkName] + "</a>");
+			var parentBlockLink = $("<a class='nodeLink' id='" + parentId + "'>" + treeData[XML_TREE_KEYWORDS.linkName] + "</a>");
 			if(treeData[XML_TREE_KEYWORDS.linkTarget] != ''){
 				parentBlockLink.attr('href', treeData[XML_TREE_KEYWORDS.linkTarget]);
 			}
@@ -195,6 +197,7 @@
 		
 		function buildChildrenBlock(node){
 			var treeData = getXmlTreeData(node);
+			var childId = $(node).attr(XML_TREE_KEYWORDS.childId);
 			
 			var childBlockLi = $("<li></li>");
 			if($(node).next().size() == 0){
@@ -205,7 +208,7 @@
 				childBlockChildIcon.addClass(treeData[XML_TREE_KEYWORDS.childIcon]);
 			}
 			var childBlockSpan = $("<span></span>");
-			var childBlockLink = $("<a>" + treeData[XML_TREE_KEYWORDS.linkName] + "</a>");
+			var childBlockLink = $("<a class='nodeLink' id='" + childId + "'>" + treeData[XML_TREE_KEYWORDS.linkName] + "</a>");
 			if(treeData[XML_TREE_KEYWORDS.linkTarget] != ''){
 				childBlockLink.attr('href', treeData[XML_TREE_KEYWORDS.linkTarget]);
 			}
@@ -285,5 +288,6 @@
 		function del_cookie(c_name) {
 			document.cookie = c_name + '=; expires=Thu, 01-Jan-70 00:00:01 GMT;';
 		} 
+	
 	}
 })(jQuery);

@@ -28,7 +28,13 @@ if (isset($document)){
 		include_once("model/prepareSegTranscript.php");
 		$printScript = prepSegTranscript($transcript, $docInfo , $document);
 		
+
+		include_once("model/calConceptToDoc.php");
+		$treeTable=calculateConcepts($database);
+		//echo '<pre>';
 		//print_r($printScript);
+		//echo '</pre>';
+		
 		// need to preprare also the text for the description. (no loop in the view)
 	
 		if ($transcript === 0) {

@@ -13,7 +13,6 @@
 		<link href="./static/css/video-js.min.css" rel="stylesheet"  />
 		<link href="./static/css/font-awesome.min.css" rel="stylesheet"  />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-
 		<link rel="stylesheet" href="./static/css/xmltree.css" type="text/css" media="screen" />
 
 
@@ -259,12 +258,100 @@
 
 		<div id="wrap">
 	<script type="text/javascript">
-			$(document).ready(function(){
-				var options = {  
+		/*document.addEventListener("DOMContentLoaded", theDomHasLoaded, false);
+		//window.addEventListener("load", pageFullyLoaded, false);
+		 
+		function theDomHasLoaded(e) {
+		    var options = {  
 					xmlUrl: './static/xml/conceptTree.xml',
 					storeState: true
 				};
-				console.log(options);
-				$('#xmlMenuTree').xmltree(options);
+			console.log(options);
+			//var done = false;
+			$('#xmlMenuTree').xmltree(options);
+		}
+		 
+		/*function pageFullyLoaded(e) {
+		    var treeArray = <?php echo json_encode($treeTable);?>;
+					<?php if (isset($document)) {?>
+					var doc = <?php echo $document; ?>;
+					<?php } else { ?>
+					var doc = null;
+					<?php }?>
+			 		$('#xmlMenuTree').updateTree(treeArray,doc);
+		}*/
+		
+			$(document).ready(function(){
+					<?php if (isset($database)) {?>
+					var db = <?php echo json_encode($database); ?>;
+					
+					if (typeof(db) === "string") {
+						if (db != "all") {
+							var url = './static/xml/' + db + 'Tree.xml';
+							//'./static/xml/conceptTree.xml',
+							var options = {  
+								xmlUrl: url,
+								storeState: true
+							};
+							$('#xmlMenuTree').xmltree(options);
+						}
+						else {
+							var hide = document.getElementsByClassName("well");
+							hide[0].className = hide[0].className + " hidden";
+						}
+					}
+					else {
+						var hide = document.getElementsByClassName("well");
+						hide[0].className = hide[0].className + " hidden";
+					}
+					
+					<?php }?>
+					<?php if (!isset($database)) {?>
+						var hide = document.getElementsByClassName("well");
+						hide[0].className = hide[0].className + " hidden";
+					<?php }?>
+				//$('#xmlMenuTree').updateTree(treeArray,doc);
+				//setTimeout($('#xmlMenuTree').updateTree(treeArray,doc), 3000);
+			 	//$.when($('#xmlMenuTree').xmltree(options)).then($);
+			 	//$(window).load(function (){
+			 		
+			 		
+			 	//});
+
+				//console.log(doc);
+				//console.log(treeArray);
+				//$('#xmlMenuTree').updateTree(treeArray,doc);
+				//setTimeout($('#xmlMenuTree').updateTree(treeArray,doc), 10);
 			});
+			<?php if (isset($database)) {?>
+			$(window).load(function(){ 
+				var db = <?php echo json_encode($database); ?>;
+				//console.log(typeof(db));
+				if (typeof(db) === "string") {
+					if (db != "all")  {
+						var tries = 1;
+						var treeArray = Array();
+						<?php if (isset($treeTable)) {?>
+							treeArray = <?php echo json_encode($treeTable);?>;
+						<?php }?>
+						<?php if (isset($document)) {?>
+							var doc = <?php echo json_encode($document); ?>;
+						<?php } else { ?>
+							var doc = null;
+						<?php }?>
+						setTimeout(function() {$('#xmlMenuTree').updateTree(treeArray,doc,1)},500);
+					}
+					else {
+							var hide = document.getElementsByClassName("well");
+							hide[0].className = hide[0].className + " hidden";
+						}
+					}
+				else {
+					var hide = document.getElementsByClassName("well");
+					hide[0].className = hide[0].className + " hidden";
+				}
+			});
+			<?php }?>
+
 	</script>
+	

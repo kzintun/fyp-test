@@ -2,9 +2,9 @@
 
 //$keyword=$_POST['searchfield'];
 if (!isset( $_GET['database']))
-	$collList = "all";
+	$database = "all";
 else
-	$collList = $_GET['database'];
+	$database = $_GET['database'];
 $keyword = $_GET['keyword'];
 
 if (isset($keyword)){
@@ -20,18 +20,22 @@ if (isset($keyword)){
 	
 	
 	
-	if ($collList == 'all')
+	if ($database == 'all')
 	{
-		//echo $collList;
+		//echo $database;
 		$colDir = './collections' ;
 		$ext = '.xml';
 		include_once('model/getFileList.php');
-		$collList = getFileList($colDir,$ext);	
+		$database = getFileList($colDir,$ext);	
+	}
+	else {
+		include_once("model/calConceptToDoc.php");
+		$treeTable=calculateConcepts($database);
 	}
 	//print_r($colList);
-	foreach ((array)$collList as $collection)
+	foreach ((array)$database as $collection)
 	{
-			//echo $collList;
+			//echo $database;
 			$collection = preg_replace('/\\.[^.\\s]{3,4}$/', '', $collection);
 			//	1. Search from Lucene
 			include_once('./model/searchLucene.php');
@@ -84,6 +88,8 @@ if (isset($keyword)){
 				//$_SESSION['keyword'] = $keyword;
 				//print_r($finalDisplayArray);
 				
+
+				
 				/*echo '<pre>';
 				echo '</br>';
 				//print_r($sortedResultArray);
@@ -111,7 +117,7 @@ if (isset($keyword)){
 				 ** To be implemented next ** */
 				
 			//}	
-	}	// end of foreach $collList loop	
+	}	// end of foreach $database loop	
 		
 		if ( sizeof($finalResultArray) == 0 )
 		{

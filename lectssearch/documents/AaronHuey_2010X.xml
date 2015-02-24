@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 	<document name="AaronHuey_2010X" video="AaronHuey_2010X.mp3" date="25/09/2014">
 		<metadata>
-			<media name="AaronHuey_2010X.mp4"/>
+			<media name="AaronHuey_2010X.mp3"/>
 			<category id="0" name="aerospace" />
 			<speakers>
 				<speaker id="0" name="Aaron Huey" />

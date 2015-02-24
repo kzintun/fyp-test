@@ -105,8 +105,8 @@
 						<i class="icon-info-sign"></i>TRANSCRIPT TAB </a></li>
 						<li><a data-toggle="tab" href="#profile">
 							<i class="icon-info-sign"></i>DESCRIPTION TAB </a></li>
-							<li><a data-toggle="tab" href="#search">
-							<i class="icon-info-sign"></i>SUGGESTED VIDEOS </a></li>
+							<!--<li><a data-toggle="tab" href="#search">-->
+							<!--<i class="icon-info-sign"></i>SUGGESTED VIDEOS </a></li>-->
 				</ul>
 				<!-- /TABS CONTROLS -->
 				<!-- PANES -->
@@ -142,8 +142,8 @@
 								</tr>
 							</table>
 					</div>
-					<div id="search" class="tab-pane fade widget-tags ">
-					</div>
+					<!--<div id="search" class="tab-pane fade widget-tags ">
+					</div>-->
 				</div>
 				</div>
 			</div>
@@ -210,22 +210,5 @@ magor.magorPlayer.highlightMatches(matches);
 
 });
 </script>
-<script>
 
-/*$(document).ready(function () {
-	var input = localStorage.getItem("input");
-	if (input != null) {
-		var x = document.getElementById('userSearchInput');
-		x.value = input;	
-		localStorage.setItem("keyword", x.value);
-		$('#searchBtn').click();
-		console.log("HERE1");
-		localStorage.removeItem("keyword");
-	}
-	
-	
-	//localStorage.removeItem("input");
-
-});*/
-</script>
 		<?php include ('footer.php'); ?>

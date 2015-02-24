@@ -1,7 +1,7 @@
 <?php
 
-$collection =$_GET['database'];
-$xmlFile='./collections/'.$collection.'.xml';
+$database =$_GET['database'];
+$xmlFile='./collections/'.$database.'.xml';
 	
 if (file_exists($xmlFile)){		
 
@@ -10,7 +10,7 @@ if (file_exists($xmlFile)){
 	//~ $xml=loadCollectionXML($xmlFile);
 
 	// TODO: preprare a session variable with the collections
-	// to prevent loading the collection again.
+	// to prevent loading the database again.
 		 
 	if ($xml === 0 ){		
 		$errorMessage="Problem while loading $xmlFile";
@@ -23,6 +23,8 @@ if (file_exists($xmlFile)){
 		
 		// see later for session variable.
 		//~ $_SESSION['docInfo'] = $docInfo;
+		include_once("model/calConceptToDoc.php");
+		$treeTable=calculateConcepts($database);
 
 		if ($docInfo != 0 ){
 			include_once("view/displayAllXML.php");

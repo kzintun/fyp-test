@@ -118,4 +118,15 @@
 		</div>
 	</div>
 </div>
+<script>
+/*window.onload = function() {
+  var treeArray = <?php echo json_encode($treeTable);?>;
+  <?php if (isset($document)) {?>
+  var doc = <?php echo $document; ?>;
+  <?php } else { ?>
+  var doc = null;
+  <?php }?>
+  $('#xmlMenuTree').updateTree(treeArray,doc);
+}*/
+</script>
 <?php include_once('footer.php'); ?>

@@ -418,11 +418,11 @@ html, body {
 	font-family:"Lora",Georgia,"Times New Roman",Times,serif;
 	font-size: 14px;
 	line-height: 26px;
-	height: 438px;
+	height: 600px;
 }
 
 .transcriptions {
-	height: 438px;
+	height: 600px;
 	overflow-y: scroll;
 	text-align:justify;
 

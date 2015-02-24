@@ -2,9 +2,9 @@
 
 //$concept=$_POST['searchfield'];
 if (!isset( $_GET['database']))
-	$collList = "all";
+	$database = "all";
 else
-	$collList = $_GET['database'];
+	$database = $_GET['database'];
 	$concept = $_GET['concept'];
 
 if (isset($concept)){
@@ -23,9 +23,11 @@ if (isset($concept)){
 	
 	//print_r($conceptArry);
 	
-	
-	
-	foreach ((array)$collList as $collection)
+	if($database != "all") {
+		include_once("model/calConceptToDoc.php");
+		$treeTable=calculateConcepts($database);
+	}
+	foreach ((array)$database as $collection)
 	{
 	
 		$conceptXMLFile = $collection.".xml";
@@ -86,7 +88,7 @@ if (isset($concept)){
 		$matchSegmentArray = extractMatchListFromArray($finalResultArray);
 				
 				
-		}// end of foreach $collList loop	
+		}// end of foreach $database loop	
 		
 		//echo '<pre>';
 		//print_r($finalResultArray);
