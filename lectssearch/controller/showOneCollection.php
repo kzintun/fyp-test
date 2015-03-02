@@ -2,6 +2,8 @@
 
 $database =$_GET['database'];
 $xmlFile='./collections/'.$database.'.xml';
+$errorMessage = null;
+$docInfo = 0;
 	
 if (file_exists($xmlFile)){		
 
@@ -29,12 +31,18 @@ if (file_exists($xmlFile)){
 		if ($docInfo != 0 ){
 			include_once("view/displayAllXML.php");
 		}
-		else{
+		
+		else {
 			$errorMessage="Path to XML file not set";
 			include_once("view/errorFile.php");
-		}			
+		}		
 	}	
 }
+else if(($docInfo == 0)&&($database == 'all')) {
+			$errorMessage="No Search Results Found.";
+			//include_once("view/errorFile.php");
+			include_once("view/displayAllXML.php");
+		}	
 else{
 	$errorMessage="Path to XML file not set";
 	include_once("view/errorFile.php");
