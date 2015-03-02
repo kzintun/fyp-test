@@ -212,7 +212,7 @@
 				var x = document.getElementById('userSearchInput');
 				if ((db === undefined)&&(doc === undefined)&&(kw === undefined)) {
 						localStorage.removeItem("input");
-						localStorage.removeItem("keyword");
+						//localStorage.removeItem("keyword");
 						localStorage.removeItem("cDB");
 						//localStorage.clear();
 						//console.log(input);
@@ -247,7 +247,7 @@
 					<div class="col-lg-7 ">
 					<form class="form-search" id="searchForm" method="post">
 						<div class="input-group">
-							<input class="form-control searchBar" type="text" name="searchfield" id="userSearchInput" placeholder="Search for documents"/>
+							<input class="form-control searchBar clearable" type="text" name="searchfield" id="userSearchInput" placeholder="Search for documents"/>
 								<span class="input-group-btn">
 								<button class="btn btn-default" id="searchBtn" type="submit" name="go" >Search!</button>
 							</span></div></form>

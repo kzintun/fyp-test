@@ -20,6 +20,9 @@
 			</div>
 		</div>
 		<div class="col-lg-7 col-lg-offset-1">
+			<?php if ($errorMessage != null) {?> 
+			<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span><?php echo $errorMessage ?> Click <strong><a href="index.php">Here</a></strong> To Go Back.</span></div>
+			<?php } else {?> 
 			<ul class="list-group">
 			<?php foreach($docInfo as $key => $value) {
 				$audioFormat = array('wav','mp3','aac');
@@ -33,7 +36,6 @@
 				else {
 					$defaultIcon = "./img/default/unknown.png";
 				}
-
 			?>
 				<li class="list-group-item ">
 					<div class="media">
@@ -66,6 +68,7 @@
 
 			<?php } ?>
 			</ul>
+			<?php }?> 
 			<!--<table>
 			<h4 class="list-group-item-heading"></h4>
 			    <p class="list-group-item-text">...</p>
@@ -116,6 +119,7 @@
 				<?php } ?>
 			</table>-->
 		</div>
+		
 	</div>
 </div>
 <script>

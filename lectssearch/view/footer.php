@@ -16,6 +16,7 @@
   <script type="text/javascript" src="./static/js/jquery.dotdotdot.min.js"></script>
 	<!--<script src="./static/js/jquery.tinyscrollbar.min.js" type="text/javascript"></script>-->
   <script type="text/javascript" src="./static/js/jquery.updatetree.js"></script>
+  <script type="text/javascript" src="./static/js/jquery.clearicon.js"></script>
   <script src="./static/js/ajaxSearch.js"></script>
   <!-- <script src="./static/js/imgRedirect.js"></script>-->
 
