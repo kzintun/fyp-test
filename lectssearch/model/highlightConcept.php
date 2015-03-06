@@ -5,7 +5,7 @@
 // highlight the keywords
 function highlightConcept($haystackArray) {
 	
-	echo '<pre>';
+	//echo '<pre>';
 	//for ($k=0 ; $k < sizeof($haystackArray); $k++){
 	foreach ($haystackArray as $key => $hay){
 	
@@ -33,7 +33,7 @@ function highlightConcept($haystackArray) {
 		$haystackArray[$key]['text'] = $matches[0][0];
 		//echo $hay['text'] . ' ';
 	}
-	echo '</pre>';
+	//echo '</pre>';
     return $haystackArray;
 }
 ?>
