@@ -7,7 +7,7 @@ $(document).on('input', '.clearable', function() {
     //console.log("MOUSE MOVE");   
 }).on('click', '.onX', function(){
     $(this).removeClass('x onX').val('').change();
-    localStorage.removeItem("input");
+    //localStorage.removeItem("input");
 	//localStorage.removeItem("keyword");
 	//localStorage.removeItem("cDB");
 });
