@@ -1,11 +1,8 @@
 (function($){ 
 	// Written by JH to update the concept Tree with count of documents
-	$.fn.updateTree = function(treeArray, selectedDoc, tries) {
+	$.fn.updateTree = function(treeArray, selectedDoc) {
 		//console.log(treeArray);
 		//var updatingNode = null;
-		if (tries > 3) {
-			return false;
-		}
 		if(treeArray) {
 			updateZero(treeArray);
 			for (topic in treeArray){
@@ -19,7 +16,7 @@
 						//var count = node[doc];
 						sum++;
 					}
-					updateTopic(topic, sum, tries);
+					updateTopic(topic, sum);
 				}
 				else {
 					//console.log("HAVE doc");
@@ -31,7 +28,7 @@
 							
 						}
 					}
-					updateTopic(topic, sum, tries);
+					updateTopic(topic, sum);
 				}
 				
 				//console.log(updatingNode);
@@ -44,14 +41,11 @@
 		}
 		else console.log("OUT");
 
-		function updateTopic(topic, sum, tries) {
+		function updateTopic(topic, sum) {
 			var updatingNode = document.getElementById(topic);
 			var text = " (" + sum + ")";
 			//console.log(topic + text);
-			if(updatingNode != null) updatingNode.innerHTML += text;
-			else {
-				updateAgain(tries++);
-			}		
+			if(updatingNode != null) updatingNode.innerHTML += text;	
 
 		}
 		

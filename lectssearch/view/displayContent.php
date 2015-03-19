@@ -1,4 +1,10 @@
 <?php include ('header.php'); ?>
+<script >
+// Jquery to limit overflow of text into ...
+$(document).ready(function() {
+     $(".ellipsis").dotdotdot();
+});
+</script>
 <div class="container">
 	<div class="rowa">
 		<!-- LEFT SIDE-->
@@ -12,7 +18,7 @@
 			<!-- VIDEO-->
 			<div id="alertResults"></div>
 			<div class="mediaContainer">
-				<h2 class="videoTitle"><?php echo $document?></h2>
+				<h2 class="videoTitle ellipsis"><?php echo $document?></h2>
 				<!-- Video pane=======================================-->
 
 				<div class="media-box">

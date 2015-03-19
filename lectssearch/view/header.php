@@ -14,10 +14,24 @@
 		<link href="./static/css/font-awesome.min.css" rel="stylesheet"  />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="./static/css/xmltree.css" type="text/css" media="screen" />
+		<link href="./static/css/jquery-ui.css" rel="stylesheet"  />
 
 
 		<link href="./static/css/style.css" rel="stylesheet" type="text/css" />
-
+	 	<style>
+		.ui-autocomplete {
+			max-height: 100px;
+			overflow-y: auto;
+			/* prevent horizontal scrollbar */
+			overflow-x: hidden;
+			}
+			/* IE 6 doesn't support max-height
+			* we use height instead, but this forces the menu to always be this tall
+			*/
+			* html .ui-autocomplete {
+			height: 100px;
+			}
+		</style>
 
 
 		<!-- <link href="./static/css/style.css"  rel="stylesheet" type="text/css" />
@@ -329,7 +343,7 @@
 				//console.log(typeof(db));
 				if (typeof(db) === "string") {
 					if (db != "all")  {
-						var tries = 1;
+						//var tries = 1;
 						var treeArray = Array();
 						<?php if (isset($treeTable)) {?>
 							treeArray = <?php echo json_encode($treeTable);?>;
@@ -339,7 +353,7 @@
 						<?php } else { ?>
 							var doc = null;
 						<?php }?>
-						setTimeout(function() {$('#xmlMenuTree').updateTree(treeArray,doc,1)},500);
+						setTimeout(function() {$('#xmlMenuTree').updateTree(treeArray,doc)},500);
 					}
 					else {
 							var hide = document.getElementsByClassName("well");
@@ -352,6 +366,16 @@
 				}
 			});
 			<?php }?>
-
+			
 	</script>
-	
+	<script>
+	$(function() {
+		var cache = {};
+		var availableTags = <?php echo json_encode($rankedSuggestionList);?>;
+		console.log(availableTags);
+		$( "#userSearchInput" ).autocomplete({
+			minLength: 2,
+			source: availableTags
+		});
+	});
+</script>

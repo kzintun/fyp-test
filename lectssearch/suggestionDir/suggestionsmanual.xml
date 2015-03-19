@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<suggestionList>
+	<suggestion name="space" total ="64">
+		<collection db ="signalprocessing" subtotal ="52">
+			<occurrence document="Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011" count="52"/>
+		</collection>
+		<collection db ="tedtalk" subtotal ="12">
+			<occurrence document="tedtalk1" count="6"/>
+			<occurrence document="tedtalk2" count="6"/>
+		</collection>
+	</suggestion>
+	<suggestion name="signal" total ="72">
+		<collection db ="signalprocessing" subtotal ="72">
+			<occurrence document="Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011" count="52"/>
+			<occurrence document="Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011" count="20"/>
+		</collection>
+	</suggestion>
+	<suggestion name="sin" total ="71">
+		<collection db ="signalprocessing" subtotal ="72">
+			<occurrence document="Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011" count="52"/>
+			<occurrence document="Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011" count="20"/>
+		</collection>
+	</suggestion>
+
+
+	
+</suggestionList>

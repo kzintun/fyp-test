@@ -16,7 +16,7 @@
 			loadingText: 'Loading...',
 			loadingError: 'Error: Loading Error.',
 			initialExpanded: true,
-			storeState: false,
+			storeState: true,
 			toggleSpeed: 400
 		};
 		//console.log("IN XMLTREEJS");
@@ -159,10 +159,10 @@
 			
 			var parentBlockUl = $('<ul></ul>');
 			var parentBlockToggleIcon = $("<div class='toggleIcon' id='" + CONSTANT_PREFIX + parentId + "'></div>");
-			var parentBlockParentIcon = $("<div class='parentIcon'></div>");
-			if(treeData[XML_TREE_KEYWORDS.parentIcon] != ''){
-				parentBlockParentIcon.addClass(treeData[XML_TREE_KEYWORDS.parentIcon]);
-			}
+			//var parentBlockParentIcon = $("<div class='parentIcon'></div>");
+			//if(treeData[XML_TREE_KEYWORDS.parentIcon] != ''){
+			//	parentBlockParentIcon.addClass(treeData[XML_TREE_KEYWORDS.parentIcon]);
+			//}
 			var parentBlockSpan = $("<span></span>");
 			var parentBlockLink = $("<a class='nodeLink' id='" + parentId + "'>" + treeData[XML_TREE_KEYWORDS.linkName] + "</a>");
 			if(treeData[XML_TREE_KEYWORDS.linkTarget] != ''){
@@ -182,7 +182,7 @@
 			
 			//Append Parent DOM
 			parentBlockUl.append(parentBlockToggleIcon);
-			parentBlockUl.append(parentBlockParentIcon);
+			//parentBlockUl.append(parentBlockParentIcon);
 			parentBlockSpan.append(parentBlockLink);
 			var parentBlockBuilder = parentBlockUl.append(parentBlockSpan);
 			//Store to parent array
@@ -203,10 +203,10 @@
 			if($(node).next().size() == 0){
 				childBlockLi.addClass('last');
 			}
-			var childBlockChildIcon = $("<div class='childIcon'></div>");
-			if(treeData[XML_TREE_KEYWORDS.childIcon] != ''){
-				childBlockChildIcon.addClass(treeData[XML_TREE_KEYWORDS.childIcon]);
-			}
+			//var childBlockChildIcon = $("<div class='childIcon'></div>");
+			//if(treeData[XML_TREE_KEYWORDS.childIcon] != ''){
+			//	childBlockChildIcon.addClass(treeData[XML_TREE_KEYWORDS.childIcon]);
+			//}
 			var childBlockSpan = $("<span></span>");
 			var childBlockLink = $("<a class='nodeLink' id='" + childId + "'>" + treeData[XML_TREE_KEYWORDS.linkName] + "</a>");
 			if(treeData[XML_TREE_KEYWORDS.linkTarget] != ''){
@@ -222,7 +222,7 @@
 			}
 			
 			//Append Children DOM
-			childBlockLi.append(childBlockChildIcon);
+			//childBlockLi.append(childBlockChildIcon);
 			childBlockSpan.append(childBlockLink);
 			var childBlockBuilder = childBlockLi.append(childBlockSpan);
 			

@@ -4,9 +4,10 @@ session_cache_limiter(false);
 session_start();
 
 //~ for i in $(find documents -name *.xml); dojava -jar indexDoc.jar $i MIT_Aerospace ;echo $i  ; done
-
+include_once('controller/obtainSuggestionList.php');
 if ( !isset($_GET) OR empty($_GET) ){
 	//	Scenario 1 : home page, list the collections present in the database directory
+
 	include_once('controller/listDatabase.php');
 }
 elseif ( isset($_POST['document'])  AND  isset($_POST['database']) AND isset($_POST['matches'])){
@@ -43,7 +44,7 @@ elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GE
 }
 
 elseif ( !isset($_GET['document'])  AND  isset($_GET['database']) AND isset($_GET['concept'])  AND ( !isset($_GET['seek'])  OR  empty($_GET['seek'])  )){
-	//	Scenario 5 - one collection selected, one keyword selected
+	//	Scenario 5 - one collection selected, one concept selected
 	include_once('controller/searchConcept.php');
 }
 

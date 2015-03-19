@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<suggestionList>
+	<suggestion name="space" total ="72">
+		<occurrence name="Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011" collection ="signalprocessing" count="52"/>
+		<occurrence name="Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011" collection ="signalprocessing" count="20"/>
+	</suggestion>
+		<suggestion name="shuttle" total ="58">
+		<occurrence name="Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011" collection ="signalprocessing" count="48"/>
+		<occurrence name="Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011" collection ="signalprocessing" count="10"/>
+	</suggestion>
+
+	
+</suggestionList>
