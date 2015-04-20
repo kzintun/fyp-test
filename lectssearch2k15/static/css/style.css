@@ -1,0 +1,486 @@
+﻿/*
+ * The MIT License (MIT)
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ * 
+ * @license http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @author Ong Jia Hui (c) 2015
+ */
+@font-face {
+	font-family: bebas;
+	src: url('../fonts/BebasNeue Regular.ttf');
+}
+
+@font-face {
+	font-family: bebasbk;
+	src: url('../fonts/BebasNeue Book.ttf');
+}
+
+
+/* CSS for NavBar */
+.navbar-default {
+	background-color: #b7ebe4;
+	border-color: #E7E7E7;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 7px 0px;
+    padding-left:50px;
+    color: white;
+    font-family: bebas;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #045BB3 ;
+}
+.navbar-inverse .navbar-text {
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #045BB3;
+}
+
+.lsicon {
+	max-height:30px;
+	max-width:30px;
+	height:30px;
+	width:30px;
+	margin-right:5px;
+}
+
+.clearable{
+  background: #fff url("../../img/default/cross.png") no-repeat right -25px center;
+  /*border: 1px solid #999;
+  padding: 3px 18px 3px 4px;     /* Use the same right padding (18) in jQ! */
+  /*border-radius: 3px;*/
+  transition: background 0.4s;
+}
+.clearable.x  { background-position: right 5px center; } /* (jQ) Show icon */
+.clearable.onX{ cursor: pointer; }              /* (jQ) hover cursor style */
+
+body {
+	background: #1c1e20;
+	background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555a5f), color-stop(100%, #1c1e20));
+	background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+	background-color: #2b2b2b; 
+
+  	/*background-image: url("../../img/default/bg.jpg");*/
+   	font-family: Tahoma, sans-serif;
+}
+
+
+
+/* CSS for Jumbotron*/
+.lslogo {
+	height:100px;
+	width:100px;
+	margin-right:10px;
+}
+
+
+.jumbotron p#lslabel {
+	padding-top:30px;
+	font-family: bebas;
+	font-size:30px !important;
+
+}
+
+.jumbotron{
+	background: #045BB3;
+	color:#fff;
+}
+
+#userSearchInput {
+	margin-top:30px;
+
+}
+
+#searchBtn {
+	margin-top:30px;
+	font-family: bebas;
+
+}
+
+
+
+/* CSS for Footer*/
+html, body {
+	height: 100%;
+	padding-top: 25px;
+
+/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+	height: 60px;
+}
+
+#footer {
+	background: rgba(0,104,209, 0.7);
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+	  margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+}
+
+#footerline{
+	font-family: bebas;
+	color: white;
+}
+
+/* End Footer*/
+
+/* CSS for displayALLDB page */
+.well {
+ 	background:white;
+}
+
+.img-with-text {
+	font-family: bebas;
+	font-size:18px;
+	color: white;
+	text-align: center;
+	width: 128px;
+}
+
+.collectionImg {
+	display: block;
+    margin: 0 auto;
+	height: 128px;
+	width: 128px;
+}
+
+.collectionName {
+
+	padding-top: 4px;
+}
+
+/* CSS for displayAllXML page*/
+.docIcon {
+	height: 128px;
+	width: 128px;
+}
+
+.tableContainer {
+	padding: 10px;
+	table-layout: fixed;
+  font-size: 12px;
+  min-width: 120px;
+}
+
+.leftTableCol {
+	min-width: 120px;
+	vertical-align: top;
+	font-weight:bold;
+	padding: 5px;
+}
+
+.rightTableCol {
+  max-width: 290px;
+  overflow: hidden;
+
+}
+.ellipsis{
+  max-height: 50px;
+}
+
+/* CSS for displayContent page*/
+.videoTitle {
+	font-family: bebasbk;
+	color: white;
+	text-align:	center;
+
+}
+
+.mediaContainer {
+	width: 635px;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.media-box {
+  background: black;
+  color: white;
+  line-height: 0;
+  -webkit-box-shadow: 0px 10px 6px -6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0px 10px 6px -6px rgba(0,0,0,.5);
+  box-shadow: 0px 10px 6px -6px rgba(0,0,0,.5);
+}
+
+/*#ctrlButtons {
+	top: 20px;
+	position: relative;
+}*/
+
+#player {
+  width: 100%;
+  min-height: 60px;
+  position: relative; /* so that we can put control box on top with absolute positioning */
+}
+#player video, #player audio {
+  width: 100%;
+  /* width: 400px; */
+  /* height: 300px; */
+}
+#player .control {
+  position: relative;
+  cursor: pointer;
+}
+.watermark {
+	font-size: 10px;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.watermark-button {
+  visibility: hidden;
+  position: absolute;
+  top: 110px;
+  left: 180px;
+}
+/* only position watermark button when playing video */
+#player.video.paused .watermark-button { visibility: visible; }
+
+.progress {
+  height: 8px;
+  width: auto;
+  /*background-color: #666;*/
+  border: 1px solid #666;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 5px 0px;
+}
+.progress-bar .track {
+  position: absolute;
+  background-color: #eee;
+  height: 8px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #e99232;
+  background-image: -moz-linear-gradient(top,#ea973b,#e78b24);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ea973b),to(#e78b24));
+  background-image: -webkit-linear-gradient(top,#ea973b,#e78b24);
+  background-image: -o-linear-gradient(top,#ea973b,#e78b24);
+  background-image: linear-gradient(to bottom,#ea973b,#e78b24);
+  border-color: #e78b24 #e78b24 #ac6413;
+}
+.progress-bar {
+	height: 12px;
+  width: auto;
+
+}
+.progress .highlight {
+  position: absolute;
+  height: 6.9px;
+  background-color: yellow;
+}
+.progress .knob {
+  position: absolute;
+  background-color: #fff;
+  top: -3px;
+  margin-left: -9px;
+  width: 14px;
+  height: 14px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+#player .control-box {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: #999;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(0,0,0,.7);
+}
+/* only hide control-box when playing video, since for audio it's not nice to
+ * leave a black space when hiding the box. */
+#player.video .control-box {
+  opacity: 0;
+  transition: opacity 0.5s 1s; /* fade out 0.5s, delay 1second */
+  -o-transition: opacity 0.5s 1s;
+  -ms-transition: opacity 0.5s 1s;
+  -moz-transition: opacity 0.5s 1s;
+  -webkit-transition: opacity 0.5s 1s;
+}
+#player:hover .control-box, #player.paused .control-box {
+  opacity: 1;
+  -o-transition: opacity .5s; /* fade in 0.5s, no delay */
+  -ms-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+}
+#player .control-box-inner {
+  padding: 10px;
+}
+#player .control-box .control-btn {
+  display: inline;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.tooltip-inner {
+  background-color: #333;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #333;
+}
+
+/* control the toggling of player play/pause buttons */
+#player .play-btn { display: none !important; }
+#player .pause-btn { display: inline !important; }
+#player.paused .play-btn { display: inline !important; }
+#player.paused .pause-btn { display: none !important; }
+
+#player .time-current { color: #fff; }
+
+/* control the toggling of player scroll-lock buttons */
+#player .scroll-lock { display: inline !important; }
+#player .scroll-unlock { display: none !important; }
+#player.scroll-locked .scroll-lock { display: none !important; }
+#player.scroll-locked .scroll-unlock { display: inline !important; }
+
+/* subtitle languages drop-up menu */
+#player .subtitle-language-list {
+  background-color: rgba(32,32,32,.75);
+  padding: 5px;
+  font-size: 80%;
+  position: absolute;
+  top: 140px;
+  left: 270px;
+  width: 110px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s; /* fade out 0.5s, delay 1second */
+  -o-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+}
+/* place the list at different location when playing an audio */
+#player.audio .subtitle-language-list {
+  top: 50px;
+}
+
+#player .subtitle-language-list.popup {
+  visibility: visible;
+  opacity: 1;
+  -o-transition: opacity .5s; /* fade in 0.5s, no delay */
+  -ms-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+}
+
+#player .subtitle-language-list ul li {
+  list-style-type: none;
+  margin-left: -25px;
+  margin-right: 0px;
+  padding-left: 10px;
+  cursor: hand;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#player .subtitle-language-list ul li:hover {
+  border-color: rgba(256,128,128,.75);
+}
+
+#player .subtitle-language-list ul li.selected {
+  background-color: rgba(128,32,32,.75);
+}
+
+
+
+.nav-tabs{
+	font-family: bebasbk;
+	margin-bottom:15px;
+	font-size: 18px;
+}
+
+#myTabContent {
+	font-family:"Lora",Georgia,"Times New Roman",Times,serif;
+	font-size: 14px;
+	line-height: 26px;
+	height: 600px;
+}
+
+.transcriptions {
+	height: 600px;
+	overflow-y: scroll;
+	text-align:justify;
+
+}
+.transcriptions p {
+	margin-left: 5px;
+	max-width:575px;
+}
+.transcriptions span {
+  color: #494848;
+  cursor: hand;
+  cursor: pointer;
+  padding: 4px 1px;
+}
+.transcriptions span:hover {
+  color: black;
+  background: #e99232;
+}
+.transcriptions .matched {
+  /*color: #e78b24;*/
+  font-weight: bold;
+  background-color: #eee;
+}
+.transcriptions .highlight {
+  background-color: #ffff88;
+}
+.transcriptions .speaker {
+  color: #045BB3;
+}

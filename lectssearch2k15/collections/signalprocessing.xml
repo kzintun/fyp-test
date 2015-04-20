@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<collection name="collections/signalprocessing.xml" date="10/06/2014" >
+	<document name="Lecture1IntroductionMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture1IntroductionMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture1IntroductionMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture1IntroductionMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>
+	</document>
+	<document name="Lecture2SignalsandSystemsPart1MITRES6007SignalsandSystemsSpring2011" video="documents/Lecture2SignalsandSystemsPart1MITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture2SignalsandSystemsPart1MITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture2SignalsandSystemsPart1MITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture3SignalsandSystemsPartIIMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture3SignalsandSystemsPartIIMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture3SignalsandSystemsPartIIMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture3SignalsandSystemsPartIIMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture4ConvolutionMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture4ConvolutionMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture4ConvolutionMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture4ConvolutionMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>		
+		</metadata>
+	</document>
+	<document name="Lecture5PropertiesofLinearTimeinvariantSystemsMITRES6007SignalsandSystems" video="documents/Lecture5PropertiesofLinearTimeinvariantSystemsMITRES6007SignalsandSystems.mp4" xref="documents/Lecture5PropertiesofLinearTimeinvariantSystemsMITRES6007SignalsandSystems">
+		<metadata>
+			<media name="Lecture5PropertiesofLinearTimeinvariantSystemsMITRES6007SignalsandSystems.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture6SystemsRepresentedbyDifferentialEquationsMITRES6007SignalsandSystems" video="documents/Lecture6SystemsRepresentedbyDifferentialEquationsMITRES6007SignalsandSystems.mp4" xref="documents/Lecture6SystemsRepresentedbyDifferentialEquationsMITRES6007SignalsandSystems.xml">
+		<metadata>
+			<media name="Lecture6SystemsRepresentedbyDifferentialEquationsMITRES6007SignalsandSystems.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+		<document name="Lecture7ContinuousTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture7ContinuousTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture7ContinuousTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture7ContinuousTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>
+	</document>
+	<document name="Lecture8ContinuousTimeFourierTransformMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture8ContinuousTimeFourierTransformMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture8ContinuousTimeFourierTransformMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture8ContinuousTimeFourierTransformMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+		<document name="Lecture9FourierTransformPropertiesMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture9FourierTransformPropertiesMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture9FourierTransformPropertiesMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture9FourierTransformPropertiesMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture10DiscreteTimeFourierSeriesMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+		<document name="Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture11DiscreteTimeFourierTransformMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture12FilteringMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture12FilteringMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture12FilteringMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture12FilteringMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture13ContinuousTimeModulationMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture13ContinuousTimeModulationMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture13ContinuousTimeModulationMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture13ContinuousTimeModulationMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture14DemonstrationofAmplitudeModulationMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture14DemonstrationofAmplitudeModulationMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture14DemonstrationofAmplitudeModulationMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture14DemonstrationofAmplitudeModulationMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="1" name="PR_AL_OPPENHEIM" />
+				<speaker id="0" name="SANDY_HILL" />
+				<speaker id="2" name="unknown" />			
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture15DiscreteTimeModulationMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture15DiscreteTimeModulationMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture15DiscreteTimeModulationMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture15DiscreteTimeModulationMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture16SamplingMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture16SamplingMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture16SamplingMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture16SamplingMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="2" name="DR_HAROLD_EDGERTON" />
+				<speaker id="1" name="PR_AL_OPPENHEIM" />
+				<speaker id="0" name="JUSTINE" />
+				<speaker id="3" name="unknown" />		
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture17InterpolationMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture17InterpolationMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture17InterpolationMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture17InterpolationMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture19DiscreteTimeSamplingMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture19DiscreteTimeSamplingMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture19DiscreteTimeSamplingMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture19DiscreteTimeSamplingMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture20TheLaplaceTransformMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture20TheLaplaceTransformMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture20TheLaplaceTransformMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture20TheLaplaceTransformMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture21ContinuousTimeSecondOrderSystemsMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture21ContinuousTimeSecondOrderSystemsMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture21ContinuousTimeSecondOrderSystemsMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture21ContinuousTimeSecondOrderSystemsMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture22ThezTransformMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture22ThezTransformMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture22ThezTransformMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture22ThezTransformMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture23MappingContinuousTimeFilterstoDiscreteTimeFiltersMITRES6007" video="documents/Lecture23MappingContinuousTimeFilterstoDiscreteTimeFiltersMITRES6007.mp4" xref="documents/Lecture23MappingContinuousTimeFilterstoDiscreteTimeFiltersMITRES6007.xml">
+		<metadata>
+			<media name="Lecture23MappingContinuousTimeFilterstoDiscreteTimeFiltersMITRES6007.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture18DiscreteTimeProcessingofContinuousTimeSignalsMITRES6007SignalsandSystems" video="documents/Lecture18DiscreteTimeProcessingofContinuousTimeSignalsMITRES6007SignalsandSystems.mp4" xref="documents/Lecture18DiscreteTimeProcessingofContinuousTimeSignalsMITRES6007SignalsandSystems.xml">
+		<metadata>
+			<media name="Lecture18DiscreteTimeProcessingofContinuousTimeSignalsMITRES6007SignalsandSystems.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture24ButterworthFiltersMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture24ButterworthFiltersMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture24ButterworthFiltersMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture24ButterworthFiltersMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture25FeedbackMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture25FeedbackMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture25FeedbackMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture25FeedbackMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="PR_AL_OPPENHEIM" />
+				<speaker id="1" name="unknown" />
+			</speakers>
+		</metadata>	
+	</document>
+	<document name="Lecture26FeedbackExampleTheInvertedPendulumMITRES6007SignalsandSystemsSpring2011" video="documents/Lecture26FeedbackExampleTheInvertedPendulumMITRES6007SignalsandSystemsSpring2011.mp4" xref="documents/Lecture26FeedbackExampleTheInvertedPendulumMITRES6007SignalsandSystemsSpring2011.xml">
+		<metadata>
+			<media name="Lecture26FeedbackExampleTheInvertedPendulumMITRES6007SignalsandSystemsSpring2011.mp4" />
+			<speakers>
+				<speaker id="0" name="FILMING_DIRECTOR" />
+				<speaker id="2" name="unknown" />
+				<speaker id="1" name="PR_AL_OPPENHEIM" />			
+			</speakers>
+		</metadata>	
+	</document>
+
+
+
+</collection>

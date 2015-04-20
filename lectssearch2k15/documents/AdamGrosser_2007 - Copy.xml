@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+	<document date="25/09/2014" video="AdamGrosser_2007.mp3" name="AdamGrosser_2007" >
+		<metadata>
+			<media name = "AdamGrosser_2007.mp3"/>
+			<category name= "aerospace" id="0"/>
+			<speakers>
+			<speaker id="0" name="AdamGrosser" />
+			</speakers>
+		</metadata>
+		<content>
+			<segment endTime="25.81" id="0" spkName="0" startTime="13.78">
+				<sentence endTime="25.81" id="0" spkName="0" startTime="13.78">
+					<word endTime="13.94" id="0" spkName="0" startTime="13.78">This</word>
+					<word endTime="14.18" id="1" spkName="0" startTime="13.94">is</word>
+					<word endTime="14.91" id="2" spkName="0" startTime="14.18">a</word>
+					<word endTime="15.25" id="3" spkName="0" startTime="14.91">work</word>
+					<word endTime="15.42" id="4" spkName="0" startTime="15.25">in</word>
+					<word endTime="16.71" id="5" spkName="0" startTime="15.42">process</word>
+					<word endTime="17.27" id="6" spkName="0" startTime="16.71">based</word>
+					<word endTime="18.06" id="7" spkName="0" startTime="17.27">on</word>
+					<word endTime="18.44" id="8" spkName="0" startTime="18.06">some</word>
+					<word endTime="18.93" id="9" spkName="0" startTime="18.44">comments</word>
+					<word endTime="19.04" id="10" spkName="0" startTime="18.93">that</word>
+					<word endTime="19.12" id="11" spkName="0" startTime="19.04">were</word>
+					<word endTime="19.36" id="12" spkName="0" startTime="19.12">made</word>
+					<word endTime="19.5" id="13" spkName="0" startTime="19.36">at</word>
+					<word endTime="19.81" id="14" spkName="0" startTime="19.50">TED</word>
+					<word endTime="20.02" id="15" spkName="0" startTime="19.81">two</word>
+					<word endTime="20.31" id="16" spkName="0" startTime="20.02">years</word>
+					<word endTime="21.31" id="17" spkName="0" startTime="20.31">ago</word>
+					<word endTime="22.01" id="18" spkName="0" startTime="21.31">about</word>
+					<word endTime="22.1" id="19" spkName="0" startTime="22.01">the</word>
+					<word endTime="22.61" id="20" spkName="0" startTime="22.10">need</word>
+					<word endTime="23.29" id="21" spkName="0" startTime="22.61">for</word>
+					<word endTime="23.38" id="22" spkName="0" startTime="23.29">the</word>
+					<word endTime="23.83" id="23" spkName="0" startTime="23.38">storage</word>
+					<word endTime="24.82" id="24" spkName="0" startTime="23.83">of</word>
+					<word endTime="25.81" id="25" spkName="0" startTime="24.82">vaccine</word>
+				</sentence>
+			</segment>
+			<segment endTime="40.67" id="1" spkName="0" startTime="25.82">
+				<sentence endTime="40.67" id="0" spkName="0" startTime="25.82">
+					<word endTime="26.81" id="0" spkName="0" startTime="25.82">On</word>
+					<word endTime="27.8" id="1" spkName="0" startTime="26.81">this</word>
+					<word endTime="28.79" id="2" spkName="0" startTime="27.80">planet</word>
+					<word endTime="29.79" id="3" spkName="0" startTime="28.80">one</word>
+					<word endTime="30.78" id="4" spkName="0" startTime="29.79">billion</word>
+					<word endTime="31.77" id="5" spkName="0" startTime="30.78">people</word>
+					<word endTime="32.76" id="6" spkName="0" startTime="31.77">don't</word>
+					<word endTime="33.76" id="7" spkName="0" startTime="32.77">have</word>
+					<word endTime="34.75" id="8" spkName="0" startTime="33.76">access</word>
+					<word endTime="35.74" id="9" spkName="0" startTime="34.75">to</word>
+					<word endTime="36.74" id="10" spkName="0" startTime="35.75">electricity</word>
+					<word endTime="37.73" id="11" spkName="0" startTime="36.74">refrigeration</word>
+					<word endTime="38.72" id="12" spkName="0" startTime="37.73">or</word>
+					<word endTime="39.72" id="13" spkName="0" startTime="38.73">stored</word>
+					<word endTime="40.71" id="14" spkName="0" startTime="39.72">fuels</word>
+				</sentence>
+			</segment>
+			<segment endTime="44.67" id="2" spkName="0" startTime="40.71">
+				<sentence endTime="44.67" id="0" spkName="0" startTime="40.71">
+					<word endTime="41.7" id="0" spkName="0" startTime="40.71">This</word>
+					<word endTime="42.69" id="1" spkName="0" startTime="41.70">is</word>
+					<word endTime="43.69" id="2" spkName="0" startTime="42.70">a</word>
+					<word endTime="44.68" id="3" spkName="0" startTime="43.69">problem</word>
+				</sentence>
+			</segment>
+			<segment endTime="61.51" id="3" spkName="0" startTime="44.68">
+				<sentence endTime="61.51" id="0" spkName="0" startTime="44.68">
+					<word endTime="45.67" id="0" spkName="0" startTime="44.68">It</word>
+					<word endTime="46.67" id="1" spkName="0" startTime="45.68">impacts</word>
+					<word endTime="47.66" id="2" spkName="0" startTime="46.67">the</word>
+					<word endTime="48.65" id="3" spkName="0" startTime="47.66">spread</word>
+					<word endTime="49.65" id="4" spkName="0" startTime="48.66">of</word>
+					<word endTime="50.64" id="5" spkName="0" startTime="49.65">disease</word>
+					<word endTime="51.63" id="6" spkName="0" startTime="50.64">the</word>
+					<word endTime="52.63" id="7" spkName="0" startTime="51.64">storage</word>
+					<word endTime="53.62" id="8" spkName="0" startTime="52.63">of</word>
+					<word endTime="54.61" id="9" spkName="0" startTime="53.62">food</word>
+					<word endTime="55.6" id="10" spkName="0" startTime="54.61">and</word>
+					<word endTime="56.6" id="11" spkName="0" startTime="55.61">medicine</word>
+					<word endTime="57.59" id="12" spkName="0" startTime="56.60">and</word>
+					<word endTime="58.58" id="13" spkName="0" startTime="57.59">the</word>
+					<word endTime="59.58" id="14" spkName="0" startTime="58.59">quality</word>
+					<word endTime="60.57" id="15" spkName="0" startTime="59.58">of</word>
+					<word endTime="61.56" id="16" spkName="0" startTime="60.57">life</word>
+				</sentence>
+			</segment>
+			<segment endTime="76.42" id="4" spkName="0" startTime="61.57">
+				<sentence endTime="76.42" id="0" spkName="0" startTime="61.57">
+					<word endTime="62.56" id="0" spkName="0" startTime="61.57">So</word>
+					<word endTime="63.55" id="1" spkName="0" startTime="62.56">here's</word>
+					<word endTime="64.54" id="2" spkName="0" startTime="63.55">the</word>
+					<word endTime="65.53" id="3" spkName="0" startTime="64.54">plan</word>
+					<word endTime="65.54" id="4" spkName="0" startTime="65.30">So</word>
+					<word endTime="65.8" id="5" spkName="0" startTime="65.54">twenty</word>
+					<word endTime="66.07" id="6" spkName="0" startTime="65.80">nine</word>
+					<word endTime="66.57" id="7" spkName="0" startTime="66.07">years</word>
+					<word endTime="67.52" id="8" spkName="0" startTime="66.53">refrigeration</word>
+					<word endTime="66.81" id="9" spkName="0" startTime="66.57">ago</word>
+					<word endTime="67.25" id="10" spkName="0" startTime="66.81">I</word>
+					<word endTime="68.03" id="11" spkName="0" startTime="67.25">had</word>
+					<word endTime="68.51" id="12" spkName="0" startTime="67.52">that</word>
+					<word endTime="68.33" id="13" spkName="0" startTime="68.03">this</word>
+					<word endTime="68.83" id="14" spkName="0" startTime="68.33">thermo</word>
+					<word endTime="69.51" id="15" spkName="0" startTime="68.52">doesn't</word>
+					<word endTime="68.94" id="16" spkName="0" startTime="68.83">teacher</word>
+					<word endTime="69.23" id="17" spkName="0" startTime="68.94">who</word>
+					<word endTime="69.45" id="18" spkName="0" startTime="69.23">talked</word>
+					<word endTime="69.9" id="19" spkName="0" startTime="69.45">about</word>
+					<word endTime="70.5" id="20" spkName="0" startTime="69.51">use</word>
+					<word endTime="69.99" id="21" spkName="0" startTime="69.90">absorption</word>
+					<word endTime="70.56" id="22" spkName="0" startTime="69.99">and</word>
+					<word endTime="71.49" id="23" spkName="0" startTime="70.50">electricity</word>
+					<word endTime="70.65" id="24" spkName="0" startTime="70.56">refrigeration</word>
+					<word endTime="70.8" id="25" spkName="0" startTime="70.65">It's</word>
+					<word endTime="70.89" id="26" spkName="0" startTime="70.80">one</word>
+					<word endTime="71.06" id="27" spkName="0" startTime="70.89">of</word>
+					<word endTime="71.34" id="28" spkName="0" startTime="71.06">those</word>
+					<word endTime="71.46" id="29" spkName="0" startTime="71.34">things</word>
+					<word endTime="71.66" id="30" spkName="0" startTime="71.46">that</word>
+					<word endTime="72.49" id="31" spkName="0" startTime="71.50">propane</word>
+					<word endTime="71.72" id="32" spkName="0" startTime="71.66">stuck</word>
+					<word endTime="71.78" id="33" spkName="0" startTime="71.72">in</word>
+					<word endTime="72.04" id="34" spkName="0" startTime="71.78">my</word>
+					<word endTime="72.46" id="35" spkName="0" startTime="72.04">head</word>
+					<word endTime="72.55" id="36" spkName="0" startTime="72.46">It</word>
+					<word endTime="73.48" id="37" spkName="0" startTime="72.49">gas</word>
+					<word endTime="72.6" id="38" spkName="0" startTime="72.55">was</word>
+					<word endTime="72.77" id="39" spkName="0" startTime="72.60">a</word>
+					<word endTime="72.92" id="40" spkName="0" startTime="72.77">lot</word>
+					<word endTime="73.01" id="41" spkName="0" startTime="72.92">like</word>
+					<word endTime="73.44" id="42" spkName="0" startTime="73.01">the</word>
+					<word endTime="73.65" id="43" spkName="0" startTime="73.44">Stirling</word>
+					<word endTime="74.47" id="44" spkName="0" startTime="73.48">kerosene</word>
+					<word endTime="73.71" id="45" spkName="0" startTime="73.65">engine</word>
+					<word endTime="73.82" id="46" spkName="0" startTime="73.71">it</word>
+					<word endTime="74.17" id="47" spkName="0" startTime="73.82">was</word>
+					<word endTime="74.3" id="48" spkName="0" startTime="74.17">cool</word>
+					<word endTime="74.37" id="49" spkName="0" startTime="74.30">but</word>
+					<word endTime="74.53" id="50" spkName="0" startTime="74.37">you</word>
+					<word endTime="75.47" id="51" spkName="0" startTime="74.48">or</word>
+					<word endTime="74.61" id="52" spkName="0" startTime="74.53">didn't</word>
+					<word endTime="74.75" id="53" spkName="0" startTime="74.61">know</word>
+					<word endTime="74.84" id="54" spkName="0" startTime="74.75">what</word>
+					<word endTime="75.01" id="55" spkName="0" startTime="74.84">to</word>
+					<word endTime="75.21" id="56" spkName="0" startTime="75.01">do</word>
+					<word endTime="75.32" id="57" spkName="0" startTime="75.21">with</word>
+					<word endTime="76.46" id="58" spkName="0" startTime="75.47">consumables</word>
+				</sentence>
+				<sentence endTime="70.65" id="1" spkName="0" startTime="65.30" />
+				<sentence endTime="72.46" id="2" spkName="0" startTime="70.65" />
+				<sentence endTime="75.82" id="3" spkName="0" startTime="72.46" />
+			</segment>
+			<segment endTime="70.65" id="5" spkName="0" startTime="65.30" />
+			<segment endTime="72.46" id="6" spkName="0" startTime="70.65" />
+			<segment endTime="75.82" id="7" spkName="0" startTime="72.46" />
+			<segment endTime="80.42" id="8" spkName="0" startTime="76.46">
+				<sentence endTime="80.42" id="0" spkName="0" startTime="76.46">
+					<word endTime="76.71" id="0" spkName="0" startTime="76.21">it</word>
+					<word endTime="77.45" id="1" spkName="0" startTime="76.46">Time</word>
+					<word endTime="76.83" id="2" spkName="0" startTime="76.71">And</word>
+					<word endTime="76.96" id="3" spkName="0" startTime="76.83">it</word>
+					<word endTime="77.36" id="4" spkName="0" startTime="76.96">was</word>
+					<word endTime="77.61" id="5" spkName="0" startTime="77.36">invented</word>
+					<word endTime="78.44" id="6" spkName="0" startTime="77.45">for</word>
+					<word endTime="77.73" id="7" spkName="0" startTime="77.61">in</word>
+					<word endTime="78.01" id="8" spkName="0" startTime="77.73">one</word>
+					<word endTime="78.19" id="9" spkName="0" startTime="78.01">thousand</word>
+					<word endTime="78.37" id="10" spkName="0" startTime="78.19">eight</word>
+					<word endTime="78.52" id="11" spkName="0" startTime="78.37">hundred</word>
+					<word endTime="79.44" id="12" spkName="0" startTime="78.45">some</word>
+					<word endTime="78.68" id="13" spkName="0" startTime="78.52">fifty</word>
+					<word endTime="78.77" id="14" spkName="0" startTime="78.68">eight</word>
+					<word endTime="78.96" id="15" spkName="0" startTime="78.77">by</word>
+					<word endTime="79.04" id="16" spkName="0" startTime="78.96">this</word>
+					<word endTime="79.48" id="17" spkName="0" startTime="79.04">guy</word>
+					<word endTime="80.43" id="18" spkName="0" startTime="79.44">thermodynamics</word>
+					<word endTime="79.58" id="19" spkName="0" startTime="79.48">Ferdinand</word>
+					<word endTime="79.83" id="20" spkName="0" startTime="79.58">Carre</word>
+					<word endTime="79.97" id="21" spkName="0" startTime="79.83">but</word>
+					<word endTime="80.12" id="22" spkName="0" startTime="79.97">he</word>
+					<word endTime="80.31" id="23" spkName="0" startTime="80.12">couldn't</word>
+					<word endTime="80.43" id="24" spkName="0" startTime="80.31">actually</word>
+				</sentence>
+			</segment>
+			<segment endTime="84.41" id="9" spkName="0" startTime="76.71">
+				<sentence endTime="84.41" id="0" spkName="0" startTime="76.71">
+					<word endTime="80.61" id="0" spkName="0" startTime="80.43">build</word>
+					<word endTime="80.7" id="1" spkName="0" startTime="80.61">anything</word>
+					<word endTime="80.81" id="2" spkName="0" startTime="80.70">with</word>
+					<word endTime="81.04" id="3" spkName="0" startTime="80.81">it</word>
+					<word endTime="81.92" id="4" spkName="0" startTime="81.04">because</word>
+					<word endTime="82.42" id="5" spkName="0" startTime="81.43">the</word>
+					<word endTime="82.02" id="6" spkName="0" startTime="81.92">of</word>
+					<word endTime="82.43" id="7" spkName="0" startTime="82.02">the</word>
+					<word endTime="83.41" id="8" spkName="0" startTime="82.42">story</word>
+					<word endTime="82.49" id="9" spkName="0" startTime="82.43">tools</word>
+					<word endTime="82.58" id="10" spkName="0" startTime="82.49">of</word>
+					<word endTime="83.66" id="11" spkName="0" startTime="82.58">the</word>
+					<word endTime="84.4" id="12" spkName="0" startTime="83.41">of</word>
+					<word endTime="84.41" id="13" spkName="0" startTime="83.66">time</word>
+				</sentence>
+				<sentence endTime="88.35" id="1" spkName="0" startTime="80.43">
+					<word endTime="84.77" id="0" spkName="0" startTime="84.41">This</word>
+					<word endTime="85.17" id="1" spkName="0" startTime="84.77">crazy</word>
+					<word endTime="85.34" id="2" spkName="0" startTime="85.17">Canadian</word>
+					<word endTime="85.71" id="3" spkName="0" startTime="85.34">named</word>
+					<word endTime="86.39" id="4" spkName="0" startTime="85.40">Intermittent</word>
+					<word endTime="86.41" id="5" spkName="0" startTime="85.71">Powel</word>
+					<word endTime="87.38" id="6" spkName="0" startTime="86.39">Absorption</word>
+					<word endTime="87.55" id="7" spkName="0" startTime="86.89">Crosley</word>
+					<word endTime="88.37" id="8" spkName="0" startTime="87.38">Refrigerator</word>
+					<word endTime="87.68" id="9" spkName="0" startTime="87.55">commercialized</word>
+					<word endTime="87.8" id="10" spkName="0" startTime="87.68">this</word>
+					<word endTime="87.99" id="11" spkName="0" startTime="87.80">thing</word>
+					<word endTime="88.1" id="12" spkName="0" startTime="87.99">called</word>
+				</sentence>
+			</segment>
+			<segment endTime="88.35" id="10" spkName="0" startTime="80.43" />
+			<segment endTime="93.91" id="11" spkName="0" startTime="84.41">
+				<sentence endTime="93.91" id="0" spkName="0" startTime="84.41">
+					<word endTime="88.66" id="0" spkName="0" startTime="88.10">the</word>
+					<word endTime="88.79" id="1" spkName="0" startTime="88.38">IcyBall</word>
+					<word endTime="88.72" id="2" spkName="0" startTime="88.66">in</word>
+					<word endTime="88.86" id="3" spkName="0" startTime="88.72">one</word>
+					<word endTime="89.08" id="4" spkName="0" startTime="88.86">thousand</word>
+					<word endTime="89.17" id="5" spkName="0" startTime="89.08">nine</word>
+					<word endTime="89.36" id="6" spkName="0" startTime="89.17">hundred</word>
+					<word endTime="89.56" id="7" spkName="0" startTime="89.36">twenty</word>
+					<word endTime="90.11" id="8" spkName="0" startTime="89.56">eight</word>
+					<word endTime="90.32" id="9" spkName="0" startTime="90.11">and</word>
+					<word endTime="90.38" id="10" spkName="0" startTime="90.32">it</word>
+					<word endTime="90.48" id="11" spkName="0" startTime="90.38">was</word>
+					<word endTime="90.56" id="12" spkName="0" startTime="90.48">a</word>
+					<word endTime="90.76" id="13" spkName="0" startTime="90.56">really</word>
+					<word endTime="90.92" id="14" spkName="0" startTime="90.76">neat</word>
+					<word endTime="91.3" id="15" spkName="0" startTime="90.92">idea</word>
+					<word endTime="91.57" id="16" spkName="0" startTime="91.30">and</word>
+					<word endTime="91.73" id="17" spkName="0" startTime="91.57">I'll</word>
+					<word endTime="91.88" id="18" spkName="0" startTime="91.73">get</word>
+					<word endTime="91.95" id="19" spkName="0" startTime="91.88">to</word>
+					<word endTime="92.07" id="20" spkName="0" startTime="91.95">why</word>
+					<word endTime="92.15" id="21" spkName="0" startTime="92.07">it</word>
+					<word endTime="92.34" id="22" spkName="0" startTime="92.15">didn't</word>
+					<word endTime="92.66" id="23" spkName="0" startTime="92.34">work</word>
+					<word endTime="93.09" id="24" spkName="0" startTime="92.66">but</word>
+					<word endTime="93.29" id="25" spkName="0" startTime="93.09">here's</word>
+					<word endTime="93.6" id="26" spkName="0" startTime="93.29">how</word>
+					<word endTime="93.71" id="27" spkName="0" startTime="93.60">it</word>
+					<word endTime="93.98" id="28" spkName="0" startTime="93.71">works</word>
+				</sentence>
+			</segment>
+			<segment endTime="96.71" id="12" spkName="0" startTime="93.98">
+				<sentence endTime="96.71" id="0" spkName="0" startTime="93.98">
+					<word endTime="94.15" id="0" spkName="0" startTime="93.98">There's</word>
+					<word endTime="94.34" id="1" spkName="0" startTime="94.15">two</word>
+					<word endTime="95.08" id="2" spkName="0" startTime="94.34">spheres</word>
+					<word endTime="95.25" id="3" spkName="0" startTime="95.08">and</word>
+					<word endTime="95.4" id="4" spkName="0" startTime="95.25">they're</word>
+					<word endTime="95.82" id="5" spkName="0" startTime="95.40">separated</word>
+					<word endTime="95.94" id="6" spkName="0" startTime="95.82">in</word>
+					<word endTime="96.71" id="7" spkName="0" startTime="95.94">distance</word>
+				</sentence>
+			</segment>
+			<segment endTime="100.19" id="13" spkName="0" startTime="96.71">
+				<sentence endTime="100.19" id="0" spkName="0" startTime="96.71">
+					<word endTime="96.91" id="0" spkName="0" startTime="96.71">One</word>
+					<word endTime="97.17" id="1" spkName="0" startTime="96.92">has</word>
+					<word endTime="97.24" id="2" spkName="0" startTime="97.17">a</word>
+					<word endTime="97.65" id="3" spkName="0" startTime="97.24">working</word>
+					<word endTime="98.01" id="4" spkName="0" startTime="97.65">fluid</word>
+					<word endTime="98.45" id="5" spkName="0" startTime="98.08">water</word>
+					<word endTime="98.57" id="6" spkName="0" startTime="98.45">and</word>
+					<word endTime="98.99" id="7" spkName="0" startTime="98.57">ammonia</word>
+					<word endTime="99.13" id="8" spkName="0" startTime="99.02">and</word>
+					<word endTime="99.46" id="9" spkName="0" startTime="99.37">the</word>
+					<word endTime="99.68" id="10" spkName="0" startTime="99.46">other</word>
+					<word endTime="100.2" id="11" spkName="0" startTime="100.01">is</word>
+				</sentence>
+			</segment>
+			<segment endTime="102.58" id="14" spkName="0" startTime="100.87">
+				<sentence endTime="102.58" id="0" spkName="0" startTime="100.87">
+					<word endTime="100.97" id="0" spkName="0" startTime="100.87">You</word>
+					<word endTime="101.24" id="1" spkName="0" startTime="100.97">heat</word>
+					<word endTime="101.41" id="2" spkName="0" startTime="101.24">up</word>
+					<word endTime="101.62" id="3" spkName="0" startTime="101.41">one</word>
+					<word endTime="101.85" id="4" spkName="0" startTime="101.62">side</word>
+					<word endTime="101.93" id="5" spkName="0" startTime="101.85">the</word>
+					<word endTime="102.23" id="6" spkName="0" startTime="101.93">hot</word>
+					<word endTime="102.58" id="7" spkName="0" startTime="102.23">side</word>
+				</sentence>
+			</segment>
+			<segment endTime="105.38" id="15" spkName="0" startTime="102.94">
+				<sentence endTime="105.38" id="0" spkName="0" startTime="102.94">
+					<word endTime="103.02" id="0" spkName="0" startTime="102.94">The</word>
+					<word endTime="103.41" id="1" spkName="0" startTime="103.02">ammonia</word>
+					<word endTime="103.99" id="2" spkName="0" startTime="103.41">evaporates</word>
+					<word endTime="104.14" id="3" spkName="0" startTime="103.99">and</word>
+					<word endTime="104.57" id="4" spkName="0" startTime="104.37">it</word>
+					<word endTime="104.86" id="5" spkName="0" startTime="104.57">recondenses</word>
+					<word endTime="104.97" id="6" spkName="0" startTime="104.86">in</word>
+					<word endTime="105.06" id="7" spkName="0" startTime="104.97">the</word>
+					<word endTime="105.29" id="8" spkName="0" startTime="105.06">other</word>
+				</sentence>
+			</segment>
+			<segment endTime="112.56" id="16" spkName="0" startTime="106.03">
+				<sentence endTime="112.56" id="0" spkName="0" startTime="106.03">
+					<word endTime="106.09" id="0" spkName="0" startTime="106.03">You</word>
+					<word endTime="106.25" id="1" spkName="0" startTime="106.09">let</word>
+					<word endTime="106.35" id="2" spkName="0" startTime="106.25">it</word>
+					<word endTime="106.54" id="3" spkName="0" startTime="106.35">cool</word>
+					<word endTime="106.6" id="4" spkName="0" startTime="106.54">to</word>
+					<word endTime="106.8" id="5" spkName="0" startTime="106.60">room</word>
+					<word endTime="107.29" id="6" spkName="0" startTime="106.80">temperature</word>
+					<word endTime="108.69" id="7" spkName="0" startTime="108.59">and</word>
+					<word endTime="108.8" id="8" spkName="0" startTime="108.69">then</word>
+					<word endTime="108.92" id="9" spkName="0" startTime="108.80">as</word>
+					<word endTime="109.01" id="10" spkName="0" startTime="108.92">the</word>
+					<word endTime="110.02" id="11" spkName="0" startTime="109.35">ammonia</word>
+					<word endTime="110.32" id="12" spkName="0" startTime="110.02">reevaporates</word>
+					<word endTime="110.45" id="13" spkName="0" startTime="110.32">and</word>
+					<word endTime="110.95" id="14" spkName="0" startTime="110.46">combines</word>
+					<word endTime="111.08" id="15" spkName="0" startTime="110.95">with</word>
+					<word endTime="111.16" id="16" spkName="0" startTime="111.08">the</word>
+					<word endTime="111.51" id="17" spkName="0" startTime="111.16">water</word>
+					<word endTime="111.93" id="18" spkName="0" startTime="111.73">back</word>
+					<word endTime="112.03" id="19" spkName="0" startTime="111.93">on</word>
+					<word endTime="112.2" id="20" spkName="0" startTime="112.03">the</word>
+					<word endTime="112.58" id="21" spkName="0" startTime="112.20">erstwhile</word>
+				</sentence>
+			</segment>
+			<segment endTime="117.95" id="17" spkName="0" startTime="115.68">
+				<sentence endTime="117.95" id="0" spkName="0" startTime="115.68">
+					<word endTime="115.88" id="0" spkName="0" startTime="115.68">So</word>
+					<word endTime="115.9" id="1" spkName="0" startTime="115.88">it</word>
+					<word endTime="115.92" id="2" spkName="0" startTime="115.90">was</word>
+					<word endTime="115.95" id="3" spkName="0" startTime="115.91">a</word>
+					<word endTime="116.17" id="4" spkName="0" startTime="115.95">great</word>
+					<word endTime="116.63" id="5" spkName="0" startTime="116.17">idea</word>
+					<word endTime="116.85" id="6" spkName="0" startTime="116.75">that</word>
+					<word endTime="117.12" id="7" spkName="0" startTime="116.96">didn't</word>
+					<word endTime="117.32" id="8" spkName="0" startTime="117.12">work</word>
+					<word endTime="117.4" id="9" spkName="0" startTime="117.34">at</word>
+					<word endTime="117.64" id="10" spkName="0" startTime="117.40">all</word>
+				</sentence>
+			</segment>
+			<segment endTime="123.89" id="18" spkName="0" startTime="120.74">
+				<sentence endTime="123.89" id="0" spkName="0" startTime="120.74">
+					<word endTime="120.99" id="0" spkName="0" startTime="120.74">Because</word>
+					<word endTime="121.29" id="1" spkName="0" startTime="121.02">using</word>
+					<word endTime="121.66" id="2" spkName="0" startTime="121.29">ammonia</word>
+					<word endTime="121.77" id="3" spkName="0" startTime="121.66">you</word>
+					<word endTime="121.95" id="4" spkName="0" startTime="121.77">get</word>
+					<word endTime="122.57" id="5" spkName="0" startTime="122.13">hugely</word>
+					<word endTime="122.75" id="6" spkName="0" startTime="122.57">high</word>
+					<word endTime="123.25" id="7" spkName="0" startTime="122.75">pressures</word>
+					<word endTime="123.78" id="8" spkName="0" startTime="123.70">if</word>
+					<word endTime="123.86" id="9" spkName="0" startTime="123.78">you</word>
+				</sentence>
+			</segment>
+			<segment endTime="126.14" id="19" spkName="0" startTime="124.87">
+				<sentence endTime="126.14" id="0" spkName="0" startTime="124.87">
+					<word endTime="125.02" id="0" spkName="0" startTime="124.87">It</word>
+					<word endTime="125.43" id="1" spkName="0" startTime="125.12">topped</word>
+					<word endTime="125.63" id="2" spkName="0" startTime="125.43">four</word>
+					<word endTime="125.85" id="3" spkName="0" startTime="125.65">hundred</word>
+				</sentence>
+			</segment>
+			<segment endTime="127.75" id="20" spkName="0" startTime="126.79">
+				<sentence endTime="127.75" id="0" spkName="0" startTime="126.79">
+					<word endTime="126.85" id="0" spkName="0" startTime="126.79">The</word>
+					<word endTime="127.2" id="1" spkName="0" startTime="126.86">ammonia</word>
+					<word endTime="127.35" id="2" spkName="0" startTime="127.22">was</word>
+					<word endTime="127.78" id="3" spkName="0" startTime="127.35">toxic</word>
+				</sentence>
+			</segment>
+			<segment endTime="128.44" id="21" spkName="0" startTime="127.78">
+				<sentence endTime="128.44" id="0" spkName="0" startTime="127.78">
+					<word endTime="127.86" id="0" spkName="0" startTime="127.78">It</word>
+					<word endTime="128.19" id="1" spkName="0" startTime="127.87">sprayed</word>
+					<word endTime="128.45" id="2" spkName="0" startTime="128.19">everywhere</word>
+				</sentence>
+			</segment>
+			<segment endTime="130.19" id="22" spkName="0" startTime="128.59">
+				<sentence endTime="130.19" id="0" spkName="0" startTime="128.59">
+					<word endTime="128.78" id="0" spkName="0" startTime="128.59">But</word>
+					<word endTime="128.95" id="1" spkName="0" startTime="128.78">it</word>
+					<word endTime="129.12" id="2" spkName="0" startTime="128.95">was</word>
+					<word endTime="129.3" id="3" spkName="0" startTime="129.13">kind</word>
+					<word endTime="129.46" id="4" spkName="0" startTime="129.30">of</word>
+					<word endTime="129.54" id="5" spkName="0" startTime="129.46">an</word>
+					<word endTime="129.88" id="6" spkName="0" startTime="129.54">interesting</word>
+					<word endTime="130.2" id="7" spkName="0" startTime="129.88">thought</word>
+				</sentence>
+			</segment>
+			<segment endTime="135.47" id="23" spkName="0" startTime="131.22">
+				<sentence endTime="135.47" id="0" spkName="0" startTime="131.22">
+					<word endTime="131.46" id="0" spkName="0" startTime="131.22">So</word>
+					<word endTime="131.88" id="1" spkName="0" startTime="131.72">the</word>
+					<word endTime="132.05" id="2" spkName="0" startTime="131.88">great</word>
+					<word endTime="132.18" id="3" spkName="0" startTime="132.09">thing</word>
+					<word endTime="132.4" id="4" spkName="0" startTime="132.18">about</word>
+					<word endTime="132.51" id="5" spkName="0" startTime="132.40">two</word>
+					<word endTime="132.86" id="6" spkName="0" startTime="132.51">thousand</word>
+					<word endTime="133.31" id="7" spkName="0" startTime="132.86">six</word>
+					<word endTime="133.44" id="8" spkName="0" startTime="133.38">is</word>
+					<word endTime="133.86" id="9" spkName="0" startTime="133.59">there's</word>
+					<word endTime="133.91" id="10" spkName="0" startTime="133.86">a</word>
+					<word endTime="134.28" id="11" spkName="0" startTime="134.01">lot</word>
+					<word endTime="134.39" id="12" spkName="0" startTime="134.28">of</word>
+					<word endTime="134.81" id="13" spkName="0" startTime="134.62">really</word>
+					<word endTime="134.98" id="14" spkName="0" startTime="134.81">great</word>
+					<word endTime="135.66" id="15" spkName="0" startTime="135.01">computational</word>
+				</sentence>
+			</segment>
+			<segment endTime="140.75" id="24" spkName="0" startTime="136.35">
+				<sentence endTime="140.75" id="0" spkName="0" startTime="136.35">
+					<word endTime="136.53" id="0" spkName="0" startTime="136.35">So</word>
+					<word endTime="136.87" id="1" spkName="0" startTime="136.64">we</word>
+					<word endTime="137.66" id="2" spkName="0" startTime="137.49">got</word>
+					<word endTime="137.86" id="3" spkName="0" startTime="137.78">the</word>
+					<word endTime="138.32" id="4" spkName="0" startTime="137.88">whole</word>
+					<word endTime="139.0" id="5" spkName="0" startTime="138.32">thermodynamics</word>
+					<word endTime="139.29" id="6" spkName="0" startTime="139.00">department</word>
+					<word endTime="139.35" id="7" spkName="0" startTime="139.29">at</word>
+					<word endTime="139.7" id="8" spkName="0" startTime="139.35">Stanford</word>
+					<word endTime="140.13" id="9" spkName="0" startTime="139.70">involved</word>
+					<word endTime="140.16" id="10" spkName="0" startTime="140.13">a</word>
+					<word endTime="140.72" id="11" spkName="0" startTime="140.58">lot</word>
+				</sentence>
+			</segment>
+			<segment endTime="145.03" id="25" spkName="0" startTime="142.03">
+				<sentence endTime="145.03" id="0" spkName="0" startTime="142.03">
+					<word endTime="142.11" id="0" spkName="0" startTime="142.03">We</word>
+					<word endTime="142.58" id="1" spkName="0" startTime="142.11">proved</word>
+					<word endTime="142.98" id="2" spkName="0" startTime="142.89">that</word>
+					<word endTime="143.27" id="3" spkName="0" startTime="143.02">most</word>
+					<word endTime="143.33" id="4" spkName="0" startTime="143.27">of</word>
+					<word endTime="143.39" id="5" spkName="0" startTime="143.33">the</word>
+					<word endTime="143.7" id="6" spkName="0" startTime="143.39">ammonia</word>
+					<word endTime="144.33" id="7" spkName="0" startTime="143.70">refrigeration</word>
+					<word endTime="144.73" id="8" spkName="0" startTime="144.33">tables</word>
+					<word endTime="144.95" id="9" spkName="0" startTime="144.85">are</word>
+				</sentence>
+			</segment>
+			<segment endTime="150.04" id="26" spkName="0" startTime="146.37">
+				<sentence endTime="150.04" id="0" spkName="0" startTime="146.37">
+					<word endTime="146.49" id="0" spkName="0" startTime="146.37">We</word>
+					<word endTime="146.88" id="1" spkName="0" startTime="146.49">found</word>
+					<word endTime="147.11" id="2" spkName="0" startTime="146.88">some</word>
+					<word endTime="147.89" id="3" spkName="0" startTime="147.11">nontoxic</word>
+					<word endTime="148.43" id="4" spkName="0" startTime="147.89">refrigerants</word>
+					<word endTime="148.53" id="5" spkName="0" startTime="148.43">that</word>
+					<word endTime="148.74" id="6" spkName="0" startTime="148.53">worked</word>
+					<word endTime="148.83" id="7" spkName="0" startTime="148.74">at</word>
+					<word endTime="149.03" id="8" spkName="0" startTime="148.83">very</word>
+					<word endTime="149.18" id="9" spkName="0" startTime="149.03">low</word>
+					<word endTime="149.52" id="10" spkName="0" startTime="149.18">vapor</word>
+					<word endTime="150.04" id="11" spkName="0" startTime="149.52">pressures</word>
+				</sentence>
+			</segment>
+			<segment endTime="159.34" id="27" spkName="0" startTime="151.03">
+				<sentence endTime="159.34" id="0" spkName="0" startTime="151.03">
+					<word endTime="151.29" id="0" spkName="0" startTime="151.03">Brought</word>
+					<word endTime="151.33" id="1" spkName="0" startTime="151.29">a</word>
+					<word endTime="151.56" id="2" spkName="0" startTime="151.34">team</word>
+					<word endTime="151.68" id="3" spkName="0" startTime="151.56">from</word>
+					<word endTime="151.8" id="4" spkName="0" startTime="151.70">the</word>
+					<word endTime="151.94" id="5" spkName="0" startTime="151.80">U.</word>
+					<word endTime="152.3" id="6" spkName="0" startTime="151.94">K.</word>
+					<word endTime="152.48" id="7" spkName="0" startTime="152.31">there's</word>
+					<word endTime="152.51" id="8" spkName="0" startTime="152.48">a</word>
+					<word endTime="152.64" id="9" spkName="0" startTime="152.52">lot</word>
+					<word endTime="152.72" id="10" spkName="0" startTime="152.64">of</word>
+					<word endTime="152.9" id="11" spkName="0" startTime="152.74">great</word>
+					<word endTime="153.43" id="12" spkName="0" startTime="152.90">refrigeration</word>
+					<word endTime="153.68" id="13" spkName="0" startTime="153.44">people</word>
+					<word endTime="153.74" id="14" spkName="0" startTime="153.68">it</word>
+					<word endTime="153.98" id="15" spkName="0" startTime="153.74">turned</word>
+					<word endTime="154.11" id="16" spkName="0" startTime="154.00">out</word>
+					<word endTime="154.21" id="17" spkName="0" startTime="154.11">in</word>
+					<word endTime="154.3" id="18" spkName="0" startTime="154.21">the</word>
+					<word endTime="154.43" id="19" spkName="0" startTime="154.30">U.</word>
+					<word endTime="154.78" id="20" spkName="0" startTime="154.43">K.</word>
+					<word endTime="155.49" id="21" spkName="0" startTime="155.17">and</word>
+					<word endTime="156.02" id="22" spkName="0" startTime="155.80">built</word>
+					<word endTime="156.06" id="23" spkName="0" startTime="156.02">a</word>
+					<word endTime="156.35" id="24" spkName="0" startTime="156.06">test</word>
+					<word endTime="156.66" id="25" spkName="0" startTime="156.41">rig</word>
+					<word endTime="156.8" id="26" spkName="0" startTime="156.66">and</word>
+					<word endTime="157.1" id="27" spkName="0" startTime="156.80">proved</word>
+					<word endTime="157.25" id="28" spkName="0" startTime="157.10">that</word>
+					<word endTime="157.39" id="29" spkName="0" startTime="157.25">in</word>
+					<word endTime="157.65" id="30" spkName="0" startTime="157.39">fact</word>
+					<word endTime="157.74" id="31" spkName="0" startTime="157.65">we</word>
+					<word endTime="157.89" id="32" spkName="0" startTime="157.74">could</word>
+					<word endTime="158.09" id="33" spkName="0" startTime="157.89">make</word>
+					<word endTime="158.13" id="34" spkName="0" startTime="158.09">a</word>
+					<word endTime="158.34" id="35" spkName="0" startTime="158.13">low</word>
+					<word endTime="158.84" id="36" spkName="0" startTime="158.34">pressure</word>
+				</sentence>
+			</segment>
+			<segment endTime="162.03" id="28" spkName="0" startTime="161.31">
+				<sentence endTime="162.03" id="0" spkName="0" startTime="161.31">
+					<word endTime="161.41" id="0" spkName="0" startTime="161.31">So</word>
+					<word endTime="161.43" id="1" spkName="0" startTime="161.41">this</word>
+					<word endTime="161.45" id="2" spkName="0" startTime="161.43">is</word>
+					<word endTime="161.52" id="3" spkName="0" startTime="161.45">the</word>
+					<word endTime="161.58" id="4" spkName="0" startTime="161.52">way</word>
+					<word endTime="161.73" id="5" spkName="0" startTime="161.59">it</word>
+					<word endTime="162.04" id="6" spkName="0" startTime="161.73">works</word>
+				</sentence>
+			</segment>
+			<segment endTime="163.11" id="29" spkName="0" startTime="162.04">
+				<sentence endTime="163.11" id="0" spkName="0" startTime="162.04">
+					<word endTime="162.1" id="0" spkName="0" startTime="162.04">You</word>
+					<word endTime="162.23" id="1" spkName="0" startTime="162.10">put</word>
+					<word endTime="162.3" id="2" spkName="0" startTime="162.23">it</word>
+					<word endTime="162.39" id="3" spkName="0" startTime="162.30">on</word>
+					<word endTime="162.44" id="4" spkName="0" startTime="162.39">a</word>
+					<word endTime="162.86" id="5" spkName="0" startTime="162.49">cooking</word>
+					<word endTime="163.16" id="6" spkName="0" startTime="162.86">fire</word>
+				</sentence>
+			</segment>
+			<segment endTime="166.47" id="30" spkName="0" startTime="163.68">
+				<sentence endTime="166.47" id="0" spkName="0" startTime="163.68">
+					<word endTime="164.03" id="0" spkName="0" startTime="163.68">Most</word>
+					<word endTime="164.31" id="1" spkName="0" startTime="164.03">people</word>
+					<word endTime="164.43" id="2" spkName="0" startTime="164.31">have</word>
+					<word endTime="164.76" id="3" spkName="0" startTime="164.47">cooking</word>
+					<word endTime="165.0" id="4" spkName="0" startTime="164.76">fires</word>
+					<word endTime="165.1" id="5" spkName="0" startTime="165.04">in</word>
+					<word endTime="165.18" id="6" spkName="0" startTime="165.10">the</word>
+					<word endTime="165.36" id="7" spkName="0" startTime="165.18">world</word>
+					<word endTime="165.54" id="8" spkName="0" startTime="165.36">whether</word>
+					<word endTime="165.65" id="9" spkName="0" startTime="165.54">it's</word>
+					<word endTime="166.0" id="10" spkName="0" startTime="165.65">camel</word>
+					<word endTime="166.18" id="11" spkName="0" startTime="166.00">dung</word>
+					<word endTime="166.27" id="12" spkName="0" startTime="166.18">or</word>
+					<word endTime="166.55" id="13" spkName="0" startTime="166.27">wood</word>
+				</sentence>
+			</segment>
+			<segment endTime="169.17" id="31" spkName="0" startTime="166.80">
+				<sentence endTime="169.17" id="0" spkName="0" startTime="166.80">
+					<word endTime="166.87" id="0" spkName="0" startTime="166.80">It</word>
+					<word endTime="167.17" id="1" spkName="0" startTime="166.87">heats</word>
+					<word endTime="167.33" id="2" spkName="0" startTime="167.17">up</word>
+					<word endTime="167.42" id="3" spkName="0" startTime="167.33">for</word>
+					<word endTime="167.67" id="4" spkName="0" startTime="167.42">about</word>
+					<word endTime="167.91" id="5" spkName="0" startTime="167.67">thirty</word>
+					<word endTime="168.34" id="6" spkName="0" startTime="167.91">minutes</word>
+				</sentence>
+			</segment>
+			<segment endTime="174.53" id="32" spkName="0" startTime="171.64">
+				<sentence endTime="174.53" id="0" spkName="0" startTime="171.64">
+					<word endTime="171.8" id="0" spkName="0" startTime="171.64">Put</word>
+					<word endTime="171.87" id="1" spkName="0" startTime="171.80">it</word>
+					<word endTime="172.11" id="2" spkName="0" startTime="171.87">into</word>
+					<word endTime="172.17" id="3" spkName="0" startTime="172.11">a</word>
+					<word endTime="172.78" id="4" spkName="0" startTime="172.17">container</word>
+					<word endTime="173.33" id="5" spkName="0" startTime="173.08">and</word>
+					<word endTime="173.84" id="6" spkName="0" startTime="173.33">refrigerate</word>
+					<word endTime="173.92" id="7" spkName="0" startTime="173.84">for</word>
+					<word endTime="174.19" id="8" spkName="0" startTime="173.92">twenty</word>
+					<word endTime="174.39" id="9" spkName="0" startTime="174.19">four</word>
+				</sentence>
+			</segment>
+			<segment endTime="176.17" id="33" spkName="0" startTime="175.38">
+				<sentence endTime="176.17" id="0" spkName="0" startTime="175.38">
+					<word endTime="175.45" id="0" spkName="0" startTime="175.38">It</word>
+					<word endTime="175.7" id="1" spkName="0" startTime="175.45">looks</word>
+					<word endTime="175.86" id="2" spkName="0" startTime="175.70">like</word>
+				</sentence>
+			</segment>
+			<segment endTime="177.56" id="34" spkName="0" startTime="176.43">
+				<sentence endTime="177.56" id="0" spkName="0" startTime="176.43">
+					<word endTime="176.58" id="0" spkName="0" startTime="176.43">This</word>
+					<word endTime="176.66" id="1" spkName="0" startTime="176.58">is</word>
+					<word endTime="176.76" id="2" spkName="0" startTime="176.66">the</word>
+					<word endTime="177.03" id="3" spkName="0" startTime="176.76">fifth</word>
+					<word endTime="177.59" id="4" spkName="0" startTime="177.06">prototype</word>
+				</sentence>
+			</segment>
+			<segment endTime="178.48" id="35" spkName="0" startTime="177.68">
+				<sentence endTime="178.48" id="0" spkName="0" startTime="177.68">
+					<word endTime="177.79" id="0" spkName="0" startTime="177.68">It's</word>
+					<word endTime="177.94" id="1" spkName="0" startTime="177.79">not</word>
+					<word endTime="178.22" id="2" spkName="0" startTime="177.97">quite</word>
+					<word endTime="178.56" id="3" spkName="0" startTime="178.27">done</word>
+				</sentence>
+			</segment>
+			<segment endTime="181.75" id="36" spkName="0" startTime="179.47">
+				<sentence endTime="181.75" id="0" spkName="0" startTime="179.47">
+					<word endTime="179.66" id="0" spkName="0" startTime="179.47">Weighs</word>
+					<word endTime="179.85" id="1" spkName="0" startTime="179.66">about</word>
+					<word endTime="179.99" id="2" spkName="0" startTime="179.85">eight</word>
+					<word endTime="180.53" id="3" spkName="0" startTime="180.04">pounds</word>
+					<word endTime="181.59" id="4" spkName="0" startTime="181.24">and</word>
+					<word endTime="181.7" id="5" spkName="0" startTime="181.59">this</word>
+					<word endTime="181.79" id="6" spkName="0" startTime="181.70">is</word>
+				</sentence>
+			</segment>
+			<segment endTime="191.06" id="37" spkName="0" startTime="182.52">
+				<sentence endTime="191.06" id="0" spkName="0" startTime="182.52">
+					<word endTime="182.58" id="0" spkName="0" startTime="182.52">You</word>
+					<word endTime="182.73" id="1" spkName="0" startTime="182.58">put</word>
+					<word endTime="182.8" id="2" spkName="0" startTime="182.73">it</word>
+					<word endTime="182.99" id="3" spkName="0" startTime="182.80">into</word>
+					<word endTime="183.04" id="4" spkName="0" startTime="182.99">a</word>
+					<word endTime="183.52" id="5" spkName="0" startTime="183.04">fifteen</word>
+					<word endTime="184.17" id="6" spkName="0" startTime="183.77">vessel</word>
+					<word endTime="184.48" id="7" spkName="0" startTime="184.17">about</word>
+					<word endTime="184.89" id="8" spkName="0" startTime="184.48">three</word>
+					<word endTime="185.52" id="9" spkName="0" startTime="184.89">gallons</word>
+					<word endTime="185.63" id="10" spkName="0" startTime="185.54">and</word>
+					<word endTime="186.32" id="11" spkName="0" startTime="186.04">it'll</word>
+					<word endTime="186.63" id="12" spkName="0" startTime="186.38">cool</word>
+					<word endTime="186.73" id="13" spkName="0" startTime="186.63">it</word>
+					<word endTime="186.99" id="14" spkName="0" startTime="186.73">down</word>
+					<word endTime="187.49" id="15" spkName="0" startTime="187.33">to</word>
+					<word endTime="187.82" id="16" spkName="0" startTime="187.51">just</word>
+					<word endTime="188.07" id="17" spkName="0" startTime="187.82">above</word>
+					<word endTime="188.48" id="18" spkName="0" startTime="188.07">freezing</word>
+					<word endTime="188.65" id="19" spkName="0" startTime="188.48">three</word>
+					<word endTime="188.91" id="20" spkName="0" startTime="188.65">degrees</word>
+					<word endTime="189.14" id="21" spkName="0" startTime="188.91">above</word>
+					<word endTime="189.62" id="22" spkName="0" startTime="189.14">freezing</word>
+					<word endTime="190.38" id="23" spkName="0" startTime="190.07">for</word>
+					<word endTime="190.7" id="24" spkName="0" startTime="190.44">twenty</word>
+					<word endTime="190.92" id="25" spkName="0" startTime="190.70">four</word>
+				</sentence>
+			</segment>
+			<segment endTime="193.83" id="38" spkName="0" startTime="193.14">
+				<sentence endTime="193.83" id="0" spkName="0" startTime="193.14">
+					<word endTime="193.29" id="0" spkName="0" startTime="193.14">It's</word>
+					<word endTime="193.52" id="1" spkName="0" startTime="193.29">really</word>
+					<word endTime="193.83" id="2" spkName="0" startTime="193.52">cheap</word>
+				</sentence>
+			</segment>
+			<segment endTime="198.58" id="39" spkName="0" startTime="193.92">
+				<sentence endTime="198.58" id="0" spkName="0" startTime="193.92">
+					<word endTime="194.01" id="0" spkName="0" startTime="193.92">We</word>
+					<word endTime="194.18" id="1" spkName="0" startTime="194.01">think</word>
+					<word endTime="194.26" id="2" spkName="0" startTime="194.18">we</word>
+					<word endTime="194.4" id="3" spkName="0" startTime="194.26">can</word>
+					<word endTime="194.63" id="4" spkName="0" startTime="194.40">build</word>
+					<word endTime="194.91" id="5" spkName="0" startTime="194.63">these</word>
+					<word endTime="195.1" id="6" spkName="0" startTime="194.91">in</word>
+					<word endTime="195.34" id="7" spkName="0" startTime="195.10">high</word>
+					<word endTime="195.77" id="8" spkName="0" startTime="195.34">volumes</word>
+					<word endTime="195.86" id="9" spkName="0" startTime="195.77">for</word>
+					<word endTime="196.1" id="10" spkName="0" startTime="195.86">about</word>
+					<word endTime="196.32" id="11" spkName="0" startTime="196.10">twenty</word>
+					<word endTime="196.54" id="12" spkName="0" startTime="196.32">five</word>
+					<word endTime="196.94" id="13" spkName="0" startTime="196.56">dollars</word>
+					<word endTime="197.04" id="14" spkName="0" startTime="196.94">in</word>
+					<word endTime="197.23" id="15" spkName="0" startTime="197.04">low</word>
+					<word endTime="197.65" id="16" spkName="0" startTime="197.23">volumes</word>
+					<word endTime="197.76" id="17" spkName="0" startTime="197.65">for</word>
+					<word endTime="198.0" id="18" spkName="0" startTime="197.76">about</word>
+					<word endTime="198.21" id="19" spkName="0" startTime="198.02">forty</word>
+					<word endTime="198.62" id="20" spkName="0" startTime="198.21">dollars</word>
+				</sentence>
+			</segment>
+			<segment endTime="201.83" id="40" spkName="0" startTime="199.15">
+				<sentence endTime="201.83" id="0" spkName="0" startTime="199.15">
+					<word endTime="199.25" id="0" spkName="0" startTime="199.15">And</word>
+					<word endTime="199.33" id="1" spkName="0" startTime="199.25">we</word>
+					<word endTime="199.49" id="2" spkName="0" startTime="199.33">think</word>
+					<word endTime="199.57" id="3" spkName="0" startTime="199.49">we</word>
+					<word endTime="199.68" id="4" spkName="0" startTime="199.57">can</word>
+					<word endTime="199.87" id="5" spkName="0" startTime="199.68">make</word>
+					<word endTime="201.01" id="6" spkName="0" startTime="200.27">refrigeration</word>
+					<word endTime="201.56" id="7" spkName="0" startTime="201.21">something</word>
+					<word endTime="201.72" id="8" spkName="0" startTime="201.56">that</word>
+				</sentence>
+			</segment>
+			<segment endTime="202.96" id="41" spkName="0" startTime="202.67">
+				<sentence endTime="202.96" id="0" spkName="0" startTime="202.67">
+					<word endTime="202.88" id="0" spkName="0" startTime="202.67">Thank</word>
+					<word endTime="202.96" id="1" spkName="0" startTime="202.88">you</word>
+				</sentence>
+			</segment>
+		</content>
+	</document>
