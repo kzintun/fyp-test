@@ -30,4 +30,7 @@ load index.php using your localhost.
 
 For the audio recognizer function, only Chrome browsers are supported.
 
+Do note that the lectures videos of the collections need to be added to the Documents folder.
+These lecture video can be downloaded from MIT OpenCourseWare.
+
 
