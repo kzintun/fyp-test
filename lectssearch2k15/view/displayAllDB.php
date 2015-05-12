@@ -52,7 +52,7 @@
 			<div class="col-lg-6" align="center">
 				<div class="img-with-text">
 				<a href="index.php?database=<?php echo $fileName; ?>">
-				<img class="collectionImg" src="<?php echo './img/collections/'.$fileName.'.png'?>" border="0" alt="database icon" onerror='this.onerror = null; this.src="./img/collections/altcollection.png"'>
+				<img class="collectionImg" id="db_<?php echo $fileName; ?>" src="<?php echo './img/collections/'.$fileName.'.png'?>" border="0" alt="database icon" onerror='this.onerror = null; this.src="./img/collections/altcollection.png"'>
 				</a>
 				<p class="collectionName"><?php echo $fileName; 
 				$i++; ?></p>

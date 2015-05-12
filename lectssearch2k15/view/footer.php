@@ -43,6 +43,42 @@
 
   <script type="text/javascript" src="./static/js/jquery-ui.js"></script>
   <script src="./static/js/ajaxSearch.js"></script>
+  <script type="text/javascript" src="./static/js/platform.js"></script>
+  <script type="text/javascript" src="./static/js/webspeech.js"></script>
+  <script>
+      if (!('webkitSpeechRecognition' in window)) {
+          start_button.style.visibility = 'hidden';
+      }
+       var listener = new AudioListener();
+       function listen() {
+         
+            listener.listen("en", function(text) {
+              console.log(text);
+                document.getElementById("userSearchInput").value = text;
+                if (text.indexOf("go") !== -1) {
+
+                  if (text.indexOf("signal processing") !== -1) {
+                    document.getElementById("db_signalprocessing").click();
+                  }
+                  else if (text.indexOf("aerospace") !== -1) {
+                    document.getElementById("db_aerospace").click();
+                  //document.getElementById("searchBtn").click();
+                  }
+                  else if (text.indexOf("tedtalk") !== -1) {
+                    document.getElementById("db_tedtalk").click();
+                  }
+                }
+                if (text.indexOf("search") !== -1) {
+                  
+                  text = text.replace(/search/, '');
+                  text = text.trim();
+                  document.getElementById("userSearchInput").value = text;
+                  document.getElementById("searchBtn").click();
+                }
+                console.log("searching".text);
+            });
+        }
+  </script>
   <!-- <script src="./static/js/imgRedirect.js"></script>-->
 
 

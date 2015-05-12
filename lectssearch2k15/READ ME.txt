@@ -28,4 +28,6 @@ To use this tool,
 copy the folder into your local directory,
 load index.php using your localhost.
 
+For the audio recognizer function, only Chrome browsers are supported.
+
 

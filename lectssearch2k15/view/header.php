@@ -42,6 +42,7 @@
 
 
 		<link href="./static/css/style.css" rel="stylesheet" type="text/css" />
+
 	 	<style>
 		.ui-autocomplete {
 			max-height: 100px;
@@ -113,7 +114,6 @@
 		</script>
 
 		<script type="text/javascript">
-
 			function getUrlVars() {
 				var vars = {};
 				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
@@ -288,6 +288,12 @@
 							<input class="form-control searchBar clearable" type="text" name="searchfield" id="userSearchInput" placeholder="Search for documents"/>
 								<span class="input-group-btn">
 								<button class="btn btn-default" id="searchBtn" type="submit" name="go" >Search!</button>
+								<button id="start_button" type="button" onclick="listen()" >
+									<img alt="Start" id="start_img"
+  										src="./static/images/mic.gif" />
+  								</button>
+								
+
 							</span></div></form>
 					</div>
 				</div>
@@ -296,6 +302,9 @@
 
 		<div id="wrap">
 	<script type="text/javascript">
+    	
+
+	   
 		/*document.addEventListener("DOMContentLoaded", theDomHasLoaded, false);
 		//window.addEventListener("load", pageFullyLoaded, false);
 		 
