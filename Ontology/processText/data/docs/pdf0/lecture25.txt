@@ -1,0 +1,376 @@
+25
+Feedback
+
+The tools that we have  developed  throughout this set of lectures provide the
+basis  for a thorough  understanding  and  analysis  of linear  feedback  systems.
+Feedback is a process that arises naturally in many practical situations, and it
+is important to understand  how to analyze  and control  it. For example, feed-
+back  is often a problem  in public  address  systems  in  which the output  from
+the  audio  speakers  feeds  back  to  the  microphone.  If  the  feedback  is  too
+strong, the  system  becomes  unstable,  resulting  in a  commonly  experienced
+distortion. In many practical systems, linear feedback is purposely introduced
+to  enhance  or control  some  aspect  of the  system  performance.  Feedback  is
+often used in amplifier  design, for example, to compensate for a variety of un-
+certainties  in  element  characteristics  such  as  frequency  response.  It  is  also
+commonly  used in stabilizing unstable systems  or in control systems in which
+certain  disturbances  and  parameters  cannot be  accurately  specified. For  ex-
+ample,  in controlling  the flight  of a rocket or in positioning a telescope plat-
+form, in theory  if all  of the  system parameters  and  dynamics  are completely
+understood, the  positioning can be  accomplished  without feedback. The  use
+of feedback, however, allows the positioning to be accomplished by adjusting
+to zero  an error signal  corresponding  to the  difference  between  the  desired
+and actual position. This  process results in control  or positioning that is sig-
+nificantly less  sensitive to  specific system  parameters and  disturbances  than
+would  be the  case with an open-loop  control  or positioning system.
+
+In many  modern  control  systems,  it  is common  practice  to  use digital,
+and  therefore  discrete-time,  control  in the  feedback  loop. This  becomes  one
+very  important  application  for  discrete-time  feedback  systems.  There  are
+many  other  natural  settings  in  which  linear  discrete-time  feedback  arises,
+such as  population growth  in which, for  example,  certain factors  tend to re-
+tard growth  as population  size  increases.
+
+The basic tool for analyzing  linear feedback  systems is the Laplace  trans-
+form  in continuous  time and  the z-transform  in discrete  time. In  both cases,
+the basic feedback  equation  describing the overall  system function  of a feed-
+back  system  in terms  of the  system  functions  in  the  forward  and  feedback
+paths is the  same. However, the  conclusions  drawn  from this basic equation
+relating to conditions  necessary  for the feedback  system  to be stable  are dif-
+ferent: for  stability of the  overall  continuous-time  system we  require that the
+
+25-1
+
+Signals  and Systems
+25-2
+
+system poles be in the left half of the s-plane,  while for stability of the  overall
+discrete-time  system we require that the poles be inside  the unit circle.
+
+As one illustration of the stability analysis  of continuous-time  linear feed-
+back systems, we consider in this lecture the example  of feedback  in an audio
+system.  One  conclusion  that we  can  readily  draw  from  analysis  of the  feed-
+back equation for this system is that for stability, the combined gain of the for-
+ward and feedback paths  must be less  than unity.
+
+In the  next lecture, as a further  illustration of the  analysis of linear  feed-
+back  systems,  we  will  consider,  analyze,  and  demonstrate  in  some  detail  a
+system referred  to as the inverted pendulum.
+
+Suggested  Reading
+Section  11.0,  Introduction, pages 685-688
+Section  11.1,  Linear Feedback  Systems, pages 689-690
+Section  11.2,  Some  Applications  and  Consequences  of Feedback, pages  690-
+
+700
+
+Feedback
+25-3
+
+TRANSPARENCY
+25.1
+Inverted pendulum:
+open-loop  system.
+
+'N?
+
+N
+
+-
+
+I
+
+s(t)
+
+x(t) 
+
+External
+disturbances
+
+a(t) 
+
+006 
+
+System 
+dynamics
+
+t)
+
+x(t)
+
+TRANSPARENCY
+25.2
+Inverted pendulum:
+closed-loop  system.
+
+s(t)
+
+External
+disturbances
+
+Signals  and Systems
+25-4
+
+TRANSPARENCY
+25.3
+Telescope positioning
+platform:  open-loop
+system.
+
+TRANSPARENCY
+25.4
+Analog  closed-loop
+telescope  positioning
+system.
+
++
+
+v(t)
+
+C4  O(t)
+
+v(t) 
+
+Input 
+voitn  e 
+
+g
+
+Motor 
+
+6(t)
+
+Platform
+an  uIrg
+position
+
+K  6(t)
+
+Feedback
+25-5
+
+TRANSPARENCY
+25.5
+Closed-loop  telescope
+positioning system
+with  a digital  control
+loop.
+
+K1 6(t)
+
+x(t)
+
+y(t)
+
+TRANSPARENCY
+25.6
+Block  diagram  of
+continuous-loop
+system  with a
+discrete-time
+feedback  control  loop.
+
+Signals  and Systems
+25-6
+
+TRANSPARENCY
+25.7
+Equivalent discrete-
+time  feedback  loop.
+
+r[n] 
+
++ 
+
+en 
++ 
+
+I 
+
+Zero-order 
+
+~holdIdlCD
+
+H (s) 
+
+IdaC/
+
+-
+
+g[n]
+
+TRANSPARENCY
+25.8
+Discrete-time
+feedback  loop  model
+for population  growth.
+
+x [n]
+
+y [n]
+
+Feedback
+25-7
+
+y(t)
+
+TRANSPARENCY
+25.9
+Basic  feedback
+equation  for  a
+continuous-time
+feedback  system.
+
+y[n]
+
+TRANSPARENCY
+25.10
+Basic  feedback
+equation for  a
+discrete-time
+feedback  system.
+
+x  (t)
+
+x[n]
+
+=Y (s) 
+X(s) 
+
+_ 
+
+H (s)
+
+- 1 + G(s)H  (s)
+
+Y(z)
+Q(z)  =  X(z)
+
+H(z)
+
+1 + G(z)H(z)
+
+Signals and  Systems
+25-8
+
+MARKERBOARD
+25.2
+
+Teers 
+
+L  sgtems
+
+4
+
+ULnstA'&lc
+
+P(s)+
+
+P)
+
+Thevt  9(S)=
+
+-H H(5)
+
+ct  Hs)
+
++GC  (s.)H( = 
+
+s
+
+STtve  4=  R  t3  < Q
+
+I
+
+Feedback
+25-9
+
+----- 
+
+-y(t)
+
+TRANSPARENCY
+25.11
+Conditions  for
+stability  of a
+continuous-time  linear
+feedback  system.
+
+x [n
+
+y[n]
+
+TRANSPARENCY
+25.12
+Conditions  for
+stability of a discrete-
+time linear feedback
+system.
+
+Q 
+
+Y(z)
+Q(Z)  = X(z)
+
+H (z)
+
+1 + G(z)H(z)
+
+1+G(z)H(z)=O 
+
+z=z,  z2
+
+stable  <=>  Iz I <  1
+
+Signals and  Systems
+25-10
+
+TRANSPARENCY
+25.13
+Linear feedback model
+for  a public  address
+system.
+
+DEMONSTRATION
+25.1
+Audio  feedback  using
+a microphone  and
+speaker.
+
+i
+
+Feedback
+25-11
+
+x(t)
+
+L
+
+I6(t)
+
+NTRANSPARENCY
+
+a(t) 
+
+25.14
+Inverted  pendulum:
+closed-loop  system.
+(Transparency  25.2
+repeated]
+
+s(t)
+
+External
+disturbances
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+
+Resource: Signals and Systems 
+Professor Alan V. Oppenheim 
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been 
+provided by the author as an individual learning resource. 
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+

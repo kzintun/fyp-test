@@ -1,0 +1,21 @@
+20
+The Laplace
+Transform
+
+Since we first introduced Fourier analysis in Lecture 7, we have relied heavily on its properties in the analysis and representation of signals and linear, time-invariant systems. The Fourier transform was developed from the concept of representing signals as a linear combination of basic signals that were chosen to be eigenfunctions of linear, time-invariant systems. With the eigenfunctions chosen to be the signals e j(t, this representation led to the Fourier transform synthesis equation, and a given LTI system could then be represented by the spectrum of eigenvalues as a function of W, that is, the change in amplitude that the system applies to each of the basic inputs e ".
+
+In this and the next several lectures we introduce a generalization of the Fourier transform, referred to as the Laplace transform. In addition to leading to a number of new insights, the use of the Laplace transform removes some of the restrictions encountered with the Fourier transform. Specifically, the Laplace transform converges for a broader class of signals than does the Fourier transform.
+
+The general class of eigenfunctions for LTI systems consists of the complex exponentials es, where s is a complex number. The use of this more general class in place of the complex exponentials e"' leads to the representation of signals and systems in terms of the Laplace transform. The response of an LTI system to a complex exponential of the form est is H(s)est and H(s), which represents the change in amplitude, is referred to as the system function. As developed in the lecture, H(s) is the Laplace transform of the system impulse response.
+
+The Laplace transform and the Fourier transform are closely related in a number of ways. When s is purely imaginary, i.e., when s =jw, the Laplace transform reduces to the Fourier transform. More generally, the Laplace transform can be viewed as the Fourier transform of a signal after an exponential weighting has been applied. Because of this exponential weighting, the Laplace transform can converge for signals for which the Fourier transform does not converge.
+
+The Laplace transform is a function of a general complex variable s, and for any given signal the Laplace transform converges for a range of values of s.
+
+This range is referred to as the region of convergence (ROC) and plays an important role in specifying the Laplace transform associated with a given signal. In particular, two different signals can have Laplace transforms with identical algebraic expressions and differing only in the ROC, i.e., in the range of
+values of s for which the expression is valid.
+
+For the most part, signals with which we will deal in this and subsequent lectures will be represented by Laplace transforms for which the associated algebraic expression is a ratio of polynomials in the complex variable s. The
+roots of the numerator polynomial are referred to as the zeros of the Laplace transform, and the roots of the denominator polynomial are referred to as the poles of the Laplace transform. It is typically convenient to represent the Laplace transform graphically in the complex s-plane by marking the location of the poles with x and the location of the zeros with 0. With the exception of an overall scale factor, this pole-zero diagram specifies the algebraic expression for the Laplace transform. In addition, the ROC must be indicated. As discussed in the lecture, there are a number of properties of the ROC in relation to the poles of the Laplace transform and in relation to certain properties of the signal in the time domain. These properties often permit us to identify the
+region of convergence from only the pole-zero pattern in the s-plane when some auxiliary information about the signal in the time domain is known, such as whether the signal is a right-sided, left-sided, or two-sided signal.
+

@@ -1,0 +1,391 @@
+18
+Discrete-Time
+Processing  of
+Continuous-Time
+Signals
+
+One very important  application  of the  concept  of sampling  is its role  in pro-
+cessing continuous-time  signals  using discrete-time systems. Specifically,  the
+continuous-time  signal,  which  either  is  assumed  to  be  bandlimited  or  is
+forced to be bandlimited by first processing  with an anti-aliasing filter, is sam-
+pled  and the samples are converted to a discrete-time representation. The dis-
+crete-time  signal may, for  example, represent  values  in successive  locations
+in a digital memory. After being processed with a discrete-time system, the se-
+quence  is "desampled"; that is, a continuous-time  signal is reconstructed, ide-
+ally  through bandlimited  interpolation, by  converting the  sequence  to  an im-
+pulse  (or  pulse)  train  followed  by  lowpass  filtering.  In  our  discussions  of
+discrete-time  signals and systems, we have  made a point  of indexing them  on
+an  integer variable  without  reference  to  a "sampling  period" since  discrete-
+time signals arise  in a wide variety  of ways besides periodic  time sampling.
+In converting the impulse train  of samples  to a sequence  of samples, we
+are  in effect  normalizing  the  time axis. In the  previous  lecture  we  discussed
+the  effect  of this  in  the  Fourier  domain,  concluding  that  the  discrete-time
+Fourier transform of the sequence of samples is basically the same as the con-
+tinuous-time  Fourier  transform  of the impulse  train resulting  after the  sam-
+pler, with the exception  that the frequency  axis  is normalized. The  discrete-
+time  sequence  is processed  by  a discrete-time  LTI  system  whose  frequency
+response  is likewise represented  on a normalized frequency  axis. Converting
+the filtered  output  sequence  back  to  a continuous-time  signal  can  be  inter-
+preted  as  "unnormalizing"  the frequency  axis, with the  eventual  conclusion
+that  the  overall  system  is  equivalent  to a  continuous-time  filter  whose  fre-
+quency  response  is basically  the  same as  the  frequency response  of the  dis-
+crete-time  filter with a linear scaling  of the frequency axis. Thus, for example,
+if the  cutoff frequency  of the  discrete-time  filter  is one-tenth  of 27r,  then the
+
+18-1
+
+Signals and  Systems
+18-2
+
+equivalent continuous-time  filter will have  a cutoff frequency that is one-tenth
+of the sampling  frequency.  Because  of this  dependence  on the  sampling  fre-
+quency,  with  a fixed  cutoff frequency  for  the  discrete-time  filter, the  cutoff
+frequency  for the equivalent  continuous-time  filter  can be  varied by  varying
+the  sampling  frequency.
+
+In  this  lecture  a number  of the  points  mentioned  above  are  illustrated
+through a demonstration. The  system demonstrated involves sampling  a con-
+tinuous-time signal  and filtering the  resulting  sequences with a lowpass  filter
+with  an  approximate  cutoff frequency  that  is one-tenth  of 21T.  The resulting
+output  sequence  is  then used  to  reconstruct  a continuous-time  signal using
+(approximately)  bandlimited  interpolation.  In the first part of the  demonstra-
+tion, we show the impulse  response of the  system. In particular, the discrete-
+time filter corresponds  to a linear-phase  filter with a finite  impulse response.
+In  the  second  part of the  demonstration,  we  illustrate  the frequency  re-
+sponse  of the  equivalent  continuous-time  filter by putting  a sinusoidal  signal
+at the  input  and  observing the response  both as  a function of time  and  as a
+function  of input  frequency.  It is  important  to note  that the system  demon-
+strated does  not have  an  anti-aliasing  filter. Consequently,  as the  input  sinu-
+soidal  frequency  increases past  half the  sampling  frequency,  aliasing  results
+and  the  input  sequence  to the  discrete-time  filter  begins  to  decrease  in  fre-
+quency  even though the frequency of the continuous-time  signal is increasing.
+Thus, as we observe the overall  output as the  input sinusoid sweeps from zero
+to half the  sampling  frequency,  the  output  moves through the  passband  into
+the stopband.  As  the  input  frequency  increases  further, the  resulting  output
+will  be  associated  not with  the  input  frequency  but  with the  aliased
+frequency;  thus, as the input frequency  continues  to increase  we  will  see the
+output behave  as though  the passband  is repeated. The two  consistent inter-
+pretations  of this periodicity  in the frequency  response  are (1) that it is a con-
+sequence  of aliasing on the input and (2)  that it is a consequence  of the period-
+icity  of the discrete-time  filter. With  either  interpretation,  if  an  anti-aliasing
+filter  had been  present  at  the  input,  all frequencies  above  half the  sampling
+frequency  would  be rejected  before  the  sampler and  this periodic  repetition
+of the passband  would not  occur.
+
+In the third part of the  demonstration, we  illustrate the  way in which the
+cutoff  frequency  of  the  overall  continuous-time  filter  is  dependent  on  the
+sampling  frequency. Specifically,  since the equivalent cutoff frequency is one-
+tenth  of the  sampling  frequency,  as the  sampling  frequency  increases  or  de-
+creases, the equivalent cutoff frequency of the continuous-time  filter will also.
+
+Suggested  Reading
+Section  8.4,  Discrete-Time  Processing  of  Continuous-Time  Signals,  pages
+
+531-539
+
+Discrete-Time  Processing  of Continuous-Time  Signals
+18-3
+
+MARKERBOARD
+18.1
+
+Discvre-Tit
+Proceasstvot  4~
+
+C/z) 
+
+COV.-frSsory..
+
+-
+YCO)~~ 
+
+YL%
+
+MP%3 
+
+jC(t1
+
+x (W)
+
+x  (W)
+
+S1
+
+.1.T
+
+TRANSPARENCY
+18.1
+Illustration  of the time
+normalization  and
+associated  frequency
+normalization  inherent
+in  the  conversion of a
+continuous-time  signal
+to a  discrete-time
+sequence.
+
+-2v 
+
+-MT 
+
+MTT
+
+21
+
+xC M)
+
+t~  1
+
+T 
+
+2T
+
+x[n]
+
+0 1 2  -
+
+Signals  and  Systems
+18-4
+
+TRANSPARENCY
+18.2
+Overall  block  diagram
+for discrete-time
+processing  of
+continuous-time
+signals.
+
+TRANSPARENCY
+18.3
+Illustration  of spectra
+associated  with
+conversion  from
+continuous  time  to
+discrete  time.
+
+1 
+
+-
+
+x P(w)
+
+T
+
+WPA 
+
+0 
+
+CM 
+
+Lis.
+
+T
+
+X ()
+
+-w,  T 
+
+-
+
+T
+
+0 
+
+M T 
+
+wT  = 2r
+
+Discrete-Time  Processing  of Continuous-Time  Signals
+18-5
+
+Xc(J)
+
+1 -~< H~(w)
+
+- w 
+
+0
+
+T 
+
+T
+
+P _(_)
+
+T
+
+1 
+
+-
+
+A
+
+WM  Qc  0  QC  WM 
+
+WS
+
+T 
+
+T
+
+T
+
+-WMT  -Qc 
+
+0 
+
+Q ,
+
+om T
+
+WT  -2r
+
+TRANSPARENCY
+18.4
+Illustration  of spectra
+associated  with
+applying  a discrete-
+time  frequency
+response  to  a
+sequence  obtained  by
+sampling  a
+continuous-time signal
+followed  by
+conversion  back from
+discrete  time  to
+continuous  time.
+
+TRANSPARENCY
+18.5
+Relationship  between
+the frequency
+response  of the
+discrete-time  filter and
+the  frequency
+response  of an
+equivalent  continuous-
+time  filter.
+
+Signals  and Systems
+18-6
+
+TRANSPARENCY
+18.6
+Discrete-time  impulse
+response  and
+frequency  response
+for  a filter used  in
+discrete-time
+processing  of
+continuous-time
+signals.
+
+*a 
+
+**
+
+- a
+
+.
+
+-
+
+-
+
+-15
+
+h[n]
+
+H (E2)
+
+I
+
+. 9  a
+
+I  I 
+
+*
+
+.w 
+
+.
+
+In
+
+*i
+
+15
+
+-2rr 
+
+7 
+
+IT 
+
+i 
+
+25r
+
+TRANSPARENCY
+18.7
+Equivalent
+continuous-time
+impulse  response  and
+frequency  response.
+
+h(t)
+
+ws- 
+
+t
+
+Discrete-Time  Processing  of Continuous-Time  Signals
+18-7
+
+p(t)
+
+Aliasing 
+Filter 
+
+tolseqtn 
+
+x[n] 
+
+y[n]
+
+TRANSPARENCY
+18.8
+Overall  block  diagram
+for  discrete-time
+processing  of
+continuous-time
+signals.  [Transparency
+18.2  repeated]
+
+toenc V(t) 0I 
+
+Ye(t)
+
+DEMONSTRATION
+18.1
+Frequency-domain
+(left)  and time-domain
+(right)  illustration  of a
+continuous-time
+sinusoidal  signal
+sampled  and filtered
+with  a discrete-time
+lowpass  filter.
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+
+Resource: Signals and Systems 
+Professor Alan V. Oppenheim 
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been 
+provided by the author as an individual learning resource. 
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+

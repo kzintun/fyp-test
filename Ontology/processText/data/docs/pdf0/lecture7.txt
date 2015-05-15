@@ -1,0 +1,26 @@
+7
+Continuous-Time
+Fourier Series
+
+In representing and analyzing linear, time-invariant systems, our basic approach has been to decompose the system inputs into a linear combination of basic signals and exploit the fact that for a linear system the response is the
+same linear combination of the responses to the basic inputs. The convolution sum and convolution integral grew out of a particular choice for the basic signals in terms of which we carried out the decomposition, specifically delayed unit impulses. This choice has the advantage that for systems which are time-invariant in addition to being linear, once the response to an impulse at one time position is known, then the response is known at all time positions.
+
+In this lecture, we begin the discussion of the representation of signals in terms of a different set of basic inputs-complex exponentials with unity magnitude. For periodic signals, a decomposition in this form is referred to as
+the Fourier series, and for aperiodic signals it becomes the Fourier transform. In Lectures 20-22 this representation will be generalized to the Laplace transform for continuous time and the z-transform for discrete time.
+
+Complex exponentials as basic building blocks for representing the input and output of LTI systems have a considerably different motivation than the use of impulses. Complex exponentials are eigenfunctions of LTI systems;
+that is, the response of an LTI system to any complex exponential signal is simply a scaled replica of that signal. Consequently, if the input to an LTI system is represented as a linear combination of complex exponentials, then the effect of the system can be described simply in terms of a weighting applied to each coefficient in that representation. This very important and elegant relationship between LTI systems and complex exponentials leads to some extremely powerful concepts and results.
+
+Before capitalizing on this property of complex exponentials in relation to LTI systems, we must first address the question of how a signal can be represented as a linear combination of these basic signals. For periodic signals,
+the representation is referred to as the Fourier series and is the principal topic of this lecture. Specifically, we develop the Fourier series representation for periodic continuous-time signals. In Lecture 8 we extend that representation to the representation of continuous-time aperiodic signals. In Lectures 10 and 11, we develop parallel results for the discrete-time case.
+
+The continuous-time Fourier series expresses a periodic signal as a linear combination of harmonically related complex exponentials. Alternatively,it can be expressed in the form of a linear combination of sines and cosines or
+sinusoids of different phase angles. In these lectures, however, we will use almost exclusively the complex exponential form. The equation describing the representation of a time function as a linear combination of complex exponentials is commonly referred to as the Fourier synthesis equation, and the equation specifying how the coefficients are determined in terms of the time function is referred to as the Fourier series analysis equation. To illustrate
+the Fourier series, we focus in this lecture on the Fourier series representation of a periodic square wave.
+
+The fact that a square wave which is discontinuous can be "built" as a linear combination of sinusoids at harmonically related frequencies is somewhat astonishing. In fact, as we add terms in the Fourier series representation, we achieve an increasingly better approximation to the square wave except at the discontinuities; that is, as the number of terms becomes infinite,the Fourier series converges to the square wave at every value of T except at the discontinuities. However, for this example and more generally for periodic signals that are square-integrable, the error between the original signal and the Fourier series representation is negligible, in practical terms, in the sense
+that this error in the limit has zero energy. In the lecture, some of these convergence issues are touched on with the objective of developing insight into the behavior of the Fourier series rather than representing an attempt to focus formally on the mathematics.
+
+The Fourier series for periodic signals also provides the key to representing aperiodic signals through a linear combination of complex exponentials.This representation develops out of the very clever notion of representing an
+aperiodic signal as a periodic signal with an increasingly large period. As the period becomes larger, the Fourier series becomes in the limit the Fourier integral or Fourier transform, which we begin to develop in the next lecture.
+

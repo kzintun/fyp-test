@@ -1,0 +1,1 @@
+The most direct computation of the DFT requires an amount of computation proportional to N where N is the length of the transform. However by exploiting symmetry and periodicity properties of the complex exponential sequences it is possible to reduce dramatically the amount of computation required. In this lecture we begin a discussion of the set of algorithms which result.

@@ -1,0 +1,578 @@
+19
+Discrete-Time
+Sampling
+
+In  the previous lectures we discussed sampling  of continuous-time  signals. In
+this lecture  we address the parallel topic of discrete-time sampling, which has
+a number  of important  applications. The  basic concept of discrete-time  sam-
+pling  is similar to  that of continuous-time  sampling. Specifically, we  multiply
+a discrete-time  sequence by a periodic impulse train, thus retaining every Nth
+sample and  setting the remaining  ones to zero (where N denotes the period of
+the  sampling  impulse  train). The consequences  in the  frequency  domain  and
+the  constraints  on the  bandwidth  of the  original  sequence  such  that  it  can
+be recovered  from  its samples  parallel  those for  continuous time.  Under the
+constraints  of the  sampling theorem,  exact interpolation  can  again be imple-
+mented with an ideal  lowpass filter.
+
+Closely associated with, but not identical to, the concept of discrete-time
+sampling  is that  of decimation  or downsampling.  After sampling  a sequence
+with an impulse train, we have  obtained a new sequence  that is nonzero  only
+at multiples  of the  sampling period N. Consequently, in many practical situa-
+tions there  is no reason  to explicitly  retain these  zero  values since  they  can
+always be reinserted. Thus, somewhat  distinct from the  notion of sampling  is
+the  concept  of  decimation,  whereby  a new  sequence  is  generated  from  the
+original  sequence  by  selecting  every  Nth  sample.  This  in effect  results  in  a
+time  compression.  Although  not  typically  implemented  this  way,  it  can  be
+thought of as a two-step process, the first step  consisting of periodic sampling
+and  the second step  corresponding  to discarding the zero values between the
+samples.  Decimation  is also  commonly  referred  to as  downsampling  since  if
+the  original  sequence  resulted  from  time sampling  a continuous-time  signal,
+the  new  sequence  resulting  from  decimation  would  be  exactly  what would
+have  been obtained had a lower sampling rate been used originally. If, for ex-
+ample, a continuous-time  signal is sampled  at or near the Nyquist rate and  is
+then processed  by  a  discrete-time  system  that  provides  some  further  band-
+limiting, downsampling  or decimation  is  often used.
+
+The  reverse  of  downsampling  is  "upsampling,"  whereby  we  attempt  to
+reconstruct  the original  sequence. The process is again best thought of in two
+stages,  the  first  corresponding  to  converting  the  decimated  sequence  to  a
+
+19-1
+
+Signals  and  Systems
+19-2
+
+sampled  sequence  by reinserting the  (N-  1) zero values between  the sample
+points. The second stage is interpolation  with a lowpass filter to construct the
+original  sequence.
+
+The processes  of downsampling  and upsampling  have  a number of prac-
+tical  implications.  One,  as indicated  above,  is  sampling  rate conversion  after
+additional processing. Another  very  important  one  is converting  a sequence
+from one sampling rate to another  perhaps to generate  compatibility between
+otherwise  incompatible  systems. For example, it is  often important to  convert
+between different  digital  audio systems  that use  different sampling  rates.
+
+In this lecture  we also  briefly discuss the  concept  of sampling  in the  fre-
+quency  domain. Frequency-domain  sampling typically arises  when we  would
+like  to measure  or  explicitly  evaluate  numerically the  Fourier  transform. Al-
+though in general the Fourier transform  for both continuous time and discrete
+time  is  a  function  of a  continuous-frequency  variable,  the  measurement  or
+calculation  must be made  only at a set of sample  frequencies. Because  of the
+duality  between  the time and frequency  domains  for continuous  time, the  is-
+sues,  analysis,  and  concepts  related  to  frequency-domain  sampling  for  con-
+tinuous-time  signals  are exactly dual to those of time-domain  sampling. Thus,
+for  example,  the  Fourier  transform  can  exactly  be  recovered  from  equally
+spaced samples in the  frequency domain provided that the time-domain  signal
+is timelimited  (the  dual  of bandlimited).  Basically, the  same result applies  in
+discrete time, i.e.,  the Fourier transform  of a timelimited  sequence  can  be ex-
+actly  represented  by  and recovered  from  equally  spaced  samples  provided
+that  the  sample  spacing  in frequency  is sufficiently  small in  relation  to  the
+time  duration of the  signal in the  time  domain.
+
+Suggested Reading
+Section 8.6,  Sampling  of Discrete-Time  Signals, pages  543-548
+Section 8.7,  Discrete-Time  Decimation  and  Interpolation, pages  548-553
+Section 8.5,  Sampling  in the  Frequency  Domain, pages  540-543
+
+Discrete-Time  Sampling
+19-3
+
+MARKERBOARD
+19.1  (a)
+
+~:  ~
+
+-
+
+* dcladcekn  nre% 
+
+sa.*Xpi% 
+
+0ke
+
+k' 
+
+-A
+
+I
+
+II  I 11r
+
+N. 
+
+r 0.1.0X01.(1]
+
+. In
+
+x[ n]
+
+n
+
+TRANSPARENCY
+19.1
+Discrete-time
+sampling with  a
+periodic  impulse  train.
+
+Signals  and Systems
+19-4
+
+MARKERBOARD
+19.1 (b)
+
+-VN3
+
+-L'
+
+X(M)
+
+'K
+
+-21r 
+
+TRANSPARENCY
+19.2
+Illustration  of spectra
+associated  with
+discrete-time
+sampling.  The
+sampling rate is
+sufficiently  high  to
+avoid aliasing.
+
+QM 
+
+0 
+
+u2 m 
+
+21r  Q2
+
+P(2)
+
+27r
+
+XP (M)
+
+R, 
+
+(27r  - S2,) 
+
+27n 
+
+Q
+
+1 
+
+, 
+
+~ 
+
+1
+
+(A
+
+Discrete-Time  Sampling
+19-5
+
+27T  Q 
+
+TRANSPARENCY
+19.3
+Illustration  of spectra
+associated  with
+discrete-time  sampling
+when  the  sampling
+rate is too low to  avoid
+aliasing.
+
+X(12)
+
+-21r
+
+-m 
+
+0 
+
+E2
+
+21T  2
+
+21r
+
+s, 
+
+(21r  - Q,) 
+
+2 7r  Q
+
+XP(O) 
+
+H(S2)
+amplitude  N
+
+1Q 
+
+, 
+
+Q 
+
+7
+
+1s-Q
+
+TRANSPARENCY
+19.4
+Illustration  of the
+recovery  of the
+original  discrete-time
+spectrum  from the
+spectrum  of the
+sampled  signal using
+an ideal  lowpass filter.
+
+p[n]
+
+x [n]
+
+xr[n]
+
+'ii
+
+27r  Q
+
+-2 1r 
+
+QM 
+
+M 
+
+X  (2)
+
+1/N
+
+-27 
+
+-QM 
+
+M 
+
+s 
+
+27r 
+
+R
+
+H(l2)
+
+N
+
+77F
+
+-2r 
+
+-2ir2 
+
+2
+
+I
+
+2 
+
+Signals  and  Systems
+19-6
+
+TRANSPARENCY
+19.5
+Overall  system  for
+discrete-time  sampling
+and  reconstruction.
+
+TRANSPARENCY
+19.6
+Discrete-time
+sampling  and
+reconstruction  with
+the reconstruction
+interpreted  in the  time
+domain  as a process  of
+interpolation.
+
+0 
+
+x[n]
+
+n
+
+xd [n]
+
+Xd  &E) =  X
+
+Discrete-Time  Sampling
+19-7
+
+TRANSPARENCY
+19.7
+Relationship  between
+sampling  and
+decimation.
+
+MARKERBOARD
+19.1 (c)
+
+eSagma 
+
+tina*
+
+e 
+
+cre 
+
+Tke  4
+
+C  k-ftoA
+
+t w 
+
+EA
+
+v0*
+
+)rpLwtJ
+
+I
+
+SL 
+
+N  L4
+
+Signals and Systems
+19-8
+
+TRANSPARENCY
+19.8
+Illustration  of the
+effect  of decimation  in
+the frequency  domain.
+
+x  (t  --  -
+
+C/D 
+
+conversion 
+
+x[n] 
+
+Discrete  time
+lowpass filter 
+
+H (S2)
+
+y [n]
+
+TRANSPARENCY
+19.9
+Example  of a  context
+in which  discrete-
+time  decimation  or
+downsampling  might
+be used.
+
+Xe(W)
+
+-M 
+
+WM
+
+X(S2)  H(S2)
+
+-21 
+
+-
+
+-S2r 
+
+2C
+
+27r 
+
+S2
+
+27r 
+
+-sic 
+
+S2i
+
+27T 
+
+&Z
+
+Discrete-Time  Sampling
+19-9
+
+TRANSPARENCY
+19.10
+Steps  involved  in
+upsampling, i.e.,
+recovering a  signal
+after it has  been
+decimated.
+
+xd [n]
+
+Conversion  of
+
+decimated sequence
+
+to sampled
+sequence
+
+xP  [ni 
+
+Ideal  towpass
+0- 
+
+f ilter 
+H(g2)
+
+x[nI
+
+TRANSPARENCY
+19.11
+Time-domain
+illustration  of
+upsampling.
+
+~ti1. I~rl  e 0  n
+.LiJx11Tin.T!..1 
+
+'.T.TT.L
+
+Signals  and Systems
+19-10
+
+TRANSPARENCY
+19.12
+Frequency-domain
+illustration  of
+upsampling.
+
+0044\
+
+-2T 
+
+-21r
+
+Xd (R)
+A
+
+A
+xp  M
+
+X((4
+
+X(92)
+
+2r 
+
+12
+
+2r  a
+
+IT 
+
+27 
+
+2
+
+Discrete-Time  Sampling
+19-11
+
+TRANSPARENCY
+19.13
+Frequency-domain
+sampling.
+
+TRANSPARENCY
+19.14
+Signal recovery  after
+frequency-domain
+sampling.
+
+2I 
+
+x (t)
+
+x(t)
+
+WO 
+
+w(t)
+
+w0
+
+-
+
+w(t)
+
+Q  n.
+
+2
+
+t
+
+tO
+
+x(t)
+x(t) 
+
+x(t)
+x(t)
+
+Signals  and  Systems
+19-12
+
+TRANSPARENCY
+19.15
+Recovery  of a
+discrete-time  signal
+after  frequency-
+domain  sampling.
+
+T T
+
+x[n]
+
+x[n]
+
+_0
+
+w[n}
+
+x[n] wfnI
+
+?TTT
+a
+
+TI ?j
+
+N  =2
+
+n
+
+n
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+
+Resource: Signals and Systems 
+Professor Alan V. Oppenheim 
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been 
+provided by the author as an individual learning resource. 
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+

@@ -1,0 +1,43 @@
+0
+Fir
+1
+Iir
+2
+Parameter
+3
+Z_Transform
+30z_Transform properties
+31z_transform
+32inverse z_transform
+4
+Transform
+40discrete Fourier transform
+41discrete_time Fourier transform
+5
+Quantization
+6
+Filter
+7
+Discrete
+8
+Effects
+9
+Impulse
+10
+Digital
+100Representation linear digital networks
+101Digital Butterworth filters
+102Design IIR digital filters,
+103Network structures finite impulse response (FIR) systems parameter quantization effects digital filter structures
+104Design FIR digital filters
+11
+Fourier
+110Computation discrete Fourier transform,
+111discrete Fourier series
+12
+Structures
+13
+Response
+14
+Systems
+140Network structures infinite impulse response (IIR) systems

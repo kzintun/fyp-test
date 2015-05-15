@@ -1,0 +1,17 @@
+22
+The z-Transform
+
+In Lecture 20, we developed the Laplace transform as a generalization of the continuous-time Fourier transform. In this lecture, we introduce the corresponding generalization of the discrete-time Fourier transform. The resulting transform is referred to as the z-transform and is motivated in exactly the same way as was the Laplace transform. For example, the discrete-time Fourier transform developed out of choosing complex exponentials as basic building blocks for signals because they are eigenfunctions of discrete-time LTI systems. A more general class of eigenfunctions consists of signals of the form z, where z is a general complex number. A representation of discrete-time signals with these more general exponentials leads to the z-transform.
+
+As with the Laplace transform and the continuous-time Fourier transform, a close relationship exists between the z-transform and the discrete-time Fourier transform. For z = ejn or, equivalently, for the magnitude of z equal to unity, the z-transform reduces to the Fourier transform. More generally, the z-transform can be viewed as the Fourier transform of an exponentially weighted sequence. Because of this exponential weighting, the z-transform may converge for a given sequence even if the Fourier transform does not. Consequently, the z-transform offers the possibility of transform analysis for a broader class of signals and systems.
+
+As with the Laplace transform, the z-transform of a signal has associated with it both an algebraic expression and a range of values of z, referred to as the region of convergence (ROC), for which this expression is valid. Two very different sequences can have z-transforms with identical algebraic expressions such that their z-transforms differ only in the ROC. Consequently, the ROC is an important part of the specification of the z-transform.
+
+Our principal interest in this and the following lectures is in signals for which the z-transform is a ratio of polynomials in z or in z 1. Transforms of this type are again conveniently described by the location of the poles (roots
+of the denominator polynomial) and the zeros (roots of the numerator polynomial) in the complex plane. The complex plane associated with the z-transform is referred to as the z-plane. Of particular significance in the z-plane is the circle of radius 1, concentric with the origin, referred to as the unit circle.
+
+Since this circle corresponds to the magnitude of z equal to unity, it is the contour in the z-plane on which the z-transform reduces to the Fourier transform. In contrast, for continuous time it is the imaginary axis in the s-plane on
+which the Laplace transform reduces to the Fourier transform.
+
+The pole-zero pattern in the z-plane specifies the algebraic expression for the z-transform. In addition, the ROC must be indicated either implicitly or explicitly. There are a number of properties of the ROC in relation to the poles of the z-transform and in relation to characteristics of the signal in the time domain that often imply the ROC. For example, if the sequence is known to be right-sided, then the ROC must be the portion of the z-plane outside the circle bounded by the outermost pole. This and other properties are discussed in detail in the lecture.
+

@@ -1,0 +1,14 @@
+2
+Signals and Systems:
+Part I
+
+In this lecture, we consider a number of basic signals that will be important building blocks later in the course. Specifically, we discuss both continuous-time and discrete-time sinusoidal signals as well as real and complex exponentials.
+
+Sinusoidal signals for both continuous time and discrete time will become important building blocks for more general signals, and the representation using sinusoidal signals will lead to a very powerful set of ideas for representing signals and for analyzing an important class of systems. We consider a number of distinctions between continuous-time and discrete-time sinusoidal signals. For example, continuous-time sinusoids are always periodic. Furthermore, a time shift corresponds to a phase change and vice versa. Finally, if we consider the family of continuous-time sinusoids of the form A cos wot for different values of wo, the corresponding signals are distinct. The situation is considerably different for discrete-time sinusoids. Not all discrete-time sinusoids are periodic. Furthermore, while a time shift can be related to a change in phase, changing the phase cannot necessarily be associated with a simple time shift for discrete-time sinusoids. Finally, as the parameter flo is varied in the discrete-time sinusoidal sequence Acos(flon + 4), two sequences for which the frequency flo differs by an integer multiple of 27r are in fact indistinguishable.
+
+Another important class of signals is exponential signals. In continuous time, real exponentials are typically expressed in the form cet, whereas in discrete time they are typically expressed in the form ca".
+
+A third important class of signals discussed in this lecture is continuous-time and discrete-time complex exponentials. In both cases the complex exponential can be expressed through Euler's relation in the form of a real and an imaginary part, both of which are sinusoidal with a phase difference of 'N/2 and with an envelope that is a real exponential. When the magnitude of the complex exponential is a constant, then the real and imaginary parts neither grow nor decay with time; in other words, they are purely sinusoidal. In this case for continuous time, the complex exponential is periodic. For discrete time the complex exponential may or may not be periodic depending on whether the sinusoidal real and imaginary components are periodic.
+
+In addition to the basic signals discussed in this lecture, a number of additional signals play an important role as building blocks. These are introduced in Lecture 3.
+

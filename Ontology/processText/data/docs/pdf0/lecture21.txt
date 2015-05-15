@@ -1,0 +1,357 @@
+21
+Continuous-Time
+Second-Order  Systems
+
+The properties  of the Laplace  transform  make it particularly  useful in analyz-
+ing  LTI  systems  that  are  represented by  linear  constant-coefficient  differen-
+tial  equations.  Specifically,  applying  the  Laplace  transform  to a  differential
+equation converts it to an algebraic equation  relating the Laplace  transform of
+the system output to the product of the Laplace  transform of the system input
+and the Laplace  transform  of the system impulse response, referred  to as the
+systemfunction. The system function is readily obtained by inspection of the
+differential  equation,  and  the  system  impulse  response  can be  obtained  by
+evaluating the inverse Laplace  transform  of the system  function. Alternative-
+ly, the response  for any  other input  can be  evaluated by first multiplying  the
+Laplace  transform  of the input  by the system function and then  applying the
+inverse Laplace  transform.
+
+Two  particularly  important  classes  of systems  described  by  linear  con-
+stant-coefficient  differential  equations  are  first-order  and  second-order  sys-
+tems. In  implementing higher-order  systems,  it is very  common  to use  first-
+and second-order  systems as building blocks. Much of this lecture  focuses on
+using the Laplace transform to describe the behavior of these building blocks.
+First-order  systems  are represented  by  a  single  pole  in the  s-plane, and
+second-order  systems by a pair of poles. There may or may not also be zeros
+in the transfer  function, depending  on whether  there  are derivative  terms  on
+the right-hand side of the differential equation. From the differential  equation,
+the system function can be written directly. If we assume that the systems are
+causal, so that the impulse response is right-sided, then the ROC of the system
+function is implicitly  specified  to be  to the right of the rightmost  pole  in the
+s-plane.
+
+For second-order systems, the poles may be either on the real  axis in the
+s-plane or off the real axis as a complex conjugate pair, depending on the spe-
+cific  relationship  between  the coefficients.  When both poles  are  real-valued,
+the system is often referred to as overdamped, and when they occur as a com-
+plex-conjugate pair the system is referred to as underdamped. In the time do-
+main, the underdamped  case corresponds to an oscillatory impulse response
+with an exponential  damping. The  time constant  of the  damping  is related to
+
+21-1
+
+Signals  and Systems
+21-2
+
+the  real part  of the pole  locations, and  the  oscillatory  behavior  is associated
+with the  imaginary part. As the  poles move closer  to the jo-axis  the damping
+decreases, and as the poles move parallel to the jo-axis the oscillatory behav-
+ior changes  in frequency.
+
+Many  of the  properties  of the  frequency response  of a system  can  be  in-
+ferred  from  inspection  of the  pole-zero  pattern  of the  system  function. Since
+the Laplace  transform  reduces  to the Fourier transform for  s =jw,  the behav-
+ior of the system function on the jo-axis corresponds  to the  system frequency
+response.  By  considering  the  behavior  of  the  associated  vectors  in  the  s-
+plane, we  can  infer the behavior  of the frequency  response  for underdamped
+second-order  systems.  In particular,  the  frequency  response  tends  to have  a
+peak  for the  underdamped  case, and  as the  poles  move closer  to the jo-axis
+this peak becomes increasingly  sharp. The  frequency  location  of this peak  or
+resonance  is  closely  associated  with  the  frequency  of oscillation  of the  im-
+pulse response, and the width of the peak is closely associated with the damp-
+ing of the oscillations.
+
+Since  higher-order  transfer  functions  can  always  be  decomposed  into  a
+product  or  sum of first-order  and  second-order  transfer  functions,  these are
+important building blocks  for more general systems. One illustration  of this is
+the use of second-order  systems in speech synthesis. The use of second-order
+underdamped systems to simulate the resonances  of the vocal tract for gener-
+ating synthesized  speech is discussed  and illustrated  in this lecture.
+
+Suggested  Reading
+Section 9.5,  Properties  of the  Laplace  Transform, pages  596-603
+Section  9.7,  Analysis  and Characterization  of LTI  Systems Using  the  Laplace
+
+Transform, pages  604-611
+
+Section  4.12,  First-Order  and  Second-Order  Systems, pages 240-250
+Section  9.4,  Geometric  Evaluation  of the  Fourier  Transform  from  the  Pole-
+
+Zero  Plot, pages  590-595
+
+Continuous-Time  Second-Order  Systems
+
+21-3
+
+MARKERBOARD
+21.1
+
+0
+
+X~)=  5 
+
+f ct)~
+
+A1
+
+* 
+
+4Lt  +  (t  4KLt)
+
+*.  4Q 'S 
+
+.(%
+
+4* 
+
+S X(L
+
+m *
+
++F 4  '
+
+S  "t, 
+
+OA&
+
+( 
+j 
+
+patesj inc
+ec  -,ifSj77s)m
+
+j  LWO-- 
+
+s+tC%.
+
+LCCDE 
+
+aly  01cq(fl
+
+MARKERBOAIRD
+21.2  (a)
+
+..........
+
+'vq itaS  oq  a-~j  net
+o0irr 
+
+(co
+
+-R 
+
+StC0,A  -O'e
+
+lisi +2 ~~+j  z
+
+H)-012,
+
+e+2 5O.S+*
+
+1 
+
+I
+
+Signals and Systems
+21-4
+
+TRANSPARENCY
+21.1
+System  function for  a
+second-order  system.
+
+SECOND-ORDER  SYSTEM
+
+H(s)  = 
+
+2
+
+2n
+S  +  2[con S +  Cjn
+
+S2
+
+H (s)  =  (s-C
+
+(S-  )  (S-C2)
+
+C1   =  -
+
+n  + 
+
+n
+
+vr~~
+
+C2
+
+= 
+
+n 
+
+Ci
+
+n- 
+
+For  <1,  C1
+
+=  C2
+
+=  - Un  + jn) 
+
+2
+
+TRANSPARENCY
+21.2
+Pole-zero  pattern
+associated  with
+an  underdamped
+(left)  and  with an
+overdamped  (right)
+second-order  system.
+
+0<  <1
+
+t>1
+
+-'
+
+K----
+
+(Ofl
+
+"I 
+
+Cos@ -
+
+-tu 
+
+Re
+
+Continuous-Time  Second-Order  Systems
+21-5
+
+TRANSPARENCY
+21.3
+Determination  of the
+frequency response  of
+a second-order  system
+from  the pole-zero
+pattern.
+
+TRANSPARENCY
+21.4
+Frequency  response
+for  an underdamped
+second-order  system.
+
+|H (co)
+
+,n 
+
+1
+
+=  0.1
+
+, 
+
+t 
+
+1
+0.2
+
+1
+
+Wn  = 
+t 
+
+=  0.4
+
+-1 
+
+1
+
+(A)
+
+Signals and  Systems
+21-6
+
+TRANSPARENCY
+21.5
+System  function  for a
+second-order  system.
+[Transparency  21.1
+repeated]
+
+S
+
+For  <1
+
+TRANSPARENCY 
+21.6 
+Impulse  response  for
+an underdamped
+second-order  system.
+
+h(t)/on 
+
+0.1
+0.,
+
+Continuous-Time  Second-Order  Systems
+21-7
+
+MARKERBOARD
+21.2 (b)
+
+DEMONSTRATION
+21.1
+Vowel  synthesizer
+demonstrating  the  use
+of second-order
+continuous-time  filters
+in  speech  synthesis.
+
+Signals  and  Systems
+21-8
+
+MARKERBOARD
+21.2 (c)
+
+.- - 2 
+
+$ 
+
+J t 
+
+i
+
+...........
+
+H" (5)
+
+H(s)
+
+t
+
+DEMONSTRATION
+21.2
+The  Texas
+Instruments  Speak &
+Spell,  which uses
+discrete-time  filters
+for  speech synthesis.
+
+i
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+
+Resource: Signals and Systems 
+Professor Alan V. Oppenheim 
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been 
+provided by the author as an individual learning resource. 
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+

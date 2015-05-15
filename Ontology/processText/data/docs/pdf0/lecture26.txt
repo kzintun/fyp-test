@@ -1,0 +1,556 @@
+26
+Feedback Example:
+The Inverted Pendulum
+
+In this lecture, we  analyze  and demonstrate the  use  of feedback  in a specific
+system,  the  inverted  pendulum.  The  system  consists  of  a  cart  that  can  be
+pulled foward or backward  on a track. Mounted on the cart is an inverted pen-
+dulum, i.e., a pendulum pivoted at its base and with the weight at the top. Con-
+sequently, with the  cart stationary, the pendulum is unstable; even if balanced
+in unstable  equilibrium,  any external  disturbance  will cause  the pendulum  to
+fall.
+
+To  balance  the pendulum,  the  cart can  be  moved  forward  or backward
+under the weighted  rod. Thus, the forces acting  on the system are the cart ac-
+celeration  and  any  external  disturbances.  In  principle,  if all  of the  external
+disturbances  are  exactly  specified  (an  unreasonable  assumption)  and  if the
+system dynamics  are precisely  understood, then the  cart acceleration  can be
+specified  in  such a way  as to  maintain the  rod in a vertical  position. A  more
+reasonable  approach  to balancing  the rod or, equivalently,  stabilizing this un-
+stable  system,  however,  is  to  constantly  measure  the  angle  of the  rod  and
+choose  the  cart  acceleration  based  on  this  measurement.  This  then  corre-
+sponds to a feedback  system in which the measured angle is fed back through
+an appropriate  choice  of feedback  dynamics to control  the cart acceleration.
+We  carry  out  an  analysis  of the  open-loop  system  and  explore  several
+possible  choices  for  the feedback  dynamics.  Under  the  assumption  that the
+angular  displacement  of the rod  from perpendicular  is  kept small, the behav-
+ior of the inverted pendulum  can  be described  through a second-order  linear
+constant-coefficient  differential  equation,  or  equivalently  through  a system
+function  with two  real-axis  poles,  one  in  the  left half of the s-plane  and  the
+other in the right half of the s-plane, and therefore  associated with the system
+instability. A first, more or less obvious,  choice  for the feedback  dynamics  is
+to  simply  choose  the  cart acceleration  proportional  to  the  measured  angle.
+The resulting system function  again has two poles, the positions of which are,
+of course, dependent  on the feedback  gain. Examination  of the locus of these
+poles as a function  of gain  (often referred to as the root locus) shows  that for
+the  feedback  gain  negative,  the right half-plane  pole  moves even  further  into
+the  right  half-plane  so  that the  instability  becomes  even  more severe.  If the
+feedback  gain  is greater  than zero, as the  gain  increases  the two poles  move
+
+26-1
+
+Signals  and Systems
+26-2
+
+toward  each  other, meeting  at the  origin  and then  traveling  along the  imagi-
+nary  axis.  The  presence  of a  pole  in the  right half-plane  indicates  that  even
+with a very small input (such as a small displacement of the rod), the rod angle
+will  increase  exponentially.  With  the  poles  on  the  imaginary  axis,  any  dis-
+placement  will result in an oscillatory behavior. Consequently, the system  re-
+mains  unstable for  all values  of the feedback  gain.
+
+A  second type of feedback to  consider  corresponds  to  choosing the  cart
+acceleration  proportional  to  the  derivative of the angular  displacement.  This
+choice is motivated  by the possibility that perhaps the pendulum  can be stabi-
+lized by accelerating  the  cart  faster if the angular  displacement  is increasing
+faster. Examination  of the root locus  with  derivative  feedback  demonstrates
+again  that for the  feedback  gain  less than  zero the  system  becomes  increas-
+ingly unstable  while with the  feedback  gain greater  than zero the  system  be-
+comes  more stable but  is never  completely  stabilized. Finally, we  consider  a
+combination  of proportional  plus derivative feedback, and  in this case by  ap-
+propriate  choice  of the two  gain factors  the system  can  be stabilized.
+
+The  demonstration  accompanying  this lecture,  besides being  entertain-
+ing, is hopefully very instructive. In addition to showing that the system can  in
+fact be stabilized by appropriate  choice of feedback, we  are able  to show that
+feedback  is able  to  compensate  for  external  disturbances  and  to  changes  in
+the  system  dynamics.
+
+Suggested  Reading
+Section  11.3,  Root-Locus  Analysis  of Linear  Feedback  Systems,  pages  700-
+
+704
+
+Feedback Example:  The Inverted  Pendulum
+26-3
+
+DEMONSTRATION
+26.1
+A  simple  inverted
+pendulum.
+
+'NI
+
+N
+
+L
+
+x(t)
+
+TRANSPARENCY
+26.1
+The  inverted
+pendulum  and  a
+representation  of the
+open-loop system.
+
+x(t) 
+
+External
+disturbances
+
+a(t) 
+
+1 
+p 
+
+System
+dynamics
+
+Signals  and  Systems
+26-4
+
+TRANSPARENCY
+26.2
+The  inverted
+pendulum  with  a
+feedback  loop  from
+the pendulum  angle  to
+the  cart  acceleration.
+
+TRANSPARENCY
+26.3
+Equations  describing
+the dynamics  of the
+inverted  pendulum.
+
+External
+disturbances
+
+L 
+
+I
+
+s(t)
+
+a(t)
+
+d2 6(t)
+
+L  d 2
+
+=g sin  [6(t)]
+
++ Lx(t) - a(t)  cos 0(t)
+
+sin  [0(t)]  0(t)
+
+cos  [O(t)]  1
+
+L 
+
+d2 6(t
+t 
+dt 2
+
+- g 0(t)  = Lx(t) - a(t)
+
+0(s)  = 
+
+2 
+
+Ls2  - g
+
+[LX(s) - A(s)]
+
+Im
+
+s-plane
+
+X 
+
+X 
+
+Re
+
+Feedback Example:  The Inverted Pendulum
+26-5
+
+TRANSPARENCY
+26.4
+Linearized dynamic
+equation  when 0(t) is
+small  and the
+corresponding Laplace
+transform  and pole-
+zero  pattern.
+
+DEMONSTRATION
+26.2
+The  cart  and inverted
+pendulum represented
+by Transparency  26.2.
+
+Signals  and  Systems
+26-6
+
+TRANSPARENCY
+26.5
+Block  diagram  and
+system  function  for
+the  open-loop  system.
+
+O(s)  = H(s)  [LX(s)  - A(s)]
+
+H(s)  =
+
+1
+
+Ls2 - g
+
+L 
+
++
+
+x(t)
+
+a (t)
+
+TRANSPARENCY
+26.6
+System  function  and
+block  diagram  with
+feedback.
+
+(s)= H(s)  [LX(s) - A(s)]
+
+H (s) =
+
+Ls2 _ g
+
+L 
+
++
+
+x(t)
+
+a t)
+
+0(t)
+
+0(t)
+
+O(s)  =  + 
+
+LH(s)
+(s) 
+
+1 + G (s) H (s)
+
+X (s)
+
+Feedback  Example:  The  Inverted  Pendulum
+26-7
+
+TRANSPARENCY
+26.7
+System  function  with
+proportional  feedback.
+
+TRANSPARENCY
+26.8
+Locus  of system
+function  poles  for
+proportional  feedback
+with  ki  <  0.
+
+(s)  = 
+
+1 + G(s)  H(s) X(s)
+
+LH(s)
+
+Ls2  g
+
+Proportional  Feedback:
+
+a(t) =  K10(t)
+
+G(s)  =  K3
+
+=)
+
+1((s) 
+
+X(s)
+
+2  _ (g  - K,3
+
+Poles at s =
+
+g  -K3
++  E-K 1
+1L:7
+
+Proportional  Feedback:
+
+O(s)  = 
+
+1 
+
+X(S)
+
+S2  _ 
+
+LK1
+
+Im
+
+s-plane
+
+K1 <0
+
+4 
+
+XRe
+
+-vg /L 
+
++ \/gji -
+
+Signals  and  Systems
+26-8
+
+TRANSPARENCY
+26.9
+Locus  of system
+function poles  for
+proportional  feedback
+with  ki  >  0.
+
+TRANSPARENCY
+26.10
+Overall  system
+function  with
+derivative  feedback.
+
+Proportional  Feedback:
+
+1 
+
+X(s)
+
+(s)= 
+
+s2  _
+
+Im
+
+s-plane
+
+K 1 > 0
+
+A  0  A  4(  XRe
+
+-v  I
+
++v'97i
+
+0(s)  = 
+
+L H(s)
+
+H(s)  X(s)
+
+1 + G(s)  H (s)
+
+H (s)  = 
+
+s1_
+
+Ls2  _ g
+
+Derivative feedback:
+
+a(t)  =  K2  dO(t)
+
+dt
+
+G(s)  = K2 s
+
+8()= 
+
+1
+
+s2  + s(K 2/L)  - g/L
+
+X(s)
+
+Poles  at
+
+K2
+
+(K)2(
+
+Feedback  Example:  The  Inverted  Pendulum
+26-9
+
+TRANSPARENCY
+26.11
+Locus of system
+function  poles for
+derivative  feedback
+with k2 <  0-
+
+TRANSPARENCY
+26.12
+Locus  of system
+function  poles  for
+proportional  feedback
+with k2 >  0.
+
+Derivative feedback:
+
+0(s)  = 
+
+X(s)
+
+S2  + s(K 2 /L)  - g/L
+22
+
+K2  + 
+2L  -
+
+2  
+\  2Li 
+
+(.\
+\L/
+
+s-plane
+
+K2<0
+
+X---O--
+
+- 1/9 -/L
+
+Re
+
+Derivative feedback:
+
+0(s)  = 
+
+S 2  + s(K 2 /L)  - g/L
+
+1X(s)
+
+29 
+--  +(L 
+
+K2 
+
+( 
++ \/
+
+s 
+
+\
+
+K2>0 s-plane
+
+-/vL+ 
+
+/g-/
+
+Re
+
+Signals  and  Systems
+26-10
+
+TRANSPARENCY
+26.13
+Overall  system
+function  with
+proportional  plus
+derivative  feedback.
+
+TRANSPARENCY
+26.14
+Locus  of system
+function  poles  for
+proportional  plus
+derivative  feedback
+with k2 >  0 and  ki > 0.
+
+Proportional  plus derivative
+feedback:
+
+a(t)  =  K1  0(t) + K2  dO (t)
+dt
+
+G(s)  = K1 + K2 s
+
+H(s)  =
+
+s2  + s (K2 /L)  - g/L + K1 /L
+
+Poles at
+
+-K 2
+2L
+
+s 
+
+(K2  2  Kj -9
+
+V 
+
+2L 
+
+L
+
+Proportional  plus derivative
+feedback:
+
+H(s)  =
+
+s2  + s  (K2 /L)  - g/L +  K, /L
+
+-K2 
+2L 
+
+= 
+
+K 2 
+
+2 
+)/~
+
+V(\ 
+
+K 
+
+-g
+
+s-plane
+
+K2>0
+K1 >0
+Re
+
+Feedback Example:  The Inverted  Pendulum
+26-11
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+
+Resource: Signals and Systems 
+Professor Alan V. Oppenheim 
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been 
+provided by the author as an individual learning resource. 
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+

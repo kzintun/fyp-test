@@ -1,0 +1,677 @@
+15
+Discrete-Time
+Modulation
+
+The  modulation  property  is basically  the  same for  continuous-time  and dis-
+crete-time  signals. The principal  difference  is that since for discrete-time  sig-
+nals the Fourier transform is a periodic function of frequency, the convolution
+of the spectra resulting from multiplication  of the sequences is a periodic con-
+volution rather  than a linear  convolution.
+
+While the mathematics  is very similar, the applications are somewhat dif-
+ferent. In continuous  time, modulation plays a major  role in communications
+systems for transmission of signals over various types of channels. That appli-
+cation  usually is inherently  a continuous-time  application. However, in many
+modern  communication  systems,  signals  may go through  various  stages  and
+types of modulation as they move from  one channel to another, and often this
+conversion from  one modulation system to another is best implemented  digi-
+tally. In their digital form the signals are  discrete-time signals, and such trans-
+modulation  systems are  based on modulation properties associated with dis-
+crete-time  signals.
+
+In addition  to digital  modulation  systems, the  concepts  of discrete-time
+modulation (and, for that matter, continuous-time  modulation  also) are useful
+in the  context  of filtering, particularly  when it is of interest  to implement  fil-
+ters  with a variable  center frequency.  It is often simpler in such situations to
+implement  a fixed filter (either continuous  time or discrete  time) and through
+modulation  shift the signal spectrum  in relation to the fixed  filter center fre-
+quency rather than shifting the filter center frequency in relation to the signal.
+For  discrete-time  signals,  for example,  from  the  modulation  property  it  fol-
+lows  that  multiplying  a  signal  by  (-  1)'  has  the  effect  of  interchanging  the
+high  and low frequencies.  Consequently,  by  alternating  the  algebraic  sign of
+the input signal, processing  with a lowpass filter, and  then alternating the  al-
+gebraic  sign of the output signal, a highpass  filter can be implemented.
+
+In  discussing  continuous-time  modulation  in  Lecture  13  and  discrete-
+time modulation  in  the first part of this lecture, the  emphasis  is  on a carrier
+signal that  is a complex  exponential  or sinusoidal  signal. Another  important
+and useful class of carrier signals is periodic pulse trains that are constant for
+some  fraction of the period and  zero for the remainder.  In effect, then, either
+
+15-1
+
+Signals and Systems
+15-2
+
+in  continuous  time  or discrete  time,  modulation with  such a pulse  train  con-
+sists of extracting time slices of the modulating  signal. In data representation
+or transmission, this permits,  for example,  a type  of multiplexing  referred  to
+as time  division  multiplexing  since  during  the  "off"  part  of the  pulse  train,
+time slices  from  signals  in other  channels  can  be inserted.  Somewhat amaz-
+ingly, the original  modulating  signal can  be recovered  exactly after  pulse-am-
+plitude modulation provided only that the fundamental frequency of the carri-
+er pulse  train  is  greater  than twice  the  highest frequency  in  the  modulating
+signal.  The  modulating  signal can  then theoretically  be recovered  exactly by
+filtering  the  pulse-amplitude-modulated  signal  with  an  ideal  lowpass  filter.
+Furthermore,  this ability to exactly reconstruct the  original signal is  indepen-
+dent of the "duty cycle" of the carrier, i.e., it is theoretically possible no matter
+how  narrow  the "on"  time  of the  pulse  train is  made.  If for the  continuous-
+time  case,  the  "on"  time  of the  carrier pulse  train  is made  arbitrarily  small,
+with the  amplitude  increasing  proportionately,  the  carrier then  corresponds
+to an  impulse  train. For discrete  time, the pulse  train  with the  smallest "on"
+time  would likewise  correspond  to  a periodic  train of impulses or unit  sam-
+ples. In both cases, then, modulation with the impulse train carrier would cor-
+respond to sampling the modulating (input)  signal. This  leads to an extremely
+important  concept, referred  to  as the sampling theorem. The  sampling theo-
+rem states that a bandlimited signal can be exactly  reconstructed from  equal-
+ly spaced time  samples  provided that the  fundamental  frequency  of the sam-
+pler (i.e., the impulse train carrier) is greater than twice the  highest frequency
+in the signal to be reconstructed. This fundamental and important result, to be
+explored  further in Lecture  16, provides  a major bridge between  continuous-
+time and discrete-time  signals and  systems.
+
+Suggested Reading
+Section 7.5,  Discrete-Time  Amplitude Modulation, pages  473-479
+Section  7.4,  Pulse  Amplitude  Modulation  and  Time-Division  Multiplexing,
+
+pages  469-473
+
+Discrete-Time  Modulation
+15-3
+
+MARKERBOARD
+15.1
+
+e  Cormplex  exponentiQL
+
+Carrier
+
+Ctn]
+
+XE"3
+
+. Sin\usoidal C av-rier
+
+. ScroNous  rrodulat.ion-.
+
+Asinchronous,modulakion _
+
+. S I  le Side baNd
+
+x  E I  (e)c(n-e)d 0
+
+CoMP  ex exponentla L
+C ,  3(n -r' en+c)
+
+S' nusod' 
+
+Carrier
+
+C [r= Cos(en.+ec)
+
+Pulse  Carrier
+
+TRANSPARENCY
+15.1
+Spectra associated
+with  discrete-time
+amplitude  modulation
+with a complex
+exponential  carrier.
+
+x[n]  c[n] 
+
+X()C(2 
+
+) dO
+
+2i7
+
+X(2)
+
+-27r 
+
+-M 
+
+I 
+
+0 
+
+M 
+
+III\I
+
+C(92)
+
+2r 
+
+E2
+
+2w 
+
+2w 
+
+21r
+
+27r 
+
+-2w+  fl 
+
+c
+
+0 
+
+Y()
+
+_ 
+
+27r 
+
+2w + 
+
+c
+
+92
+
+27r 
+
+-27r  +  2(c2c 
+
+- EZ  )  Se 
+
+(Oc  +  EM) 
+
+27r
+
+Signals  and  Systems
+15-4
+
+TRANSPARENCY
+15.2
+Spectra associated
+with  discrete-time
+amplitude  modulation
+with  a sinusoidal
+carrier.
+
+TRANSPARENCY
+15.3
+Spectra  associated
+with  demodulation
+of an  amplitude-
+modulated  signal  with
+a sinusoidal  carrier.
+
+c[n]  =  cos  2cn
+
+iei  cn  +  1 e  cjn
+
+2
+
+2 
+
+X(2)
+i I
+
+C (2)
+
+I 
+
+-T 
+
+-2c 
+
+I 
+
+2c 
+
+I
+
+2
+
+Y(Q)
+
+A1A
+
+_r-2 
+
+iT 
+
+2r
+
+cos 2n
+
+y[nI
+
+w[n]
+
+Y(M)
+
+l 2
+
+W(W)
+
+F1
+2
+
+4
+
+22C
+
+2&2r  nT S
+
+Discrete-Time  Modulation
+15-5
+
+TRANSPARENCY
+15.4
+System and spectra for
+sinusoidal  amplitude
+demodulation.
+
+(-1 )
+
+x~n] 
+
+y[n]
+
+x
+
+Lowpass  filter
+
+H (2)
+
+(-1)
+
+y1p [n] 
+
+XhpE]
+
+x
+
+o E2 
+
+oE
+
+TRANSPARENCY
+15.5
+The use  of amplitude
+modulation to
+implement highpass
+filtering  with a
+lowpass filter.
+
+Signals  and  Systems
+15-6
+
+X(92)
+
+TRANSPARENCY
+15.6
+Spectra  associated
+with the  use  of
+modulation  and
+demodulation  to
+implement  highpass
+filtering  using  a
+lowpass  filter.
+
+-2 
+
+-f f 
+
+2n 7
+
+C(£2)
+
+Y(Q)
+
+21r
+
+31T  2
+
+-31r 
+
+-I 
+
+-Ir 
+
+-
+
+2
+
+Q  .
+
+7r
+
+xI  (E2)
+
+it  NA
+
+NA 
+
+p(t)
+
+x (t)
+
+y(t)
+
+iI 
+
+I 
+
+j 
+
+I 
+
+I 
+
+I
+
+TRANSPARENCY
+15.7
+Continuous-time
+amplitude  modulation
+with a  pulse  carrier.
+
+x (t)
+
+y(t)
+
+Discrete-Time  Modulation
+15-7
+
+TRANSPARENCY
+15.8
+Discrete-time
+amplitude  modulation
+with a pulse  carrier.
+
+TRANSPARENCY
+15.9
+Transparencies  15.9
+and  15.10  illustrate
+spectra associated
+with the  system of
+Transparency  15.7.
+Shown  here are  the
+input spectrum  and
+spectrum  of a pulse
+carrier.
+
+x[n]
+
+y[n]
+
+p[n]
+
+p[n]
+
+see
+
+Sam
+
+0  1* * - M
+
+N 
+
+(N + M)
+
+fiT
+
+X(W)
+
+- WM 
+
+WM
+
+27rA/T
+
+-W w
+
+Signals  and  Systems
+15-8
+
+TRANSPARENCY
+15.10
+Input  spectrum  and
+output  spectrum.
+
+TRANSPARENCY
+15.11
+Time  division
+multiplexing  using
+amplitude  modulation
+with a  pulse  carrier.
+
+X1 (t) 
+
+x 2 (t) 
+
+x3 (t)
+
+X(W)
+
+-wM 
+
+WM
+
+Y(w)
+
+-
+
+~-LWM  WM 
+
+L  p
+
+X
+
+t
+
+1 (t)
+
+t
+
+Y2 (t)
+
+t
+
+Y3  (t)
+
+y (t)
+
+x (t)
+
+y(t)
+
+0 
+
+p(t)
+
+x(t)
+
+y(t)
+
+Discrete-Time  Modulation
+15-9
+
+TRANSPARENCY
+15.12
+Time  waveforms
+associated  with
+amplitude  modulation
+with  a pulse  carrier.
+
+ri
+
+t
+
+TRANSPARENCY
+15.13
+Spectra  associated
+with  amplitude
+modulation with  a
+pulse  carrier.
+
+c
+
+X(W)
+
+~WM 
+
+WM 
+
+Y(W)
+
+A/T
+
+-LO 
+
+~WM 
+
+M 
+
+p
+
+Signals  and  Systems
+15-10
+
+TRANSPARENCY
+15.14
+Amplitude modulation
+with a  pulse  carrier
+with the pulses  chosen
+to have  unit  area.
+
+r
+
+p (t)
+
+x(t)
+
+TRANSPARENCY
+15.15
+Amplitude  modulation
+with a  pulse  carrier  in
+the limit  as the  pulse
+width approaches  zero
+and the  pulse  area
+remains  unity. This
+corresponds  to
+amplitude  modulation
+with  an impulse  train
+carrier.
+
+x(nT)
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+IT
+
+t
+
+X(w)
+
+M C  M  (A
+
+P(w)
+
+2r
+T
+
+2-, 
+
+- oS 
+
+W, 
+
+2o, 
+
+o
+
+T
+
+wM(WM 
+
+, 
+
+jM
+
+Discrete-Time  Modulation
+15-11
+
+TRANSPARENCY
+15.16
+Transparencies  15.16
+and  15.17  illustrate
+spectra  associated
+with impulse  train
+modulation. Here, the
+frequency  of the
+modulating  impulse
+train is  chosen large
+enough  so that  the
+individual replications
+of the input  spectrum
+do  not overlap.
+
+TRANSPARENCY
+15.17
+The  carrier
+fundamental
+frequency  is chosen
+such that the
+individual replications
+of the input  spectrum
+overlap.
+
+Signals  and  Systems
+15-12
+
+TRANSPARENCY 
+15.18
+Modulation  and
+demodulation with  an
+impulse  train  carrier.
+
+p(t)=
+
+x(t)
+
+MARKERBOARD
+15.2
+
+Samkin  Theoreix%
+
+etually  space4  Samples
+
+oS  x(t) 
+
+x(Kr)  n%=o,ti,tz,...
+
+X( =0&D lI > LO~A
+
+Then.  X(t)  Aniquelk  recoerable
+
+with  a  loupass  filter
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+
+Resource: Signals and Systems 
+Professor Alan V. Oppenheim 
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been 
+provided by the author as an individual learning resource. 
+
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+
