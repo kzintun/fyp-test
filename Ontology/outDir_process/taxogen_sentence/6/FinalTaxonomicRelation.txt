@@ -1,0 +1,44 @@
+desampling filter>>>desampling low-pass filter
+nonideal filter>>>nonideal highpass filter
+continuous time frequencies>>>corresponding continuous time frequencies
+particular graphs>>>particular view graph
+continuous-time time signals>>>continuous-time time impulse train signal
+complex exponential signals>>>complex exponential carrier signal
+inverse scaling>>>inverse linear scaling
+Professor Edgerton>>>Professor Harold Edgerton
+sinusoidal term>>>additional sinusoidal term
+discrete time ideas>>>discrete time concepts
+nonideal filters>>>notion nonideal filters
+scaled step>>>scaled unit step
+Fourier transform expression>>>inverse Fourier transform expression
+appropriate input voltage>>>appropriate applied input voltage
+omega c t>>>omega sub c t
+particular transform pair>>>particular Fourier transform pair
+discreet-time spectrum>>>resulting discreet-time spectrum
+omega c t>>>minus j omega c t
+individual impulses>>>individual delayed impulses
+limited interpolation>>>exact band limited interpolation
+general exponentials>>>general complex exponential
+j omega t>>>j omega sub r capital T
+weekly stock market index>>>Dow Jones Industrial weekly stock market index
+nonideal filters>>>nonideal highpass filter
+periodic time functions>>>continuous periodic time function
+j omega t>>>minus j omega c t
+j omega sub>>>minus j omega sub
+time aliasing>>>continuous time aliasing
+j omega sub cn>>>minus j omega sub cn
+reconstructed waveform>>>reconstructed continuous waveform
+continuous periodic function>>>continuous periodic time function
+impulse modulation>>>impulse train modulation
+sinusoidal terms>>>additional sinusoidal term
+coefficient difference equation>>>linear constant coefficient difference equation
+Doctor Edgerton>>>Doctor Harold Edgerton
+equivalent continuous-time system>>>equivalent overall continuous-time system
+algebraic step>>>simple algebraic step
+odd signal>>>odd harmonic signal
+complex exponential sequence>>>general complex exponential sequence
+discrete instance>>>example discrete time
+argument omega>>>argument j omega
+discrete instance>>>additional discrete time
+growing envelope>>>growing exponential envelope
+periodic time functions>>>discrete periodic time function

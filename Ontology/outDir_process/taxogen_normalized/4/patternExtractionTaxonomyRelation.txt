@@ -1,0 +1,4 @@
+**************************************************************
+common examples of discrete time signals are economic time series such as the daily or weekly stock market index antenna arrays etc
+economic time series>>>daily
+

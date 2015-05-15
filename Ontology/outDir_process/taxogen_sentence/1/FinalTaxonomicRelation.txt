@@ -1,0 +1,16 @@
+Chebyshev recursive filter>>>pole Chebyshev recursive filter
+exponential PSFs>>>double-sided exponential PSF
+Chebyshev recursive filters>>>pole Chebyshev recursive filter
+Imaginary part symmetry>>>Real part symmetry
+1000 point signal>>>actual 1000 point signal
+N point imaginary part>>>N point real part
+mythical subroutines>>>mythical IFFT subroutine
+input side viewpoint>>>corresponding input side viewpoint
+exponentially weighted signal>>>exponentially weighted time domain signal
+signals left-for-right>>>time domain signal left-for-right
+time domain left-for-right>>>time domain signal left-for-right
+DTFT formulas>>>DTFT reconstruction formula
+windowed-sinc filter kernels>>>conventional windowed-sinc filter kernel
+windowed-sinc filter kernels>>>point windowed-sinc filter kernel
+antialias filter options>>>different antialias filter options
+easy three-dimensional visualization>>>distance

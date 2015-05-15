@@ -1,0 +1,4 @@
+**************************************************************
+consider a simple continuous time signal such as x of t equal to e j two pi f zero t and its sampled version x of n equal to e j two pi of f zero over fs n equal to e j omega zero n with the formula
+simple continuous time signal>>>x
+

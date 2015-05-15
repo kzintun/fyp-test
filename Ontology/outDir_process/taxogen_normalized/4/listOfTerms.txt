@@ -1,0 +1,1465 @@
+passband_JJ edge_NN-----1
+modern_JJ control_NN systems_NN-----1
+sweeps_NN-----1
+discrete_JJ time_NN systems_NN-----7
+used_JJ desirable_JJ approach_NN-----1
+continuum_NN-----1
+periodic_JJ pulse_NN trains_NN-----1
+distinct_JJ complex_JJ exponentials_NN-----1
+others_NN-----1
+properties_NN-----27
+output_NN-----20
+digital_JJ filtering_VBG systems_NN-----1
+periodic_JJ repetition_NN-----1
+input_NN spectrum_NN-----1
+am_JJ radio_NN-----1
+bands_NN-----1
+principal_JJ demonstrations_NN-----1
+communication_NN systems_NN-----3
+feedback_NN paths_NN-----2
+foward_JJ-----1
+topic_NN-----2
+inverted_NN pendulum_NN-----1
+mathematical_JJ difficulties_NN-----1
+alias_NN-----1
+procedures_NN-----1
+direct_JJ consequence_NN-----3
+individual_JJ responses_NN-----1
+aperiodic_JJ discrete_JJ sequence_NN-----1
+corresponding_NN-----1
+thorough_JJ understanding_NN-----1
+useful_JJ choices_NN-----1
+enjoyable_JJ-----1
+analysis_NN-----14
+useful_JJ class_NN-----3
+modulation_NN properties_NN-----2
+notion_NN-----1
+continuous_JJ time_NN case_NN-----4
+important_JJ basic_JJ signals_NN-----1
+importance_NN-----2
+role_NN-----2
+compatibility_NN-----1
+principal_JJ topic_NN-----1
+fourier_NN-----45
+complex_JJ exponential_NN-----6
+memory_NN location_NN-----1
+common_JJ examples_NN-----1
+changes_NN-----2
+approach_NN-----4
+continuous_JJ time_NN system_NN-----3
+bandwidth_NN-----1
+modulation_NN system_NN-----2
+important_JJ result_NN-----1
+effects_NN-----3
+discrete_JJ time_NN filters_NN-----1
+continuous_JJ periodic_JJ function_NN-----1
+unity_NN-----5
+alternative_JJ procedure_NN-----1
+digital_JJ modulation_NN systems_NN-----1
+continuous_JJ time_NN fourier_NN series_NN-----3
+i_FW-----2
+interpretations_NN-----2
+kinds_NN-----1
+selective_JJ discrete_JJ time_NN filters_NN-----1
+inefficiency_NN-----1
+time_NN domain_NN solution_NN-----3
+lecture_NN-----64
+positioning_NN system_NN-----1
+response_NN-----13
+numerator_NN polynomial_NN-----2
+effective_JJ-----1
+sampling_JJ theorem_NN-----5
+feedback_NN dynamics_NN-----3
+distinctions_NN-----1
+fourier_NN series_NN-----17
+linearity_JJ property_NN-----2
+circuits_NN-----1
+pole_NNP diagram_NN-----1
+fourier_NN series_NN synthesis_NN equation_NN-----1
+capacitor_NN-----1
+frequency_NN-----29
+strong_JJ duality_NN-----2
+data_NN-----2
+distortion_NN-----3
+eigenfunctions_NN-----6
+independent_JJ variable_JJ indexing_NN-----1
+general_JJ complex_JJ-----1
+exponentials_NN-----1
+fourier_NN decomposition_NN-----1
+function_NN-----8
+discrete_JJ time_NN designs_NN-----1
+overall_JJ system_NN-----1
+dimensions_NN-----1
+ideal_JJ bandlimited_JJ interpolation_NN-----1
+n_NN equations_NN-----1
+growth_NN-----1
+s_JJ plane_NN-----10
+external_JJ input_NN-----1
+impulse_NN-----11
+composite_JJ signal_NN-----1
+constraint_NN-----1
+original_JJ signal_NN time_NN-----1
+filter_NN specifications_NN-----1
+discontinuity_NN-----1
+inverse_JJ laplace_NN-----2
+single_JJ period_NN-----1
+r_NN-----6
+frequency_NN range_NN-----3
+right_JJ half_NN plane_NN-----2
+convenient_JJ way_NN-----1
+corresponding_JJ roles_NN-----1
+final_JJ demonstration_NN-----1
+class_NN-----4
+poles_NN-----15
+practice_NN-----1
+signal_NN processing_NN systems_NN-----1
+periodic_JJ time_NN sampling_NN-----1
+x_SYM-----6
+fourier_NN series_NN sum_NN-----1
+element_NN characteristics_NN-----1
+complex_JJ plane_NN-----2
+external_JJ disturbance_NN-----1
+time_NN division_NN-----1
+multiplication_NN-----3
+higher_JJR order_NN systems_NN-----1
+simple_JJ modulating_VBG waveforms_NN-----1
+efficient_JJ-----1
+stopband_JJ region_NN-----1
+system_NN parameters_NN-----1
+equivalently_NN-----2
+section_NN-----1
+continuous_JJ time_NN signal_NN-----13
+system_NN design_NN implementation_NN-----2
+value_NN-----3
+selective_JJ filtering_VBG-----1
+derivative_JJ-----1
+ability_NN-----1
+unstable_JJ discrete_JJ time_NN filters_NN-----1
+linear_JJ feedback_NN-----1
+sense_NN-----3
+order_NN hold_NN-----1
+accompanying_VBG suggested_JJ reading_NN-----1
+basis_NN-----7
+higher_JJR frequencies_NN-----2
+equal_JJ height_NN-----1
+sinusoidal_JJ frequency_NN modulation_NN-----1
+exponential_JJ weighting_NN-----3
+input_NN signal_NN processing_NN-----1
+is_VBZ sufficient_JJ conjugate_JJ symmetry_NN-----1
+digital_JJ form_NN-----1
+method_NN-----1
+certain_JJ factors_NN-----1
+bandpass_NN filters_NN-----1
+equivalent_NN cutoff_NN frequency_NN-----1
+time_NN function_NN-----3
+identical_JJ algebraic_JJ expressions_NN-----2
+difference_NN-----5
+time_NN compression_NN-----1
+discrete_JJ time_NN-----30
+frequency_NN location_NN-----1
+sampling_VBG frequency_NN-----11
+circle_NN-----5
+right_JJ half_NN plane_NN pole_NN-----1
+different_JJ values_NN-----1
+basic_JJ inputs_NN-----3
+broader_JJR class_NN-----2
+highest_JJS frequency_NN-----3
+design_NN-----6
+channels_NN-----2
+laplace_JJ transform_NN-----15
+i_FW e_FW reject_FW-----1
+lack_NN-----1
+period_NN n_NN-----4
+subsequent_JJ lectures_NN-----1
+division_NN multiplexing_NN-----1
+anti_JJ aliasing_NN filter_NN-----1
+fundamental_JJ frequencies_NN-----1
+jo_NN-----2
+running_VBG integral_NN-----1
+same_JJ envelope_NN-----1
+implementation_NN-----2
+signals_NN-----34
+convolution_NN property_NN-----11
+types_NN-----2
+linear_JJ scaling_NN-----2
+portion_NN-----1
+time_NN shift_NN-----2
+disadvantages_NN-----1
+amplitudes_NN-----2
+broader_JJR set_NN-----1
+sound_JJ pressure_NN-----1
+oscillatory_JJ behavior_NN-----2
+discussions_NN-----1
+bandlimited_JJ signal_NN-----1
+algorithm_NN-----1
+general_JJ form_NN-----1
+inverse_JJ fourier_NN-----1
+envelope_NN function_NN-----1
+aperiodic_JJ signal_NN corresponding_JJ-----1
+overall_JJ input_NN output_NN response_NN-----1
+time_NN invariance_NN states_NN-----1
+continuous_JJ time_NN lti_NN systems_NN-----1
+form_NN efkon_NN-----1
+treatment_NN-----1
+sampling_VBG process_NN-----1
+frequency_NN variable_NN-----1
+time_NN functions_NN-----4
+proportional_JJ plus_JJ derivative_JJ feedback_NN-----1
+opportunity_NN-----2
+discrete_JJ time_NN signals_NN-----21
+public_JJ address_NN systems_NN-----1
+interpretation_NN-----5
+constraints_NN-----3
+dependence_NN-----1
+system_NN function_NN-----15
+inverted_JJ pendulum_NN-----4
+demonstration_NN lecture_NN-----1
+times_NNS-----1
+sample_NN value_NN-----1
+positive_JJ frequencies_NN-----1
+discrete_JJ time_NN sequence_NN-----8
+frequencies_NN-----5
+long_JJ-----1
+integration_NN-----3
+multiplexing_NN-----1
+part_NN-----6
+discrete_JJ time_NN frequency_NN response_NN-----1
+end_NN-----2
+delayed_JJ impulse_NN-----1
+fourier_NN transforms_NN-----2
+particular_JJ importance_NN-----1
+video_JJ course_NN manual_NN-----2
+unstable_JJ equilibrium_NN-----1
+linear_JJ displacement_NN-----1
+actual_JJ position_NN-----1
+modification_NN-----1
+certain_JJ tolerance_NN-----1
+derivative_NN-----3
+inherent_JJ difficulty_NN-----1
+time_NN origin_NN-----1
+limitations_NN-----1
+fourier_NN analysis_NN-----1
+asynchronous_JJ demodulation_NN-----1
+general_JJ exponentials_NN-----1
+exact_JJ interpolation_NN-----1
+discrete_JJ time_NN sinusoidal_NN signals_NN-----2
+sinusoidal_JJ-----1
+consequences_NN-----4
+signal_NN-----34
+important_JJ distinction_NN-----2
+single_JJ pole_NN-----1
+use_NN-----16
+impulse_NN invariant_NN design_NN procedure_NN-----2
+frequency_NN content_NN-----1
+decimated_JJ sequence_NN-----1
+feedback_NN gain_NN negative_NN-----1
+dimensional_NN-----1
+sampling_NN rate_NN-----1
+systemfunction_NN-----1
+modulating_VBG signal_NN-----6
+t_NN-----5
+reverse_NN-----1
+key_JJ role_NN-----1
+masses_JJ springs_NN-----1
+percent_NN modulation_NN-----1
+lower_JJR frequency_NN behavior_NN-----1
+individual_JJ fourier_NN-----1
+sinusoidal_JJ oscillator_NN-----1
+discrete_JJ time_NN fourier_NN series_NN-----2
+strong_JJ similarities_NN-----1
+differential_NN-----4
+sampling_VBG-----2
+origin_NN-----5
+forward_JJ differences_NN-----1
+explicit_JJ relationship_NN-----1
+ir_NN-----1
+further_JJ bandlimiting_NN downsampling_NN-----1
+useful_JJ properties_NN-----1
+cases_NN-----5
+scaled_JJ replica_NN-----1
+later_JJ lecture_NN-----1
+intuition_NN-----1
+considerable_JJ detail_NN-----1
+interpolation_NN-----2
+important_JJ concepts_NN-----1
+exponentially_JJ weighted_JJ sequence_NN-----1
+same_JJ fourier_NN series_NN-----1
+implications_NN-----1
+commutative_JJ property_NN-----2
+principal_JJ interest_NN-----1
+transforms_NNP-----1
+lower_JJR frequencies_NN-----2
+series_NN coefficients_NN-----1
+increasing_VBG-----1
+pendulum_NN fall_VB-----1
+demodulator_NN-----2
+infinite_JJ height_NN-----1
+important_JJ part_NN-----1
+desired_JJ-----1
+amount_NN-----2
+fixed_JJ cutoff_NN frequency_NN-----1
+integer_NN-----2
+processing_NN-----2
+frequency_NN bands_NN-----1
+sampling_VBG period_NN n_NN-----1
+d_NNP-----1
+approximate_JJ lowpass_NN filter_NN-----1
+computed_JJ output_NN values_NN-----1
+meeting_NN-----1
+information_NN-----4
+straightforward_JJ interpretation_NN-----1
+butterworthfilters_NN-----1
+bilinear_JJ transformation_NN corresponds_NN-----1
+indication_NN-----1
+decomposition_NN-----5
+next_JJ lecture_NN-----5
+bandlimited_JJ time_NN function_NN-----1
+bandlimited_JJ interpolation_NN-----3
+above_JJ-----1
+limit_NN-----3
+way_NN-----9
+scaled_JJ impulse_NN-----1
+higher_JJR order_NN transfer_NN functions_NN-----1
+disturbances_NN-----1
+form_NN est_NN-----1
+tr_NN-----1
+z_JJ plane_NN-----6
+n_JJ values_NN-----1
+system_NN specifications_NN-----1
+abrupt_JJ changes_NN-----2
+simple_JJ approximations_NN-----1
+damping_NN-----2
+commutative_JJ associative_NN-----2
+question_NN-----1
+sampling_VBG frequency_NN aliasing_VBG results_NN-----1
+audio_JJ speakers_NN-----1
+overall_JJ discrete_JJ time_NN system_NN-----1
+sampler_NN-----4
+type_NN-----6
+linear_JJ constant_JJ coefficient_NN difference_NN equation_NN-----2
+convergence_NN-----1
+i_FW emphasize_FW-----1
+periodic_JJ sequence_NN-----3
+lowpass_NN-----4
+underlying_VBG basis_NN-----1
+summary_NN-----1
+specifications_NN-----2
+running_VBG sum_NN-----1
+overall_JJ output_NN-----1
+fundamental_JJ frequency_NN-----5
+filtering_VBG-----6
+digital_JJ memory_NN-----2
+understanding_NN-----1
+frequency_NN selective_JJ filters_NN-----2
+fixed_JJ filter_NN center_NN frequency_NN-----1
+lectures_NNP-----3
+critical_JJ frequencies_NN-----1
+sampling_NN-----9
+infinite_JJ length_NN-----1
+strobe_NN laboratory_NN stroboscopy_NN-----1
+reconstruction_NN procedure_NN-----2
+proportional_JJ-----1
+systems_NN-----37
+flexible_JJ algorithms_NN-----1
+continuous_JJ time_NN filter_NN-----5
+spatial_JJ variables_NN-----1
+certain_JJ disturbances_NN-----1
+high_JJ frequencies_NN-----4
+glockenspiel_JJ note_NN-----1
+time_NN shifting_VBG property_NN-----4
+nth_NN sample_NN-----2
+input_NN sequence_NN-----1
+basic_JJ inputs_JJ complex_JJ exponentials_NN-----1
+sampling_JJ process_NN-----1
+system_NN analysis_NN-----2
+same_JJ way_NN-----4
+balanced_JJ-----1
+original_JJ modulating_NN signal_NN-----2
+time_NN positions_NN-----1
+important_JJ concept_NN-----2
+efficient_JJ algorithm_NN-----1
+assumption_NN-----4
+lecture_NN sixteen_NN-----1
+impulse_NN train_NN carrier_NN-----2
+inverse_JJ scaling_NN-----1
+corresponding_JJ set_NN-----1
+resonance_NN-----1
+important_JJ application_NN-----3
+insight_NN-----2
+final_JJ property_NN-----1
+important_JJ classes_NN-----1
+detail_NN-----2
+linear_JJ time_NN invariant_NN systems_NN-----14
+cutoff_NN frequency_NN-----6
+change_NN-----5
+eigenfunction_NN-----1
+convergence_JJ roc_NN-----2
+time_NN duration_NN-----1
+rearrangements_NN-----2
+system_NN performance_NN-----1
+successive_JJ segments_NN-----1
+independent_JJ variable_NN-----1
+impulse_NN train_NN-----14
+inputs_NN-----1
+lower_JJR sampling_NN rate_NN-----1
+imaginary_JJ components_NN-----1
+control_NN-----1
+broad_JJ array_NN-----1
+continuous_JJ time_NN linear_JJ time_NN invariant_NN systems_NN-----1
+complex_JJ s_JJ plane_NN-----1
+poles_JJ roots_NN-----1
+modulated_JJ signal_NN-----3
+sample_NN-----3
+real_JJ valued_JJ sequence_NN specification_NN-----1
+speech_NN synthesis_NN-----1
+same_JJ time_NN-----1
+audio_JJ system_NN-----1
+k_NN-----1
+center_NN frequency_NN-----1
+scale_NN factor_NN-----1
+negative_JJ time_NN-----1
+transform_NN-----1
+parallel_JJ topic_NN-----1
+parallel_JJ results_NN-----1
+periodic_JJ-----4
+same_JJ amount_NN-----1
+discrete_JJ time_NN modulation_NN-----4
+shift_NN-----1
+sinusoid_JJ-----1
+bilinear_NN transformation_NN-----1
+implementations_NN-----1
+frequency_NN selective_JJ filter_NN-----1
+domains_NN-----3
+possibility_NN-----3
+resulting_VBG synthesis_NN equation_NN-----1
+anticipation_NN-----1
+difference_NN equation_NN-----7
+stability_NN analysis_NN-----1
+lecture_NN thirteen_NN-----1
+sample_NN points_NN-----3
+system_NN output_NN-----1
+original_JJ input_NN-----1
+fourier_JJ synthesis_NN equation_NN-----1
+requirement_NN-----2
+time_NN slices_NN-----2
+effect_NN results_NN-----1
+direction_NN-----1
+polynomial_JJ form_NN-----1
+modulator_NN-----1
+additional_JJ relationship_NN-----1
+discrete_JJ time_NN technologies_NN-----1
+aperiodic_JJ convolution_NN-----1
+discrete_JJ time_NN complex_NN exponentials_NN-----2
+common_JJ one_NN-----1
+modulation_NN systems_NN-----1
+combination_NN-----1
+weighted_JJ rod_NN-----1
+mechanism_NN-----2
+next_JJ sampling_NN instant_NN-----1
+staircase_NN-----1
+high_JJ-----1
+amplitude_JJ modulation_NN-----6
+frequency_NN axes_NN-----1
+coefficients_NN-----4
+sinusoidal_JJ signals_NN-----1
+smallest_JJS-----1
+outermost_JJ pole_NN-----2
+issues_NN-----3
+passband_NN-----5
+square_NN-----1
+system_NN representations_NN-----1
+practical_JJ terms_NN-----1
+parameter_NN-----2
+system_NN frequency_NN response_NN-----1
+envelope_NN-----11
+linear_JJ time_NN invariant_NN system_NN-----5
+matter_NN-----1
+discrete_JJ time_NN lti_NN systems_NN-----1
+uncertainties_NN-----1
+continuous_JJ time_NN designs_NN-----1
+homogeneous_JJ equation_NN-----1
+spacing_NN-----2
+time_NN system_NN function_NN-----1
+convolution_NN sum_NN-----2
+natural_JJ settings_NN-----1
+continuous_JJ time_NN fourier_NN transform_NN-----2
+transform_NNP-----3
+denominator_NN polynomial_NN-----2
+efficient_JJ implementation_NN-----1
+differences_NNS-----1
+channel_NN-----3
+powerful_JJ array_NN-----1
+block_NN diagram_NN-----1
+assumed_JJ period_NN-----1
+system_NN-----32
+particular_JJ significance_NN-----2
+rich_JJ history_NN-----1
+design_NN procedures_NN-----2
+oscillations_NN-----1
+gain_NN-----4
+difference_NN equations_NN-----4
+linear_JJ phase_NN filter_NN-----1
+continuous_JJ time_NN systems_NN-----7
+dr_NN-----1
+calculation_NN-----1
+roles_NN-----1
+linear_JJ contant_NN coefficient_NN differential_NN equations_NN-----1
+course_NN focus_NN-----1
+underdamped_JJ case_NN-----2
+simple_JJ terms_NN-----1
+basic_JJ concept_NN-----1
+fraction_NN-----1
+narrow_JJ-----1
+anti_NN aliasing_VBG filter_NN-----2
+weighted_JJ delayed_JJ impulse_NN responses_NN-----1
+later_JJ lectures_NN-----1
+selective_JJ filters_NN-----1
+periodic_JJ continuous_JJ function_NN-----1
+algebraic_JJ expression_NN-----5
+entertaining_JJ visit_NN-----1
+only_JJ n_NN fourier_NN series_NN coefficients_NN-----1
+shaping_NN-----1
+central_JJ-----1
+original_JJ signal_NN-----11
+sinusoidal_NN-----1
+highpass_JJ filter_NN-----2
+important_JJ mechanism_NN-----1
+oscillatory_JJ impulse_NN response_NN-----1
+resulting_VBG analysis_NN equation_NN-----1
+important_JJ differences_NN-----1
+damping_JJ decreases_NN-----1
+converges_NN-----1
+modern_JJ communication_NN systems_NN signals_NN-----1
+block_NN-----1
+expressions_NN-----1
+modulation_NN-----9
+algebraic_JJ equation_NN-----2
+sum_NN-----4
+lti_NN system_NN-----9
+unit_NN circle_NN-----5
+pulse_NN amplitude_NN modulation_NN-----1
+hand_NN-----2
+triangle_NN-----2
+telescope_NN platform_NN-----1
+axis_NN-----1
+octave_JJ lower_JJR-----1
+terms_NN-----13
+example_NN digital_JJ technologies_NN-----1
+feedback_NN-----10
+simple_JJ time_NN shift_NN-----1
+situation_NN-----2
+rate_NN conversion_NN-----1
+simpler_JJR algebraic_JJ operation_NN-----1
+interpolation_NN procedures_NN-----1
+running_JJ integral_NN-----1
+conclusion_NN-----1
+roots_NN-----1
+arbitrary_JJ systems_NN-----1
+contraction_NN-----1
+normalized_JJ frequency_NN axis_NN-----1
+restrictions_NN-----1
+sequence_NN-----20
+periodic_JJ impulse_NN train_NN-----2
+tapes_NN-----1
+discrete_JJ time_NN difference_NN equation_NN-----1
+sampling_JJ period_NN-----2
+mapping_NN-----3
+magnitude_NN-----6
+discrete_JJ time_NN fourier_NN series_NN analysis_NN-----1
+need_NN-----1
+expression_NN-----2
+concern_NN-----1
+phase_NN-----3
+ways_NN-----5
+usefulness_NN-----1
+fourier_NN series_NN representation_NN-----6
+low_JJ frequencies_NN-----3
+principal_JJ analytical_JJ difference_NN being_VBG-----1
+parallel_JJ combination_NN-----1
+basic_JJ complex_JJ exponentials_NN repeat_NN-----1
+following_JJ lectures_NN-----1
+sines_NN-----1
+lowpass_JJ highpass_NN-----1
+filtering_VBG modulation_NN-----3
+weighting_NN-----1
+input_NN x_NN t_NN-----1
+exponential_JJ signals_NN-----2
+discrete_JJ time_NN i_NN-----1
+general_JJ fourier_NN-----1
+oscillatory_JJ behavior_NN changes_NN-----1
+vertical_JJ position_NN-----1
+general_JJ class_NN-----3
+step_NN-----3
+individual_JJ ones_NN-----1
+relation_NN-----8
+paragraph_NN-----1
+direct_JJ representation_NN-----2
+ejn_NN-----1
+derivative_JJ terms_NN-----1
+coefficient_NN-----1
+complex_JJ conjugate_NN pair_NN-----2
+discrete_JJ time_NN signal_NN-----2
+basic_JJ building_NN blocks_NN-----2
+course_NN-----7
+zeros_NN roots_NN-----1
+convolution_NN integral_NN-----2
+discrete_JJ time_NN frequency_NN-----1
+instability_NN-----2
+superposition_NN-----3
+real_JJ exponentials_NN-----1
+amplitude_NN-----3
+right_JJ hand_NN side_NN-----1
+specific_JJ class_NN-----1
+convergence_JJ issues_NN-----1
+input_NN sinusoidal_NN frequency_NN increases_NN-----1
+results_NN-----2
+images_NN-----1
+resulting_VBG output_NN-----1
+memory_NN-----1
+continuous_JJ time_NN frequency_NN response_NN-----1
+oscillator_NN frequency_NN-----3
+train_NN-----1
+fundamental_JJ-----1
+formalism_NN-----1
+certain_JJ frequency_NN range_NN-----1
+single_JJ framework_NN-----1
+algebraic_JJ terms_NN-----1
+positioning_NN-----3
+equivalent_JJ cutoff_NN frequency_NN-----1
+specific_JJ system_NN properties_NN-----1
+lowpass_JJ filter_NN corresponding_JJ-----1
+elegance_NN-----1
+signal_NN evolves_NN-----1
+detailed_JJ issues_NN-----1
+complex_JJ amplitude_NN change_NN-----1
+resistor_NN-----1
+distinction_NN-----1
+interest_NN-----1
+successive_JJ values_NN-----1
+right_JJ half_NN-----1
+linear_JJ system_NN-----4
+different_JJ phase_NN angles_NN-----1
+discrete_JJ time_NN feedback_NN systems_NN-----1
+numbers_NN-----2
+operations_NN-----1
+hi_UH-----1
+differentiation_NN-----2
+variable_JJ center_NN frequency_NN-----1
+classes_NN-----3
+z_FW transform_FW-----1
+unit_NN impulse_NN-----7
+butterworth_JJ filter_NN-----3
+choice_NN-----3
+reconstruction_NN process_NN-----2
+corresponding_JJ analysis_NN equation_NN-----1
+measurement_NN-----2
+lowpass_JJ filtering_VBG-----1
+sample_NN frequencies_NN-----1
+forms_NN-----1
+step_NN process_NN-----2
+z_NN-----6
+basic_JJ signals_NN-----10
+limiting_JJ form_NN-----3
+discrete_JJ time_NN lowpass_NN-----1
+higher_JJR order_NN singularity_NN functions_NN-----1
+positions_NN-----2
+o_NN-----2
+areas_NN-----1
+power_NN transmission_NN-----1
+discrete_JJ time_NN frequency_NN variable_NN-----1
+resulting_VBG output_NN sequence_NN-----1
+real_JJ specification_NN-----1
+real_JJ axis_NN-----2
+initial_JJ conditions_NN-----1
+centers_NN-----1
+periodic_JJ train_NN-----1
+sinusoid_NN-----2
+particular_JJ situation_NN-----1
+basic_JJ approach_NN-----2
+resistors_NN inductors_NN-----1
+advantage_NN-----1
+resulting_VBG continuous_JJ time_NN system_NN function_NN-----1
+differential_NN equation_NN-----5
+peak_NN-----2
+frequency_NN domain_NN-----16
+unique_JJ specification_NN-----1
+distributive_NN-----2
+periodic_JJ continuous_JJ time_NN signals_NN-----1
+periodic_JJ convolution_NN-----2
+duration_NN-----2
+interconnection_NN-----1
+generalization_NN-----2
+carrier_NN pulse_NN train_NN-----2
+interpolates_NN-----1
+roc_NN i_NN-----1
+lowpass_JJ filter_NN-----7
+different_JJ motivation_NN-----1
+exponential_NN-----1
+finer_JJ spacing_NN-----1
+feedback_NN gain_NN-----4
+foundation_NN-----1
+above_JJ discussion_NN-----1
+pole_NN-----2
+continuous_JJ time_NN sampling_VBG-----1
+next_JJ lectures_NN-----1
+output_NN frequency_NN-----1
+vocal_JJ tract_NN-----1
+linear_JJ time_NN invariant_NN lti_NN systems_NN-----1
+remaining_VBG ones_NN-----1
+sinusoidal_JJ amplitude_NN modulation_NN-----1
+linear_JJ constant_JJ coefficient_JJ difference_NN equations_NN-----2
+rod_NN-----4
+sinusoidal_JJ carrier_NN signals_NN-----1
+rlc_NN circuits_NN-----1
+sinusoids_NN-----2
+linear_JJ constant_JJ coefficient_NN difference_NN equations_NN-----3
+light_JJ motion_NN-----1
+systems_NN addition_NN-----1
+corresponding_JJ mapping_NN-----1
+frequency_NN domains_NN-----3
+original_JJ time_NN function_NN-----1
+nyquist_JJ rate_NN-----1
+linear_JJ discrete_JJ time_NN feedback_NN-----1
+key_NN-----1
+imaginary_JJ parts_NN-----1
+duty_NN cycle_NN-----1
+lti_NN-----2
+discontinuities_NN-----1
+convolution_NN-----20
+continuous_JJ time_NN periodic_JJ signals_NN-----1
+discrete_JJ time_NN system_NN be_VB-----1
+parameter_NN flo_NN-----1
+unity_NN magnitude_NN-----1
+synchronization_NN-----1
+problem_NN-----2
+eventual_JJ conclusion_NN-----1
+odd_JJ functions_NN-----1
+computer_NN movie_NN-----1
+complex_NN-----1
+continuous_JJ time_NN-----41
+sinusoidal_JJ real_JJ-----1
+example_NN-----29
+linear_JJ contraction_NN expansion_NN-----1
+unstable_JJ systems_NN-----1
+communications_NN systems_NN-----1
+next_JJ-----1
+initial_JJ rest_NN-----1
+oscillation_NN-----1
+sinusoidal_JJ triangular_NN-----1
+linear_NN-----1
+continuous_JJ time_NN aperiodic_NN signals_NN-----1
+homogeneous_NN-----1
+periodic_JJ sampling_NN-----1
+additional_JJ processing_NN-----1
+positive_JJ time_NN-----1
+inverse_NN-----1
+sample_NN values_NN-----2
+square_NN wave_NN-----1
+sequence_NN corresponds_NN-----1
+practical_JJ systems_NN-----1
+order_NN systems_NN-----6
+single_JJ system_NN-----1
+feedback_NN example_NN-----1
+operation_NN-----1
+imaginary_JJ i_FW e_FW-----1
+linear_JJ combination_NN-----22
+bandlimited_NN-----1
+time_NN invariant_NN-----7
+case_NN-----7
+close_JJ relationship_NN exists_NN-----1
+speed_NN-----1
+differential_NN equations_NN-----2
+important_JJ building_NN blocks_NN-----2
+application_NN-----1
+a_SYM-----3
+inherent_JJ nonlinear_NN distortion_NN-----1
+delayed_JJ impulse_NN responses_NN-----1
+underdamped_JJ order_NN systems_NN-----1
+constant_JJ-----2
+multiples_NN-----3
+basic_JJ mathematics_NN-----1
+running_JJ sum_NN-----1
+recursive_JJ discrete_JJ time_NN filters_NN-----1
+integral_JJ-----5
+time_NN sequence_NN-----1
+equivalently_JJ delay_NN registers_NN-----1
+important_JJ interpretations_NN-----1
+separate_JJ signals_NN-----1
+error_NN-----1
+modulating_VBG input_NN signal_NN-----1
+discrete_JJ time_NN sinusoidal_NN sequence_NN acos_NN-----1
+specific_JJ system_NN parameters_NN-----1
+attempt_NN-----1
+arbitrary_JJ time_NN position_NN-----1
+population_NN size_NN increases_NN-----1
+pulse_NN train_NN-----4
+information_NN be_VB-----2
+spectrum_NN analyzer_NN-----4
+demodulated_JJ waveforms_NN characteristic_NN-----1
+ideal_JJ frequency_NN-----1
+complex_JJ exponential_JJ signal_NN-----1
+modulator_NN box_NN-----1
+periodic_JJ square_JJ wave_NN-----1
+contour_NN-----1
+carrier_NN-----6
+zo_NN corresponds_NN-----1
+sequences_NN-----4
+stages_NN-----3
+corjugate_JJ symmetric_NN-----1
+property_NN-----17
+n_NN unknowns_NN-----1
+same_JJ procedure_NN-----1
+insights_NN-----1
+form_NN-----10
+linear_JJ interpolation_NN-----1
+high_JJ frequency_NN-----1
+sampling_JJ frequency_NN-----7
+conversion_NN-----3
+reasonable_JJ approach_NN-----1
+sequence_NN increases_NN-----1
+frequency_NN dc_NN-----1
+open_JJ loop_NN system_NN-----1
+only_JJ n_NN coefficients_NN-----1
+x_NNP-----1
+filter_NN-----4
+shape_NN-----2
+complex_JJ-----1
+discrete_JJ time_NN periodic_JJ signals_NN-----1
+material_NN-----1
+synthesis_NN equations_NN-----3
+specific_JJ system_NN-----1
+same_JJ properties_NN-----1
+same_JJ-----6
+fourier_NN series_NN coefficients_NN-----5
+fourier_NN representation_NN-----1
+complex_JJ amplitudes_NN-----1
+arbitrary_JJ sequences_NN-----1
+filtered_JJ output_NN sequence_NN-----1
+tape_NN recording_NN-----1
+right_NN-----2
+modulating_JJ signal_NN-----1
+feedback_NN loop_NN-----1
+top_NN-----1
+continuous_JJ variable_NN-----1
+external_JJ disturbances_NN-----3
+z_NNP transform_NNP-----6
+level_NN-----1
+form_NN cet_NN-----1
+process_NN-----8
+algebraic_JJ properties_NN-----2
+circuit_NN-----2
+unit_NN impulses_NN-----1
+set_NN-----5
+transfer_NN function_NN-----1
+strong_JJ duality_NN exists_NN-----1
+equipment_NN-----1
+specific_JJ relationship_NN-----1
+better_JJR approximation_NN-----1
+poles_JJ move_NN parallel_NN-----1
+h_NN-----4
+reconstructed_JJ signal_NN-----1
+system_NN inputs_NN-----2
+infinite_JJ frequency_NN range_NN-----1
+forward_JJ-----2
+frequency_NN axis_NN-----5
+characteristics_NN-----3
+signal_NN spectrum_NN-----2
+digital_JJ numbers_NN-----1
+control_NN systems_NN-----1
+resulting_VBG integral_NN-----1
+important_JJ one_NN-----1
+appropriate_JJ discrete_JJ time_NN filter_NN-----1
+general_JJ complex_JJ variable_NN-----1
+edge_NN-----1
+essential_JJ idea_NN-----1
+inductor_NN currents_NN-----1
+mathematics_NN-----2
+filter_NN order_NN-----3
+microphone_NN-----2
+further_JJ illustration_NN-----1
+day_NN fluctuations_NN-----1
+vice_NN versa_NN-----2
+additional_JJ signals_NN-----1
+associated_JJ continuous_JJ time_NN system_NN-----1
+modulating_NN-----1
+discrete_JJ time_NN signal_NN analysis_NN-----1
+linear_JJ feedback_NN systems_NN-----3
+lectures_NN-----7
+laplace_JJ converges_NN-----1
+auxiliary_JJ information_NN-----1
+aperiodic_JJ signal_NN-----6
+same_JJ linear_JJ combination_NN-----4
+polynomials_NN-----2
+complex_JJ exponential_JJ carrier_NN demodulation_NN-----1
+differences_NN-----1
+complex_JJ variable_JJ s_NN-----1
+dual_JJ-----3
+nonzero_JJ content_NN-----1
+system_NN input_NN-----1
+important_JJ difference_NN-----1
+detailed_JJ discussions_NN-----1
+open_JJ loop_NN control_NN-----1
+significant_JJ properties_NN-----1
+point_NN-----2
+discrete_JJ time_NN modulation_NN techniques_NN-----1
+demonstration_NN-----8
+part_NN signals_NN-----1
+implementation_NN applications_NN-----1
+dashpots_NN-----1
+continuous_JJ time_NN sinusoids_NN-----3
+current_JJ lecture_NN-----1
+instant_NN-----2
+example_NN feedback_NN-----1
+microprocessor_NN-----2
+equivalent_JJ continuous_JJ time_NN filter_NN-----3
+specification_NN-----1
+analysis_NN equation_NN-----3
+aperiodic_JJ one_NN-----2
+transition_NN region_NN-----1
+cart_NN acceleration_NN proportional_NN-----2
+responses_NN-----3
+exponential_JJ damping_NN-----1
+wide_JJ variety_NN-----3
+spaced_JJ samples_NN-----3
+samples_NN-----29
+frequency_NN alternative_NN interpretations_NN-----1
+rectangular_JJ pulse_NN-----3
+basic_JJ sampling_NN process_NN-----1
+remainder_NN-----1
+auxiliary_JJ conditions_NN-----3
+imaginary_JJ axis_NN-----4
+discrete_JJ time_NN system_NN-----5
+concepts_NN-----5
+capacitors_NN-----1
+digital_JJ converter_NN-----1
+sharpness_NN-----1
+inverse_JJ fourier_NN transform_NN-----1
+dimensional_JJ signal_NN-----1
+measured_JJ angle_NN-----2
+building_NN blocks_NN-----4
+daily_NN-----1
+thefrequency_JJ domain_NN-----1
+decay_NN-----1
+corresponding_JJ signals_NN-----1
+same_JJ one_NN-----1
+area_NN-----1
+place_NN-----1
+examples_NN-----4
+average_JJ filters_NN-----2
+period_NN-----17
+box_NN-----1
+evaluation_NN-----1
+linear_JJ constant_JJ coefficient_NN differential_NN-----3
+reference_NN-----1
+amplifier_NN design_NN-----1
+sampling_VBG theorem_NN-----3
+corresponding_JJ generalization_NN-----1
+incompatible_JJ systems_NN-----1
+taylor_NN series_NN expansion_NN-----1
+digital_JJ transmission_NN systems_NN-----1
+parameters_NN-----2
+pendulum_NN-----4
+associative_JJ property_NN-----2
+euler_NN-----1
+time_NN invariance_NN-----5
+discrete_JJ time_NN difference_NN equations_NN-----1
+adjacent_JJ values_NN-----1
+further_JJ emphasis_NN-----1
+downsampling_VBG-----1
+perpendicular_NN-----1
+bridge_NN-----2
+order_NN transfer_NN functions_NN-----1
+simple_JJ approximation_NN-----1
+overall_JJ cascade_NN combination_NN-----1
+c_SYM-----1
+time_NN successive_JJ segments_NN-----1
+imaginary_JJ part_NN-----4
+different_JJ signals_NN-----1
+step_NN corresponding_NN-----1
+duality_NN-----5
+left_JJ half_NN-----2
+developing_VBG convolution_NN-----2
+spectra_NN-----3
+staircase_JJ approximation_NN-----1
+review_NN-----1
+output_NN signal_NN-----1
+carrier_NN frequency_NN-----3
+similarities_NN-----1
+dynamics_NN-----1
+discrete_JJ time_NN representation_NN-----1
+solution_NN-----3
+real_JJ exponential_NN-----1
+corresponding_JJ continuous_JJ time_NN system_NN-----1
+modulation_NN theorem_NN-----1
+text_NN-----2
+causal_JJ systems_NN-----2
+important_JJ issues_NN-----1
+scope_NN-----1
+pair_NN-----3
+general_JJ signals_NN-----1
+conditions_NN-----3
+signal_NN generator_NN-----1
+unit_NN step_NN-----6
+reason_NN-----1
+j_NN-----1
+maps_NN-----1
+continuous_JJ time_NN impulse_NN-----1
+discrete_JJ time_NN lti_NN system_NN-----1
+extent_NN-----1
+periodic_JJ signals_NN-----7
+sampling_VBG rate_NN-----1
+finite_JJ length_NN impulse_NN response_NN-----1
+flight_NN-----1
+rocket_NN-----1
+different_JJ frequency_NN-----1
+angle_NN-----2
+derivatives_NN-----2
+presence_NN-----2
+time_NN normalization_NN-----1
+linear_JJ convolution_NN-----1
+arbitrary_JJ constants_JJ present_NN-----1
+off_JJ part_NN-----1
+linear_JJ-----3
+unreasonable_JJ assumption_NN-----1
+pole_JJ pattern_NN-----1
+important_JJ trade_NN offs_NN-----1
+one_NN-----1
+particular_JJ advantages_NN-----2
+fourier_JJ series_NN coefficients_NN-----7
+aliased_JJ frequency_NN-----1
+forces_NNS-----1
+cornerstone_NN-----1
+cosines_NN-----1
+parallel_JJ roles_NN-----1
+sampled_JJ sequence_NN-----1
+bandlimited_JJ continuous_JJ time_NN signal_NN-----1
+locus_NN-----1
+basic_JJ feedback_NN equation_NN-----1
+particular_JJ properties_NN exploit_VB-----1
+explicit_JJ computation_NN-----1
+prior_JJ exposure_NN-----1
+simpler_JJR form_NN-----1
+stock_NN market_NN averages_NN-----2
+continuous_JJ time_NN signals_NN-----12
+operational_JJ definition_NN-----1
+discussion_NN-----10
+original_JJ sequence_NN-----5
+algorithms_NN-----1
+particular_JJ different_JJ signals_NN-----1
+important_JJ features_NN-----1
+broad_JJ-----1
+periodic_JJ function_NN-----3
+same_JJ channel_NN technique_NN-----1
+inspection_NN-----2
+principle_NN-----1
+linearity_NN-----7
+causality_NN-----2
+integer_NN variable_NN-----1
+linear_JJ constant_JJ coefficient_NN differential_NN equations_NN-----5
+reconstructing_JJ lowpass_NN filter_NN-----1
+resulting_VBG transform_NN-----1
+order_NN-----12
+distributive_JJ property_NN-----1
+base_NN-----1
+continuous_JJ time_NN application_NN-----1
+system_NN properties_NN-----3
+introduction_NN-----1
+fourier_NN series_NN analysis_NN equation_NN-----1
+complex_JJ corjugate_NN signal_NN-----1
+frequency_NN scaling_NN-----4
+stopband_NN-----2
+block_NN diagram_NN realizations_NN-----1
+choices_NN-----1
+time_NN domain_NN-----17
+aspect_NN-----2
+downsampling_NN-----1
+consequence_NN-----11
+techniques_NN-----1
+natural_JJ-----1
+scale_NN factors_NN-----3
+passband_JJ region_NN-----1
+time_NN-----30
+narrow_JJ line_NN-----1
+same_JJ period_NN-----1
+appropriate_JJ choice_NN-----3
+synchronous_JJ demodulation_NN-----1
+gain_NN factors_NN-----1
+i_FW e_FW recovery_NN-----1
+continuous_JJ time_NN butterworth_NN filters_NN-----1
+simple_JJ mathematical_JJ manipulations_NN-----1
+spectral_JJ line_NN-----1
+spaced_JJ time_NN samples_NN-----1
+vectors_NN-----1
+important_JJ properties_NN-----4
+analog_NN-----1
+periodic_JJ sequence_NN be_VB-----1
+long_JJ time_NN trends_NN-----1
+eye_NN follow_VB-----1
+corjugate_JJ symmetry_NN-----1
+inverse_JJ system_NN-----1
+time_NN axis_NN-----2
+poles_NN move_NN-----3
+framework_NN-----1
+initial_JJ capacitor_NN voltages_NN-----1
+overall_JJ continuous_JJ time_NN filter_NN-----1
+sinusoidal_JJ amplitude_NN modulation_NN demodulation_NN-----1
+domain_NN-----1
+est_NN-----1
+course_NN text_NN-----1
+sampling_VBG impulse_NN train_NN-----1
+radius_NN-----2
+different_JJ set_NN-----1
+angular_NN displacement_NN-----3
+memoryless_NN-----1
+context_NN-----8
+nonideal_NN frequency_NN selective_JJ filters_NN-----1
+continuous_JJ time_NN unit_NN step_NN-----1
+analytically_NN-----1
+design_NN procedure_NN-----1
+roc_NN-----11
+simple_JJ rc_NN circuit_NN-----1
+requirements_NN-----1
+eigenfunction_NN zo_NN-----1
+powerful_JJ set_NN-----1
+nonlinear_NN distortion_NN-----1
+system_NN response_NN-----2
+fl_NN-----1
+mathematical_JJ complication_NN-----1
+reconstructed_JJ output_NN-----2
+filtering_VBG time_NN series_NN analysis_NN-----1
+corresponding_JJ frequency_NN responses_NN-----1
+continuous_JJ time_NN modulation_NN-----4
+past_JJ lectures_NN-----1
+theorem_NN-----2
+continuous_JJ-----1
+modulation_NN property_NN-----11
+representation_NN-----26
+basic_JJ equation_NN-----1
+rod_NN angle_NN-----1
+time_NN control_NN-----1
+time_NN position_NN-----2
+system_NN impulse_NN response_NN-----6
+carrier_NN i_NN-----1
+cart_NN-----5
+glockenspiel_JJ illustrating_NN-----1
+continuous_JJ time_NN filters_NN-----1
+frequency_NN flo_NN-----1
+carrier_NN signal_NN-----6
+continuous_JJ time_NN linear_JJ feedback_NN systems_NN-----1
+series_NN rc_NN circuit_NN-----1
+general_NN-----1
+computer_NN memory_NN-----1
+algebraic_JJ property_NN-----1
+tenth_NN-----3
+frequent_JJ reference_NN-----1
+attention_NN-----1
+approximation_NN-----4
+expensive_JJ demodulator_NN-----1
+contrast_NN-----3
+cart_NN acceleration_NN-----4
+unique_JJ fourier_NN series_NN coefficients_NN-----1
+population_NN growth_NN-----1
+factor_NN-----1
+defined_JJ sequence_NN-----1
+linear_JJ constant_JJ coefficient_JJ differential_NN equations_NN-----1
+practical_JJ implications_NN-----1
+convolution_NN properties_NN-----1
+input_NN-----20
+conjugate_JJ symmetry_NN-----1
+theory_NN-----1
+particular_JJ choice_NN-----1
+concept_NN-----14
+location_NN-----3
+sinusoidal_JJ signal_NN-----5
+spectrum_NN analyzer_NN output_NN-----2
+variety_NN-----5
+amplitude_JJ increasing_VBG proportionately_NN-----1
+same_JJ basic_JJ strategy_NN-----1
+problems_NNS-----1
+elegant_JJ relationship_NN-----1
+carrier_NN wave_NN shape_NN-----1
+resulting_VBG sequences_NN-----1
+algebraic_JJ operation_NN-----1
+rectangles_NN-----2
+economic_JJ time_NN series_NN-----1
+weekly_JJ stock_NN market_NN index_NN antenna_NN arrays_NN-----1
+transition_NN-----1
+mechanical_JJ systems_NN-----1
+discrete_JJ time_NN aperiodic_NN sequence_NN-----1
+segment_NN-----2
+single_JJ complex_JJ exponential_NN-----1
+inherent_JJ asymmetry_NN-----1
+problems_NN-----3
+time_NN waveform_NN-----1
+resulting_VBG representation_NN-----1
+carrier_NN signals_NN-----2
+real_JJ part_NN-----3
+s_JJ plane_NN concentric_NN-----1
+complex_JJ exponentials_NN-----22
+less_JJR memory_NN-----1
+digital_JJ-----2
+simple_JJ property_NN-----1
+pole_NNP pattern_NN-----2
+series_NN-----1
+region_NN-----3
+sinc_JJ function_NN-----1
+important_JJ property_NN-----3
+linearity_JJ time_NN shifting_VBG-----1
+overall_JJ system_NN function_NN-----1
+track_NN-----1
+behavior_NN-----8
+family_NN-----2
+order_NN hold_NN corresponds_NN-----1
+fourier_NN transform_NN-----39
+signals_NN be_VB-----1
+reconstruction_NN-----3
+stage_NN interpolation_NN-----1
+good_JJ representation_NN-----1
+symmetry_NN property_NN-----1
+fact_NN-----23
+rightmost_JJ pole_NN-----1
+particular_NN-----1
+minus_NN sign_NN-----1
+practical_JJ situations_NN-----3
+impulse_NN values_NN-----1
+general_JJ systems_NN-----2
+normalization_NN-----1
+words_NN-----3
+result_NN-----6
+pulse_NN-----2
+higher_JJR order_NN difference_NN equations_NN-----1
+entire_JJ imaginary_JJ axis_NN-----1
+stability_NN-----4
+continuous_JJ sinusoids_NN-----1
+severe_JJ transition_NN-----1
+discrete_JJ time_NN sampling_NN-----4
+lecture_NN fifteen_NN-----1
+dualities_NN-----1
+ideal_JJ lowpass_NN filter_NN-----5
+data_NN representation_NN-----1
+transmission_NN-----3
+successive_JJ locations_NN-----1
+conjunction_NN-----1
+w_NN-----2
+invariant_NN systems_NN-----1
+narrow_JJ rectangles_NN-----1
+discrete_JJ time_NN fourier_NN-----7
+signal_NN narrower_JJR-----1
+sampling_VBG period_NN-----3
+feeling_NN-----1
+processes_NN-----1
+straight_JJ line_NN segments_NN-----1
+algebraic_JJ sign_NN-----1
+example_NN type_NN-----1
+discrete_JJ time_NN processing_NN-----2
+aperiodic_JJ signals_NN-----6
+unstable_JJ system_NN-----1
+phase_NN characteristics_NN-----1
+pulses_NN-----1
+pole_NN locations_NN-----1
+powerful_JJ tools_NN-----2
+interpolation_NN process_NN-----1
+addition_NN-----19
+certain_JJ properties_NN-----1
+electrical_JJ circuits_NN-----1
+inherent_JJ time_NN normalization_NN-----1
+impulse_NN response_NN hi_NN-----1
+impulse_NN response_NN-----12
+powerful_JJ concepts_NN-----1
+basic_JJ notion_NN-----1
+differentiation_NN property_NN-----3
+unit_NN samples_NN-----1
+butterworth_JJ filters_NN-----1
+trans_NN-----1
+equivalent_NN condition_NN-----1
+lowpass_NN filter_NN-----1
+less_JJR system_NN-----1
+linear_JJ phase_NN factor_NN-----1
+obvious_JJ choice_NN-----1
+i_FW e_FW-----1
+square_JJ wave_NN-----3
+modulated_JJ-----1
+dimensional_NN signal_NN-----1
+h_NN s_NN-----1
+n_NN-----7
+emphasis_NN-----1
+time_NN domain_NN sampling_NN-----1
+ratio_NN-----2
+particular_JJ example_NN-----1
+resonances_NN-----1
+cyclical_JJ behavior_NN-----1
+principal_JJ difference_NN-----1
+overall_JJ scale_NN factor_NN-----1
+important_JJ-----3
+range_NN-----5
+summation_NN-----2
+complex_JJ exponential_JJ form_NN-----1
+strobe_NN light_NN-----1
+opposite_NN-----1
+finite_JJ impulse_NN response_NN-----1
+resulting_VBG discrete_JJ time_NN sequence_NN-----1
+delayed_JJ impulses_NN-----3
+time_NN domain_NN signal_NN-----1
+blocks_NN-----1
+phase_NN difference_NN-----1
+approximate_JJ cutoff_NN frequency_NN-----1
+particular_JJ-----3
+weight_NN-----1
+different_JJ digital_JJ audio_JJ systems_NN-----1
+important_JJ applications_NN-----2
+simple_JJ sinusoidal_JJ signals_NN-----1
+r_SYM-----4
+feedback_NN system_NN-----3
+lti_NN systems_NN-----11
+periodicity_NN-----3
+overall_JJ continuous_JJ time_NN system_NN-----1
+different_JJ sequences_NN-----1
+discrete_JJ time_NN lti_NN-----1
+important_JJ role_NN-----6
+parseval_NNP-----1
+continuous_JJ frequency_NN variable_NN-----1
+same_JJ result_NN-----1
+motivation_NN-----1
+positive_JJ values_NN-----1
+ier_NN-----1
+important_JJ class_NN-----5
+input_NN frequency_NN-----4
+wide_JJ array_NN-----1
+fourier_JJ series_NN converges_NN-----1
+feedback_NN equation_NN-----1
+expansion_NN-----1
+communiation_NN systems_NN-----1
+bandpass_JJ characteristic_NN-----1
+impulse_NN response_NN h_NN-----1
+issues_NN analysis_NN-----1
+general_JJ sense_NN-----1
+conclusions_NN-----1
+zeros_NN-----2
+quick_JJ glimpse_NN-----1
+discrete_JJ time_NN fourier_NN transform_NN-----8
+generating_VBG synthesized_JJ speech_NN-----1
+linear_JJ time_NN-----1
+recursive_JJ procedure_NN-----1
+complex_JJ gain_NN-----1
+error_NN signal_NN corresponding_JJ-----1
+aliasing_NN-----5
+resulting_JJ system_NN function_NN-----1
+complex_JJ exponentials_NN es_NN-----1
+effect_NN-----13
+purposes_NN-----1
+timelimited_JJ sequence_NN-----1
+basic_JJ fourier_NN representations_NN-----1
+modern_JJ signal_NN processing_NN systems_NN-----1
+integer_NN multiple_NN-----2
+dense_JJ-----1
+clever_JJ notion_NN-----1
+filter_NN center_NN frequency_NN-----1
+displacement_NN-----2
+product_NN-----7
+procedure_NN-----6
+trans_JJ modulation_JJ-----1
+finite_JJ circumference_NN-----1
+demodulation_NN-----1
+continuous_JJ time_NN filter_NN design_NN-----1
+common_JJ example_NN-----1
+aliasing_JJ name_NN suggestive_NN-----1
+rich_JJ topic_NN-----1
+stage_NN-----2
+general_JJ concepts_NN-----1
+analyzer_NN display_NN shifts_NN position_NN-----1
+specific_JJ value_NN-----2
+discrete_JJ time_NN sinusoids_NN-----3
+corresponding_JJ fourier_NN-----1
+basic_JJ tool_NN-----1
+important_JJ consequence_NN-----2
+derivative_JJ feedback_NN-----1
+upsampling_VBG-----1
+width_NN-----3
+highest_JJS frequency_NN present_NN-----1
+eleven_NN-----1
+order_NN difference_NN equation_NN-----1
+examination_NN-----2
+modulated_JJ output_NN-----2
+simple_JJ-----2
+impulses_NN-----12
+integer_NN multiples_NN-----3
+frequency_NN less_JJR-----1
+functions_NN-----4
+values_NN-----7
+important_JJ aspect_NN-----1
+spectrum_NN-----8
+equation_NN-----2
+basic_JJ properties_NN-----1
+signal_NN processing_NN-----2
+highpass_NN filter_NN-----2
+cos_NN wot_NN-----1
+z_NNP-----2
+discrete_JJ time_NN system_NN function_NN-----1
+corresponding_JJ-----1
+consistent_JJ interpretations_NN-----1
+illustration_NN-----2
+communications_NN-----2
+interpolating_VBG function_NN-----1
+memory_NN invertibility_JJ causality_JJ stability_NN time_NN-----1
+ideas_NN-----4
+exception_NN-----2
+sample_NN spacing_NN-----1
+efoon_NN-----1
+eigenvalues_NN-----3
+system_NN functions_NN-----1
+objective_NN-----2
+'n_NNP-----1
+complex_JJ exponential_JJ-----1
+relationships_NN-----1
+discrete_JJ time_NN signal_NN processing_NN-----1
+dimensional_JJ signals_NN-----2
+nonzero_NN-----2
+limitation_NN-----1
+linear_JJ combinations_NN-----3
+transform_JJ analysis_NN-----1
+note_NN-----1
+results_NNS-----1
+course_NN proceeds_NN current_JJ technology_NN-----1
+system_NN dynamics_NN-----2
+discrete_JJ time_NN filter_NN-----6
+image_NN brightness_NN-----1
+tools_NN-----2
+discrete_JJ time_NN case_NN-----3
+straightforward_JJ consequence_NN-----1
+jo_NN axis_NN corresponds_NN-----1
+periodic_JJ time_NN domain_NN sequence_NN-----1
+points_NN-----2
+edgerton_NN-----1
+energy_NN-----1
+root_NN locus_NN-----2
+same_JJ complex_JJ exponentials_NN-----1
+z_JJ transform_NN-----10
+corresponds_NN-----5
+laplace_NN-----17
+simplicity_NN-----1
+frequency_NN response_NN-----17
+finite_JJ area_NN-----1
+linear_JJ expansion_NN-----1
+continuous_JJ time_NN fourier_NN-----6
+sophisticated_JJ-----1
+periodic_JJ signal_NN-----9
+real_JJ-----4
+decimation_NN-----4
+different_JJ sampling_NN rates_NN-----1
+applications_NN-----3
+mit_NNP-----1
+block_NN diagrams_NN-----1
+reconstruction_NN filter_NN-----3
+mapping_NN filters_NN-----1
+fourier_NN domain_NN-----1
+sinusoidal_JJ carrier_NN-----1
+synthesis_NN equation_NN-----6
+successive_JJ memory_NN locations_NN-----1
+situations_NN-----2
+filters_NN-----7
+memory_NN invertibility_NN-----1
+aperiodic_JJ-----1
+necessity_NN-----1
+relationship_NN-----2
+less_JJR-----4
+generalized_JJ functions_NN-----1

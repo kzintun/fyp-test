@@ -1,0 +1,1452 @@
+aperiodic discrete sequence -----3
+periodic pulse trains -----2720
+input spectrum -----26900
+modulation properties -----14400
+digital filtering systems -----4450
+continuous time case -----26300
+complex exponential -----183000
+principal demonstrations -----5120
+compatibility -----5870000
+fourier -----1970000
+important basic signals -----37
+notion -----14300000
+principal topic -----48900
+discrete time systems -----109000
+passband edge -----15900
+sweeps -----1840000
+importance -----19900000
+enjoyable -----18700000
+role -----31400000
+corresponding -----15000000
+communication systems -----2500000
+useful choices -----13300
+output -----12000000
+continuum -----2890000
+procedures -----16200000
+continuous time system -----48200
+useful class -----84900
+inverted pendulum -----109000
+approach -----14100000
+modern control systems -----88900
+properties -----20400000
+direct consequence -----636000
+am radio -----2700000
+others -----34100000
+bandwidth -----3140000
+mathematical difficulties -----39600
+periodic repetition -----24900
+bands -----13600000
+changes -----38200000
+distinct complex exponentials -----24
+feedback paths -----27100
+alias -----4790000
+thorough understanding -----2620000
+memory location -----612000
+analysis -----29700000
+common examples -----1870000
+individual responses -----262000
+topic -----26400000
+important result -----337000
+discrete time filters -----18300
+modulation system -----134000
+fourier series -----607000
+strong duality -----18800
+eigenfunctions -----2480000
+frequency -----10300000
+discrete time designs -----785
+impulse -----3300000
+external input -----331000
+fourier decomposition -----73300
+n equations -----88900
+unity -----7540000
+continuous periodic function -----3060
+digital modulation systems -----24400
+i -----595000000
+continuous time fourier series -----36500
+selective discrete time filters -----2
+kinds -----16700000
+interpretations -----8930000
+inefficiency -----2600000
+filter specifications -----145000
+time domain solution -----15500
+response -----17100000
+feedback dynamics -----19000
+effects -----23300000
+overall system -----1930000
+exponentials -----439000
+distinctions -----7270000
+discontinuity -----1820000
+single period -----222000
+dimensions -----16700000
+r -----264000000
+s plane -----1120000
+inverse laplace -----143000
+general complex -----45700
+circuits -----4490000
+pole diagram -----52900
+fourier series synthesis equation -----34
+growth -----19600000
+distortion -----2530000
+independent variable indexing -----10
+function -----32500000
+frequency range -----3710000
+right half plane -----42500
+ideal bandlimited interpolation -----2170
+alternative procedure -----117000
+constraint -----2240000
+original signal time -----5060
+convenient way -----4900000
+corresponding roles -----17500
+numerator polynomial -----9960
+linearity property -----53400
+capacitor -----1070000
+class -----83200000
+data -----50700000
+periodic time sampling -----25
+signal processing systems -----163000
+sampling theorem -----111000
+element characteristics -----242000
+x -----113000000
+fourier series sum -----14100
+time division -----782000
+lecture -----10100000
+multiplication -----4150000
+practice -----31300000
+complex plane -----379000
+simple modulating waveforms -----4
+stopband region -----1440
+system design implementation -----103000
+higher order systems -----34200
+continuous time signal -----84600
+unstable discrete time filters -----2
+derivative -----10500000
+system parameters -----962000
+selective filtering -----29900
+external disturbance -----36200
+ability -----13800000
+final demonstration -----39700
+equal height -----174000
+sinusoidal frequency modulation -----11200
+method -----24600000
+value -----44300000
+bandpass filters -----253000
+certain factors -----1040000
+linear feedback -----111000
+section -----34300000
+digital form -----1640000
+positioning system -----3090000
+higher frequencies -----1300000
+poles -----6350000
+identical algebraic expressions -----12
+equivalent cutoff frequency -----29
+composite signal -----125000
+discrete time -----741000
+time compression -----148000
+efficient -----16300000
+equivalently -----1710000
+right half plane pole -----7580
+sampling frequency -----582000
+different values -----2720000
+basic inputs -----65200
+order hold -----111000
+circle -----15900000
+broader class -----37400
+basis -----14000000
+accompanying suggested reading -----4
+period n -----316000
+anti aliasing filter -----106000
+division multiplexing -----541000
+fundamental frequencies -----86600
+input signal processing -----141000
+running integral -----7140
+design -----123000000
+highest frequency -----466000
+convolution property -----29800
+laplace transform -----316000
+types -----82400000
+implementation -----8730000
+linear scaling -----83200
+sound pressure -----1570000
+amplitudes -----1720000
+bandlimited signal -----24100
+inverse fourier -----138000
+difference -----43700000
+envelope function -----1310000
+time function -----549000
+sense -----11100000
+time invariance states -----5
+subsequent lectures -----12100
+frequency location -----76200
+continuous time lti systems -----21600
+channels -----12900000
+jo -----17500000
+form efkon -----3
+same envelope -----113000
+sampling process -----233000
+treatment -----27000000
+frequency variable -----87500
+discussions -----14800000
+signals -----6300000
+i e reject -----11800
+discrete time signals -----74600
+time functions -----553000
+disadvantages -----5360000
+overall input output response -----17
+public address systems -----285000
+interpretation -----10800000
+inverted pendulum -----109000
+constraints -----4060000
+portion -----13600000
+proportional plus derivative feedback -----2590
+positive frequencies -----17100
+sample value -----202000
+time shift -----1560000
+discrete time sequence -----31500
+times -----82200000
+oscillatory behavior -----54900
+long -----115000000
+frequencies -----3090000
+general form -----1520000
+integration -----11000000
+delayed impulse -----16300
+part -----95700000
+aperiodic signal corresponding -----4
+exponential weighting -----27400
+lack -----13200000
+demonstration lecture -----20800
+particular importance -----1550000
+linear displacement -----143000
+actual position -----434000
+certain tolerance -----30400
+discrete time frequency response -----43
+exact interpolation -----3640
+fourier transforms -----408000
+unstable equilibrium -----86400
+asynchronous demodulation -----4050
+opportunity -----15000000
+broader set -----380000
+limitations -----8290000
+time origin -----4540000
+sinusoidal -----2070000
+system function -----1860000
+impulse invariant design procedure -----10
+dependence -----3500000
+discrete time sinusoidal signals -----7850
+multiplexing -----2170000
+single pole -----1400000
+derivative -----10500000
+inherent difficulty -----50800
+feedback gain negative -----10
+decimated sequence -----1900
+fourier analysis -----589000
+video course manual -----4620
+general exponentials -----80
+sampling rate -----1620000
+modulating signal -----104000
+systemfunction -----1900000
+use -----127000000
+end -----80700000
+reverse -----10500000
+masses springs -----16200
+frequency content -----182000
+key role -----4880000
+t -----329000000
+lower frequency behavior -----3860
+dimensional -----6580000
+sampling -----4830000
+forward differences -----19800
+strong similarities -----56000
+differential -----6360000
+effective -----27100000
+algorithm -----2180000
+origin -----22200000
+consequences -----10600000
+cases -----20700000
+considerable detail -----157000
+useful properties -----348000
+important distinction -----3100000
+important concepts -----1590000
+explicit relationship -----34300
+interpolation -----2530000
+lower frequencies -----651000
+transforms -----5070000
+series coefficients -----88300
+implications -----7480000
+scaled replica -----58300
+infinite height -----36300
+increasing -----12600000
+same fourier series -----7700
+fixed cutoff frequency -----2020
+principal interest -----1090000
+commutative property -----253000
+amount -----21600000
+frequency bands -----1280000
+computed output values -----2020
+approximate lowpass filter -----98
+percent modulation -----18000
+signal -----11000000
+demodulator -----515000
+ir -----24600000
+straightforward interpretation -----29500
+d -----392000000
+integer -----2770000
+decomposition -----2560000
+pendulum fall -----6890
+indication -----13300000
+sampling period n -----4530
+next lecture -----142000
+information -----459000000
+meeting -----31800000
+exponentially weighted sequence -----16
+above -----30600000
+limit -----19000000
+tr -----20100000
+disturbances -----4410000
+form est -----64700
+discrete time fourier series -----49100
+simple approximations -----18900
+system specifications -----1460000
+processing -----13100000
+higher order transfer functions -----29700
+way -----85600000
+overall discrete time system -----18
+sampling frequency aliasing results -----2
+linear constant coefficient difference equation -----9290
+later lecture -----12200
+n values -----363000
+audio speakers -----2480000
+abrupt changes -----256000
+question -----35400000
+commutative associative -----181000
+sampler -----2340000
+convergence -----1940000
+butterworthfilters -----50200
+running sum -----115000
+bilinear transformation corresponds -----7
+lowpass -----515000
+overall output -----104000
+damping -----2340000
+modification -----11800000
+digital memory -----473000
+bandlimited time function -----3
+fundamental frequency -----347000
+fixed filter center frequency -----3
+frequency selective filters -----4710
+scaled impulse -----5650
+individual fourier -----3250
+understanding -----21300000
+sampling -----4830000
+lectures -----7010000
+specifications -----25300000
+strobe laboratory stroboscopy -----1
+z plane -----230000
+filtering -----3070000
+proportional -----4780000
+critical frequencies -----31100
+flexible algorithms -----4280
+spatial variables -----32300
+intuition -----2500000
+summary -----33400000
+continuous time filter -----18900
+certain disturbances -----6950
+sampling process -----233000
+systems -----40500000
+high frequencies -----2090000
+basic inputs complex exponentials -----3
+glockenspiel note -----4260
+reconstruction procedure -----110000
+input sequence -----223000
+original modulating signal -----2590
+same way -----25500000
+time positions -----2180000
+balanced -----7250000
+efficient algorithm -----276000
+time shifting property -----9990
+desired -----15500000
+important part -----18700000
+insight -----8770000
+detail -----69300000
+important classes -----145000
+linear time invariant systems -----46300
+cutoff frequency -----281000
+convergence roc -----7390
+important concept -----1220000
+lecture sixteen -----11100
+rearrangements -----1140000
+type -----90400000
+assumption -----7080000
+infinite length -----111000
+successive segments -----17900
+impulse train carrier -----7
+impulse train -----31500
+underlying basis -----96200
+independent variable -----1790000
+system analysis -----1990000
+sinusoidal oscillator -----26600
+time duration -----63600000
+complex s plane -----12900
+real valued sequence specification -----1
+continuous time linear time invariant systems -----18100
+control -----46800000
+sample -----45100000
+poles roots -----8700
+speech synthesis -----784000
+change -----81600000
+inputs -----3930000
+k -----142000000
+important application -----401000
+same time -----13000000
+modulated signal -----207000
+final property -----249000
+scale factor -----847000
+parallel results -----26500
+bandlimited interpolation -----3350
+negative time -----1050000
+eigenfunction -----155000
+sinusoid -----372000
+frequency selective filter -----8490
+center frequency -----417000
+bilinear transformation -----52200
+system performance -----3740000
+resulting synthesis equation -----2
+discrete time modulation -----3090
+same amount -----4740000
+possibility -----13700000
+nth sample -----9410
+transform -----7400000
+domains -----5160000
+lower sampling rate -----29200
+anticipation -----4390000
+lecture thirteen -----14800
+implementations -----4770000
+imaginary components -----39500
+i emphasize -----404000
+fourier synthesis equation -----37
+broad array -----2300000
+system output -----352000
+resonance -----1830000
+periodic sequence -----36200
+requirement -----16400000
+stability analysis -----432000
+time slices -----63400
+direction -----19800000
+inverse scaling -----5350
+polynomial form -----128000
+original input -----111000
+audio system -----2330000
+modulator -----1800000
+effect results -----237000
+aperiodic convolution -----1750
+discrete time complex exponentials -----5200
+parallel topic -----4260
+common one -----1800000
+periodic -----5170000
+combination -----12500000
+weighted rod -----7000
+shift -----11300000
+coefficients -----3140000
+next sampling instant -----2220
+sinusoidal signals -----70000
+outermost pole -----5050
+issues -----36000000
+modulation systems -----89400
+practical terms -----1300000
+additional relationship -----13000
+system frequency response -----56600
+staircase -----2040000
+sample points -----210000
+parameter -----6400000
+linear time invariant system -----47900
+continuous time designs -----81
+homogeneous equation -----181000
+high -----112000000
+frequency axes -----5680
+spacing -----2320000
+continuous time fourier transform -----65000
+denominator polynomial -----23500
+transform -----7400000
+efficient implementation -----282000
+convolution sum -----50000
+matter -----14100000
+powerful array -----66300
+discrete time technologies -----5
+discrete time lti systems -----26100
+block diagram -----2040000
+assumed period -----3830
+time system function -----10500
+channel -----35000000
+corresponding set -----512000
+design procedures -----236000
+particular significance -----382000
+oscillations -----2580000
+gain -----15400000
+mechanism -----8260000
+rich history -----5650000
+amplitude modulation -----558000
+linear phase filter -----26200
+smallest -----8910000
+system -----83800000
+calculation -----10300000
+roles -----13300000
+envelope -----4820000
+course focus -----105000
+uncertainties -----4380000
+weighted delayed impulse responses -----5
+difference equations -----272000
+continuous time systems -----64500
+difference equation -----223000
+dr -----58600000
+linear contant coefficient differential equations -----23600
+central -----58300000
+highpass filter -----1200000
+original signal -----285000
+basic concept -----2170000
+important mechanism -----256000
+square -----43900000
+converges -----1600000
+selective filters -----25200
+underdamped case -----11100
+resulting analysis equation -----4
+expressions -----8350000
+simple terms -----3320000
+oscillatory impulse response -----44
+algebraic equation -----310000
+periodic continuous function -----6300
+lti system -----88900
+modulation -----1890000
+sum -----9960000
+telescope platform -----20900
+damping decreases -----4790
+unit circle -----576000
+differences -----16600000
+fraction -----8770000
+hand -----43200000
+triangle -----9120000
+passband -----302000
+octave lower -----154000
+running integral -----7140
+only n fourier series coefficients -----2
+shaping -----4820000
+situation -----14900000
+example digital technologies -----2310
+axis -----6300000
+sinusoidal -----2070000
+simpler algebraic operation -----6
+terms -----38800000
+system representations -----16900
+simple time shift -----7500
+important differences -----1950000
+roots -----12100000
+contraction -----4750000
+modern communication systems signals -----13
+rate conversion -----421000
+discrete time difference equation -----45
+block -----28600000
+tapes -----6640000
+interpolation procedures -----9390
+narrow -----11800000
+entertaining visit -----23100
+sampling period -----184000
+pulse amplitude modulation -----75600
+arbitrary systems -----10900
+conclusion -----12900000
+phase -----11300000
+concern -----12300000
+expression -----10700000
+periodic impulse train -----4820
+anti aliasing filter -----106000
+low frequencies -----1610000
+natural settings -----517000
+feedback -----30000000
+mapping -----9400000
+principal analytical difference being -----1
+following lectures -----33500
+parallel combination -----148000
+lowpass highpass -----45300
+filtering modulation -----5980
+fourier series representation -----73900
+exponential signals -----7660
+sines -----1350000
+general fourier -----18200
+sequence -----10700000
+vertical position -----1910000
+input x t -----30700
+general class -----663000
+basic complex exponentials repeat -----1
+individual ones -----138000
+direct representation -----119000
+weighting -----3570000
+step -----34700000
+ejn -----180000
+coefficient -----2830000
+derivative terms -----71400
+zeros roots -----39900
+magnitude -----3360000
+oscillatory behavior changes -----13
+usefulness -----5010000
+instability -----3250000
+real exponentials -----2800
+superposition -----1970000
+course -----42800000
+convergence issues -----57800
+algebraic expression -----405000
+complex conjugate pair -----17100
+ways -----44600000
+restrictions -----11800000
+convolution integral -----78900
+discrete time frequency -----35000
+later lectures -----13200
+images -----121000000
+amplitude -----2920000
+oscillator frequency -----209000
+relation -----15800000
+certain frequency range -----32300
+resulting output -----137000
+results -----57800000
+positioning -----5550000
+specific system properties -----6270
+signal evolves -----1830
+memory -----19300000
+complex amplitude change -----9
+detailed issues -----30200
+algebraic terms -----290000
+successive values -----40000
+distinction -----14300000
+lowpass filter corresponding -----3070
+discrete time feedback systems -----40
+elegance -----6130000
+interest -----26900000
+different phase angles -----25600
+normalized frequency axis -----1780
+specific class -----749000
+right half -----1300000
+z transform -----190000
+unit impulse -----98600
+corresponding analysis equation -----12
+measurement -----10700000
+train -----31900000
+numbers -----56600000
+discrete time signal -----109000
+discrete time fourier series analysis -----19
+fundamental -----11500000
+single framework -----54300
+limiting form -----30200
+variable center frequency -----2830
+classes -----39500000
+step process -----4660000
+equivalent cutoff frequency -----29
+formalism -----1670000
+butterworth filter -----101000
+o -----288000000
+choice -----27600000
+discrete time frequency variable -----36
+operations -----16300000
+basic signals -----41100
+z -----58400000
+resulting output sequence -----2160
+continuous time frequency response -----35100
+sample frequencies -----25900
+paragraph -----7540000
+lowpass filtering -----106000
+basic building blocks -----811000
+initial conditions -----972000
+particular situation -----3040000
+resistors inductors -----141000
+reconstruction process -----161000
+right hand side -----5120000
+real specification -----6830
+resulting continuous time system function -----3
+forms -----49100000
+centers -----20600000
+sinusoid -----372000
+advantage -----21000000
+frequency domain -----1030000
+unique specification -----25500
+differential equation -----1410000
+peak -----11400000
+distributive -----2290000
+periodic convolution -----8240
+carrier pulse train -----2090
+discrete time lowpass -----32500
+duration -----30700000
+interpolates -----317000
+higher order singularity functions -----17
+periodic continuous time signals -----2230
+different motivation -----87000
+areas -----49800000
+finer spacing -----46500
+linear system -----688000
+resistor -----1030000
+interconnection -----2650000
+generalization -----3450000
+continuous time sampling -----11700
+linear time invariant lti systems -----17000
+remaining ones -----214000
+sinusoidal amplitude modulation -----12000
+output frequency -----626000
+lowpass filter -----1890000
+real axis -----142000
+feedback gain -----57200
+differentiation -----2280000
+roc i -----100000
+hi -----30100000
+above discussion -----391000
+periodic train -----6560
+basic approach -----477000
+pole -----10100000
+exponential -----3020000
+linear constant coefficient difference equations -----5650
+next lectures -----8120
+rod -----12400000
+frequency domains -----64300
+nyquist rate -----74400
+light motion -----451000
+imaginary parts -----243000
+sinusoidal carrier signals -----1570
+rlc circuits -----129000
+sinusoids -----266000
+key -----45400000
+discontinuities -----999000
+convolution -----1450000
+corresponding mapping -----13900
+lti -----487000
+foundation -----31500000
+unity magnitude -----12400
+discrete time system be -----41
+synchronization -----2510000
+sinusoidal real -----2850
+linear contraction expansion -----10
+complex -----15200000
+eventual conclusion -----25500
+sinusoidal triangular -----9560
+initial rest -----22400
+need -----125000000
+continuous time -----696000
+linear constant coefficient difference equations -----5650
+example -----58700000
+communications systems -----2470000
+periodic sampling -----34600
+odd functions -----168000
+additional processing -----670000
+square wave -----1350000
+inverse -----3320000
+practical systems -----84300
+systems addition -----43600
+original time function -----2330
+linear discrete time feedback -----33
+duty cycle -----3000000
+positive time -----191000
+linear combination -----695000
+vocal tract -----260000
+continuous time periodic signals -----18600
+sequence corresponds -----30300
+sample values -----430000
+single system -----1390000
+bandlimited -----75400
+close relationship exists -----28100
+parameter flo -----56
+power transmission -----1950000
+a -----266000000
+important building blocks -----54900
+next -----50700000
+time invariant -----273000
+feedback example -----147000
+imaginary i e -----13600
+delayed impulse responses -----66
+running sum -----115000
+oscillation -----3130000
+application -----98700000
+case -----38300000
+recursive discrete time filters -----48
+time sequence -----467000
+modulating input signal -----10200
+specific system parameters -----14100
+basic mathematics -----428000
+constant -----11000000
+discrete time sinusoidal sequence acos -----2
+order systems -----224000
+population size increases -----36600
+speed -----33300000
+operation -----24400000
+pulse train -----172000
+demodulated waveforms characteristic -----1
+arbitrary time position -----39
+attempt -----14200000
+information be -----3310000
+modulator box -----26500
+complex exponential signal -----2690
+continuous time aperiodic signals -----2810
+important interpretations -----31300
+linear -----6510000
+contour -----2220000
+differential equations -----2200000
+carrier -----11200000
+stages -----11600000
+corjugate symmetric -----14300
+sampling frequency -----582000
+property -----34900000
+spectrum analyzer -----1030000
+multiples -----10200000
+problem -----45200000
+error -----31400000
+form -----84800000
+integral -----9930000
+reasonable approach -----211000
+insights -----11200000
+sequence increases -----15900
+conversion -----18100000
+separate signals -----41900
+ideal frequency -----103000
+same procedure -----2880000
+x -----113000000
+only n coefficients -----45
+n unknowns -----46100
+periodic square wave -----19300
+linear interpolation -----455000
+complex -----15200000
+discrete time periodic signals -----17300
+synthesis equations -----35200
+shape -----17700000
+material -----35200000
+fourier series coefficients -----52500
+open loop system -----146000
+same -----69200000
+fourier representation -----62800
+arbitrary sequences -----22800
+sequences -----10200000
+filtered output sequence -----43
+z transform -----190000
+continuous variable -----486000
+feedback loop -----1850000
+top -----151000000
+high frequency -----2420000
+external disturbances -----46200
+algebraic properties -----309000
+filter -----15600000
+strong duality exists -----8
+set -----86000000
+homogeneous -----3220000
+transfer function -----976000
+equipment -----30900000
+inherent nonlinear distortion -----26
+process -----57500000
+level -----45200000
+form cet -----21400
+specific relationship -----132000
+system inputs -----135000
+frequency dc -----124000
+zo corresponds -----36
+forward -----14500000
+same properties -----791000
+signal spectrum -----117000
+circuit -----11800000
+digital numbers -----192000
+resulting integral -----11900
+modulating signal -----104000
+poles move parallel -----5
+control systems -----2320000
+h -----140000000
+important one -----2930000
+general complex variable -----2220
+infinite frequency range -----4410
+inductor currents -----14600
+frequency axis -----53900
+edge -----15500000
+microphone -----3500000
+additional signals -----36900
+unit impulses -----4780
+essential idea -----71800
+appropriate discrete time filter -----7
+discrete time signal analysis -----29700
+further illustration -----38900
+day fluctuations -----24200
+unstable systems -----49400
+linear feedback systems -----8880
+vice versa -----6460000
+right -----50600000
+better approximation -----87300
+associated continuous time system -----8
+auxiliary information -----81900
+complex amplitudes -----20400
+reconstructed signal -----33800
+same linear combination -----10100
+polynomials -----2340000
+computer movie -----195000
+dual -----15800000
+characteristics -----19500000
+tape recording -----597000
+discrete time modulation techniques -----1
+mathematics -----9070000
+significant properties -----72200
+lectures -----7720000
+implementation applications -----23000
+detailed discussions -----220000
+part signals -----7660
+nonzero content -----76
+complex exponential carrier demodulation -----4
+filter order -----285000
+important difference -----1750000
+open loop control -----159000
+instant -----13200000
+analysis equation -----217000
+cart acceleration proportional -----1
+transition region -----144000
+specification -----11700000
+exponential damping -----18900
+point -----50000000
+current lecture -----38300
+modulating -----2420000
+aperiodic signal -----17800
+differences -----16600000
+complex variable s -----351000
+spaced samples -----17400
+aperiodic one -----1430
+imaginary axis -----106000
+discrete time system -----80300
+wide variety -----34000000
+samples -----17700000
+system input -----563000
+digital converter -----1520000
+dimensional signal -----41600
+example feedback -----90800
+rectangular pulse -----87400
+measured angle -----66900
+specific system -----583000
+thefrequency domain -----491000
+daily -----34600000
+auxiliary conditions -----7750
+dashpots -----56000
+building blocks -----2990000
+microprocessor -----2920000
+inverse fourier transform -----128000
+period -----24400000
+place -----85100000
+linear constant coefficient differential -----26700
+responses -----9910000
+equivalent continuous time filter -----15
+evaluation -----12900000
+corresponding generalization -----2620
+box -----57600000
+decay -----2580000
+same one -----3460000
+reference -----24900000
+capacitors -----1550000
+sharpness -----4150000
+incompatible systems -----39900
+examples -----54400000
+basic sampling process -----42
+digital transmission systems -----42700
+demonstration -----11100000
+parameters -----7830000
+average filters -----23000
+associative property -----232000
+area -----116000000
+downsampling -----193000
+discrete time difference equations -----38
+perpendicular -----4530000
+overall cascade combination -----5
+order transfer functions -----11200
+simple approximation -----43600
+laplace converges -----11
+time successive segments -----28
+imaginary part -----329000
+corresponding signals -----31100
+euler -----1710000
+step corresponding -----18700
+further emphasis -----37800
+duality -----2400000
+adjacent values -----30600
+left half -----1140000
+staircase approximation -----5150
+concepts -----11700000
+spectra -----1020000
+output signal -----1900000
+c -----22300000
+pendulum -----1600000
+dynamics -----6810000
+different signals -----173000
+sampling theorem -----111000
+real exponential -----20400
+modulation theorem -----3000
+discrete time representation -----8310
+causal systems -----39000
+scope -----9680000
+similarities -----9630000
+general signals -----20400
+conditions -----344000000
+developing convolution -----11
+continuous time sinusoids -----4040
+time invariance -----59300
+unit step -----246000
+solution -----27800000
+j -----88400000
+corresponding continuous time system -----37
+bridge -----20500000
+continuous time impulse -----5960
+text -----39200000
+periodic signals -----120000
+important issues -----3980000
+different frequency -----561000
+rocket -----8800000
+signal generator -----973000
+linear convolution -----49800
+linear -----6510000
+extent -----14800000
+review -----107000000
+unreasonable assumption -----28500
+sampling rate -----1620000
+flight -----19000000
+derivatives -----2410000
+reason -----28500000
+time normalization -----17700
+particular advantages -----58300
+pole pattern -----46100
+taylor series expansion -----159000
+cornerstone -----1590000
+one -----148000000
+cosines -----521000
+forces -----12000000
+parallel roles -----7860
+amplifier design -----258000
+remainder -----16000000
+bandlimited continuous time signal -----87
+pair -----12500000
+simpler form -----179000
+maps -----30900000
+prior exposure -----171000
+original sequence -----134000
+sampled sequence -----6480
+discrete time lti system -----20600
+basic feedback equation -----24
+algorithms -----2120000
+finite length impulse response -----23200
+discussion -----25300000
+operational definition -----281000
+presence -----12300000
+angle -----10900000
+periodic function -----231000
+continuous time signals -----73400
+stock market averages -----117000
+carrier frequency -----475000
+same channel technique -----6
+arbitrary constants present -----44
+causality -----2840000
+particular different signals -----4
+linearity -----2820000
+aliased frequency -----15900
+resulting transform -----4970
+reconstructing lowpass filter -----25
+fourier series coefficients -----52500
+integer variable -----315000
+locus -----1600000
+principle -----9990000
+complex corjugate signal -----1080
+stopband -----84300
+introduction -----27500000
+downsampling -----193000
+choices -----13100000
+order -----86900000
+linear constant coefficient differential equations -----23600
+base -----33400000
+passband region -----6120
+scale factors -----232000
+techniques -----20100000
+time domain -----1580000
+consequence -----10700000
+block diagram realizations -----23
+fourier series analysis equation -----12000
+important features -----3280000
+narrow line -----190000
+time -----123000000
+appropriate choice -----645000
+broad -----11000000
+aspect -----13500000
+i e recovery -----26600
+natural -----36300000
+spectral line -----221000
+periodic sequence be -----7
+spaced time samples -----1590
+same period -----5190000
+corjugate symmetry -----18900
+distributive property -----595000
+important properties -----562000
+system properties -----1710000
+continuous time application -----5720
+overall continuous time filter -----2
+framework -----8690000
+initial capacitor voltages -----1920
+continuous time butterworth filters -----16
+analog -----5770000
+sampling impulse train -----76
+course text -----254000
+est -----28000000
+long time trends -----29000
+domain -----11900000
+inverse system -----36900
+radius -----5600000
+poles move -----33500
+analytically -----1620000
+different set -----3330000
+memoryless -----159000
+vectors -----1250000
+simple rc circuit -----29800
+requirements -----52700000
+roc -----5440000
+simple mathematical manipulations -----2980
+system response -----1100000
+nonlinear distortion -----53500
+powerful set -----653000
+continuous time unit step -----10900
+reconstructed output -----2970
+design procedure -----266000
+fl -----41300000
+corresponding frequency responses -----3580
+eye follow -----188000
+time axis -----229000
+eigenfunction zo -----4
+sinusoidal amplitude modulation demodulation -----40
+carrier i -----707000
+glockenspiel illustrating -----3
+inspection -----10900000
+important trade offs -----20400
+continuous -----10300000
+carrier signal -----194000
+time position -----2680000
+angular displacement -----229000
+context -----12700000
+cart -----23300000
+nonideal frequency selective filters -----1190
+computer memory -----1870000
+algebraic property -----126000
+past lectures -----111000
+continuous time filters -----18500
+basic equation -----409000
+system impulse response -----27000
+frequent reference -----49400
+continuous time modulation -----2840
+continuous time linear feedback systems -----1
+modulation property -----8210
+expensive demodulator -----10
+mathematical complication -----2160
+series rc circuit -----58300
+attention -----14200000
+unique fourier series coefficients -----2
+filtering time series analysis -----1350
+convolution properties -----25200
+practical implications -----829000
+theorem -----1790000
+representation -----11400000
+time control -----1850000
+rod angle -----57200
+factor -----14500000
+contrast -----12700000
+gain factors -----36200
+input -----13200000
+synchronous demodulation -----18800
+population growth -----3600000
+particular choice -----122000
+defined sequence -----78100
+explicit computation -----32300
+theory -----16100000
+amplitude increasing proportionately -----1
+frequency flo -----1440
+spectrum analyzer output -----6670
+general -----55400000
+variety -----18600000
+same basic strategy -----11100
+conjugate symmetry -----18900
+tenth -----8450000
+carrier wave shape -----19
+concept -----22500000
+resulting sequences -----122000
+problems -----70200000
+approximation -----906000
+single complex exponential -----8140
+cart acceleration -----17200
+problems -----70200000
+time waveform -----59900
+carrier signals -----61200
+s plane concentric -----2
+resulting representation -----20200
+rectangles -----3820000
+weekly stock market index antenna arrays -----1
+real part -----681000
+transition -----10600000
+frequency scaling -----143000
+less memory -----813000
+discrete time aperiodic sequence -----6
+complex exponentials -----61500
+segment -----10200000
+simple property -----239000
+sinc function -----100000
+linearity time shifting -----4210
+important property -----509000
+region -----30800000
+overall system function -----19600
+behavior -----12100000
+location -----439000000
+reconstruction -----5520000
+stage interpolation -----2760
+elegant relationship -----2950
+good representation -----643000
+symmetry property -----97200
+algebraic operation -----104000
+signals be -----115000
+economic time series -----140000
+impulse values -----8930
+general systems -----240000
+inherent asymmetry -----11600
+words -----76900000
+series -----84000000
+continuous sinusoids -----1270
+fact -----25200000
+rightmost pole -----5220
+discrete time sampling -----10900
+track -----40800000
+lecture fifteen -----11700
+minus sign -----1770000
+digital -----32700000
+pole pattern -----46100
+fourier transform -----1770000
+normalization -----3570000
+w -----183000000
+successive locations -----14000
+conjunction -----20200000
+result -----32600000
+family -----87100000
+severe transition -----2390
+mechanical systems -----2220000
+order hold corresponds -----3
+signal narrower -----712
+discrete time processing -----25100
+unstable system -----88400
+phase characteristics -----67200
+algebraic sign -----86300
+data representation -----528000
+sinusoidal signal -----137000
+practical situations -----273000
+linear constant coefficient differential equations -----23600
+particular -----15700000
+powerful tools -----3330000
+pole locations -----112000
+inherent time normalization -----1
+transmission -----13500000
+certain properties -----558000
+addition -----12700000
+electrical circuits -----1550000
+basic notion -----93000
+discrete time fourier -----73800
+higher order difference equations -----30300
+ideal lowpass filter -----58500
+pulse -----9250000
+powerful concepts -----36800
+processes -----11400000
+straight line segments -----111000
+less system -----200000
+aperiodic signals -----25800
+linear phase factor -----3050
+invariant systems -----58800
+narrow rectangles -----6040
+sampling period -----184000
+entire imaginary axis -----78
+feeling -----15300000
+modulated -----2810000
+differentiation property -----18500
+butterworth filters -----50400
+trans -----10300000
+n -----243000000
+impulse response -----521000
+time domain sampling -----12600
+h s -----6040000
+pulses -----3300000
+resonances -----1620000
+obvious choice -----2380000
+i e -----14200000
+square wave -----1350000
+principal difference -----135000
+overall scale factor -----6760
+interpolation process -----29900
+important -----48200000
+impulse response hi -----1120
+ratio -----17100000
+complex exponential form -----12900
+finite impulse response -----88100
+cyclical behavior -----39100
+opposite -----10900000
+approximate cutoff frequency -----60
+delayed impulses -----2820
+stability -----7320000
+weight -----80300000
+equivalent condition -----26500
+lowpass filter -----1890000
+time domain signal -----56700
+simple sinusoidal signals -----1240
+r -----264000000
+summation -----3740000
+dualities -----253000
+feedback system -----919000
+important applications -----431000
+resulting discrete time sequence -----15
+overall continuous time system -----8
+different digital audio systems -----7
+dimensional signal -----41600
+phase difference -----397000
+parseval -----174000
+emphasis -----17200000
+positive values -----867000
+blocks -----11600000
+ier -----984000
+same result -----4220000
+unit samples -----67800
+periodicity -----1460000
+particular example -----581000
+different sequences -----676000
+feedback equation -----18100
+range -----37200000
+important role -----10900000
+expansion -----11600000
+continuous frequency variable -----1340
+communiation systems -----2590000
+bandpass characteristic -----4280
+issues analysis -----171000
+discrete time lti -----17600
+impulse response h -----33700
+input frequency -----719000
+important class -----373000
+wide array -----6120000
+zeros -----2130000
+example type -----1120000
+conclusions -----9480000
+discrete time fourier transform -----94900
+recursive procedure -----69500
+general sense -----2020000
+resulting system function -----49
+error signal corresponding -----28100
+strobe light -----1330000
+complex exponentials es -----5
+particular -----15700000
+modern signal processing systems -----2020
+integer multiple -----105000
+timelimited sequence -----1070
+purposes -----22200000
+dense -----5630000
+displacement -----4470000
+effect -----24800000
+motivation -----8920000
+finite circumference -----1590
+procedure -----18800000
+product -----61700000
+analyzer display shifts position -----1
+rich topic -----22400
+fourier series converges -----23300
+general concepts -----1020000
+clever notion -----4020
+corresponding fourier -----21600
+lti systems -----80600
+derivative feedback -----14100
+discrete time sinusoids -----7640
+quick glimpse -----277000
+common example -----1640000
+continuous time filter design -----29600
+filter center frequency -----16500
+stage -----31600000
+integer multiples -----78600
+frequency less -----139000
+specific value -----1070000
+simple -----76500000
+trans modulation -----2190
+functions -----16600000
+eleven -----8750000
+important aspect -----4470000
+equation -----6280000
+basic tool -----428000
+highpass filter -----1200000
+signal processing -----2330000
+highest frequency present -----3190
+width -----17300000
+order difference equation -----59000
+important consequence -----193000
+cos wot -----2920
+examination -----9910000
+corresponding -----15000000
+discrete time system function -----15
+upsampling -----170000
+z -----58400000
+generating synthesized speech -----1040
+communications -----15900000
+memory invertibility causality stability time -----23
+impulses -----4450000
+efoon -----6380
+eigenvalues -----967000
+illustration -----10700000
+'n -----243000000
+basic fourier representations -----1
+modulated output -----51500
+dimensional signals -----34500
+results -----57800000
+limitation -----9770000
+demodulation -----554000
+sample spacing -----52000
+spectrum -----7830000
+basic properties -----805000
+course proceeds current technology -----2
+system dynamics -----628000
+discrete time filter -----14900
+transform analysis -----66400
+image brightness -----253000
+values -----22100000
+discrete time signal processing -----164000
+discrete time case -----20100
+jo axis corresponds -----1
+aliasing -----2240000
+linear time -----677000
+tools -----35000000
+linear combinations -----332000
+complex gain -----25500
+complex exponential -----183000
+root locus -----125000
+edgerton -----1770000
+consistent interpretations -----7150
+simplicity -----4350000
+linear expansion -----144000
+ideas -----45200000
+points -----32600000
+exception -----10500000
+periodic time domain sequence -----4
+objective -----11700000
+continuous time fourier -----54600
+sophisticated -----11500000
+periodic signal -----144000
+note -----32800000
+relationships -----12400000
+laplace -----1630000
+nonzero -----1690000
+straightforward consequence -----12100
+mapping filters -----3340
+fourier domain -----95600
+energy -----29900000
+same complex exponentials -----20
+memory invertibility -----11700
+mit -----23100000
+reconstruction filter -----53200
+necessity -----10500000
+corresponds -----8890000
+z transform -----190000
+frequency response -----3770000
+interpolating function -----28900
+aperiodic -----273000
+finite area -----45700
+less -----40800000
+generalized functions -----70300
+real -----121000000
+decimation -----995000
+applications -----35400000
+synthesis equation -----113000
+relationship -----22700000
+situations -----13900000
+sinusoidal carrier -----19500
+filters -----8920000
+successive memory locations -----4130
+different sampling rates -----34500
+system functions -----1700000
+block diagrams -----1000000

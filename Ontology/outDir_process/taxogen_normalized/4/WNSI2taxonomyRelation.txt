@@ -1,0 +1,520 @@
+pulses>>>continuous time impulse
+direction>>>course focus
+framework>>>single framework
+operations>>>sampling process
+oscillations>>>duty cycle
+indication>>>contour
+motivation>>>continuous time impulse
+relationships>>>specific relationship
+need>>>different motivation
+motivation>>>delayed impulse
+kinds>>>digital form
+procedures>>>efficient algorithm
+images>>>certain frequency range
+time system function>>>resulting continuous time system function
+passband region>>>passband edge
+algorithms>>>flexible algorithms
+control systems>>>modern control systems
+maps>>>interpolating function
+notion>>>clever notion
+procedures>>>interpolation process
+maps>>>resulting continuous time system function
+processes>>>sampling process
+contour>>>simpler form
+important concepts>>>important aspect
+frequency variable>>>continuous frequency variable
+procedures>>>impulse invariant design procedure
+shift>>>linear displacement
+dimensions>>>algebraic property
+purposes>>>transfer function
+circuits>>>simple rc circuit
+discrete time filters>>>selective discrete time filters
+maps>>>resulting system function
+discrete time processing>>>discrete time signal processing
+method>>>techniques
+system response>>>system frequency response
+relationships>>>elegant relationship
+dimensions>>>equal height
+center frequency>>>filter center frequency
+bands>>>corresponding set
+operation>>>sampling process
+motivation>>>scaled impulse
+differential equations>>>linear contant coefficient differential equations
+procedures>>>reconstruction procedure
+operation>>>algebraic operation
+transition>>>pulse amplitude modulation
+time system function>>>discrete time system function
+pulses>>>delayed impulse
+roles>>>corresponding roles
+selective filters>>>frequency selective filters
+operations>>>basic sampling process
+bands>>>different set
+procedures>>>resulting system function
+normalization>>>time normalization
+signal spectrum>>>input spectrum
+roles>>>discrete time system function
+modification>>>complex amplitude change
+notion>>>basic notion
+growth>>>population growth
+purposes>>>time system function
+procedures>>>same procedure
+portion>>>general form
+maps>>>corresponding mapping
+purposes>>>bandlimited time function
+operations>>>interpolation process
+concern>>>matter
+roles>>>key role
+expressions>>>important aspect
+amplitudes>>>complex amplitudes
+roles>>>resulting continuous time system function
+shift>>>linearity time shifting
+expansion>>>taylor series expansion
+conclusion>>>eventual conclusion
+indication>>>accompanying suggested reading
+interest>>>principal interest
+areas>>>passband region
+remainder>>>initial rest
+operations>>>same procedure
+one>>>aperiodic one
+kinds>>>example type
+resulting system function>>>resulting continuous time system function
+design procedures>>>impulse invariant design procedure
+invariant systems>>>linear time invariant lti systems
+fourier analysis>>>discrete time fourier series analysis
+implementations>>>system design implementation
+portion>>>opposite
+method>>>same channel technique
+operations>>>alternative procedure
+axis>>>time axis
+one>>>common one
+kinds>>>polynomial form
+procedures>>>alternative procedure
+processes>>>algorithms
+procedures>>>time system function
+forms>>>general form
+operation>>>impulse invariant design procedure
+important concepts>>>important features
+areas>>>centers
+contour>>>digital form
+inputs>>>external input
+distinctions>>>glockenspiel note
+factor>>>linear phase factor
+maps>>>periodic continuous function
+portion>>>remainder
+important features>>>important aspect
+exponentials>>>distinct complex exponentials
+contraction>>>time compression
+feedback equation>>>basic feedback equation
+motivation>>>unit impulses
+procedures>>>design procedures
+procedures>>>interpolating function
+reference>>>frequent reference
+note>>>spectral line
+foundation>>>underlying basis
+matter>>>principal topic
+operation>>>recursive procedure
+particular importance>>>particular significance
+combination>>>parallel combination
+processes>>>reconstruction process
+indication>>>algebraic sign
+area>>>locus
+roots>>>time origin
+individual fourier>>>general fourier
+base>>>underlying basis
+operation>>>interpolation process
+question>>>light motion
+sinusoidal signals>>>discrete time sinusoidal signals
+control>>>open loop control
+operations>>>impulse invariant design procedure
+finite impulse response>>>finite length impulse response
+blocks>>>important building blocks
+combination>>>overall cascade combination
+circuits>>>finite circumference
+techniques>>>same channel technique
+processes>>>explicit computation
+procedures>>>calculation
+linear expansion>>>linear contraction expansion
+bands>>>frequency bands
+expressions>>>identical algebraic expressions
+system functions>>>resulting continuous time system function
+series>>>input sequence
+procedures>>>periodic continuous function
+converges>>>laplace converges
+only n coefficients>>>only n fourier series coefficients
+portion>>>off part
+transition>>>rate conversion
+scale factor>>>overall scale factor
+procedures>>>original time function
+need>>>necessity
+dynamics>>>system dynamics
+discrete time filters>>>appropriate discrete time filter
+processes>>>interpolation process
+procedures>>>bandlimited time function
+forms>>>digital form
+disturbances>>>certain disturbances
+material>>>fraction
+times>>>negative time
+portion>>>important part
+composite signal>>>complex exponential signal
+level>>>high
+procedures>>>discrete time system function
+matter>>>rich topic
+series>>>timelimited sequence
+train>>>periodic train
+procedures>>>transfer function
+roles>>>envelope function
+similarities>>>strong similarities
+discrete time filters>>>unstable discrete time filters
+series>>>resulting sequences
+purposes>>>resulting system function
+calculation>>>explicit computation
+treatment>>>above discussion
+times>>>positive time
+areas>>>finite area
+centers>>>convolution sum
+design procedure>>>impulse invariant design procedure
+important concept>>>important aspect
+dualities>>>strong duality
+pulses>>>scaled impulse
+forms>>>specific class
+algorithms>>>efficient algorithm
+scope>>>certain frequency range
+area>>>finite area
+specification>>>unique specification
+area>>>centers
+motivation>>>different motivation
+algorithm>>>efficient algorithm
+distinction>>>glockenspiel note
+demodulation>>>asynchronous demodulation
+processes>>>efficient algorithm
+operation>>>system performance
+similarities>>>poles move parallel
+demodulator>>>expensive demodulator
+train>>>carrier pulse train
+maps>>>transfer function
+linear feedback>>>linear discrete time feedback
+domain>>>thefrequency domain
+filter center frequency>>>fixed filter center frequency
+application>>>example digital technologies
+successive locations>>>successive memory locations
+series>>>resulting output sequence
+roles>>>overall system function
+axis>>>normalized frequency axis
+exponential signals>>>complex exponential signal
+roles>>>parallel roles
+axis>>>real axis
+centers>>>running sum
+exponentials>>>discrete time complex exponentials
+operation>>>same procedure
+section>>>important part
+time sequence>>>discrete time aperiodic sequence
+purposes>>>overall system function
+roles>>>time system function
+maps>>>discrete time system function
+roles>>>sinc function
+modulation systems>>>digital modulation systems
+time sequence>>>resulting discrete time sequence
+energy>>>strobe light
+expansion>>>linear expansion
+purposes>>>periodic continuous function
+demodulation>>>sinusoidal amplitude modulation demodulation
+bands>>>broader set
+procedures>>>algebraic operation
+frequency location>>>normalized frequency axis
+series>>>exponentially weighted sequence
+portion>>>alias
+series coefficients>>>only n fourier series coefficients
+purposes>>>envelope function
+operation>>>alternative procedure
+shift>>>amplitudes
+times>>>original signal time
+selective filters>>>nonideal frequency selective filters
+procedures>>>reconstruction process
+specification>>>real specification
+processes>>>flexible algorithms
+procedures>>>interpolation procedures
+maps>>>continuous periodic function
+material>>>input x t
+processes>>>algorithm
+demodulation>>>complex exponential carrier demodulation
+composite signal>>>complex corjugate signal
+complex plane>>>complex s plane
+purposes>>>sinc function
+processes>>>basic sampling process
+basic equation>>>basic feedback equation
+operations>>>simpler algebraic operation
+downsampling>>>further bandlimiting downsampling
+purposes>>>key role
+roots>>>poles roots
+exponentials>>>basic inputs complex exponentials
+exponentials>>>general exponentials
+application>>>course proceeds current technology
+times>>>linear time
+transition>>>sinusoidal amplitude modulation
+operations>>>recursive procedure
+procedures>>>simpler algebraic operation
+procedures>>>continuous periodic function
+operation>>>reconstruction procedure
+operations>>>reconstruction procedure
+areas>>>thefrequency domain
+transition>>>severe transition
+different signals>>>particular different signals
+roles>>>resulting system function
+series coefficients>>>unique fourier series coefficients
+successive segments>>>time successive segments
+dimensions>>>infinite height
+shift>>>complex amplitudes
+procedures>>>sinc function
+feeling>>>basic notion
+general concepts>>>general complex
+purposes>>>discrete time system function
+series>>>same fourier series
+emphasis>>>further emphasis
+roles>>>periodic continuous function
+demodulation>>>synchronous demodulation
+processes>>>simpler algebraic operation
+areas>>>root locus
+section>>>above
+bands>>>powerful set
+signal processing systems>>>modern signal processing systems
+forms>>>complex exponential form
+area>>>thefrequency domain
+processes>>>recursive procedure
+time shift>>>simple time shift
+converges>>>fourier series converges
+processes>>>calculation
+maps>>>original time function
+butterworth filters>>>continuous time butterworth filters
+series>>>aperiodic discrete sequence
+series>>>discrete time fourier series
+invariant systems>>>continuous time linear time invariant systems
+hi>>>impulse response hi
+understanding>>>block diagram realizations
+exponential>>>single complex exponential
+equipment>>>signal generator
+forms>>>polynomial form
+contour>>>general form
+selective filters>>>frequency selective filter
+continuous time designs>>>continuous time filter design
+series>>>different sequences
+oscillation>>>duty cycle
+series>>>filtered output sequence
+processes>>>algebraic operation
+portion>>>simpler form
+circuits>>>series rc circuit
+box>>>modulator box
+maps>>>overall system function
+purposes>>>continuous time filter design
+areas>>>locus
+derivative feedback>>>proportional plus derivative feedback
+procedures>>>sampling process
+area>>>stopband region
+implications>>>practical implications
+frequency axes>>>normalized frequency axis
+operation>>>basic sampling process
+center frequency>>>fixed filter center frequency
+frequency variable>>>discrete time frequency variable
+sinusoidal signals>>>simple sinusoidal signals
+purposes>>>amplifier design
+note>>>glockenspiel note
+multiplexing>>>division multiplexing
+maps>>>envelope function
+areas>>>fourier domain
+series>>>sampled sequence
+indication>>>glockenspiel note
+procedures>>>overall system function
+transition>>>percent modulation
+continuous time filters>>>overall continuous time filter
+maps>>>time system function
+portion>>>complex exponential form
+decay>>>fourier decomposition
+discussions>>>detailed discussions
+discussions>>>above discussion
+indication>>>minus sign
+relationships>>>additional relationship
+area>>>root locus
+portion>>>polynomial form
+matter>>>parallel topic
+implications>>>particular significance
+periodic train>>>periodic impulse train
+sampling process>>>basic sampling process
+axis>>>entire imaginary axis
+factor>>>scale factor
+system functions>>>resulting system function
+blocks>>>basic building blocks
+fourier synthesis equation>>>fourier series synthesis equation
+maps>>>sinc function
+operation>>>simpler algebraic operation
+forms>>>simpler form
+shift>>>time shift
+train>>>sampling impulse train
+selective filters>>>selective discrete time filters
+operations>>>algebraic operation
+choices>>>particular choice
+procedures>>>recursive procedure
+roles>>>transfer function
+sinusoidal signals>>>sinusoidal carrier signals
+scope>>>infinite frequency range
+processes>>>impulse invariant design procedure
+indication>>>note
+system functions>>>overall system function
+purposes>>>interpolating function
+algebraic operation>>>simpler algebraic operation
+circuits>>>rlc circuits
+transforms>>>fourier transforms
+train>>>periodic impulse train
+reason>>>thorough understanding
+continuous time filters>>>continuous time butterworth filters
+transition>>>trans modulation
+understanding>>>thorough understanding
+roles>>>original time function
+section>>>off part
+est>>>form est
+exponentials>>>real exponentials
+area>>>passband region
+top>>>infinite height
+times>>>memory invertibility causality stability time
+processes>>>alternative procedure
+operations>>>design procedure
+roles>>>off part
+purposes>>>continuous periodic function
+nonlinear distortion>>>inherent nonlinear distortion
+interest>>>matter
+remainder>>>phase difference
+areas>>>transition region
+procedures>>>basic sampling process
+times>>>same time
+domain>>>fourier domain
+one>>>important one
+dimensions>>>final property
+centers>>>fourier series sum
+discrete time filters>>>recursive discrete time filters
+scope>>>sweeps
+contour>>>carrier wave shape
+resulting sequences>>>resulting discrete time sequence
+overall system>>>overall discrete time system
+forms>>>broader class
+sinusoids>>>continuous sinusoids
+inputs>>>original input
+operation>>>reconstruction process
+procedures>>>algorithms
+coefficient>>>weighting
+procedures>>>resulting continuous time system function
+roles>>>important part
+contour>>>polynomial form
+procedures>>>design procedure
+roles>>>continuous periodic function
+portion>>>initial rest
+time positions>>>arbitrary time position
+domain>>>finite area
+procedures>>>envelope function
+feeling>>>compatibility
+application>>>discrete time technologies
+memory>>>digital memory
+series>>>arbitrary sequences
+expansion>>>linear contraction expansion
+operations>>>reconstruction process
+memory>>>computer memory
+relationships>>>explicit relationship
+direction>>>long time trends
+application>>>continuous time application
+processes>>>design procedure
+conjugate symmetry>>>is sufficient conjugate symmetry
+processes>>>reconstruction procedure
+indication>>>equivalently delay registers
+choices>>>obvious choice
+procedures>>>flexible algorithms
+roles>>>bandlimited time function
+procedures>>>algorithm
+series>>>decimated sequence
+remainder>>>important difference
+cornerstone>>>underlying basis
+implementations>>>efficient implementation
+feeling>>>clever notion
+contour>>>complex exponential form
+one>>>same one
+sampling rate>>>sample frequencies
+theorem>>>modulation theorem
+time shift>>>linearity time shifting
+periodic sampling>>>periodic time sampling
+edge>>>passband edge
+similarities>>>analog
+analog>>>poles move parallel
+series>>>economic time series
+maps>>>bandlimited time function
+frequency selective filters>>>nonideal frequency selective filters
+sampling rate>>>sample spacing
+roots>>>zeros roots
+series>>>defined sequence
+section>>>time division
+area>>>fourier domain
+order transfer functions>>>higher order transfer functions
+control>>>time control
+important concept>>>important features
+direction>>>convenient way
+areas>>>stopband region
+sampling rate>>>lower sampling rate
+exponentials>>>real exponential
+procedures>>>explicit computation
+dimensions>>>linearity property
+memory>>>less memory
+choices>>>useful choices
+dimensions>>>simple property
+carrier signals>>>sinusoidal carrier signals
+conclusions>>>eventual conclusion
+kinds>>>general form
+images>>>infinite frequency range
+roles>>>interpolating function
+bandlimited signal>>>bandlimited continuous time signal
+series>>>time sequence
+series>>>periodic time domain sequence
+resulting sequences>>>resulting output sequence
+individual ones>>>same one
+forms>>>carrier wave shape
+need>>>lack
+shift>>>bilinear transformation
+sharpness>>>passband edge
+series>>>discrete time aperiodic sequence
+dimensions>>>distributive property
+i e>>>imaginary i e
+transition>>>sinusoidal frequency modulation
+shift>>>simple time shift
+dimensions>>>commutative property
+system functions>>>discrete time system function
+portion>>>digital form
+system functions>>>time system function
+portion>>>forms
+motivation>>>reason
+top>>>equal height
+dimensions>>>associative property
+disturbances>>>external disturbance
+exponential>>>real exponential
+exponentials>>>same complex exponentials
+locus>>>root locus
+system parameters>>>specific system parameters
+operation>>>design procedure
+lti>>>discrete time lti
+continuous variable>>>continuous frequency variable
+delayed impulse responses>>>weighted delayed impulse responses
+remainder>>>principal difference
+dimensions>>>symmetry property
+kinds>>>complex exponential form
+processes>>>same procedure
+overall system>>>overall continuous time system
+feeling>>>anticipation
+circuits>>>electrical circuits
+time sequence>>>periodic time domain sequence
+inputs>>>system inputs
+series>>>resulting discrete time sequence
+inputs>>>system input
+factor>>>overall scale factor
+note>>>narrow line
+exponentials>>>single complex exponential
+area>>>transition region
+kinds>>>simpler form
+factor>>>fundamental
+interest>>>concern
+purposes>>>original time function
+purposes>>>resulting continuous time system function
+operations>>>system performance
+center frequency>>>variable center frequency

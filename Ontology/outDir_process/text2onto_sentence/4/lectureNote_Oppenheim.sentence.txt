@@ -1,0 +1,632 @@
+This first lecture is intended to broadly introduce the scope and direction of the course.
+We are concerned, of course, with signals and with systems that process signals.
+Signals can be categorized as either continuous-time signals, for which the independent variable is a continuous variable, or discrete-time signals, for which the independent variable is an integer.
+Examples of continuous-time signals include the sound pressure at a microphone as a function of time or image brightness as a function of two spatial variables.
+In the first case the signal is a one-dimensional signal, in the second a two-dimensional signal.
+Common examples of discrete-time signals are economic time series, such as the daily or weekly stock market index, antenna arrays, etc.
+While these examples include both one-dimensional and two-dimensional signals, our detailed discussions in this course focus only on one-dimensional signals.
+Many of the general concepts and results, however, will be illustrated with two-dimensional signals, specifically images.
+There are some very strong similarities and also some very important differences between discrete-time signals and systems and continuous-time signals and systems.
+Discussing both classes together provides an opportunity to share intuition and to use both the similarities and the differences as a further emphasis of important concepts.
+Furthermore, as we will see as the course proceeds, current technology provides an important mechanism-through the concept of sampling-for converting between continuous-time and discrete-time signals.
+It is often very advantageous to process continuous-time signals by first converting them to discrete time.
+For the most part, our discussion of systems throughout is restricted to a specific class, namely linear, time-invariant systems.
+Extremely powerful tools and techniques exist for both analysis and design of this class of systems.
+In particular, in discussing this class of systems we develop signal and system representations in both the time domain and thefrequency domain.
+These two domains of representation are tied together through the Fourier transform, which we discuss and exploit in considerable detail.
+As I emphasize in this lecture, it is extremely important to use both the course text and the video course manual in conjunction with watching the tapes.
+The material presented in the lectures is very closely tied to the text.
+In addition, the recommended and optional problems in the video course manual have been carefully chosen to emphasize and amplify important issues raised in the associated lecture.
+Consequently, it is extremely important that, in addition to watching a taped lecture, you do the accompanying suggested reading and recommended problems before proceeding to the next lecture.
+Signals and Systems: In this lecture, we consider number of basic signals that will be important building blocks later in the course.
+Specifically, we discuss both continuous-time and discrete-time sinusoidal signals as well as real and complex exponentials.
+Sinusoidal signals for both continuous time and discrete time will become important building blocks for more general signals, and the representation using sinusoidal signals will lead to a very powerful set of ideas for representing signals and for analyzing an important class of systems.
+We consider a number of distinctions between continuous-time and discrete-time sinusoidal signals.
+For example, continuous-time sinusoids are always periodic.
+Furthermore, a time shift corresponds to phase change and vice versa.
+Finally, we consider the family of continuous-time sinusoids of the form A cos wot for different values of wo, the corresponding signals are distinct.
+The situation is considerably different for discrete-time sinusoids.
+Not all discrete-time sinusoids are periodic.
+Furthermore, while a time shift can be related to a change in phase, changing the phase cannot necessarily be associated with a simple time shift for discrete-time sinusoids.
+Finally, as the parameter flo is varied in the discrete-time sinusoidal sequence Acos(flon 4), two sequences for which the frequency flo differs by an integer multiple of 27r are in fact indistinguishable.
+Another important class of signals is exponential signals.
+In continuous time, real exponentials are typically expressed in the form cet, whereas in discrete time they are typically expressed in the form ca". A third important class of signals discussed in this lecture is continuous-time and discrete-time complex exponentials.
+In both cases the complex exponential can be expressed through Euler's relation in the form of real and an imaginary part, both of which are sinusoidal with a phase difference of 'N/2 and with an envelope that is a real exponential.
+When the magnitude of the complex exponential is a constant, then the real and imaginary parts neither grow nor decay with time; in other words, they are purely sinusoidal.
+In this case for continuous time, the complex exponential is periodic.
+For discrete time the complex exponential may or may not be periodic depending on whether the sinusoidal real and imaginary components are periodic.
+In addition to the basic signals discussed in this lecture, a number of additional signals play an important role as building blocks.
+These are introduced in Lecture 3.  
+In addition to the sinusoidal and exponential signals discussed in the previous lecture, other important basic signals are the unit step and unit impulse.
+In this lecture, we discuss these signals and then proceed to a discussion of systems, first in general and then in terms of various classes of systems defined by specific system properties.
+The unit step, both for continuous and discrete time, is zero for negative time and unity for positive time.
+In discrete time the unit step is a well-defined sequence, whereas in continuous time there is the mathematical complication of a discontinuity at the origin.
+A similar distinction applies to the unit impulse.
+In discrete time the unit impulse is simply a sequence that is zero except at n = 0, where it is unity.
+In continuous time, it is somewhat badly behaved mathematically, being of infinite height and zero width but having a finite area.
+The unit step and unit impulse are closely related.
+In discrete time the unit impulse is the first difference of the unit step, and the unit step is the running sum of the unit impulse.
+Correspondingly, in continuous time the unit impulse is the derivative of the unit step, and the unit step is the running integral of the impulse.
+As stressed in the lecture, the fact that it is a first difference and a running sum that relate the step and the impulse in discrete time and a derivative and running integral that relate them in continuous time should not be misinterpreted to mean that a first difference is a good "representation" of a derivative or that a running sum is a good "representation" of running integral.
+Rather, for this particular situation those operations play corresponding roles in continuous time and in discrete time.
+As indicated above, there are a variety of mathematical difficulties with the continuous-time unit step and unit impulse that we do not attempt to address carefully in these lectures.
+This topic is treated formally mathematically through the use of what are referred to as generalized functions, which is a level of formalism well beyond what we require for our purposes.
+The essenis tial idea, however, as discussed in Section 3.7 of the text, that the important aspect of these functions, in particular of the impulse, is not what its value is at each instant of time but how it behaves under integration.
+In this lecture we also introduce systems.
+In their most general form, systems are hard to deal with analytically because they have no particular properties to exploit.
+In other words, general systems are simply too general.
+We define, discuss, and illustrate a number of system properties that we will find useful to refer to and exploit as the lectures proceed, among them memory, invertibility, causality, stability, time invariance, and linearity.
+The last two, linearity and time invariance, become particularly significant from this point on.
+Somewhat amazingly, as we'll see, simply knowing that a system is linear and time-invariant affords us an incredibly powerful array of tools for analyzing and representing it.
+While not all systems have these properties, many do, and those that do are often easiest to understand and implement.
+Consequently, both continuous-time and discrete-time systems that are linear and time-invariant become extremely significant in system design, implementation, and analysis in a broad array of applications.
+In Lecture 3 we introduced and defined a variety of system properties to which we will make frequent reference throughout the course.
+Of particular importance are the properties of linearity and time invariance, both because systems with these properties represent a very broad and useful class and because with just these two properties it is possible to develop some extremely powerful tools for system analysis and design.
+A linear system has the property that the response to linear combination of inputs is the same linear combination of the individual responses.
+The property of time invariance states that, in effect, the system is not sensitive to the time origin.
+More specifically, if the input is shifted in time by some amount, then the output is simply shifted by the same amount.
+The importance of linearity derives from the basic notion that for a linear system if the system inputs can be decomposed as a linear combination of some basic inputs and the system response is known for each of the basic inputs, then the response can be constructed as the same linear combination of the responses to each of the basic inputs.
+Signals (or functions) can be decomposed as a linear combination of basic signals in a wide variety of ways.
+For example, we might consider a Taylor series expansion that expresses a function in polynomial form.
+However, in the context of our treatment of signals and systems, it is particularly important to choose the basic signals in the expansion so that in some sense the response is easy to compute.
+For systems that are both linear and time-invariant, there are two particularly useful choices for these basic signals: delayed impulses and complex exponentials.
+In this lecture we develop in detail the representation of both continuous-time and discrete-time signals as a linear combination of delayed impulses and the consequences for representing linear, time-invariant systems.
+The resulting representation is referred to as convolution.
+Later in this series of lectures we develop in detail the decomposition of signals as linear combinations of complex exponentials (referred to as Fourier analysis) and the consequence of that representation for linear, time-invariant systems.
+In developing convolution in this lecture we begin with the representation of discrete-time signals and linear combinations of delayed impulses.
+As we discuss, since arbitrary sequences can be expressed as linear combinations of delayed impulses, the output for linear, time-invariant systems can be expressed as the same linear combination of the system response to a delayed impulse.
+Specifically, because of time invariance, once the response to one impulse at any time position is known, then the response to an impulse at any other arbitrary time position is also known.
+In developing convolution for continuous time, the procedure is much the same as in discrete time although in the continuous-time case the signal is represented first as a linear combination of narrow rectangles (basically a staircase approximation to the time function).
+As the width of these rectangles becomes infinitesimally small, they behave like impulses.
+The superposition of these rectangles to form the original time function in its limiting form becomes an integral, and the representation of the output of a linear, time-invariant system as a linear combination of delayed impulse responses also becomes an integral.
+The resulting integral is referred to as the convolution integral and is similar in its properties to the convolution sum for discrete-time signals and systems.
+number of the important properties of convolution that have interpretations and consequences for linear, time-invariant systems are developed in Lecture 5.
+In the current lecture, we focus on some examples of the evaluation of the convolution sum and the convolution integral.
+Properties of Linear, Time-Invariant Systems In this lecture we continue the discussion of convolution and in particular explore some of its algebraic properties and their implications in terms of linear, time-invariant (LTI) systems.
+The three basic properties of convolution as an algebraic operation are that it is commutative, associative, and distributive over addition.
+The commutative property means simply that x convolved with h is identical with h convolved with x.
+The consequence of this property for LTI systems is that for a system with a specified input and impulse response, the output will be the same if the roles of the input and impulse response are interchanged.
+The associative property specifies that while convolution is an operation combining two signals, we can refer unambiguously to the convolution of three signals without concern about how they are grouped pairwise.
+As demonstrated in the lecture, the associative property combined with the commutative property leads to an extremely important property of LTI systems.
+Specifically, if we have several LTI systems cascaded together, the output generated by an input to the overall cascade combination does not depend on the order in which the systems are cascaded.
+This property of LTI systems plays an extremely important role in system design, implementation, and analysis.
+It is generally not true for arbitrary systems that are not linear and time-invariant, and it represents one very important consequence of exploiting the properties of linearity and time invariance.
+The distributive property states that a signal convolved with the sum of two signals is identical to the result of carrying out the convolution with each signal in the sum individually and then summing the result.
+The consequence of this for the interconnection of LTI systems is that a parallel combination can be collapsed into a single system whose impulse response is the sum of the two individual ones.
+In looking at and understanding the algebraic properties of convolution, it is worthwhile to recognize that convolution as an algebraic property relates to addition in exactly the same way that multiplication relates to addition: that is, multiplication is commutative, associative, and distributive over addition.
+In Lecture 3 we defined system properties in addition to linearity and time invariance, specifically properties of memory, invertibility, stability, and causality.
+While these properties are independent of linearity and time invariance, for LTI systems they can be related to properties of the system impulse response.
+For example, if an LTI system is memoryless, then the impulse response must be a scaled impulse.
+If a system with impulse response h is invertible, then the impulse response hi of the inverse system has the property that h convolved with hi is an impulse.
+For LTI systems an equivalent condition to stability is that the impulse response be absolutely summable (discrete time) or absolutely integrable (continuous time).
+If an LTI system is causal, then its impulse response must be zero for t (or n) < 0; furthermore, if the impulse response has this property, then the system is guaranteed to be causal.
+In the process of discussing these properties for LTI systems, we discuss another very important consequence of linearity-the fact that for a linear system (whether or not it is time-invariant), if the input is zero for all t (or n), then the output is zero also.
+In this lecture we illustrate the properties discussed above with some systems.
+The problems associated with this lecture provide the opportunity to explore these properties further.
+In Lecture 3 in discussing the continuous-time impulse function, we indicated some inherent difficulty with defining the impulse simply as the limiting form of a rectangular pulse.
+We also suggested that the important properties of impulses relate not to what they are at each instant of time but to how they behave under integration.
+Specifically, in the context of signal and system analysis, the important property of impulses and what we call higher-order singularity functions is not what they are but what they do under convolution.
+This operational definition of impulses and derivatives of impulses is briefly touched on at the end of this lecture.
+Systems Represented by Differential and Difference Equations An important class of linear, time-invariant systems consists of systems represented by linear constant-coefficient differential equations in continuous time and linear constant-coefficient difference equations in discrete time.
+Continuous-time linear, time-invariant systems that satisfy differential equations are very common; they include electrical circuits composed of resistors, inductors, and capacitors and mechanical systems composed of masses, springs, and dashpots.
+In discrete time a wide variety of data filtering, time series analysis, and digital filtering systems and algorithms are described by difference equations.
+In this lecture, we review the time-domain solution for linear constant-coefficient differential equations and show how the same basic strategy applies to difference equations.
+While this review is presented somewhat quickly, it is assumed that you have had some prior exposure to differential equations and their time-domain solution, perhaps in the context of circuits or mechanical systems.
+In any case, in Lecture 9 after we have developed the Fourier transform, we will see some more efficient (at least mathematically) ways of obtaining the solution.
+In considering the time-domain solution to linear constant-coefficient differential and difference equations, we should recognize a number of important features.
+Foremost is the fact that the differential or difference equation by itself specifies a family of responses only for a given input x(t).
+In particular we can always add to any solution another solution that satisfies the homogeneous equation corresponding to x(t) or x(n) being zero.
+Thus, for unique specification of a system, in addition to the differential or difference equation some auxiliary conditions (for example, a set of initial conditions) are needed that will specify the arbitrary constants present in the homogeneous solution.
+In Lecture 5 we showed that a linear, time-invariant system has the property that if the input is zero for all time, then the output will also be zero for all time.
+Consequently, a linear, time-invariant system specified by a linear constant-coefficient differential or difference equation must have its auxiliary conditions consistent with that property.
+If, in fact, the system is causal in addition to being linear and time-invariant, then the auxiliary conditions will correspond to the requirement of initial rest; that is, if the input is zero prior to some time, then the output must be zero at least until the same time.
+In the context of RLC circuits, for example, this would correspond to an assumption of no initial capacitor voltages or inductor currents prior to the time at which the input becomes nonzero.
+An important distinction between linear constant-coefficient differential equations associated with continuous-time systems and linear constant-coefficient difference equations associated with discrete-time systems is that for causal systems the difference equation can be reformulated as an explicit relationship that states how successive values of the output can be computed from previously computed output values and the input.
+This recursive procedure for calculating the response of a difference equation is extremely useful in implementing causal systems.
+However, it is important to recognize that either in algebraic terms or in terms of block diagrams, a difference equation can often be rearranged into other forms leading to implementations that may have particular advantages.
+For example, as illustrated in the lecture, the most direct representation of a difference equation in terms of a block diagram or algorithm is often not the most efficient.
+Since the order in which linear, time-invariant systems are cascaded is not important to the overall input-output response, the most direct representation can be rearranged so that its implementation requires significantly less memory or, equivalently, delay registers.
+In addition, there are many other rearrangements, each having particular advantages and disadvantages.
+Similar kinds of rearrangements of the block diagrams also apply to the block diagram realizations of linear constant-coefficient differential equations for continuous-time systems.
+Continuous-Time Fourier Series In representing and analyzing linear, time-invariant systems, our basic approach has been to decompose the system inputs into linear combination of basic signals and exploit the fact that for a linear system the response is the same linear combination of the responses to the basic inputs.
+The convolution sum and convolution integral grew out of particular choice for the basic signals in terms of which we carried out the decomposition, specifically delayed unit impulses.
+This choice has the advantage that for systems which are time-invariant in addition to being linear, once the response to an impulse at one time position is known, then the response is known at all time positions.
+In this lecture, we begin the discussion of the representation of signals in terms of a different set of basic inputs-complex exponentials with unity magnitude.
+For periodic signals, a decomposition in this form is referred to as the Fourier series, and for aperiodic signals it becomes the Fourier transform.
+In Lectures 20-22 this representation will be generalized to the Laplace transform for continuous time and the z-transform for discrete time.
+Complex exponentials as basic building blocks for representing the input and output of LTI systems have a considerably different motivation than the use of impulses.
+Complex exponentials are eigenfunctions of LTI systems; that is, the response of an LTI system to any complex exponential signal is simply a scaled replica of that signal.
+Consequently, if the input to an LTI system is represented as a linear combination of complex exponentials, then the effect of the system can be described simply in terms of a weighting applied to each coefficient in that representation.
+This very important and elegant relationship between LTI systems and complex exponentials leads to some extremely powerful concepts and results.
+Before capitalizing on this property of complex exponentials in relation to LTI systems, we must first address the question of how a signal can be represented as a linear combination of these basic signals.
+For periodic signals, the representation is referred to as the Fourier and is the principal topseries ic of this lecture.
+Specifically, we develop the Fourier series representation for periodic continuous-time signals.
+In Lecture 8 we extend that representation to the representation of continuous-time aperiodic signals.
+In Lectures 10 and 11, we develop parallel results for the discrete-time case.
+The continuous-time Fourier series expresses a periodic signal as a linear combination of harmonically related complex exponentials.
+Alternatively, it can be expressed in the form of a linear combination of sines and cosines or sinusoids of different phase angles.
+In these lectures, however, we will use almost exclusively the complex exponential form.
+The equation describing the representation of a time function as a linear combination of complex exponentials is commonly referred to as the Fourier synthesis equation, and the equation specifying how the coefficients are determined in terms of the time function is referred to as the Fourier series analysis equation.
+To illustrate the Fourier series, we focus in this lecture on the Fourier series representation of a periodic square wave.
+The fact that a square wave which is discontinuous can be "built" as a linear combination of sinusoids at harmonically related frequencies is somewhat astonishing.
+In fact, as we add terms in the Fourier series representation, we achieve an increasingly better approximation to the square wave except at the discontinuities; that is, as the number of terms becomes infinite, the Fourier series converges to the square wave at every value of T except at the discontinuities.
+However, for this example and more generally for periodic signals that are square-integrable, the error between the original signal and the Fourier series representation is negligible, in practical terms, in the sense that this error in the limit has zero energy.
+In the lecture, some of these convergence issues are touched on with the objective of developing insight into the behavior of the Fourier series rather than representing an attempt to focus formally on the mathematics.
+The Fourier series for periodic signals also provides the key to representing aperiodic signals through a linear combination of complex exponentials.
+This representation develops out of the very clever notion of representing an aperiodic signal as periodic signal with an increasingly large period.
+As the period becomes larger, the Fourier series becomes in the limit the Fourier integral or Fourier transform, which we begin to develop in the next lecture.
+Continuous-Time Fourier Transform In this lecture, we extend the Fourier series representation for continuous-time periodic signals to representation of aperiodic signals.
+The basic approach is to construct a periodic signal from the aperiodic one by periodically replicating it, that is, by adding it to itself shifted by integer multiples of an assumed period To.
+As To is increased indefinitely, the periodic signal then approaches or represents in some sense the aperiodic one.
+Correspondingly, since the periodic signal can be represented through a Fourier series, this Fourier series representation as To goes to infinity can be considered to be a representation as linear combination of complex exponentials of the aperiodic signal.
+The resulting synthesis equation and the corresponding analysis equation are referred to as the inverse Fourier transform and the Fourier transform respectively.
+In understanding how the Fourier series coefficients behave as the period of a periodic signal is increased, it is particularly useful to express the Fourier series coefficients as samples of an envelope.
+The form of this envelope is dependent on the shape of the signal over a period, but it is not dependent on the value of the period.
+The Fourier series coefficients can then be expressed as samples of this envelope spaced in frequency by the fundamental frequency.
+Consequently, as the period increases, the envelope remains the same and the samples representing the Fourier series coefficients become increasingly dense, that is, their spacing in frequency becomes smaller.
+In the limit as the period approaches infinity, the envelope itself represents the signal.
+This envelope is defined as the Fourier transform of the aperiodic signal remaining when the period goes to infinity.
+Although the Fourier transform is developed in this lecture beginning with the Fourier series, the Fourier transform in fact becomes a framework that can be used to encompass both aperiodic and periodic signals.
+Specifically, for periodic signals we can define the Fourier transform as an impulse train with the impulses occurring at integer multiples of the fundamental frequency and with amplitudes equal to 2 7r times the Fourier series coefficients.
+With this as the Fourier transform, the Fourier transform synthesis equation in fact reduces to the Fourier series synthesis equation.
+As suggested by the above discussion, a number of relationships exist between the Fourier series and the Fourier transform, all of which are important to recognize.
+As stated in the last paragraph, the Fourier transform of a periodic signal is an impulse train with the areas of the impulses proportional to the Fourier series coefficients.
+An additional relationship is that the Fourier series coefficients of a periodic signal are samples of the Fourier transform of one period.
+Thus the Fourier transform of period describes the envelope of the samples.
+Finally, the Fourier series of a periodic signal approaches the Fourier transform of the aperiodic signal represented by a single period as the period goes to infinity.
+We now have a single framework, the Fourier transform, that incorporates both periodic and aperiodic signals.
+In the next lecture, we continue the discussion of the continuous-time Fourier transform in particular, focusing on some important and useful properties.
+Fourier Transform Properties The Fourier transform is a major cornerstone in the analysis and representation of signals and linear, time-invariant systems, and its elegance and importance cannot be overemphasized.
+Much of its usefulness stems directly from the properties of the Fourier transform, which we discuss for the continuous-time case in this lecture.
+Many of the Fourier transform properties might at first appear to be simple (or perhaps not so simple) mathematical manipulations of the Fourier transform analysis and synthesis equations.
+However, in this and later lectures, as we discuss issues such as filtering, modulation, and sampling, it should become increasingly clear that these properties all have important interpretations and meaning in the context of signals and signal processing.
+The first property that we introduce in this lecture is the symmetry property, specifically the fact that for time functions that are real-valued, the Fourier transform is conjugate symmetric, i.e., X( - o) = X*(w).
+From this it follows that the real part and the magnitude of the Fourier transform of realvalued time functions are even functions of frequency and that the imaginary part and phase are odd functions of frequency.
+Because of this property of corjugate symmetry, in displaying or specifying the Fourier transform of a real-valued time function it is necessary to display the transform only for positive values of w.
+A second important property is that of time and frequency scaling, specifically that a linear expansion (or contraction) of the time axis in the time domain has the effect in the frequency domain of a linear contraction (expansion).
+In other words, linear scaling in time reflected in an inverse scaling in is frequency.
+As we discuss and demonstrate in the lecture, we are all likely to be somewhat familiar with this property from the shift in frequencies that occurs when we slow down or speed up a tape recording.
+More generally, this is one aspect of a broader set of issues relating to important trade-offs between the time domain and frequency domain.
+As we will see in later lectures, for example, it is often desirable to design signals that are both narrow in time and narrow in frequency.
+The relationship between time and frequency scaling is one indication that these are competing requirements; i.e., attempting to make a signal narrower in time will typically have the effect of broadening its Fourier transform.
+Duality between the time and frequency domains is another important property of Fourier transforms.
+This property relates to the fact that the analysis equation and synthesis equation look almost identical except for factor of 1/ 2 7r and the difference of a minus sign in the exponential in the integral.
+As a consequence, if we know the Fourier transform of a specified time function, then we also know the Fourier transform of a signal whose functional form is the same as the form of this Fourier transform.
+Said another way, the Fourier transform of the Fourier transform is proportional to the original signal reversed in time.
+One consequence of this is that whenever we evaluate one transform pair we have another one for free.
+As another consequence, if we have an effective and efficient algorithm or procedure for implementing or calculating the Fourier transform of a signal, then exactly the same procedure with only minor modification can be used to implement the inverse Fourier transform.
+This is in fact very heavily exploited in discrete-time signal analysis and processing, where explicit computation of the Fourier transform and its inverse play an important role.
+There are many other important properties of the Fourier transform, such as Parseval's relation, the time-shifting property, and the effects on the Fourier transform of differentiation and integration in the time domain.
+The time-shifting property identifies the fact that a linear displacement in time corresponds to linear phase factor in the frequency domain.
+This becomes useful and important when we discuss filtering and the effects of the phase characteristics of a filter in the time domain.
+The differentiation property for Fourier transforms is very useful, as we see in this lecture, for analyzing systems represented by linear constant-coefficient differential equations.
+Also, we should recognize from the differentiation property that differentiating in the time domain has the effect of emphasizing high frequencies in the Fourier transform.
+We recall in the discussion of the Fourier series that higher frequencies tend to be associated with abrupt changes (for example, the step discontinuity in the square wave).
+In the time domain we recognize that differentiation will emphasize these abrupt changes, and the differentiation property states that, consistent with this result, the high frequencies are amplified in relation to the low frequencies.
+Two major properties that form the basis for a wide array of signal processing systems are the convolution and modulation properties.
+According to the convolution property, the Fourier transform maps convolution to multiplication; that is, the Fourier transform of the convolution of two time functions is the product of their corresponding Fourier transforms.
+For the analysis of linear, time-invariant systems, this is particularly useful because through the use of the Fourier transform we can map the sometimes difficult problem of evaluating convolution to simpler algebraic operation, namely multiplication.
+Furthermore, the convolution property highlights the fact that by decomposing a signal into a linear combination of complex exponentials, which the Fourier transform does, we can interpret the effect of a linear, time-invariant system as simply scaling the (complex) amplitudes of each of these exponentials by a scale factor that is characteristic of the system.
+This "spectrum" of scale factors which the system applies is in fact the Fourier transform of the system impulse response.
+This is the underlying basis for the concept and implementation of filtering.
+The final property that we present in this lecture is the modulation property, which is the dual of the convolution property.
+According to the modulation property, the Fourier transform of the product of two time functions is proportional to the convolution of their Fourier transforms.
+As we will see in a later lecture, this simple property provides the basis for the understanding and interpretation of amplitude modulation which is widely used in communication systems.
+Amplitude modulation also provides the basis for sampling, which is the major bridge between continuous-time and discrete-time signal processing and the foundation for many modern signal processing systems using digital and other discrete-time technologies.
+We will spend several lectures exploring further the ideas of filtering, modulation, and sampling.
+Before doing so, however, we will first develop in Lectures 10 and 11 the ideas of Fourier series and the Fourier transform for the discrete-time case so that when we discuss filtering, modulation, and sampling we can blend ideas and issues for both classes of signals and systems.
+Discrete-Time Fourier Series In this and the next lecture we parallel for discrete time the discussion of the last three lectures for continuous time.
+Specifically, we consider the representation of discrete-time signals through a decomposition as a linear combination of complex exponentials.
+For periodic signals this representation becomes the discrete-time Fourier series, and for aperiodic signals it becomes the discrete-time Fourier transform.
+The motivation for representing discrete-time signals as a linear combination of complex exponentials is identical in both continuous time and discrete time.
+Complex exponentials are eigenfunctions of linear, time-invariant systems, and consequently the effect of an LTI system on each of these basic signals is simply a (complex) amplitude change.
+Thus with signals decomposed in this way, an LTI system completely characterized by a spectrum of is scale factors which applies at each frequency.
+it In representing discrete-time periodic signals through the Fourier series, we again use harmonically related complex exponentials with fundamental frequencies that are integer multiples of the fundamental frequency of the periodic sequence to be represented.
+However, as we discussed in Lecture 2, an important distinction between continuous-time and discrete-time complex exponentials is that in the discrete-time case, they are unique only as the frequency variable spans a range of 27r.
+Beyond that, we simply see the same complex exponentials repeated over and over.
+Consequently, when we consider representing a periodic sequence with period N as a linear combination of complex exponentials of the form efkOn with o = 27r/N, there are only N distinct complex exponentials of this type available to use, i.e., efoOn is periodisic in k with period N. (Of course, it also periodic in n with period N.) In many ways, this simplifies the analysis since for discrete time the representation involves only N Fourier series coefficients, and thus determining the coefficients from the sequence corresponds to solving N equations in N unknowns.
+The resulting analysis equation is a summation very similar in form to the synthesis equation and suggests a strong duality between the analysis and synthesis equations for the discrete-time Fourier transform.
+Because the basic complex exponentials repeat periodically in frequency, two alternative interpretations arise for the behavior of the Fourier series coefficients.
+One interpretation is that there are only N coefficients.
+The second is that the sequence representing the Fourier series coefficients can run on indefinitely but repeats periodically.
+Both interpretations, of course, are equivalent because in either case there are only N unique Fourier series coefficients.
+Partly to retain a duality between a periodic sequence and the sequence representing its Fourier series coefficients, it is typically preferable to think of the Fourier series coefficients as a periodic sequence with period N, that is, the same period as the time sequence x(n).
+This periodicity is illustrated in this lecture through several examples.
+Partly in anticipation of the fact that we will want to follow an approach similar to that used in the continuous-time case for a Fourier decomposition of aperiodic signals, it is useful to represent the Fourier series coefficients as samples of an envelope.
+This envelope is determined by the behavior of the sequence over one period but is not dependent on the specific value of the period.
+As the period of the sequence increases, with the nonzero content in the period remaining the same, the Fourier series coefficients are samples of the same envelope function with increasingly finer spacing along the frequency axis (specifically, a spacing of 2ir/N where N is the period).
+Consequently, as the period approaches infinity, this envelope function corresponds to a Fourier representation of the aperiodic signal corresponding to one period.
+This is, then, the Fourier transform of the aperiodic signal.
+The discrete-time Fourier transform developed as we have just described corresponds to a decomposition of an aperiodic signal as a linear combination of continuum of complex exponentials.
+The synthesis equation is then the limiting form of the Fourier series sum, specifically an integral.
+The analysis equation is the same one we used previously in obtaining the envelope of the Fourier series coefficients.
+Here we see that while there was a duality in the expressions between the discrete-time Fourier series analysis and synthesis equations, the duality is lost in the discrete-time Fourier transform since the synthesis equation is now an integral and the analysis equation a summation.
+This represents one difference between the discrete-time Fourier transform and the continuous-time Fourier transform.
+Another important difference is that the discrete-time Fourier transform is always a periodic function is of frequency.
+Consequently, it completely defined by its behavior over a frequency range of 27r in contrast to the continuous-time Fourier transform, which extends over an infinite frequency range.
+Discrete-Time Fourier Transform The discrete-time Fourier transform has essentially the same properties as the continuous-time Fourier transform, and these properties play parallel roles in continuous time and discrete time.
+As with the continuous-time Four ier transform, the discrete-time Fourier transform is a complex-valued function whether or not the sequence is real-valued.
+Furthermore, as we stressed in Lecture 10, the discrete-time Fourier transform is always a periodic function of fl.
+If x(n) is real, then the Fourier transform is corjugate symmetric, which implies that the real part and the magnitude are both even functions and the imaginary part and phase are both odd functions.
+Thus for real-valued signals the Fourier transform need only be specified for positive frequencies because of the conjugate symmetry.
+Whether or not a sequence is real, specification of the Fourier transform over a frequency range of 2 7r specifies it entirely.
+For a real-valued sequence, specification over the frequency range from, for example, 0 to a is sufficient because of conjugate symmetry.
+The time-shifting property together with the linearity property plays a key role in using the Fourier transform to determine the response of systems characterized by linear constant-coefficient difference equations.
+As with continuous time, the convolution property and the modulation property are of particular significance.
+As a consequence of the convolution property, which states that the Fourier transform of the convolution of two sequences is the product of their Fourier transforms, a linear, time-it variant system is represented in the frequency domain by its frequency response.
+This representation corresponds to the scale factors applied at each frequency to the Fourier transform of the input.
+Once again, the convolution property can be thought of as a direct consequence of the fact that the Fourier transform decomposes a signal into linear combination of complex exponentials each of which is an eigenfunction of a linear, time-invariant system.
+The frequency response then corresponds to the eigenvalues.
+The concept of filtering for discrete-time signals is a direct consequence of the convolution property.
+The modulation property in discrete time is also very similar to that in continuous time, the principal analytical difference being that in discrete time the Fourier transform of a product of sequences is the periodic convolution rather than the aperiodic convolution of the individual Fourier transforms.
+The modulation property for discrete-time signals and systems is also very useful in the context of communications.
+While many communications systems have historically been continuous-time systems, an increasing number of communications systems rely on discrete-time modulation techniques.
+Often in digital transmission systems, for example, it is necessary to convert from one type of modulation system to another, process referred to as transmodulation, and efficient implementation relies on the modulation property for discrete-time signals.
+As we discuss in this lecture, another important application of the modulation property is the use of modulation to effect a high-pass filter with a lowpass filter or vice versa.
+This lecture concludes our discussion of the basic mathematics of Fourier series and Fourier transforms; we turn our attention in the next several lectures to the concepts of filtering, modulation, and sampling.
+We conclude this lecture with summary of the basic Fourier representations that we have developed in the past five lectures, including identifying the various dualities.
+The continuous-time Fourier series is the representation of a periodic continuous function by an aperiodic discrete sequence, specifically the sequence of Fourier series coefficients.
+Thus, for continuous-time periodic signals there is an inherent asymmetry and lack of duality between the two domains.
+In contrast, the continuous-time Fourier transform has a strong duality between the time and frequency domains and in fact the Fourier transform of the Fourier transform gets us back to the original signal, time-reversed.
+In discrete time the situation is the opposite.
+The Fourier series represents a periodic time-domain sequence by a periodic sequence of Fourier series coefficients.
+On the other hand, the discrete-time Fourier transform is a representation of a discrete-time aperiodic sequence by a continuous periodic function, its Fourier transform.
+Also, as we discuss, strong duality exists between the continuous-time Fourier series and the discrete-time Fourier transform.
+Filtering In discussing Fourier transforms, we developed a number of important properties, among them the convolution property and the modulation property.
+The convolution property forms the basis for the concept of filtering, which we explore in this lecture.
+Our objective here is to provide some feeling for what filtering means and in very simple terms how it might be implemented.
+The concept of filtering is a direct consequence of the fact that for linear, time-invariant systems the Fourier transform of the output is the Fourier transform of the input multiplied by the frequency response, i.e., the Fourier transform of the impulse response.
+Because of this, the frequency content of the output is the frequency content of the input shaped by this frequency response.
+Frequency-selective filters attempt to exactly pass some bands of frequencies and exactly reject others.
+Frequency-shaping filters more generally attempt to reshape the signal spectrum by multiplying the input spectrum by some specified shaping.
+Ideal frequency-selective filters, such as lowpass, highpass, and bandpass filters, are useful abstractions mathematically but are not exactly implementable.
+Furthermore, even if they were implementable, in practical situations they may not be desirable.
+Often frequency-selective filtering is directed at problems where the spectra of the signals to be retained and those to be rejected overlap slightly; consequently it is more appropriate to design filters with a less severe transition from passband to stopband.
+Thus, nonideal frequency-selective filters have a passband region, a stopband region, and a transition region between the two.
+In addition, since they are only realized approximately, a certain tolerance in gain is permitted in the passband and stopband.
+A very common example of a simple approximation to a frequency-selective filter is a series RC circuit.
+With the output taken across the capacitor, the circuit tends to reject or attenuate high frequencies and thus is an approximation to a lowpass filter.
+With the output across the resistor, the circuit approximates a highpass filter, that is, it attenuates low frequencies and retains high frequencies.
+Many simple, commonly used approximations to frequency-selective discrete-time filters also exist.
+A very common one is the class of moving average filters.
+These have a finite-length impulse response and consist of moving through the data, averaging together adjacent values.
+A procedure of this type is very commonly used with stock market averages to smooth out (i.e., reject) the high-frequency day-to-day fluctuations and retain the lower-frequency behavior representing long-time trends.
+Cyclical behavior in stock market averages might typically be emphasized by an appropriate discrete-time filter with a bandpass characteristic.
+In addition to discrete-time moving average filters, recursive discrete-time filters are very often used as frequency-selective filters.
+In the same way that a simple RC circuit can be used as an approximation to a lowpass or highpass filter, a first-order difference equation is often a simple and convenient way of approximating a discrete-time lowpass or high-pass filter.
+In this lecture we are able to provide only a very quick glimpse into the topic of filtering.
+In all its dimensions, it is an extremely rich topic with many detailed issues relating to design, implementation, applications, and so on.
+In the next and later lectures, the concept of filtering will play very natural and important role.
+Continuous-Time Modulation In this lecture, we begin the discussion of modulation.
+This is an important concept in communication systems and, as we will see in Lecture 15, also provides the basis for converting between continuous-time and discrete-time signals.
+In its most general sense, modulation means using one signal to vary a parameter of another signal.
+In communication systems, for example, if a is channel particularly suited to transmission in a certain frequency range, the in information to be transmitted may be embedded a carrier signal matched to the channel.
+The mechanism by which the information is embedded is modulation; that is, the information to be transmitted is used to modulate some parameter of the carrier signal.
+In sinusoidal frequency modulation, for example, the information is used to modulate the carrier frequency.
+In sinusoidal amplitude modulation, the carrier is sinusoidal at a frequency that the channel can accommodate, and the information to be transmitted modulates the amplitude of this carrier.
+Furthermore, in communication systems, if many different signals are to be transmitted over the same channel, technique referred to asfrequency division multiplexing is often used.
+In this method each signal is used to modulate a carrier of a different frequency so that in the composite signal the information for each of the separate signals occupies non-overlapping frequency bands.
+The modulation property for Fourier transforms applies directly to amplitude modulation, that is, the interpretation in the frequency domain of the result of multiplying a carrier signal by a modulating signal.
+From the modulation property we know that for amplitude modulation the spectrum of the modulated output is the convolution of the spectra of the carrier and the modulating signal.
+When the carrier is either a complex exponential or a sinusoidal signal, the spectrum of the carrier is one or a pair of impulses and the result of the convolution is then to shift the spectrum of the modulating signal to center frequency equal to the carrier frequency.
+Modulation with a single complex exponential and with a sinusoidal signal are closely related.
+With a complex exponential carrier, demodulation, i.e., recovery of the original modulating signal, is relatively straightforward, basically involving modulating a second time with the complex corjugate signal.
+With sinusoidal amplitude modulation, demodulation consists of modulating again with a sinusoidal carrier followed by lowpass filtering to extract the original signal.
+This form of demodulation is typically referred to as synchronous demodulation since it requires synchronization between the sinusoidal carrier signals in the modulator and demodulator.
+However, by adding a constant to the modulating signal or equivalently injecting some carrier signal into the modulated output, a simpler form of demodulator can be used.
+This is referred to as asynchronous demodulation and typically results in a less expensive demodulator.
+However, the fact that a carrier signal is injected into the modulated signal represents an inefficiency of power transmission.
+Demonstration of Amplitude Modulation In this lecture, we demonstrate many of the concepts and properties discussed and developed in several of the previous lectures.
+The demonstration centers around number of signals displayed in both the time domain and the frequency domain using a signal generator, an oscilloscope to view the signal in the time domain, and a spectrum analyzer to view the signal in the frequency domain.
+The spectrum analyzer computes the spectrum digitally using a microprocessor.
+A segment of the time waveform is captured, digitized, and stored in a digital memory.
+A microprocessor then computes the Fourier transform for this segment.
+As the signal evolves in time, successive segments are captured and processed in this way.
+Consequently, the spectrum analyzer displays the Fourier transform of successive segments of the signal, so as the signal changes its characteristics and spectral content, these changes are reflected in the spectrum analyzer output.
+For example, with a sinusoidal signal the spectrum analyzer displays a narrow line at the frequency of the sinusoid.
+If this frequency is slowly changed, the location of the spectral line on the analyzer display shifts position accordingly.
+Simultaneously looking at the signal and the spectrum analyzer output helps us to visually correlate properties and characteristics in the time domain and frequency domain.
+As one example of this, we return in this demonstration lecture to the Fourier transform property of time and frequency scaling.
+In a previous lecture we demonstrated this property with the glockenspiel, illustrating in particular that if we recorded a note and replayed it at half speed, it would sound an octave lower in frequency.
+With the equipment that we have available to us in this demonstration lecture, we can visually illustrate time and frequency scaling of the glockenspiel note.
+One of the principal demonstrations in this lecture illustrates amplitude modulation with a modulator box.
+This box has an external input for the modulating signal and a choice of three carrier signals: sinusoidal, triangular, and square wave.
+By looking at the modulated signal in both the time domain and the frequency domain, we can observe in both domains the effect of changing the percent modulation, or equivalently the amount of carrier injected, and the effects of changing the input frequency, the carrier frequency, and the carrier wave shape.
+In demonstrating amplitude modulation, we first use simple modulating waveforms from the signal generator.
+As a final demonstration, we examine the modulated and demodulated waveforms characteristic of an AM radio.
+Discrete-Time Modulation The modulation property is basically the same for continuous-time and discrete-time signals.
+The principal difference is that since for discrete-time signals the Fourier transform is a periodic function of frequency, the convolution of the spectra resulting from multiplication of the sequences is a periodic convolution rather than a linear convolution.
+While the mathematics is very similar, the applications are somewhat different.
+In continuous time, modulation plays major role in communications systems for transmission of signals over various types of channels.
+That application usually is inherently a continuous-time application.
+However, in many modern communication systems, signals may go through various stages and types of modulation as they move from one channel to another, and often this conversion from one modulation system to another is best implemented digitally.
+In their digital form the signals are discrete-time signals, and such transmodulation systems are based on modulation properties associated with discrete-time signals.
+In addition to digital modulation systems, the concepts of discrete-time modulation (and, for that matter, continuous-time modulation also) are useful in the context of filtering, particularly when it is of interest to implement filters with a variable center frequency.
+It is often simpler in such situations to implement a fixed filter (either continuous time or discrete time) and through modulation shift the signal spectrum in relation to the fixed filter center frequency rather than shifting the filter center frequency in relation to the signal.
+For discrete-time signals, for example, from the modulation property it follows that multiplying a signal by (- 1)' has the effect of interchanging the high and low frequencies.
+Consequently, by alternating the algebraic sign of the input signal, processing with a lowpass filter, and then alternating the algebraic sign of the output signal, a highpass filter can be implemented.
+In discussing continuous-time modulation in Lecture 13 and discrete-time modulation in the first part of this lecture, the emphasis is on a carrier signal that is a complex exponential or sinusoidal signal.
+Another important and useful class of carrier signals is periodic pulse trains that are constant for some fraction of the period and zero for the remainder.
+In effect, then, either in continuous time or discrete time, modulation with such a pulse train consists of extracting time slices of the modulating signal.
+In data representation or transmission, this permits, for example, type of multiplexing referred to as time division multiplexing since during the "off" part of the pulse train, time slices from signals in other channels can be inserted.
+Somewhat amazingly, the original modulating signal can be recovered exactly after pulse-amplitude modulation provided only that the fundamental frequency of the carrier pulse train is greater than twice the highest frequency in the modulating signal.
+The modulating signal can then theoretically be recovered exactly by filtering the pulse-amplitude-modulated signal with an ideal lowpass filter.
+Furthermore, this ability to exactly reconstruct the original signal is independent of the "duty cycle" of the carrier, i.e., it is theoretically possible no matter how narrow the "on" time of the pulse train is made.
+If for the continuous-time case, the "on" time of the carrier pulse train is made arbitrarily small, with the amplitude increasing proportionately, the carrier then corresponds to an impulse train.
+For discrete time, the pulse train with the smallest "on" time would likewise correspond to periodic train of impulses or unit samples.
+In both cases, then, modulation with the impulse train carrier would correspond to sampling the modulating (input) signal.
+This leads to an extremely important concept, referred to as the sampling theorem.
+The sampling theorem states that a bandlimited signal can be exactly reconstructed from equally spaced time samples provided that the fundamental frequency of the sampler (i.e., the impulse train carrier) is greater than twice the highest frequency in the signal to be reconstructed.
+This fundamental and important result, to be explored further in Lecture 16, provides a major bridge between continuous-time and discrete-time signals and systems.
+Sampling  The sampling theorem, which is a relatively straightforward consequence of the modulation theorem, is elegant in its simplicity.
+It basically states that a bandlimited time function can be exactly reconstructed from equally spaced samples provided that the sampling rate is sufficiently high-specifically, that it is greater than twice the highest frequency present in the signal.
+A similar result holds for both continuous time and discrete time.
+One of the important consequences of the sampling theorem is that it provides mechanism for exactly representing a bandlimited continuous-time signal by a sequence of samples, that is, by a discrete-time signal.
+The reconstruction procedure consists of processing the impulse train of samples by an ideal lowpass filter.
+Central to the sampling theorem is the assumption that the sampling frequency is greater than twice the highest frequency in the signal.
+The reconstructing lowpass filter will always generate a reconstruction consistent with this constraint, even if the constraint was purposely or inadvertently violated in the sampling process.
+Said another way, the reconstruction process will always generate a signal that is bandlimited to less than half the sampling frequency and that matches the given set of samples.
+If the original signal met these constraints, the reconstructed signal will be identical to the original signal.
+On the other hand, if the conditions of the sampling theorem are violated, then frequencies in the original signal above half the sampling frequency become reflected down to frequencies less than half the sampling frequency.
+This distortion is commonly referred to as aliasing, name suggestive of the fact that higher frequencies (above half the sampling frequency) take on the alias of lower frequencies.
+The concept of aliasing is perhaps best understood in the context of simple sinusoidal signals.
+Given samples of sinusoidal signal, many continuous-time sinusoids can be threaded through the samples.
+For example, if the samples were all of equal height, they could correspond to samples of sinusoid of zero frequency or in fact sinusoid at any frequency that is an integer multiple of the sampling frequency.
+From the samples alone there is clearly no way of determining which of the continuous sinusoids was sampled.
+The reconstruction filter, however, makes the assumption that the samples also correspond to a frequency less than half the sampling frequency; so for this particular example, the reconstructed output will be a constant.
+If, in fact, the original signal was a sinusoid at the sampling frequency, then through the sampling and reconstruction process we would say that a sinusoid at a frequency equal to the sampling frequency is aliased down to zero frequency (DC).
+Thus, as we demonstrate in this lecture, if we sample the output of a sinusoidal oscillator and then reconstruct with a lowpass filter, as the oscillator frequency increases from zero, the output of the lowpass filter will correspondingly increase.
+The output frequency will match the input frequency until the oscillator frequency reaches half the sampling frequency.
+As the oscillator frequency continues to increase, the output of the lowpass filter will begin to decrease in frequency.
+It is important to understand that in sampling and reconstruction with an ideal lowpass filter, the reconstructed output will not be equal to the original input in the presence of aliasing, but samples of the reconstructed output will always match the samples of the original signal.
+This relationship is emphasized in this lecture through a computer movie.
+It is also important to recognize that aliasing is not necessarily undesirable.
+As we illustrate with hopefully enjoyable and entertaining visit with Dr. Harold Edgerton at MIT's Strobe Laboratory, stroboscopy heavily exploits the concept of aliasing.
+Specifically, by using pulses of light, motion too fast for the eye to follow can be aliased down to much lower frequencies.
+In this case, the strobe light represents the sampler, and the lowpass filtering is accomplished visually.
+Interpolation In developing the sampling theorem, we based the reconstruction procedure for recovering the original signal from its samples on the use of a lowpass filter.
+This follows naturally from the interpretation of the sampling process in the frequency domain.
+Correspondingly, in the time domain the reconstruction is represented by the convolution of the impulse train of samples with the impulse response of the lowpass filter.
+Convolution of an impulse response with an impulse train can be viewed as a superposition of weighted delayed impulse responses with amplitudes and positions corresponding to the impulses in the impulse train.
+This superposition represents an interpolation process between the samples.
+When the reconstruction filter is an ideal low-pass filter, the interpolating function is a sinc function.
+This is often referred to as bandlimited interpolation because it interpolates between sample points by explicitly assuming that the original signal is bandlimited to less than half the sampling frequency.
+In addition to bandlimited interpolation, a variety of other interpolation procedures are commonly used.
+One, referred to as a zero-order hold, interpolates between sample points by holding each sample value until the next sampling instant.
+This generates a staircase-like approximation to the original signal.
+Linear interpolation, also commonly referred to as a first-order hold, corresponds to connecting the sample points by straight line segments.
+Both the zero-order hold and first-order hold can be alternatively viewed in much the same way as we have discussed ideal bandlimited interpolation.
+Specifically, the zero-order hold corresponds to convolving the impulse train of samples with a rectangular pulse of duration exactly equal to the sampling period.
+The first-order hold corresponds to an impulse response for the reconstruction filter that is a triangle of duration equal to twice the sampling period.
+In the frequency domain, then, the zero-order hold corresponds to processing the samples with an approximation to a lowpass filter corresponding to the Fourier transform of a rectangular pulse.
+With the first-order hold the approximate lowpass filter has a frequency response that is the Fourier transform of a triangle.
+One of the important applications of the concept of sampling is its use in converting continuous-time signals to discrete-time signals corresponding to a sequence of sample values.
+This provides one basis for storing, coding, or transmitting continuous-time signals.
+In addition, it offers the possibility for discrete-time processing of continuous-time signals.
+In many situations such processing is highly advantageous.
+For example, digital technologies for signal processing, which inherently are oriented toward discrete-time signals and systems, are extremely flexible and often lend themselves to implementing more sophisticated and flexible algorithms than a continuous-time system might.
+By exploiting the sampling theorem, a continuous-time signal to be processed can be converted to a discrete-time signal, processed by a discrete-time system, and then converted back to continuous-time signal.
+In developing insight into this process, it is important to clearly understand in both the time and the frequency domains the process of converting from a continuous-time signal to a sequence of samples.
+This continuous-to-discrete-time conversion (abbreviated as C/D) is conveniently thought of in two stages.
+The first represents sampling of the continuous-time signal with a periodic impulse train to generate an impulse train of samples.
+This impulse train is then converted to a discrete-time sequence essentially by relabeling; that is, a discrete-time sequence is generated in which each impulse is represented by its area.
+After the first stage, the impulses in the impulse train occur at multiples of the sampling period.
+After the second stage, the discrete-time sequence representing the impulse values is indexed on sample number and consequently the sample spacing has been normalized to unity.
+For example, if a continuous-time signal were to be sampled and stored in a computer memory, it would first be sampled in time and the sample values converted through an analog-to-digital converter to digital numbers.
+These numbers would then be placed in memory.
+The resulting discrete-time sequence would be the sequence of numbers in successive memory locations, and the independent variable indexing the discrete-time sequence could in fact be thought of as memory location number.
+In the frequency domain, the two-step process described above has a relatively straightforward interpretation.
+Through the process of sampling, assuming that the continuous-time signal is bandlimited and the conditions of the sampling theorem are met, the spectrum of the continuous-time signal is periodically replicated at integer multiples of the sampling frequency.
+Conversion of the impulse train to a discrete-time sequence corresponds in the time domain to a time normalization, in effect normalizing out the sampling period.
+Correspondingly, in the frequency domain, the frequency axis is normalized with the sampling frequency being scaled to a discrete-time frequency of 2Tr.
+Thus, as we naturally expect, the Fourier transform of the discrete-time sequence is periodic with a period of 2 7r.
+The periodicity can be interpreted as being a consequence of the basic sampling process.
+The normalization of the period in frequency to 27r is a consequence of the inherent time normalization in converting the impulse train of samples to a discrete-time sequence.
+Discrete-Time Processing of Continuous-Time Signals One very important application of the concept of sampling is its role in processing continuous-time signals using discrete-time systems.
+Specifically, the continuous-time signal, which either is assumed to be bandlimited or is forced to be bandlimited by first processing with an anti-aliasing filter, is sampled and the samples are converted to a discrete-time representation.
+The discrete-time signal may, for example, represent values in successive locations in a digital memory.
+After being processed with a discrete-time system, the sequence is "desampled"; that is, a continuous-time signal is reconstructed, ideally through bandlimited interpolation, by converting the sequence to an impulse (or pulse) train followed by lowpass filtering.
+In our discussions of discrete-time signals and systems, we have made a point of indexing them on an integer variable without reference to a "sampling period" since discrete-time signals arise in a wide variety of ways besides periodic time sampling.
+In converting the impulse train of samples to a sequence of samples, we are in effect normalizing the time axis.
+In the previous lecture we discussed the effect of this in the Fourier domain, concluding that the discrete-time Fourier transform of the sequence of samples is basically the same as the continuous-time Fourier transform of the impulse train resulting after the sampler, with the exception that the frequency axis is normalized.
+The discrete-time sequence is processed by a discrete-time LTI system whose frequency response is likewise represented on normalized frequency axis.
+Converting the filtered output sequence back to a continuous-time signal can be interpreted as "unnormalizing" the frequency axis, with the eventual conclusion that the overall system is equivalent to a continuous-time filter whose frequency response is basically the same as the frequency response of the discrete-time filter with a linear scaling of the frequency axis.
+Thus, for example, if the cutoff frequency of the discrete-time filter is one-tenth of 27r, then the equivalent continuous-time filter will have a cutoff frequency that is one-tenth of the sampling frequency.
+Because of this dependence on the sampling frequency, with a fixed cutoff frequency for the discrete-time filter, the cutoff frequency for the equivalent continuous-time filter can be varied by varying the sampling frequency.
+In this lecture a number of the points mentioned above are illustrated through demonstration.
+The system demonstrated involves sampling a continuous-time signal and filtering the resulting sequences with a lowpass filter with an approximate cutoff frequency that is one-tenth of 21T.
+The resulting output sequence is then used to reconstruct a continuous-time signal using (approximately) bandlimited interpolation.
+In the first part of the demonstration, we show the impulse response of the system.
+In particular, the discrete-time filter corresponds to a linear-phase filter with a finite impulse response.
+In the second part of the demonstration, we illustrate the frequency response of the equivalent continuous-time filter by putting a sinusoidal signal at the input and observing the response both as a function of time and as a function of input frequency.
+It is important to note that the system demonstrated does not have an anti-aliasing filter.
+Consequently, as the input sinusoidal frequency increases past half the sampling frequency, aliasing results and the input sequence to the discrete-time filter begins to decrease in frequency even though the frequency of the continuous-time signal is increasing.
+Thus, as we observe the overall output as the input sinusoid sweeps from zero to half the sampling frequency, the output moves through the passband into the stopband.
+As the input frequency increases further, the resulting output will be associated not with the input frequency but with the aliased frequency; thus, as the input frequency continues to increase we will see the output behave as though the passband is repeated.
+The two consistent interpretations of this periodicity in the frequency response are (1) that it is a consequence of aliasing on the input and (2) that it is a consequence of the periodicity of the discrete-time filter.
+With either interpretation, if an anti-aliasing filter had been present at the input, all frequencies above half the sampling frequency would be rejected before the sampler and this periodic repetition of the passband would not occur.
+In the third part of the demonstration, we illustrate the way in which the cutoff frequency of the overall continuous-time filter is dependent on the sampling frequency.
+Specifically, since the equivalent cutoff frequency is one-tenth of the sampling frequency, as the sampling frequency increases or decreases, the equivalent cutoff frequency of the continuous-time filter will also.
+Discrete-Time Sampling In the previous lectures we discussed sampling of continuous-time signals.
+In this lecture we address the parallel topic of discrete-time sampling, which has a number of important applications.
+The basic concept of discrete-time sampling is similar to that of continuous-time sampling.
+Specifically, we multiply a discrete-time sequence by a periodic impulse train, thus retaining every Nth sample and setting the remaining ones to zero (where N denotes the period of the sampling impulse train).
+The consequences in the frequency domain and the constraints on the bandwidth of the original sequence such that it can be recovered from its samples parallel those for continuous time.
+Under the constraints of the sampling theorem, exact interpolation can again be implemented with an ideal lowpass filter.
+Closely associated with, but not identical to, the concept of discrete-time sampling is that of decimation or downsampling.
+After sampling a sequence with an impulse train, we have obtained a new sequence that is nonzero only at multiples of the sampling period N. Consequently, in many practical situations there is no reason to explicitly retain these zero values since they can always be reinserted.
+Thus, somewhat distinct from the notion of sampling is the concept of decimation, whereby a new sequence is generated from the original sequence by selecting every Nth sample.
+This in effect results in a time compression.
+Although not typically implemented this way, it can be thought of as a two-step process, the first step consisting of periodic sampling and the second step corresponding to discarding the zero values between the samples.
+Decimation is also commonly referred to as downsampling since if the original sequence resulted from time sampling a continuous-time signal, the new sequence resulting from decimation would be exactly what would have been obtained had a lower sampling rate been used originally.
+If, for example, a continuous-time signal is sampled at or near the Nyquist rate and is then processed by a discrete-time system that provides some further band-limiting, downsampling or decimation is often used.
+The reverse of downsampling is "upsampling," whereby we attempt to reconstruct the original sequence.
+The process is again best thought of two in stages, the first corresponding to converting the decimated sequence to a sampled sequence by reinserting the (N- 1) zero values between the sample is points.
+The second stage interpolation with a lowpass filter to construct the original sequence.
+The processes of downsampling and upsampling have a number of practical implications.
+One, as indicated above, is sampling rate conversion after additional processing.
+Another very important one is converting a sequence from one sampling rate to another perhaps to generate compatibility between otherwise incompatible systems.
+For example, it is often important to convert between different digital audio systems that use different sampling rates.
+In this lecture we also briefly discuss the concept of sampling in the frequency domain.
+Frequency-domain sampling typically arises when we would like to measure or explicitly evaluate numerically the Fourier transform.
+Although in general the Fourier transform for both continuous time and discrete time is a function of a continuous-frequency variable, the measurement or calculation must be made only at a set of sample frequencies.
+Because of the duality between the time and frequency domains for continuous time, the issues, analysis, and concepts related to frequency-domain sampling for continuous-time signals are exactly dual to those of time-domain sampling.
+Thus, for example, the Fourier transform can exactly be recovered from equally spaced samples in the frequency domain provided that the time-domain signal is timelimited (the dual of bandlimited).
+Basically, the same result applies in discrete time, i.e., the Fourier transform of a timelimited sequence can be exactly represented by and recovered from equally spaced samples provided that the sample spacing in frequency is sufficiently small in relation to the time duration of the signal in the time domain.
+The Laplace Transform Since we first introduced Fourier analysis in Lecture 7, we have relied heavily on its properties in the analysis and representation of signals and linear, time-invariant systems.
+The Fourier transform was developed from the concept of representing signals as linear combination of basic signals that were chosen to be eigenfunctions of linear, time-invariant systems.
+With the eigenfunctions chosen to be the signals e j(t, this representation led to the Fourier transform synthesis equation, and a given LTI system could then be represented by the spectrum of eigenvalues as function of W, that is, the change in amplitude that the system applies to each of the basic inputs e ".
+In this and the next several lectures we introduce a generalization of the Fourier transform, referred to as the Laplace transform.
+In addition to leading to a number of new insights, the use of the Laplace transform removes some of the restrictions encountered with the Fourier transform.
+Specifically, the Laplace transform converges for a broader class of signals than does the Fourier transform.
+The general class of eigenfunctions for LTI systems consists of the complex exponentials es, where s is a complex number.
+The use of this more general class in place of the complex exponentials e"' leads to the representation of signals and systems in terms of the Laplace transform.
+The response of an LTI system to a complex exponential of the form est is H(s)est and H(s), which represents the change in amplitude, is referred to as the system function.
+As developed in the lecture, H(s) is the Laplace transform of the system impulse response.
+The Laplace transform and the Fourier transform are closely related in a number of ways.
+When s is purely imaginary, i.e., when s =jw, the Laplace transform reduces to the Fourier transform.
+More generally, the Laplace transform can be viewed as the Fourier transform of a signal after an exponential weighting has been applied.
+Because of this exponential weighting, the Laplace transform can converge for signals for which the Fourier transform does not converge.
+s, The Laplace transform is a function of a general complex variable and for any given signal the Laplace transform converges for a range of values of s.
+This range is referred to as the region of convergence (ROC) and plays an important role in specifying the Laplace transform associated with a given signal.
+In particular, two different signals can have Laplace transforms with identical algebraic expressions and differing only in the ROC, i.e., in the range of s values of for which the expression is valid.
+For the most part, signals with which we will deal in this and subsequent lectures will be represented by Laplace transforms for which the associated algebraic expression is a ratio of polynomials in the complex variable s.
+The roots of the numerator polynomial are referred to as the zeros of the Laplace transform, and the roots of the denominator polynomial are referred to as the poles of the Laplace transform.
+It is typically convenient to represent the Laplace transform graphically in the complex s-plane by marking the location of the poles with x and the location of the zeros with 0. With the exception of an overall scale factor, this pole-zero diagram specifies the algebraic expression for the Laplace transform.
+In addition, the ROC must be indicated.
+As discussed in the lecture, there are a number of properties of the ROC in relation to the poles of the Laplace transform and in relation to certain properties of the signal in the time domain.
+These properties often permit us to identify the region of convergence from only the pole-zero pattern in the s-plane when some auxiliary information about the signal in the time domain is known, such as whether the signal is a right-sided, left-sided, or two-sided signal.
+Continuous-Time Second-Order Systems The properties of the Laplace transform make it particularly useful in analyzing LTI systems that are represented by linear constant-coefficient differential equations.
+Specifically, applying the Laplace transform to a differential equation converts to an algebraic equation relating the Laplace transform of the system output to the product of the Laplace transform of the system input and the Laplace transform of the system impulse response, referred to as the systemfunction.
+The system function is readily obtained by inspection of the differential equation, and the system impulse response can be obtained by evaluating the inverse Laplace transform of the system function.
+Alternatively, the response for any other input can be evaluated by first multiplying the Laplace transform of the input by the system function and then applying the inverse Laplace transform.
+Two particularly important classes of systems described by linear constant-coefficient differential equations are first-order and second-order systems.
+In implementing higher-order systems, it is very common to use first and second-order systems as building blocks.
+Much of this lecture focuses on using the Laplace transform to describe the behavior of these building blocks.
+First-order systems are represented by a single pole in the s-plane, and second-order systems by a pair of poles.
+There may or may not also be zeros in the transfer function, depending on whether there are derivative terms on the right-hand side of the differential equation.
+From the differential equation, the system function can be written directly.
+If we assume that the systems are causal, so that the impulse response is right-sided, then the ROC of the system function is implicitly specified to be to the right of the rightmost pole in the s-plane.
+For second-order systems, the poles may be either on the real axis in the s-plane or off the real axis as a complex conjugate pair, depending on the specific relationship between the coefficients.
+When both poles are real-valued, the system often referred to as overdamped, and when they occur as a complex-conjugate pair the system is referred to as underdamped.
+In the time domain, the underdamped case corresponds to an oscillatory impulse response with an exponential damping.
+The time constant of the damping is related to the real part of the pole locations, and the oscillatory behavior is associated with the imaginary part.
+As the poles move closer to the jo-axis the damping decreases, and as the poles move parallel to the jo-axis the oscillatory behavior changes in frequency.
+Many of the properties of the frequency response of a system can be inferred from inspection of the pole-zero pattern of the system function.
+Since the Laplace transform reduces to the Fourier transform for s =jw, the behavior of the system function on the jo-axis corresponds to the system frequency response.
+By considering the behavior of the associated vectors in the s-plane, we can infer the behavior of the frequency response for underdamped second-order systems.
+In particular, the frequency response tends to have a peak for the underdamped case, and as the poles move closer to the jo-axis this peak becomes increasingly sharp.
+The frequency location of this peak or resonance is closely associated with the frequency of oscillation of the impulse response, and the width of the peak is closely associated with the damping of the oscillations.
+Since higher-order transfer functions can always be decomposed into a product or sum of first-order and second-order transfer functions, these are important building blocks for more general systems.
+One illustration of this is the use of second-order systems in speech synthesis.
+The use of second-order underdamped systems to simulate the resonances of the vocal tract for generating synthesized speech is discussed and illustrated in this lecture.
+The z-Transform In Lecture 20, we developed the Laplace transform as a generalization of the continuous-time Fourier transform.
+In this lecture, we introduce the corresponding generalization of the discrete-time Fourier transform.
+The resulting transform is referred to as the z-transform and is motivated in exactly the same way as was the Laplace transform.
+For example, the discrete-time Fourier transform developed out of choosing complex exponentials as basic building blocks for signals because they are eigenfunctions of discrete-time LTI systems.
+A more general class of eigenfunctions consists of signals of the form z, where z is a general complex number.
+A representation of discrete-time signals with these more general exponentials leads to the z-transform.
+As with the Laplace transform and the continuous-time Fourier transform, close relationship exists between the z-transform and the discrete-time Fourier transform.
+For z = ejn or, equivalently, for the magnitude of z equal to unity, the z-transform reduces to the Fourier transform.
+More generally, the z-transform can be viewed as the Fourier transform of an exponentially weighted sequence.
+Because of this exponential weighting, the z-transform may converge for a given sequence even if the Fourier transform does not.
+Consequently, the z-transform offers the possibility of transform analysis for a broader class of signals and systems.
+As with the Laplace transform, the z-transform of a signal has associated with it both an algebraic expression and a range of values of z, referred to as the region of convergence (ROC), for which this expression is valid.
+Two very different sequences can have z-transforms with identical algebraic expressions such that their z-transforms differ only in the ROC.
+Consequently, the ROC is an important part of the specification of the z-transform.
+Our principal interest in this and the following lectures is in signals for which the z-transform is a ratio of polynomials in z or in z 1. Transforms of this type are again conveniently described by the location of the poles (roots of the denominator polynomial) and the zeros (roots of the numerator polynomial) in the complex plane.
+The complex plane associated with the z-transform is referred to as the z-plane.
+Of particular significance in the z-plane is 1, the circle of radius concentric with the origin, referred to as the unit circle.
+Since this circle corresponds to the magnitude of z equal to unity, it is the contour in the z-plane on which the z-transform reduces to the Fourier transform.
+In contrast, for continuous time it is the imaginary axis in the s-plane on which the Laplace transform reduces to the Fourier transform.
+The pole-zero pattern in the z-plane specifies the algebraic expression for the z-transform.
+In addition, the ROC must be indicated either implicitly or explicitly.
+There are a number of properties of the ROC in relation to the poles of the z-transform and in relation to characteristics of the signal in the time domain that often imply the ROC.
+For example, if the sequence is known to be right-sided, then the ROC must be the portion of the z-plane outside the circle bounded by the outermost pole.
+This and other properties are discussed in detail in the lecture.
+Mapping Continuous-Time Filters to Discrete-Time Filters In Lecture 22 we introduced the z-transform.
+In this lecture we discuss some of the properties of the z-transform and show how, as a result of these properties, the z-transform can be used to analyze systems described by linear constant-coefficient difference equations.
+Toward this end, the three most significant properties are the linearity property, the time-shifting property, and the convolution property.
+As a consequence of the convolution property, the z-transform of the output of an LTI system is the product of the z-transform of the input and the z-transform of the system impulse response, referred to as the system function.
+The system function, for any specific value of z, say zo, corresponds also to the change in (complex) gain of the eigenfunction zo as it passes through the system.
+That is, H(z) represents the spectrum of eigenvalues for discrete-time LTI systems, just as H(s) represents the spectrum of eigenvalues for continuous time LTI systems.
+Based on the linearity, time-shifting, and convolution properties, applying the z-transform to a linear constant-coefficient difference equation converts it to an algebraic equation that can be solved for the system function.
+Again, closely paralleling the discussion for continuous time, this specifies the algebraic expression for the system function but does not explicitly specify the associated ROC.
+However, if in addition the system is specified to be causal, then the ROC must lie outside the circle bounded by the outermost pole.
+Alternatively, if the system is known to be stable, the ROC of the system function must include the unit circle.
+It then extends inward and outward, in both cases until it reaches a pole (or the origin and/or infinity).
+Typically (but not always) in discussing systems described by linear constant-coefficient difference equations, we assume causality of the system.
+Just as with continuous-time systems, first- and second-order discrete-time difference equations play a particularly important role as building blocks for higher-order difference equations.
+In designing a discrete-time system, a variety of design procedures is available for obtaining a linear constant-coefficient difference equation to meet or approximate a given set of system specifications.
+One particularly important class of such procedures corresponds to mapping continuous-time designs to discrete-time designs.
+This approach is motivated in part by the fact that continuous-time filter design has a long and rich history; to the extent that well-developed design procedures for continuous-time systems can be exploited in the design of discrete-time systems, they should be.
+Furthermore, in many applications discrete-time systems are used to process continuous-time signals by exploiting the concepts of sampling.
+In such cases, the discrete-time system to be designed and implemented is closely associated with a corresponding continuous-time system.
+An often used but not highly desirable approach to mapping continuousis time systems to discrete-time systems to replace derivatives in the differential equation describing the continuous-time system by simple forward or backward differences to obtain a discrete-time difference equation.
+The limitations of this approach are perhaps best understood by examining the corresponding mapping from the s-plane to the z-plane, from which it is evident that the frequency response can be severely distorted.
+In addition, with the use of forward differences, unstable discrete-time filters can result, even when the continuous-time filter from which it is derived is stable.
+A second approach discussed is the impulse-invariant design procedure, whereby the discrete-time system function is determined in such a way that the impulse response of the discrete-time system corresponds to samples of the impulse response of the continuous-time system.
+This procedure can equivalently be interpreted as a mapping of the poles of the system function.
+In terms of the corresponding frequency responses, the discrete-time frequency response is identical in shape to the continuous-time frequency response except for possible distortion due to aliasing.
+Consequently, it is useful only for mapping continuous-time systems for which the frequency response is bandlimited.
+Butterworth Filters To illustrate some of the ideas developed in Lecture 23, we introduce in this lecture a simple and particularly useful class of filters referred to as Butterworthfilters.
+Filters in this class are specified by two parameters, the cutoff frequency and the filter order.
+The frequency response of these filters is monotonic, and the sharpness of the transition from the passband to the stop-band is dictated by the filter order.
+For continuous-time Butterworth filters, the poles associated with the square of the magnitude of the frequency re sponse are equally distributed in angle on a circle in the s-plane, concentric with the origin and having a radius equal to the cutoff frequency.
+When the cutoff frequency and the filter order have been specified, the poles character izing the system function are readily obtained.
+Once the poles are specified, it is straightforward to obtain the differential equation characterizing the filter.
+In this lecture, we illustrate the design of a discrete-time filter through the use of the impulse-invariant design procedure applied to a Butterworth filter.
+The filter specifications are given in terms of the discrete-time frequen cy variable and then mapped to a corresponding set of specifications for the continuous-time filter.
+A Butterworth filter meeting these specifications is de termined.
+The resulting continuous-time system function is then mapped to the desired discrete-time system function.
+A limitation on the use of impulse invariance as a design procedure for discrete-time systems is the requirement that the continuous-time filter be bandlimited to avoid aliasing.
+An alternative procedure, called the bilinear transformation, corresponds to a mapping of the entire imaginary axis in the s-plane to once around the unit circle.
+Consequently, there is no aliasing intro duced by this procedure.
+However, since the imaginary axis has infinite length and the unit circle has a finite circumference, by necessity there must be a nonlinear distortion in mapping between the two frequency axes.
+The use of the bilinear transformation is therefore limited to mapping filters that are ap proximately piecewise constant.
+For filters of this type, the inherent nonlinear distortion in the frequency axis is easily accommodated by prewarping the critical frequencies (e.g., passband edge and stopband edge) prior to carrying out the design of the associated continuous-time system.
+This procedure is il lustrated with the design of Butterworth filter.
+Feedback The tools that we have developed throughout this set of lectures provide the basis for thorough understanding and analysis of linear feedback systems.
+Feedback is a process that arises naturally in many practical situations, and it is important to understand how to analyze and control it.
+For example, feed back is often problem in public address systems in which the output from the audio speakers feeds back to the microphone.
+If the feedback is too strong, the system becomes unstable, resulting in a commonly experienced distortion.
+In many practical systems, linear feedback is purposely introduced to enhance or control some aspect of the system performance.
+Feedback is often used in amplifier design, for example, to compensate for a variety of un certainties in element characteristics such as frequency response.
+It is also commonly used in stabilizing unstable systems or in control systems in which certain disturbances and parameters cannot be accurately specified.
+For ex ample, in controlling the flight of a rocket or in positioning a telescope plat form, in theory if all of the system parameters and dynamics are completely understood, the positioning can be accomplished without feedback.
+The use of feedback, however, allows the positioning to be accomplished by adjusting to zero an error signal corresponding to the difference between the desired and actual position.
+This process results in control or positioning that is sig nificantly less sensitive to specific system parameters and disturbances than would be the case with an open-loop control or positioning system.
+In many modern control systems, it is common practice to use digital, and therefore discrete-time, control in the feedback loop.
+This becomes one very important application for discrete-time feedback systems.
+There are many other natural settings in which linear discrete-time feedback arises, such as population growth in which, for example, certain factors tend to re tard growth as population size increases.
+The basic tool for analyzing linear feedback systems is the Laplace trans form in continuous time and the z-transform in discrete time.
+In both cases, the basic feedback equation describing the overall system function of a feed back system in terms of the system functions in the forward and feedback paths is the same.
+However, the conclusions drawn from this basic equation relating to conditions necessary for the feedback system to be stable are dif ferent: for stability of the overall continuous-time system we require that the system poles be in the left half of the s-plane, while for stability of the overall discrete-time system we require that the poles be inside the unit circle.
+As one illustration of the stability analysis of continuous-time linear feed back systems, we consider in this lecture the example of feedback in an audio system.
+One conclusion that we can readily draw from analysis of the feed back equation for this system is that for stability, the combined gain of the for ward and feedback paths must be less than unity.
+In the next lecture, as a further illustration of the analysis of linear feed back systems, we will consider, analyze, and demonstrate in some detail a system referred to as the inverted pendulum.
+Feedback Example: The Inverted Pendulum In this lecture, we analyze and demonstrate the use of feedback in a specific system, the inverted pendulum.
+The system consists of a cart that can be pulled foward or backward on a track.
+Mounted on the cart is an inverted pen dulum, i.e., a pendulum pivoted at its base and with the weight at the top.
+Con sequently, with the cart stationary, the pendulum is unstable; even if balanced in unstable equilibrium, any external disturbance will cause the pendulum to fall.
+To balance the pendulum, the cart can be moved forward or backward under the weighted rod.
+Thus, the forces acting on the system are the cart ac celeration and any external disturbances.
+In principle, if all of the external disturbances are exactly specified (an unreasonable assumption) and if the system dynamics are precisely understood, then the cart acceleration can be specified in such a way as to maintain the rod in a vertical position.
+A more reasonable approach to balancing the rod or, equivalently, stabilizing this un stable system, however, is to constantly measure the angle of the rod and choose the cart acceleration based on this measurement.
+This then corre sponds to feedback system in which the measured angle is fed back through an appropriate choice of feedback dynamics to control the cart acceleration.
+We carry out an analysis of the open-loop system and explore several possible choices for the feedback dynamics.
+Under the assumption that the angular displacement of the rod from perpendicular is kept small, the behav ior of the inverted pendulum can be described through a second-order linear constant-coefficient differential equation, or equivalently through a system function with two real-axis poles, one in the left half of the s-plane and the other in the right half of the s-plane, and therefore associated with the system instability.
+A first, more or less obvious, choice for the feedback dynamics is to simply choose the cart acceleration proportional to the measured angle.
+The resulting system function again has two poles, the positions of which are, of course, dependent on the feedback gain.
+Examination of the locus of these poles as a function of gain (often referred to as the root locus) shows that for the feedback gain negative, the right half-plane pole moves even further into the right half-plane so that the instability becomes even more severe.
+If the feedback gain is greater than zero, as the gain increases the two poles move toward each other, meeting at the origin and then traveling along the imagi nary axis.
+The presence of a pole in the right half-plane indicates that even with a very small input (such as a small displacement of the rod), the rod angle will increase exponentially.
+With the poles on the imaginary axis, any dis placement will result in an oscillatory behavior.
+Consequently, the system re mains unstable for all values of the feedback gain.
+A second type of feedback to consider corresponds to choosing the cart acceleration proportional to the derivative of the angular displacement.
+This choice is motivated by the possibility that perhaps the pendulum can be stabi lized by accelerating the cart faster if the angular displacement is increasing faster.
+Examination of the root locus with derivative feedback demonstrates again that for the feedback gain less than zero the system becomes increas ingly unstable while with the feedback gain greater than zero the system be comes more stable but is never completely stabilized.
+Finally, we consider a combination of proportional plus derivative feedback, and in this case by ap propriate choice of the two gain factors the system can be stabilized.
+The demonstration accompanying this lecture, besides being entertain ing, is hopefully very instructive.
+In addition to showing that the system can in fact be stabilized by appropriate choice of feedback, we are able to show that feedback is able to compensate for external disturbances and to changes in the system dynamics.
+

@@ -1,0 +1,19 @@
+delta formalism>>>delta function formalism
+fir approximations>>>good fir approximations
+upsampled sequence>>>upsampled symbol sequence
+sharp bandpass filter>>>sharp digital bandpass filter
+geometrical intuition>>>innate geometrical intuition
+real valued filters>>>real valued fir filters
+lloyd max procedure>>>lloyd max algorithm
+spatial intuitions>>>immediate spatial intuition
+spatial intuition>>>immediate spatial intuition
+frequencies fs>>>same frequency fs
+infinite generalization>>>infinite dimensional generalization
+frequencies fs>>>suitable sampling frequency fs
+n periodic signals>>>n periodic input
+voiceband modems>>>commercial voiceband modem
+rational sampling rate changes>>>arbitrary rational sampling rate changes
+oversampled signal>>>oversampled discrete time signal
+convenient entities>>>convenient mathematical way
+pi pi range>>>full pi pi range
+simple continuous time signal>>>x

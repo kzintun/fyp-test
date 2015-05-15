@@ -1,0 +1,1001 @@
+continuous time time impulse train signal
+u delta t u sub delta
+time origin tau
+single tray scope
+complex exponential consists
+periodic signal expresses
+j omega times k
+aperiodic signal one
+minus j omega c t
+symmetric square wave case
+basic discrete time feedback system
+exponentially weighted time function
+particular case visual feedback
+corresponding frequency scale version
+entire omega axis
+harmonic fifth harmonic et cetera
+allowable stop band tolerance
+defocusing low pass filter
+delayed weighted response
+integral add integer multiples
+butterworth filter times
+sequence system impulse response
+fundamental frequency k omega
+general complex exponential factors
+original cosine expression
+minus omega sub c
+same period capital n
+j omega sub r capital t
+audio master control panel
+digital filter frequency response frequency
+particular weekly index
+notion nonideal filters
+nice reasonable point
+appropriate continuous time system
+kilohertz sweep range
+particular equalizer circuit
+rapid road variations
+real value time function
+s sub k capital
+allowable pass band tolerance
+desampling or reconstruction
+minus fifteen db
+particular pole vector
+interconnections feedback interconnections
+slight notational issue
+broader slow variation
+equivalent overall continuous time system
+discrete time modulation systems
+continuous time continuous signal
+minus j omega sub cn
+associated frequency normalization
+original time normalization
+frequency omega zero
+homogeneous solution initial conditions
+unit step u n k
+associated complex exponentials
+zero vectors change
+complex exponential rules
+expression times h
+dimensional continuous time context
+discreet time spectrum
+resulting continuous time time filter
+resident pole pair
+octave lower matching
+fourier series synthesis expression
+butterworth filter capital n
+minus alpha capital t
+original unit step everything
+outputs psi k
+dummy parameter capital t
+j omega sub cn
+s sub k capital t
+desampling low pass filter
+frequency scaling corresponding
+capital n unknowns
+impulse invariance corresponds
+argument j omega
+ten kilohertz sampling frequency
+discrete time paralleling
+variety wave shapes
+imaginary exponent complex
+basic feedback dynamics
+linear frequency scale change
+output complex exponentials
+z transform converging
+particular transform pair
+continuous time filter frequency response
+muffled quality something
+capital n values
+continuous periodic time function
+filter specification something
+complex exponential carrier signal
+periodically replicated signal
+positive time sort
+appropriate feedback dynamics
+appropriate applied input voltage
+order hold corresponding
+arbitrarily narrow rectangles
+same example minus
+continuous time system functions
+justine frequency
+denominative polynomial
+periodic signal one way
+x t e j k omega
+division multiplex lots
+accumulator time invariant
+real exponential amplitude
+basic inputs complex exponentials
+discrete time case things
+right half plane corresponding
+corresponding time normalization
+carrier omega sub c t
+reconstructed continuous waveform
+straightforward obvious statement
+straightforward trigonometric identities
+same pole zero pattern
+same discrete time filter
+continuous time filter impulse response
+original continuous time frequency response
+important multiplexing scheme
+growing exponential envelope
+individual delayed impulses
+initial rest corresponding
+frequencies someplace
+parameter omega sub n
+quote time varying
+offline computer editing
+e j n omega t
+lower half plane pole
+additional discrete time filtering
+appropriate filter impulse response
+continuous time filter pole
+modulated output right
+reconstructing low pass filter
+certain frequency specifications
+sampling frequency what will happen
+odd harmonic change
+associated time scaling
+appropriate discreet time
+impulse response h input
+fourier series coefficient k
+corresponding continuous time frequencies
+imaginary part incidentally
+right sided time functions
+continuous time images
+simple diode rc circuit
+complex plane real part
+appropriate complex amplitudes
+slower background variations
+less unit step
+transmodulation systems
+complex exponentials repeat
+discrete periodic time function
+interpolating rectangle
+effective filter cutoff frequency
+sampling frequency omega sub
+stable continuous time filters
+function delta delta t
+ninety degree phase splitter
+vertical spatial variables
+form e j omega
+h t tau h t tau
+resulting picture corresponds
+slight mental gymnastics
+particular glockenspiel
+derivative feedback constant k
+continuous time case y
+particular sinusoidal signals
+important compensating benefits
+minus j omega n
+minus j omega t
+continuous time fourier representations
+unsynchronized frame rates
+original impulse train
+input complex exponentials
+appropriate discrete time filter
+linear system causality
+fundamental complex exponential
+impulse train samples
+equivalently interpolation
+interpolating impulse response
+weighted unit samples
+synchronous modulation asynchronous
+sampling process conversion
+rockland systems model
+stable discrete time filters
+t cosine omega
+sampled continuous time sinusoid
+proportionality factor proportional
+complex exponential amplitude modulation
+carrier signal shape
+particular filter corresponds
+matter decimation
+sinusoidal continuous time
+j omega k t
+low pass filter route
+inputs basic building blocks
+corresponding continuous time frequency
+double piddler hydraulic
+finite time region
+discrete time filter impulse response
+sampling frequency what happens
+way h k n
+sampling frequency omega
+impulse invariant design procedure
+intuitive simple procedure
+double piddler hydraulic happening machine
+h n k corresponding
+particular view graph
+effect demodulating
+sampling period t one
+radius omega sub
+half integrators
+summable product
+factor capital n
+pole vector increases
+high frequency low frequencies
+c conjugate t
+spaced complex exponentials
+reconstructed time function
+butterworth continuous time filter
+sine x curve
+additional sinusoidal term
+unstable system feedback
+complex conjugate location
+continuous time things
+right notationally
+different z transform
+j omega k n
+original continuous curve
+separate equalizer circuits
+general synthesis equation
+distinct time functions
+complex exponential frequencies
+unanticipated external disturbances
+professor sandy hill
+left sided time function
+associated time domain signal
+incidentally mathematically
+odd time function
+appropriate interchanging
+computer editing console
+value capital n
+resulting discreet time spectrum
+times cosine omega
+equivalent trigonometric form
+algebraic sign reversal
+important useful method
+omega point zero
+enough sines
+case satellite communication
+complex exponential case
+effect is aliasing
+same continuous time signal
+scaled unit step
+continuous time frequency variable
+continuous time square wave
+resulting process sequence
+impulse train representation
+continuous time butterworth filters
+concept fourier analysis
+inverse accumulator
+pass band cutoff frequency
+discontinuous unit step
+own radio frequency signal
+high fire equipment
+general continuous time system
+transform i show
+rc audio generator
+band limited frequency response
+cosine theta term
+beta r one
+useful mathematical definition
+simple feedback equation
+n undetermined constants
+open loop forward path
+sample continuous time signal
+simple notational change
+good quality low pass filter
+discrete time system functions
+less standard digital
+sinusoid omega
+additional sampling process
+system function property
+implementation equivalently
+weekly dow jones index
+discrete time fourier representations
+continuous time leading
+muffled characteristics
+k differentiators
+frequency omega sub m
+odd symmetry means
+varying amplitude factor
+particular sinusoidal signal
+little time reversal
+real exponential factor
+even sinusoids
+term omega n
+equivalent filtering operation
+unspecified amplitude
+sixty cycle noise
+linear amplitude change
+particular sinusoids
+equalization is out
+simple algebraic step
+x envelope function
+stop band cutoff frequency
+important conceptual thing
+term k one
+j omega times
+continuous time aliasing
+resulting sample sequence
+kilohertz sweep
+professor thomas stockham
+particular discrete time system
+sequence sub n
+particular time shifting
+denominator polynomial roots
+linear time invariant invriant systems
+area cetera
+distinct complex exponentials
+definitely duality
+impulse heights
+continuous frequency axis
+different complex exponentials
+pure complex exponential
+algebraic form one
+resulting impulse train
+shift slight shift
+formal inverse laplace
+output sinusoidal frequency
+rectangular impulse responses
+discrete time relationship
+example ten point
+system be causal
+kilohertz sampling frequency
+well begin let
+important building blocks namely
+useful symmetry property
+impulse train spectrum
+important thing observe
+sampling period conversion
+filtering modulation sampling
+parameter omega sub
+times laplace transform
+frequency variable omega
+measured output angle
+particular rc circuit
+less natural condition impose
+original modulated carrier
+resonate behavior
+example stock market analysis
+initially unstable system
+aperiodic discrete time signals
+periodic chunk
+sample frequency function
+same modulation function
+sequence discrete time signal
+independent variable being time
+basic analysis equation
+notational awkwardness
+measured angle theta
+block diagram implementations
+imaginary sinusoidal components
+amplitude factor x
+impulse train modulation
+random high frequency fluctuations
+negative time zero
+pure sinusoidal carrier
+explicit input output relationship
+stable causal systems
+equivalent time shift
+continuous time curve
+inverse linear scaling
+j omega sub
+actual intermediate frequency
+odd harmonic signal
+discrete frequency axis
+important sampling issue
+same output spectrum
+continuous time argument
+applied external acceleration
+linear system zero
+discrete time difference equations
+spatial antenna array
+corresponding continuous time system
+following sample value
+output reconstructed signal
+equivalent system function
+particular difference equation
+exact interpolating filter
+discrete time frequency variable
+overall system k
+j theta sub
+feedback system function
+broader band signal
+modulated output spectrum
+illustrating kind
+slight external disturbance
+discrete time feedback system
+sequence h n k
+higher frequency square wave
+desampling process
+property algebraically
+kilohertz filter
+appropriate demultiplexing
+output audio waveform
+course be educational
+k h n k
+important basic signals
+output sampling periods
+linearity states
+psi sub i
+n auxiliary conditions
+interpolating sine
+unspecified exponent
+individual center frequencies
+square wave modulating signal
+frequency omega k
+eigenfunction function
+discrete time specifications
+telescope positioning system
+omega sub s
+continuous time envelope
+abstract mathematical property
+appropriate discreet time system
+decaying exponential envelope
+frequency response interpretation
+continuous time frequencies
+cart externally
+assumed sampling frequency
+straightforward mathematical operation
+corresponding critical frequencies
+digital discrete time signal
+continuous discreet time conversion
+exponentially decaying sequence
+logarithmic devices
+approximate low pass
+bookkeeping reason
+sinusoid cosine
+cascade interconnections
+relabeling step
+discussion laplace
+additional exponential factor
+specific spectrum analyzer
+log magnitude scale
+asynchronous demodulator
+next closest integer
+particular cutoff frequency
+interesting fascinating person
+sampling impulse train
+positive going one
+initial rest conditions
+cosine modulator
+boxcar output
+discrete time ideas
+general exponentials
+different sinusoidal signals
+length monotonically
+initial rests
+i combine n
+invertibility means
+envelopes functions
+same complex exponential
+positive sub script
+sine wave button
+steps impulses
+negative going one
+stop band cutoff
+impulse train i
+z transform formula
+unspecified coefficients
+z transform expression
+interpolating signal
+dphhm
+associate poles
+original unsampled
+inherent frame rate
+externally applied acceleration
+nonideal filtering
+periodic replications
+smooth downward trend
+collapsed sequence
+smoother reconstruction
+discrete time designs
+approximate lowpass
+right ahold
+cases sinusoidal
+brightness elements
+frequency scaling operation
+bilinear transformation design
+sixty pulses
+next output point
+appropriate interpolation algorithm
+amplitude past
+general carrier frequency
+monotonic characteristic
+system invertibility
+appropriate frequency scaling
+n h inverse
+resonant kind
+different analytical forms
+allowable passband ripple
+replication accounting
+only eigenfunctions
+notice justine
+resulting filtered output
+arbitrary amplitude frequency
+scaled integral
+rectangular impulse response
+analytical modifications
+convergence corresponds
+important symmetry properties
+periodicity corresponds
+inverse impulse response
+output sequence value
+discontinuity corresponding
+interpolating system
+j omega r
+corresponding brightness values
+growing envelope
+analog speech synthesizer
+original spectrum x
+convergence consists
+negative time direction
+initial rest condition
+information carrying part
+smoother approximation
+original modulated
+pi m omega
+associated impulse response
+integration et cetera
+particular laplace
+reconstructed frequency
+impulse corresponding
+being ninety degrees
+omega n phi
+unreasonable approximation
+argument omega
+videotape course
+continuous time ones
+incrementally linear
+logarithmic amplitude scale
+sampled picture
+finite duration time
+continuous time specifications
+particular corresponds
+same continuous time
+harmonics pop
+homogeneous contribution
+h tau t
+rectangular sequence
+fourier series description
+particular feedback system
+much crisper sound
+zeta less
+signal processing manipulation
+sampler frequency
+original sinusoid
+k incidentally
+tighter condition
+real world filters
+zeroth value
+important algebraic properties
+decimation step
+z plane corresponding
+summation corresponds
+individual resonant frequencies
+confusing parameter
+smoother variations
+essence corresponds
+straightforward shift
+sharp cutoff filter
+flat equalization
+little mental gymnastics
+finite duration sequence
+continuous time voltage
+general mathematically
+periodic time functions
+grammatical purists
+entire z plane
+transformed pairs
+time domain picture
+typical impulse response
+initial sampling process
+negative corresponds
+discrete time amplitude
+nonideal filters
+linear time invariant case
+delta n one
+linear frequency characteristic
+non ideal elements
+t operationally
+input frequency x
+rational laplace
+t original signal
+original input waveform
+j omega n
+periodic representation
+formal fourier
+periodic continuous time signals
+convergence everything
+convergence corresponding
+equivalent continuous time system
+synchronous versus asynchronous systems
+original aerial photograph
+corresponding system function
+discrete instance
+real exponentials
+discrete time context
+omega yields
+symmetric terms
+original digital filter
+form alpha n
+delayed term
+aliasing frequencies
+incoming wave form
+times square wave
+following discrete time system
+mathematical trickery
+simpler signals
+logical next choice
+k cetera
+steady state vowels
+outside someplace
+decimated version
+non width
+same digital filter
+replicated versions
+less formal expression
+imaginary branch
+right hand scope
+original fourier transform
+points underscore
+alpha one k
+general complex exponential
+sampling function p
+desampling
+magnitude unity
+error asymptotically
+same ideas work
+frequency omega c
+particular fourier
+jk omega
+integral except
+input sampling period
+n order system
+exponential time functions
+parameter zeta
+sinusoidal case
+justine let
+db equalization
+sinusoidal terms
+multiple order poles
+common interpolation
+periodic spectrum
+continuous time modulation
+corresponding time function
+rational p q
+resonant peak will
+example air currents
+adjoining picture
+reconstructed waveform
+exact phase difference
+linear phase term
+stop band i
+periodicity property
+pi corresponding
+course inputs
+additional aside
+cosine carrier
+integral corresponds
+less straightforward way
+integer variable k
+enough unknowns
+powerful notions
+finite energy signal
+discrete time versions
+modulating signal x
+important interconnections
+fact mathematically
+logarithmic frequency axis
+complex exponential signals
+amplitude knob
+complex z k
+peripheral result
+continuous time design
+particular graphs
+complex pole pair
+continuous periodic function
+simple envelope detector
+linear phase factor
+discrete time concepts
+varying edges
+typical speech signal
+imaginary or magnitude
+same real part
+rapid enough rate
+appropriate time instant
+carrier kind
+discrete time modulation
+reconstructed spectrum
+bounded values
+spectrum equivalent
+scaled step
+implementational issues
+parameter capital
+spectra signals
+cutoff frequency cut
+m integrators
+videotape demonstration
+band limited function
+discreet time frequency corresponds
+much same kind
+example electrical circuits
+entire s plane
+overlapping time slots
+fourier domain representation
+appropriate low pass
+associated representation
+sinusoidal term
+t converging
+particular discrete time
+useful system properties
+k capital n
+stop band edges
+fact captures
+lower variations
+duality relationships
+continuous time ideal lowpass filter
+appropriate bookkeeping
+sampling instance
+discreet time filter cutoff
+low pass filtered input
+distortion corresponding
+flat frequency characteristics
+linear time invariant filters
+h equals h
+using impulse invariance
+delay registers
+fourier transform expression
+resident poles
+speech synthesis chip
+reasonable reconstruction
+symmetrical impulse response
+instantaneous sample
+filtering ideal
+fourier transform representation
+antisymmetric case
+mit courses visit mitopencourseware
+way motion pictures
+computing y n
+order system function
+line spectrum corresponding
+occurring system
+shifted impulse response
+omega t dt
+discrete time ideal lowpass filter
+past outputs
+way fourier
+course frequencies
+s plane poles
+discrete time order
+stopband cutoff
+constant differentiating
+continuous time complex exponentials
+variable tau
+optical things
+time frequency scaling
+discrete time variable n
+poles parallel
+filtered wave form
+corresponding difference equation
+positive corresponding
+bad reconstruction
+appropriate acceleration
+smallest value t
+interpolated output
+unit impulses
+slowly varying background
+square integrability
+top block diagram
+discrete time implementations
+corresponding fourier series
+underlying interpretation
+periodic impulse train
+j omega t
+strobe lab
+bottom equations
+transmultiplexers
+feedback visual feedback
+individual impulses
+pure sinusoids
+weighted outputs
+pi whereas
+external modulating input
+continuous time unit step function
+sine wave spectrum
+useful implementations
+original sequence x
+convergence interpretation
+symmetric square wave
+relationships kind
+system be linear
+continuous time input
+amplitude omega
+low pass filter amplitude
+poles converge
+individual system functions
+constant k one
+discrete time complex exponentials
+basic feedback loop
+sixth sample
+original difference equation
+sided signal
+general continuous time
+discussion pf
+particular system properties
+overall shaping
+delicate changes
+specific impulse response
+weekly stock market index
+discrete time sinusoidal
+double sideband transmission
+convergence values
+filtering characteristic
+smallest value n
+inverse scaling
+stays finite
+boxcar type
+same low frequencies
+rockland systems
+sliced version
+discrete time filtering
+discreet time filtering
+basic aircraft system
+appropriate system functions
+continuous time equivalent
+denominator term
+fact linear
+certain system properties
+delayed step
+decimation process
+origin corresponding
+st factor
+sync interpolation
+appropriate time shift
+particular data sequence
+course periodic
+omega k t
+unit step u k
+term alpha n
+filtering modulation
+approximate reconstruction
+same sigma
+k capital t
+stopband cutoff frequency
+k derivative
+ideal reconstruction
+doctor edgerton
+single line corresponding
+injected carrier
+negative corresponding
+log amplitude
+eighty db
+current output y
+past omega
+same reconstruction
+omega increases
+past consists
+exact band
+nice mechanism
+modulated pulse train
+properties representation
+periodic continuous function
+open loop form
+low frequency terms
+desampling filter
+equalizer is out
+relabeling process
+same impulse response
+original cosine
+discreet time filter cutoff frequency
+bottom integral
+values alternate
+frequency modulation information
+own natural forces
+triangular carrier
+homogeneous term
+y n zero
+alternate positive
+symmetry relationship
+only cosines
+shifted impulse
+nonideal filter
+trigonometric representation
+nonideal highpass filter
+being continuous time
+same carrier signal
+filter sampling frequency
+pulse kind
+digital feedback loop
+order hold interpolation
+delta delta t kdelta
+loop gain g
+differentiated signal
+associated outputs
+right sided signal
+useful mapping
+bounded input bounded output stability
+fact ideal
+continuous time representation
+boxcar function
+algebraic means
+continuous time sinusoidal signals
+simple time shift
+chance focus
+twenty crash
+balancing something
+pi twelve
+frequency shifting property
+effect proportional
+frequency notice
+process incidentally
+continuous time impulse
+time t tau
+same dow
+particular necessary
+discrete time z
+chopping process
+high frequency terms
+appropriate input voltage
+harmonic lines
+band interpolation
+unit step u n
+little fussing
+sequence spectrum
+discrete time sinusoidal signal
+unstable pole
+discrete time representation
+own low pass
+unnormalization
+right sidedness
+nice characteristic
+fact blows
+optimum algorithm
+scalar one
+stable digital filters
+information carrying signal
+flatter frequency response
+left sided sequence
+impulse values
+computed output
+damped sinusoid
+cascade connections
+frequency division multiplex system
+sided sequence
+good lowpass filter
+growing exponential function
+intermediate frequency stage
+certain time shift
+kth derivative
+certain special situations
+appropriate amplitude
+nonlinear feedback systems
+digital filter frequency
+complex corresponds
+appropriate complex
+rectified version
+mechanical horn
+important practical considerations
+decade increase
+certain envelope
+corresponding specifications
+amplitude modulated waveform
+feedback context
+varying k
+n times r
+carrier signal c
+discrete time definition
+fixed lowpass filter
+identical inputs
+natural thing do
+fourier series i
+phase pi
+non terms
+particular diagram
+sequence h n
+non recursive filters
+particular suppose
+something vibrates
+issue surfaces
+discreet time sampling
+different speech sounds
+low pass filtered version
+leakage outside
+example discrete time
+amazing representation
+sampled waveform
+continuous time unit step
+ordinary electric fan

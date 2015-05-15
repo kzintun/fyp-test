@@ -1,0 +1,5881 @@
+n periodic basis signals -----1
+interval omega p -----1
+optimal filter design -----11700
+interval pi pi -----4750
+intuitive process -----76600
+t n -----1850000
+lowpass characteristics -----12200
+filters -----8850000
+modern communication systems -----52500
+signal processing system -----97700
+real signals -----33200
+overall signal -----39000
+bandlimited signals -----11900
+linear phase fir -----35300
+natural requirement -----11600
+discrete time systems -----109000
+spectral -----1060000
+complex oscillators -----1840
+variables -----6890000
+twom -----156000
+statistical signal processing -----132000
+a -----269000000
+baseband period -----32
+minus -----6940000
+rubber sheet -----525000
+importance -----20200000
+geometry -----5590000
+n output values -----13500
+bandlimited continuous time function -----1
+m coefficients -----9080
+continuous time representation -----7430
+frequency support -----50000
+algorithmic design procedures -----22
+deflection -----3080000
+section point -----84400
+upsampling factor k -----65
+fourier series -----607000
+non etheless -----19800000
+modem design -----45500
+filter corresponds -----5470
+windowing operation -----2640
+finite support impulse response -----4
+edison -----4760000
+pointwise values -----1910
+downsampling operators -----69
+present input values -----4240
+point twenty -----47600
+i x -----1390000
+function -----32500000
+initial seconds -----5790
+thermographs -----47500
+thevenin -----553000
+absolute summability decays -----1
+g -----134000000
+downsampling factor -----2610
+correspondence -----8630000
+alternative approaches -----1290000
+channel propagation delay -----2690
+signal processing theory -----44800
+digital frequency vs -----14
+fundamental tool -----91000
+n j -----29400000
+hardware discrepancies -----1540
+negative axis -----41900
+unit delay operator -----2450
+hilbert filter y -----4
+repetition -----5330000
+acquisition device -----128000
+uncorrelated i i -----2020
+basis frequencies -----1190
+symmetric region -----4620
+n y n -----782000
+ambient temperature -----3820000
+telephone channel -----86700
+standard -----44000000
+strict causal -----3630
+experimentation -----4870000
+linear difference equations -----68000
+top panels -----202000
+nplusin k -----87000
+past output values -----3410
+filter characteristics -----96700
+word digital -----211000
+sophisticated thermocouple -----53
+r -----263000000
+implementation -----8810000
+lack -----13100000
+itu t modem standard -----3170
+different values -----2720000
+mills -----10200000
+n tau -----38600
+dfs -----1150000
+necessary compensation -----25600
+frequency information -----344000
+antenna -----2950000
+different standards -----998000
+real world time -----169000
+types -----81500000
+intuitive toolbox -----2250
+usual unit -----49300
+pi frequency band -----3
+amplitudes -----1720000
+alphan cos -----9
+past signal values -----85
+constant coefficient difference equations -----10600
+varying quantities -----56400
+current value -----2800000
+quantized representation -----2430
+discrete time index m -----3000
+assumptions -----4980000
+actual phase distortion -----12
+magnitude response -----78800
+earliest recorded example -----7450
+analytical representation -----36000
+operating point -----298000
+abstract results -----142000
+n th derivative -----33900
+thermograph -----146000
+complex algebra -----223000
+undersampling -----49500
+audio industry -----258000
+largest magnitude -----97800
+analog signal -----1410000
+integration -----10200000
+dfs coefficients -----2290
+h n -----1520000
+general uncertainty principle -----7860
+label digital signal processing -----3770
+best window -----583000
+wider -----8070000
+maximum attainable bitrate -----11
+general sequence -----99000
+ambient temperature example -----17900
+complex quantities -----23400
+ebb -----969000
+general form -----1520000
+purchased vinyl -----17100
+standard machinery -----53600
+rtwo -----152000
+nominal power -----312000
+frequency band -----1650000
+daily dow jones index -----21800
+constant coefficient difference equation -----15100
+fuss -----3140000
+received constellation -----2210
+constant expected value -----1820
+recording system -----1870000
+memory cell holding -----1340
+end -----80600000
+minimum frequency support -----20
+terminology -----11200000
+resulting interpolation filter -----2
+mirrors -----7160000
+transmitted value -----5730
+earlier thought experiment -----918
+analog quantities -----27500
+limit -----19100000
+discrete time delta -----3100
+current book -----528000
+infinite set -----301000
+smaller observation intervals -----16
+null vector -----73600
+causal m -----70700
+order taylor approximation -----22200
+time invariant corresponds -----2
+bandwidth omega -----1080
+engineering text -----102000
+mathematical rigor -----43000
+point one matrix -----7
+spectral characteristics -----140000
+working system -----609000
+discrete time integration -----24500
+integral converges -----24600
+nonlinear processing -----19700
+direct form i structure -----2880
+computational cost -----225000
+gd samples -----2400
+side -----62400000
+labels -----10600000
+digital voice signal -----23600
+adders -----960000
+flat behavior -----3090
+efficient algorithm -----276000
+case convergence -----5920
+normalized fourier basis w -----1
+phone conversation -----1990000
+data lengths -----28400
+further reading -----50900000
+time lag tau -----81
+system stability -----808000
+good interpolator -----96
+instants -----2970000
+basic concepts -----3940000
+shifts index reversal -----1
+brief review -----2110000
+tool -----34000000
+fifty chance -----50800
+type iv filters -----46
+main limitation -----186000
+overlap -----5860000
+midband frequency response -----36
+forty -----9030000
+resulting shifted length n signal -----1
+fascinating epistemological domain -----3
+underlying hardware architecture -----9710
+optimal filter -----34300
+parseval -----174000
+discrete time filter response -----4
+bilinear transformation -----52200
+sides -----12200000
+degree l -----92100
+n periodic input -----9
+description -----81700000
+original frequency -----51900
+shot -----28900000
+rough estimate -----2690000
+quantization -----1110000
+firstly -----6240000
+effective bandwidth -----75500
+independent vectors -----85100
+c code implementation -----8780
+series expansions -----150000
+deployment -----4510000
+sampled values -----34300
+corresponding impulse -----5300
+piece -----24700000
+continuous time domain -----45800
+disaster -----9430000
+additional property -----524000
+quantities -----17800000
+local interpolation scheme -----1330
+deterministic signal -----19200
+Ŝ -----152000
+set w -----1740000
+battery light bulb circuit -----55000
+twelve point -----92200
+structures -----10600000
+functions rk -----1090
+input signal -----2290000
+precise statements -----38200
+soundcard -----1650000
+approximations -----3200000
+forty -----9030000
+naive sampling operation -----4
+given rational transfer function -----22
+intuitive integer -----54
+training -----65600000
+only solution -----3220000
+omega k -----71800
+discrete time complex exponential -----8110
+noise g times -----6
+initial binary bitstream -----50
+intuitively product -----98
+signal processing unit -----99200
+duration patterns -----4840
+sequence -----10700000
+following formal properties -----53
+maps length -----27400
+broad terms -----437000
+pi -----12500000
+exponentially -----4220000
+sum -----9890000
+digital processing paradigm -----8
+accurate measurements -----1660000
+structure -----22200000
+sequence -----10700000
+inherent power -----190000
+classic counterexample -----1550
+reconstructed analog signal -----2100
+simple algebraic manipulation -----5310
+double summation -----46100
+slack -----1440000
+spectral repetitions -----58
+roots -----10100000
+main period -----92700
+cutoff frequency omega -----2970
+frequency fb -----9430
+noncausal realization -----5
+digital signal -----3160000
+negative parts -----104000
+limiting function -----42000
+cosine carriers -----97
+n one zeros -----3
+linear transformations -----237000
+variable k -----132000
+resistors -----1770000
+course -----41300000
+figure point one -----16
+crown achievement -----13500
+constant reduce performance -----11
+final gain -----15700
+amplitude -----2920000
+relative phase -----89900
+unique interpolating polynomial -----3390
+global lagrange interpolator -----14
+radio station -----5790000
+ft -----32800000
+noncausal version -----24
+radix algorithm -----8630
+data transmission system -----108000
+timing recovery -----42300
+variable v -----265000
+sinc -----1390000
+audio tape -----1190000
+accordance -----23000000
+original spectrum -----46100
+contexts -----4430000
+real world analog value -----10
+intuitive -----6430000
+anticausal system -----6980
+astronomers -----3490000
+discrete time domains -----8010
+complex domain -----71200
+early result -----149000
+filtering operations -----32400
+distant future -----2580000
+frequency responses -----131000
+upsampled signal -----2340
+convergence issues -----57800
+array -----8150000
+orthogonal projections -----88300
+potential unrest -----15400
+strict sense stationary process -----3950
+amplitude -----2920000
+example mappers -----76
+whisker acts -----23
+alphabet structure -----10100
+qualitative effect -----20300
+different algorithmic structures -----32
+baseband spectrum -----12800
+polynomial function -----268000
+line -----113000000
+linear amplification -----49900
+matrix vector product -----55300
+ideal impulse response h -----5650
+n periodic sequence -----3240
+above equation -----659000
+indices outside -----5260
+unavoidable thermal agitation -----5
+melodic information -----2400
+cn -----35100000
+maximum approximation error -----1710
+signaling alphabet -----15400
+literature -----13400000
+same realization -----31500
+modulation process -----51400
+acceptance -----68800000
+distinct cases -----35000
+lot -----34700000
+online access -----6290000
+classical example -----117000
+longer wires -----47300
+point signal spaces -----5
+devastated pythagoras -----5
+minimax solutions -----2890
+incoming signal -----166000
+compelling epistemological essay -----2
+indented integration contour -----7
+notational overhead -----1060
+finer details -----1060000
+linear algebra elements -----7690
+conversions -----5690000
+abacus -----1050000
+particular interest -----4030000
+case -----38400000
+successive copies -----3360
+continuous time noise process -----14
+fundamental pieces -----23800
+functional device -----85800
+seamless integration -----2180000
+i i d -----2930000
+operational telegraph cable -----6
+analog model -----73600
+digital modulation -----177000
+cos -----10300000
+play -----113000000
+initial conditions -----963000
+patterns -----16900000
+arbitrary frequency responses -----2870
+thin metal wire -----32600
+transmission scheme -----80600
+static arrays -----53600
+full glory -----806000
+finite length n vectors -----1
+implicit rate -----73400
+n ts seconds -----20
+term energy -----719000
+granularity -----1720000
+analogies -----3260000
+acceptable bit error probability -----38
+xr -----2090000
+i -----576000000
+leading factor -----110000
+respect negative frequencies -----1
+m ⌋ matrix -----216000
+resulting approximation -----7290
+intuitive fashion -----27200
+voice signals -----99200
+further comment -----1190000
+less maximum frequency -----2060
+differential equations -----2190000
+explicit example -----48900
+nature -----28500000
+natural physical spaces -----9
+n th random variable -----90600
+foundational paper -----3960
+fourfold symmetry -----33800
+lowpass filter example -----16300
+frequency separation -----93700
+poles -----5550000
+transversal filter -----20200
+fruits -----9940000
+orthogonality -----470000
+geometrical concepts -----77800
+astonishing results -----76200
+tau almosr -----2720
+operating frequency -----1500000
+clock differences -----34300
+different signal lengths -----89
+filter -----20300000
+same symbol -----233000
+sums -----2790000
+things -----77400000
+finite dimensional spaces -----25500
+ĥ n -----3610
+shorthand -----4590000
+frequency omega n -----1670
+transfer function -----988000
+size delta -----106000
+constant functions -----102000
+theoretical analysis tool -----29400
+ideal bandpass -----11100
+concurrent pieces -----1980
+figure point -----84200
+delta function -----244000
+input distribution -----37900
+telephone line -----2700000
+riemann sum -----131000
+t ← ft -----583000
+speech signal -----193000
+iir -----519000
+pdf -----105000000
+required delay elements -----38
+ieee transactions -----1970000
+processing block -----59100
+transform operator -----33600
+baseband fullband signal -----4
+optimal parameters -----64600
+mr -----29700000
+stationary process -----62400
+vector x -----569000
+undefined values -----67300
+formal periodic basis -----17
+e ik -----122000
+general beta -----300000
+triangular window -----85200
+digital signal processing dates -----33
+instant -----13100000
+negative frequency -----72200
+alternation -----1780000
+will -----129000000
+variations -----11400000
+stochastic processes -----624000
+frequency leakage outside -----10
+reference -----25300000
+remainder -----16500000
+shorter input output -----20
+operating time -----1000000
+above definition -----303000
+output sample y -----1820
+time domain expression -----12300
+theoretical paradigm -----74800
+n point finite length signal -----1
+statement -----38000000
+rotated constellation -----1770
+centuries -----17000000
+i i d -----2930000
+i algorithm -----27000
+comprehensive review -----3090000
+measuring machine -----324000
+active electronic components -----41800
+solution -----27700000
+entirety -----7440000
+m n -----22900000
+nxn -----315000
+define -----66800000
+legacy -----10500000
+sensitive applications -----327000
+parameters -----7290000
+guillermo barrenetxea -----1510
+discrete frequency index k -----30
+phonemes -----1410000
+uniform quantization -----28900
+prescribed frequency region -----28
+mathematical convenience -----16900
+abstract examples -----128000
+name -----131000000
+higher conceptual level -----3070
+smooth curve -----287000
+topics -----25700000
+audio file -----3460000
+real values -----473000
+coexisting perceptual features -----1
+general filter -----117000
+linear -----6490000
+absolute summable sequences -----9
+notation interpolation -----46
+decimal places -----2230000
+rectified signal -----29100
+paper gentlemen -----4050
+analog recordings -----55100
+n periodic signals -----2790
+short philosophical detour -----13
+sine carrier -----1900
+dark horizontal stripes -----4920
+notes -----35100000
+realizable interpolator -----3
+randomizers -----83300
+key question -----1760000
+day -----117000000
+unreliability -----895000
+original sequence -----134000
+conflicting priorities -----113000
+purest form -----1410000
+snare drum -----1260000
+explicit operational procedure -----9
+base -----33500000
+classical interpolation property -----3
+analog -----5430000
+full cycle -----1140000
+downsampling -----193000
+inversion formula -----137000
+n point data vector -----26
+nice engineering book -----3
+closed disjoint intervals -----50
+bank -----31800000
+random vector -----152000
+complex symbols -----38000
+binary representation -----494000
+status -----35600000
+aliased version -----2950
+consequence fir filters -----1
+internal representation -----312000
+contribution -----12300000
+interval omega -----1090
+system response -----1100000
+delta -----10700000
+experimental data -----1940000
+precious insight -----11400
+impairments -----4030000
+n exp -----186000
+khz -----1220000
+magnitude sequences -----913
+supplementary material -----1510000
+simple -----76200000
+spectral superposition -----436
+time invariance -----59900
+lplus -----239000
+canonical basis delta -----3
+segments -----11400000
+played notes -----29700
+sets -----19800000
+n m -----11400000
+digital architecture -----149000
+human disputes -----2630
+weighting term wk -----3
+nyquist frequency -----94800
+less error -----200000
+early sound recording devices -----33
+local interpolations -----691
+direct current -----2910000
+functional argument -----18700
+formal model -----189000
+periodized sequence -----11
+alpha measures -----43600
+t ⁄ -----314000000
+example y -----185000
+conceptual -----7100000
+pure delay filter -----42
+factors -----29700000
+only inhabitable areas -----75
+shannon -----7240000
+front -----37100000
+multipliers -----2330000
+good news -----7280000
+square lattice -----140000
+finite euclidean spaces -----14
+l -----220000000
+point point -----681000
+full periods -----82600
+laptops -----6350000
+mechanical device -----1100000
+intuitions -----1300000
+analog light wave -----1030
+error square norm -----9
+basis vector -----103000
+family -----87400000
+particular convolution operator -----2
+metal sensor -----79100
+above problem -----475000
+step function -----381000
+string instruments -----1850000
+generic filter ccde -----90
+electrical signal -----883000
+continuous time quantities -----23
+turn -----35200000
+w -----177000000
+result -----32600000
+convolution sums -----7070
+qam -----924000
+hilbert spaces -----254000
+filtering modules -----5560
+quantization noise power -----16500
+measured signals -----33800
+z transform -----190000
+discrete time fourier -----73800
+example bn -----3180
+infinite discrete time signals -----13
+constant one -----119000
+positive frequency part -----1930
+complex exponential exp -----10000
+amongst bases -----53
+example solar spots -----1
+chain -----16400000
+bandwidth constraint -----21400
+finite precision arithmetic -----10500
+defining sequence -----12300
+specialized filtering algorithms -----23
+interval -----4370000
+seconds -----13600000
+same results -----4090000
+battery -----16900000
+sliced -----6240000
+same notation -----47300
+d converters -----585000
+ideal -----12600000
+ym n -----37400
+ratio -----13600000
+constant computational cost -----89
+rigorous treatment -----45000
+memory model -----454000
+finite length sequences -----3290
+parseval -----174000
+consequent inner structure -----1
+random offset -----18700
+pole cancellation -----10900
+coefficients ak -----2740
+decoding process -----131000
+looking glass -----1880000
+exponential decay -----275000
+restricted region -----88100
+actual baud rate -----4350
+bandpass signal -----35500
+nonzero value -----157000
+simple polynomial p -----31
+interval -----4370000
+alternatives -----9110000
+modulation scheme -----177000
+possibilities -----9590000
+quantitative measure -----257000
+hertz -----1640000
+regular sixteen -----14400
+point examples -----195000
+meaningful spectral representation -----2
+main advantages -----1400000
+linear time -----677000
+filtering problem iir -----2
+error characteristic -----5850
+simple -----76200000
+m converges -----5680
+paper chart -----206000
+signal classes -----8970
+right circular shift -----9190
+nonzero values -----166000
+science -----36700000
+telegraphic communications -----14200
+fir -----7220000
+same index -----246000
+hilbert space -----386000
+tasks -----11500000
+good quantizer -----1060
+arbitrary multiplicity -----1470
+back -----142000000
+member signals -----8450
+following function -----929000
+good fir approximations -----2
+straight lines -----3750000
+non noise -----33800
+omega samples -----12100
+cd conversion -----93800
+sophisticated decision logic -----78
+complex sinusoids -----7710
+quantizers exhibit -----9
+constellation start -----48100
+yearly signal processing -----16
+vector random variables -----3800
+left inverse -----59600
+particularizations -----3780
+maximum power -----3870000
+orthonormal -----443000
+modulation theorems -----35
+rational transfer function -----12500
+digits -----6800000
+anticausal systems -----76
+downsampled signal -----4100
+infinitely precise localization -----6
+real variable -----173000
+highpass filters -----226000
+contiguous intervals -----6830
+robust receiver -----3320
+pi pi interval -----67
+radio wave -----978000
+periodic extension -----13200
+trigonometric manipulations -----1710
+real -----121000000
+shifted interpolation functions -----2
+general result -----225000
+twenty -----9220000
+granularity -----1720000
+middle filter -----12000
+equivalent length rectangular window -----1
+full symmetry -----21200
+main effects -----528000
+basis formulas -----308000
+fundamental consequence -----7030
+fir -----7220000
+temperature signal -----83500
+interpolation filter -----48100
+inequality -----1770000
+energy -----30000000
+exercices -----4040000
+constraints -----4110000
+p k -----11100000
+simplicity -----4670000
+sampling frequency less -----2730
+complex spectral values -----47
+algebraic problems -----437000
+moment -----21900000
+zeno -----976000
+sequence y one -----27
+sharp notch -----15600
+fun -----57900000
+frequency domain analysis -----92400
+high frequency leakage -----5480
+phonograph -----1500000
+fs samples -----3480
+noise sample -----99500
+formulas -----8410000
+summable sequence -----10200
+time n -----854000
+bandwidth -----3130000
+rigor -----1220000
+equality results -----13000
+entity -----6140000
+additional delay -----83300
+usable filters -----38100
+transpose operator -----26900
+k th lagrange polynomial -----3590
+arbitrary omega n -----1
+bands -----13300000
+frequency interval -----119000
+notion -----13800000
+dtfts magnitude -----1
+delay operator -----22600
+symmetric sinc -----96
+quantized signal -----22300
+response -----17200000
+full removal -----181000
+very lopsided circus tent -----1
+dry years -----120000
+practical task -----71200
+incoming sinusoid -----53
+operational theorem -----97
+transatlantic cables -----19600
+quantization error pe -----4
+m points -----151000
+pa -----64100000
+right decision region -----10
+unity -----7540000
+local interpolation schemes -----75
+frequency range -----3800000
+telecommunications -----5830000
+khz multiplication -----31
+algorithmic requirements -----3580
+different features -----2590000
+long submarine cables -----2750
+canonical n point dft -----1
+infinite amount -----625000
+less -----42100000
+closed form -----688000
+wheel -----18500000
+receiver -----6200000
+original filter -----158000
+infinite energy sequences -----1
+analog spectrum -----25200
+explicit stating -----2450
+above expression means -----2250
+finite length signal -----6000
+practical alphabets -----1700
+real world situations -----776000
+processing tools -----560000
+alternations -----361000
+worries -----5670000
+sense -----11100000
+above error -----914000
+generated sinusoids -----84
+tradeoff -----2000000
+complex sinusoid -----8350
+regeneration process -----197000
+fundamental consequences -----7590
+time similarity -----8220
+bar notation -----114000
+ability -----13800000
+integers -----3510000
+constant signal -----38400
+main classes -----474000
+call p -----242000
+precise estimate -----78300
+common technique -----392000
+period n -----315000
+practical complications -----9230
+masterpiece -----5530000
+continuous time frequencies -----56
+above relation -----39600
+oversampled -----85300
+account -----46700000
+digital form -----1580000
+coefficients alpha k -----52
+binary values -----261000
+limit cycles -----85200
+disadvantages -----5620000
+discrete time processing techniques -----4
+undoing -----3030000
+sampling process -----233000
+difference -----43700000
+numerical tools -----35600
+teaching assistants -----1800000
+design -----112000000
+further reading discrete time filters -----1
+transmission errors -----264000
+computational issues -----37800
+frequencies -----3080000
+parks mcclellan algorithm -----4120
+fourier basis -----37000
+pure -----13000000
+glance -----8130000
+derivative -----10500000
+time origin -----4380000
+symbolic derivations -----7050
+bandlimited signal -----24200
+answer -----31500000
+continuous distributions -----133000
+legitimate questions -----378000
+fn -----7830000
+sinusoidal generators -----2020
+voiceband -----52600
+self point -----29000
+summation index -----62400
+inherent universality -----1020
+interpolation frequency -----9310
+ravel -----1270000
+starting value -----521000
+design example -----446000
+forces -----11900000
+interpolated function -----3820
+exact equivalent -----66100
+intermediate cases -----23300
+efficient computational procedures -----2890
+minimax criterion -----10900
+interpolation -----2810000
+acoustic signals -----106000
+alphabet symbols -----374000
+vectors orthogonality -----62600
+circulant matrix -----37000
+irregular grid -----35000
+today -----86800000
+farmers merchants bankers -----82
+following fact -----82000
+reconstruction interval -----6840
+c n -----36000000
+fc -----18500000
+natural way -----3480000
+d -----358000000
+underlying principles -----781000
+common modeling paradigm -----1190
+subdivision -----2840000
+abstract scenarios -----4850
+normalizing factor -----31900
+omega p -----112000
+relevant proofs -----5360
+less flexibility -----114000
+invariance -----845000
+linear computation -----8120
+random signals -----76600
+frequency values note -----49
+references -----26600000
+lengths -----12800000
+sharp filter -----49600
+xnd n -----1930
+linear phase systems -----3470
+theta -----919000
+infinite sequences -----109000
+cake -----16300000
+numerator -----2760000
+certain assumptions -----422000
+hellenic shift -----102
+dtft convolution -----3540
+bq n -----231000
+point radio transmission -----2840
+frequency fs -----48500
+real valued fir filters -----27
+brain -----15200000
+entire signal -----35900
+uniformly input -----83
+shaper -----1050000
+analytical function -----88100
+lowpass -----515000
+filtering -----3060000
+spaced ts seconds -----14
+sidelobe -----89600
+smaller thann -----13600000
+sampling methods -----575000
+inner product exp -----10
+word -----87000000
+powerful communication systems -----4180
+mains -----6810000
+pdfs -----5880000
+bible -----18000000
+larger values -----217000
+constant coefficient difference equations -----10600
+tide -----5370000
+matrices -----1810000
+paradox -----2130000
+fundamental constraints -----20900
+analytical description -----66900
+key property -----370000
+example frequency domain -----6750
+dimensional hilbert spaces -----26100
+next step -----9480000
+scientific development -----307000
+periodic -----5170000
+plane -----15300000
+cables -----6550000
+elaborate strategy -----9720
+phase terms -----27600
+n point window -----1600
+different interpolation functions -----1760
+maximum carrier frequency -----3760
+full html version -----26500
+modern discrete time processing -----2
+vector y -----370000
+analytical side -----45500
+food -----80900000
+requirement -----16400000
+circular motion -----3010000
+rational numbers -----1170000
+adsl modems -----174000
+remarkable property -----62700
+negative passband -----19
+measured temperature -----160000
+resulting filter -----24300
+right balancing act -----1660
+khz speech -----4860
+modulo n -----198000
+operational -----9000000
+physical phenomenon -----275000
+mean value -----1590000
+coefficients -----3140000
+control -----47000000
+design complexity -----84500
+back operation -----117000
+single filter -----185000
+reasonable snr conditions -----7
+gain -----15300000
+matter -----14000000
+carriers -----6710000
+orthogonal polynomials tk -----3
+general sequences -----28300
+main lobe delta -----2
+signal form -----60100
+one point thirteen -----2470
+bandpass signal -----35500
+white process -----55500
+consistency -----14400000
+f -----191000000
+plot -----14000000
+analogously -----354000
+indices -----8230000
+zero centered filter -----4
+digital conversion -----812000
+discrete amplitude -----14400
+present chapter -----106000
+norm conservation property -----14
+time invariant filters -----2190
+partial sum -----156000
+op amp -----1180000
+channel distortion -----35300
+way interface -----36400
+gd omega -----2170
+ξn n -----1410
+schematics -----1470000
+additions -----10300000
+symbol sequence -----59500
+formats -----12200000
+digital recording -----1790000
+unit circle -----577000
+shaper g -----5240
+high frequency energy content -----40
+states -----69300000
+amplification -----2380000
+hand -----43000000
+following design -----321000
+periodized function -----27
+filter stability -----25400
+transducers -----2020000
+analog prototype -----7460
+same contour -----36900
+positive weighting function w -----20
+wss random process -----6220
+same axes -----3120000
+times n circulant matrices -----7
+group theory -----816000
+same order -----3300000
+time egypt -----209000
+general purpose processor -----57100
+transmitted signal s -----33800
+bit stream -----455000
+next decades -----152000
+transmission systems -----923000
+parameter -----6390000
+ad hoc hardware design -----5
+ravel -----1270000
+complex zeros -----178000
+engineering sciences -----1160000
+squares -----6140000
+definition x -----201000
+key events -----3740000
+non integer multiple -----7100
+mn i -----317000
+telephone network -----1150000
+constant value -----1130000
+panel -----18800000
+scaling -----2440000
+order recursive filter -----2150
+electrical circuit parlance dc -----1
+everything -----32700000
+prototype sequence -----4920
+infinite length extension -----22
+j omega u -----60
+n ts -----349000
+complex variable -----234000
+elegant scheme -----12300
+wide sense -----78200
+same discrete time frequency -----1
+stagecoach -----1510000
+n dimensional subspace -----15000
+signal s -----6560000
+superposition -----2040000
+moving average -----3060000
+diagrams -----8830000
+delicate entities -----554
+instants multiple -----51
+real continuous time signals -----2
+power series -----1380000
+interest -----26900000
+case omega -----58800
+signal x n -----46800
+d conversion -----359000
+separation -----7300000
+am receiver -----172000
+u u -----5090000
+bootlegging method -----8
+ideal impulse response -----12000
+example r vich -----1
+analog electronic networks -----26
+figures -----13700000
+cascade -----3870000
+mathematician -----4700000
+practical system -----108000
+nts uniquely -----13
+fundamental concept -----374000
+transition band width -----16500
+additional goal -----39500
+g act -----107000
+mathematical abstractions -----18900
+happy consequence -----11800
+basic algebra -----835000
+h k x k -----573000
+regions -----11400000
+degree -----20300000
+low level digital processing -----3
+polar form h -----1100
+differentiation -----2620000
+peak -----11400000
+design specifications -----1840000
+instantaneous -----3950000
+constellation -----1330000
+dtfts -----17400
+simplest time frequency transformation -----1
+best approach -----2930000
+precise quantification -----30200
+j omega -----57500
+extreme trickery -----856
+filter analysis -----99300
+periodic convolution -----8390
+approximated filter -----81
+frequency domain -----1030000
+underlying abstract representation -----90
+energy conservation -----3160000
+orthonormal basis -----212000
+harmonic fourier series -----7520
+mercury thermometer -----149000
+smooth input signal -----1160
+mathematical operations -----676000
+basic building blocks -----811000
+formulas -----8410000
+accuracy -----12300000
+recursive nature -----45600
+abstract model -----170000
+attempts -----12400000
+independent elements -----52100
+ordinate pairs -----3700
+external signal -----156000
+square summable sequences -----6780
+simple constant sequences -----3
+multi track recordings -----36400
+k basis vectors -----2920
+n orthonormal vectors -----5360
+encoded symbol sequence -----48
+oscillatory carrier -----41
+killing half -----34500
+diagonal -----4330000
+vector spaces -----405000
+fundamental processing tasks -----23
+precise machine -----47800
+dft properties -----8630
+galena crystal -----34600
+denoted -----5170000
+crazy things -----3180000
+discrete fourier -----289000
+t n ts -----40300
+xa -----2610000
+fir filters -----123000
+data path -----2310000
+long sequence -----191000
+f -----191000000
+graphical representation -----1640000
+complex numbers -----2130000
+thorough study -----296000
+table point -----155000
+fir design problem -----35
+geometrical arrangement -----41700
+useful concept -----166000
+analytical model -----350000
+cutoff pi -----1950
+center band frequency -----4570
+orthonormal columns -----12500
+different perspective -----3030000
+octave -----2400000
+asymptotic behavior -----173000
+parasitic noise -----5520
+whose coefficients ck -----3
+signal processing unit -----99200
+contour -----2200000
+alphabet -----9390000
+above integral -----35700
+filter h -----176000
+essence -----7180000
+aforementioned real frequency response -----1
+d oversampling -----1760
+crosses -----8230000
+instantaneous transition -----7820
+nonzero spectral power -----5
+q -----47800000
+higher computational cost -----14200
+t w korner -----2830
+measured values -----650000
+clarity -----4790000
+points corresponding -----89000
+steel pin -----294000
+example cardinality -----7780
+voltage output value -----18800
+nplus -----341000
+fifteen -----6340000
+d k manolakis -----68
+implicit delay -----3090
+hold -----31800000
+everybody -----10800000
+same spectrum -----95500
+right -----51700000
+hundredth -----2280000
+intermediate points -----167000
+random data -----557000
+ideal lowpass problem -----5
+versions -----13800000
+convenient mathematical way -----52
+real world filters -----1480
+something calculus -----4730
+matrix -----9180000
+interpolating procedure -----30100
+physical time duration -----2960
+rough measure -----45400
+simple weather stations -----7970
+good approximation interval -----1
+fourier reconstruction formula -----11
+finite length -----132000
+comprehensive representation -----46300
+fingers -----10700000
+statistical properties -----273000
+distinctive patterns -----61800
+discrete time signals sequences -----5420
+trigger -----7650000
+finite numerical precision hardware -----1
+intermediate results -----331000
+thorough overview -----124000
+discovery -----12900000
+technical notion -----5000
+modulated signal y n -----26
+mathematical relationship -----355000
+linear filter -----98500
+lowpass filter -----1890000
+stochastic signal -----24500
+above expressions -----35400
+digital representations -----67000
+elementary notions -----23900
+delay system -----97900
+n th value -----67900
+skeleton -----5650000
+perfect reconstruction -----46800
+fifty hz -----35300
+fifty khz -----2930
+samples -----17700000
+special requirement -----378000
+direct form implementation -----2380
+headphone -----1180000
+quantizer design -----13900
+digital internal representation -----6
+recurring theme -----1250000
+scientific writers -----55100
+cauchy -----1540000
+established design procedures -----2960
+place -----85300000
+additional error -----370000
+vector space methods -----11700
+capacitors -----1550000
+fir transfer -----4820
+ccdes -----48800
+computations -----3700000
+dual synthesis formula -----1
+lagrange polynomials -----23900
+next chapters -----200000
+representative sample -----2280000
+complex data -----1550000
+c -----24000000
+mechanical operation -----145000
+realistic distribution -----13200
+smaller amount -----1260000
+usual ratio -----47700
+design choices -----1080000
+exact notes -----42900
+duality -----2530000
+following practical issues -----1760
+simple analytical form -----10200
+analog times -----41800
+exercise -----23300000
+pervasive concept -----4190
+modular structure -----217000
+processing efforts -----14300
+peaks -----4870000
+thin layer -----4310000
+intervals -----9310000
+n signals -----58900
+moving average filter -----65700
+gain g zero -----1
+fourier spectrum -----92900
+examples -----54300000
+forty khz -----3320
+fet -----1600000
+particular order -----3490000
+conditions -----100000000
+tilde notation x -----15
+minimum square -----137000
+finite support signal -----33
+digital systems -----1280000
+sec -----12100000
+odd behavior -----552000
+fir approximation -----4170
+sinusoidal oscillations -----14900
+only detail -----116000
+prime -----12600000
+principle -----10100000
+w k -----562000
+interesting example -----514000
+finite -----1450000
+infinite length signal -----1740
+feedback control unit -----32900
+baseband -----1570000
+how good -----8540000
+n columns -----138000
+binary digits -----277000
+particular periodic signals -----15
+transmitter -----1640000
+recording -----14300000
+periodic behavior -----44500
+stable lti filter -----9
+fundamental building blocks -----157000
+standard convention -----90200
+minimax -----1030000
+n roots -----236000
+lines -----34000000
+particular superposition -----1260
+dimensionless abstraction -----8
+positive passband -----19
+square magnitude operator -----1
+only interface -----118000
+best lowpass filter -----7970
+digital processors -----155000
+early versions -----1730000
+ft representation -----3170
+sidelobe amplitude -----1310
+mathematical meaning -----514000
+consequence -----10700000
+y n -----2760000
+closer beta -----6770
+l -----220000000
+frequency analysis -----454000
+cutoff frequency pi -----45
+j omega -----57500
+temperature function -----83800
+following expressions -----342000
+sampling system -----262000
+wide sense stationary input process -----6
+key features -----7360000
+case n -----540000
+multilevel signaling -----2720
+signals -----6340000
+connecting straight line -----12700
+half band filter -----11500
+intervals ik -----521
+little wiggles -----96700
+bandwidth omega w -----1
+high performance -----6230000
+important issue -----3030000
+thirteen -----5750000
+analog channel -----201000
+whisker ground -----25
+finite length length n signals -----1
+figure -----18400000
+nominal cutoff omega -----2
+strict minimum -----154000
+volts -----1740000
+direct form ii -----14600
+original filter coefficients -----1700
+generalizations -----2700000
+n periodic output -----12
+vector space h -----20100
+input sample -----142000
+transition -----10400000
+definitions -----19400000
+remark -----1400000
+square summable discrete time signal -----1
+oscillators -----2330000
+anticausal extremes -----1
+special case -----3470000
+general -----55600000
+smoothing power -----15000
+length type i filter -----3
+great depth -----1130000
+high output -----2840000
+signal transformations -----15700
+infinite length signals -----87
+factor -----14500000
+imagination -----7510000
+limited help -----1170000
+diode -----1120000
+structured nature -----35100
+link -----85000000
+irrational numbers -----478000
+j omega cn -----3
+h n -----1520000
+fn fn -----4210000
+basic ingredient -----274000
+cosine functions -----307000
+next ingredient -----32300
+realizations -----1300000
+radians -----2480000
+identity -----10200000
+exact way -----585000
+voice channels -----116000
+n dft coefficients -----42
+useful tool -----4310000
+lowpass filter -----1890000
+dfts -----256000
+analog interface -----155000
+fact -----25200000
+sinusoidal functions -----173000
+n dfs coefficients -----4
+true analog filter design methods -----1
+finite frequency interval -----1090
+tangible problems -----11100
+n values -----365000
+degree m -----437000
+initial phase -----1560000
+following formulas -----301000
+continuous time lti filter -----6
+phase response -----282000
+better magnitude response -----90
+n linearly independent vectors -----7540
+addition -----19800000
+usual vector operations -----77
+analysis tool -----2950000
+taps -----2110000
+analog signal processing -----140000
+algebraic equations -----546000
+summation -----3740000
+continuous time exponentials -----11
+simple analysis -----283000
+interesting figure -----52500
+periodic functions -----237000
+quantization interval -----8590
+minds -----8660000
+nutrient rich silt -----2970
+different decomposition -----20100
+complete abstraction -----19500
+back scenario -----26100
+prototype filter -----29600
+long time -----12700000
+matrix xyt -----10
+constant area -----97300
+same conceptual framework -----7280
+only instrument playing -----1410
+hold -----31800000
+algorithmic -----2400000
+natural domain -----99800
+overall bitrate -----60900
+sixteen -----4790000
+cheap equipment -----250000
+successive instants -----4790
+irrecoverable loss -----23600
+transition bands -----10100
+meter -----10800000
+bounded sequence -----63300
+mathematicians -----3860000
+locations -----93900000
+best approximation -----135000
+sinc decays -----16
+tolerance -----6420000
+baseband signal s -----50200
+vast domains -----11100
+fundamental concepts -----1760000
+powerful tool -----4380000
+resulting filter -----24300
+reviews -----85300000
+underlying physical reality -----5970
+cutoff frequency omega n -----1
+orthogonality relation -----29600
+basic resonator -----2580
+optimal procedure -----24300
+frequency representations -----24600
+midpoints -----421000
+finite support extension -----2
+ideal continuous time lowpass filter -----16
+simple analog lowpass -----5490
+idealized digital am transmitter -----1
+td -----9890000
+k h n -----418000
+representation compact disks -----18
+corresponding -----15300000
+adjective -----28600000
+functions -----16500000
+width -----17400000
+point twelve shows -----2
+chebyshev polynomials -----55700
+basic intuition -----28100
+thermocouple -----1880000
+v zero -----54700
+analog sound waves -----17900
+full probabilistic description -----2710
+filter coefficients -----102000
+branches -----11000000
+phase offsets -----17400
+transition band -----38800
+corresponds -----8890000
+rate -----41300000
+fourier coefficients -----134000
+actual devices -----57500
+example span -----38300
+compact disk system -----9180
+response hd -----27400
+order interpolators -----537
+side effect -----2600000
+access -----46900000
+important point make -----5910
+resulting signal -----53100
+n k -----3270000
+time invariant operation -----3750
+analog interpolation filter -----48
+studies -----26900000
+invertibility -----109000
+wonders -----7090000
+key questions -----3380000
+original channel -----5440000
+ym -----1440000
+formal proof -----244000
+following sections -----4410000
+average power -----1140000
+analysis -----29700000
+kind -----57800000
+confines -----4420000
+ideal responses -----6260
+overflows -----2690000
+real sample -----455000
+contrary -----19500000
+computational gains -----3790
+global space -----195000
+order terms -----2120000
+call -----49300000
+noise corrupted signal -----1980
+humans -----13600000
+fmax fmin -----16500
+out -----137000000
+approaches -----8570000
+output sequence -----56200
+m input bits -----1520
+wave -----12200000
+xk -----783000
+s n -----9170000
+physical quantity -----307000
+matrix form -----349000
+time fourier -----133000
+controlled behavior -----62300
+alias -----4800000
+lloyd max procedure -----12
+direct form -----301000
+output oscillation -----7450
+bandpass filter -----305000
+deterministic quantities -----2630
+computational cost i -----3390
+frequency -----10300000
+mathematical abstraction -----32600
+what -----293000000
+matlab -----836000
+appropriate hilbert space -----1990
+filtered input sequence -----17
+stability precise control -----91
+signal ergo -----638
+approach -----14100000
+simple design -----2700000
+convolution theorem -----75300
+sifting property -----25300
+ideal filters -----21600
+discrete time spectrum -----3340
+jump discontinuity -----52000
+time frequency analysis -----101000
+poles -----6180000
+spectral magnitude -----18600
+temperature measurement example -----4280
+main properties -----528000
+filtering operation -----44700
+average energy -----497000
+errors -----11700000
+square summable functions -----8600
+point one point -----216000
+physical impossibility -----83000
+hundred hz -----21900
+basis -----13800000
+maximum bandwidth -----248000
+continuous time signal -----84600
+spectral analysis -----689000
+m bits -----580000
+square lattice constellations -----6
+pi interval -----9640
+point khz -----894
+scalars alpha beta -----34
+digital world -----1630000
+spinning disk -----211000
+plancherel parseval equality -----5
+filter specifications -----144000
+arbitrary rational sampling rate changes -----3
+above point -----137000
+peak frequencies -----55800
+engineering motivated approach -----1
+circle -----16200000
+convolution operator -----35000
+fft algorithm -----77700
+type i filter -----29200
+intended results -----160000
+alternation theorem -----2940
+y n n -----937000
+interpolating functions -----14600
+final spectrum -----28900
+continuous time impulse response -----34000
+causal system -----40500
+filter implementation -----143000
+digital signal processing theory -----25100
+recursion formula -----111000
+vanishing power -----4730
+patrick vandewalle -----4040
+long -----115000000
+coils -----1510000
+slight hardware differences -----1010
+subspace projection operation -----15
+pitches -----2340000
+routines -----6810000
+correct final result -----2660
+continuous representations -----9140
+identifiable beginning -----3320
+fourier analysis -----589000
+ease -----13700000
+grain buffer -----2930
+simple filters -----51700
+complex exponential sequence -----2680
+sinc basis -----5260
+origin -----22100000
+geometric nature -----40900
+symbols -----11800000
+form expression -----412000
+cancellation -----8470000
+following notation -----112000
+stellar performance -----589000
+n point interval -----24
+available samples -----74600
+subspace -----1160000
+mappers -----551000
+delay -----11800000
+sampling signals -----21200
+notational formalism -----89
+basis expansion -----22200
+data compression -----1650000
+version specific -----304000
+piano -----20600000
+operators -----8030000
+adequate properties -----6550
+y x -----1210000
+outputs -----3220000
+graph paper -----3650000
+fs times -----12400
+continuous time version -----12300
+deal -----33500000
+application dependent constraints -----1570
+smearing -----2020000
+inner structure -----563000
+binary input sequence -----2920
+finite length case -----86
+higher -----22900000
+robustness -----3130000
+fundamental fact -----64900
+sampling -----4820000
+maximum -----17800000
+type -----91700000
+interesting bases -----4630
+systems -----39000000
+finite length signals computation -----1
+inclusion -----8320000
+coordinate system -----2620000
+voice signal -----145000
+headphones -----5050000
+non bandlimited signals -----1900
+matrix notation -----186000
+commercial voiceband modem -----2
+variance -----1700000
+corresponding emax -----30
+j omega omega -----2820
+decision region -----14000
+real antisymmetric signals -----1
+rect function -----59200
+symbol outside -----41200
+extension -----15100000
+highest digital frequency -----31
+analog sound wave -----7550
+telecommunication system -----724000
+politics -----15000000
+insight -----8770000
+omega axis -----2880
+different names -----3860000
+omega -----7770000
+periodic sequence -----36200
+k -----145000000
+decade -----11500000
+infinite length -----111000
+windowing sequence -----651
+filter example -----127000
+usable positive bandwidth w -----1
+subset -----2700000
+windowing -----847000
+time interval nts -----6
+useful statistical information -----6290
+reproducing formula -----1870
+mathematical analysis -----2000000
+difference equation -----223000
+th element -----3830000
+sigma rule -----28200
+scalars -----624000
+increasing n -----57600
+minimum -----17900000
+bit rule -----44300
+half degrees -----55300
+variance -----1700000
+delta function formalism -----22
+upsampled sequence -----79
+interesting rewrite -----1430
+interpolation instants -----18
+v -----193000000
+best case -----2170000
+forty samples -----7440
+step signal -----49500
+digital machines -----115000
+entire musical piece -----4620
+architecture -----12400000
+locked pll -----7970
+stability result -----25900
+consideration -----17700000
+thing -----36300000
+storage capabilities -----390000
+underlying model -----103000
+k corresponds -----39800
+minimization -----2330000
+low dimensions -----59000
+analog sampler -----7050
+random signal -----119000
+scalar multiplication -----182000
+arbitrary -----4250000
+difference equations -----269000
+connection instruction -----86800
+approximation filter -----18300
+descrambler -----149000
+m th basis vector m -----1
+minimum -----17900000
+optimality condition -----51700
+n periodic extension -----35
+gap -----10600000
+support n -----4600000
+correlation matrix -----311000
+above theorem -----51900
+pulse amplitude modulation -----75600
+sampled version -----19900
+interpolation problem -----42400
+simple linear combination -----29500
+fir filters -----123000
+unity elements -----34300
+physical implementation -----86300
+fft strategy -----96
+appropriate formulation -----28700
+weights -----8870000
+cutoff fs -----1510
+prototypical behavior -----7550
+polynomial interpolation -----105000
+ratios -----3990000
+n dimensions -----299000
+real argument omega -----4
+complex conjugate pairs -----31200
+averaging window -----16900
+lower greater -----10800
+point euclidean -----12400
+circuitry -----4070000
+accounts -----26100000
+means exhaustive -----148000
+point one non -----6780
+wider transition band -----1380
+good resolution -----453000
+analog sinc -----13800
+equations -----3860000
+watchmaker -----1790000
+vector space pn -----537
+scalar quantization -----37800
+extraripple filters -----25
+midpoint -----3290000
+geometrical intuition -----3370
+proper function -----1170000
+error power increase -----4
+union i -----893000
+slide rule -----645000
+strategy -----22200000
+n periodic sequences -----1540
+d days -----368000
+input sinusoid -----7410
+arbitrary signal x -----2320
+general vector y -----21
+practical requirements -----127000
+typical pole plot -----8
+following properties -----1530000
+odd integer -----140000
+am band -----331000
+n point signals -----46
+passage -----10800000
+excellent performance -----3020000
+usual vector notation -----71
+immediate spatial intuition -----15
+train -----31800000
+natural definition -----127000
+rest -----29500000
+constrained motion -----29900
+classes -----37000000
+ac -----31800000
+equal width delta -----19
+successive values -----40000
+percentage -----18700000
+rate change -----2510000
+particular signal -----38500
+pitch -----10400000
+scalar multiplication operation -----6130
+tide oscillatory behavior -----1
+same value -----3400000
+finite time support -----1100
+thirteen seconds -----34700
+basis expansion note -----3
+world -----118000000
+power signal -----496000
+fastest digital frequency -----10
+advantage -----15300000
+original level -----193000
+fundamental difference -----802000
+energy conservation formula -----29400
+alternative approach -----1790000
+type iii filters -----45
+omega b -----255000
+transforms -----5070000
+choice -----27600000
+year -----122000000
+input voltage -----3810000
+regular square lattice -----6500
+western movies -----1720000
+integer index n -----2480
+causal interpolation schemes -----1
+tap lowpass -----4170
+lyricism -----1180000
+even function -----568000
+foundation -----26900000
+enormous -----5250000
+notions -----4760000
+fir structures -----7860
+starting -----33300000
+cutoff frequencies -----53300
+human speech -----650000
+net effect -----3290000
+best linear approximation y -----5
+pattern -----18300000
+sinusoids -----266000
+transmitted signal -----218000
+specific subset -----92700
+ad infinitum -----970000
+order statistics -----201000
+real signal -----80000
+infinite copies -----6130
+constraint -----2240000
+demodulated symbols -----4720
+spectral component -----38300
+complex -----15700000
+frequency region -----90700
+upper bound -----1410000
+x tau -----147000
+input output -----3180000
+best algorithmic structure -----3
+general non orthonormal bases -----4
+standard processing -----120000
+single impulse -----31200
+maximum limit -----1520000
+shifting properties -----17500
+sampling theorem links -----9
+abstract representation -----91900
+dtft reconstruction formula -----2
+interpolation function -----88100
+digital iir filter design techniques -----2
+only price -----2570000
+output sequence y n -----8400
+time invariant -----273000
+mhz -----3290000
+exact symbol value -----7
+physical channel -----98100
+computational power -----319000
+numerical procedure -----51900
+signal sample -----53100
+resulting spectrogram -----1500
+order joint pdf -----28
+rational sampling rate converter -----13
+frequency resolution -----131000
+application -----98800000
+limiting operation -----12200
+standard paradigm -----37200
+inscribed circle -----196000
+Ĉ -----944000
+analog radio receivers -----4290
+sine -----5340000
+generators -----4360000
+shifted impulse response h -----25
+key points -----5030000
+xnd -----131000
+measure -----15200000
+sequences -----10200000
+opposite directions -----3060000
+dft -----842000
+transatlantic communications -----9380
+numerical package -----4020
+ergodic processes -----10800
+oppenheim willsky -----11600
+distorted -----3780000
+something -----40500000
+stationary processes -----54500
+cutoff -----1520000
+property -----52000000
+performance -----34800000
+signal y n -----25100
+point one -----1180000
+uncertainty principle -----609000
+equipment -----32400000
+certain amount -----5400000
+simple amplification -----9010
+simple rectangular window -----2060
+basis framework -----6720
+mean gaussian variables -----1990
+particular exact linear phase optimal -----1
+constant sequence -----39400
+mechanized playground -----40
+cross power -----163000
+sine -----5340000
+mathematics -----9050000
+respective frequency -----33400
+vice versa -----6450000
+consecutive discrete time samples -----2
+form elements -----599000
+complex -----15700000
+polynomials -----2340000
+data communication systems -----194000
+downsampled sequence -----81
+individual phases -----41500
+probability density function -----577000
+iir filter -----114000
+transmission energy communication systems -----1
+analog noise -----41800
+geometric construct -----17600
+nonzero measure -----1940
+flood measurements -----5900
+ε n -----88700
+infinitely subdivisions -----1
+m tap fir h -----1
+only reference -----1130000
+stopband tolerance -----56
+bolero -----1700000
+e j theta -----6610
+sided sequences -----7500
+fundamental results -----37900
+variance sigma -----43400
+responses -----9860000
+index n -----1920000
+analog circuit -----427000
+tight correspondence -----2990
+dft coefficients note -----7
+intermediate amplifiers -----1570
+capacity formula -----169000
+metal stylus -----109000
+quantization intervals -----3240
+fourier theory -----64300
+rational transfer functions -----5850
+sufficient amount -----1410000
+classic polynomial interpolation problem -----2
+euler -----1710000
+projection -----5630000
+multiplicity -----2450000
+minimum square error -----12100
+baseband signal b n -----6760
+optimization procedure -----77600
+staircase approximation -----5150
+practical realizations -----8130
+bridge -----20400000
+linearly independent vectors -----73700
+example wnk -----16
+above sum -----36800
+order description -----392000
+certain signal processing operations -----962
+communication landmarks -----2520
+upsampling operator -----708
+simple operational amplifiers -----6220
+bk -----7800000
+delta p -----223000
+products -----74400000
+eating -----19600000
+probability theory -----1290000
+complex sequence -----103000
+text -----40000000
+intuitive solution -----48600
+higher rate -----3750000
+convenient abstraction -----5060
+cornerstone -----1570000
+arbitrary amount -----47600
+finite length observation window -----5
+peculiarities -----1940000
+vectors v -----99600
+hard threshold -----15900
+realizable iir filter -----3
+complex conjugate pole -----5330
+allpass filter -----21800
+cascade form -----23600
+short response time -----48000
+best discrete time approximation -----2
+audio conversion problem -----3730
+time resolution -----295000
+continuous time signals -----73300
+disadvantage -----4470000
+unit magnitude -----33000
+integer delay -----10100
+k th dft coefficient -----98
+compact formulation -----5730
+geometric constructs -----12800
+analogy -----3730000
+absolute synchronization -----3220
+randomized bitstream -----14
+gold standard -----3090000
+x beta -----35900000
+downsampling -----193000
+following function -----929000
+domain -----11800000
+reminder -----7500000
+locked pattern -----29500
+alphabet size -----52100
+hardware point -----60000
+visual inspection -----2470000
+interpolation times -----1240
+d module -----136000
+alphabet sizes -----4350
+design procedure -----266000
+requirements -----53600000
+representation -----12100000
+theorem -----1790000
+artifacts -----4120000
+algebraic nature -----6010
+quick designs -----58000
+countable sequences -----5230
+dirichlet conditions -----23300
+key observation -----57200
+high frequency components -----96300
+non bandlimited signal -----1240
+digital pll structure -----28
+general recipe -----88200
+mechanical recording devices -----4380
+complex signal -----113000
+maximum -----17800000
+indefatigable ambassadors -----17
+voltage levels -----573000
+denominator -----4310000
+applied mathematics -----3200000
+causal -----2880000
+dft coefficients -----15000
+remaining bits -----54800
+operating modes -----1080000
+redundancy -----2950000
+strategies -----13500000
+jump -----24000000
+sum diverges -----3540
+fundamental part -----1030000
+location -----117000000
+complex pole -----30300
+signal processing paradigm -----4340
+angular separation -----98500
+noteworthy piece -----8480
+conceptual similarities -----23900
+input -----13100000
+hilbert filter -----8340
+fourier transform -----1770000
+undergraduate class -----325000
+fundamental meaning -----76000
+behavior -----12000000
+case xa -----2680
+filter design -----752000
+reasoning -----6970000
+dilation -----3470000
+error decreases -----50000
+exchange values -----140000
+ccde -----618000
+infinitely dance -----1770
+symbol -----18500000
+sinc function -----102000
+sinc function -----100000
+series -----83900000
+sampling period -----184000
+closed form expression -----75200
+discrete time processing -----25100
+q completeness -----1190
+source -----37400000
+eternity -----5150000
+guitar -----25100000
+choice signal -----6680
+potential loss -----1080000
+way linearity -----1090
+matlab signal processing algorithms -----2760
+usual omega -----2080
+omega ts -----3700
+stability issues -----505000
+half period intervals -----42
+r ladder -----34100
+programmable delay -----58000
+crossing -----9210000
+nonlinear -----1290000
+devices -----16200000
+t n -----1850000
+dfs values -----14300
+electrotechnics -----134000
+anything -----29200000
+caller -----1710000
+channel eta -----4840
+equalizer -----1530000
+z transform operator -----4450
+much detail -----3350000
+convenient back -----64100
+finite interval -----60300
+fractional delays -----4730
+extreme simplicity -----45500
+higher degree -----2850000
+signal processors -----2970000
+contour integration -----59700
+instance -----10600000
+instantaneous measure -----11200
+numerical precision problems -----5590
+month -----38200000
+type iii fir -----54
+eigenvectors -----545000
+high frequency content -----45400
+expansion coefficients -----165000
+working code -----781000
+cosine -----2380000
+r allen -----540000
+important class -----374000
+historical references -----757000
+dtft operator maps -----1
+final orientation -----30700
+film -----83800000
+global fourier -----2300
+intermediate values -----385000
+simple procedure -----1430000
+engine -----29000000
+effect -----24700000
+type iii -----2640000
+entire frequency support -----4
+analog signal processing systems -----28800
+practical -----11000000
+uniform scalar quantization quantization -----6
+abscissa tn -----2
+contingent nature -----39100
+bit -----31900000
+digital format -----2750000
+constant support -----359000
+specific value -----1070000
+fs -----13400000
+dithering -----824000
+voiceband modem -----8100
+motion -----14800000
+amplitude accuracy -----23600
+basic idea -----3420000
+z -----58900000
+eleven -----8680000
+unacceptable artifacts -----2360
+best way -----16800000
+different discrete time sequences -----3
+approximated filters -----33
+undesired frequency components -----2350
+central offices -----419000
+yearly flood level -----22
+communications -----15900000
+stationary random processes -----15500
+integral sign -----118000
+p -----200000000
+point seventy -----9340
+same distribution -----233000
+analysis tools -----2600000
+tools -----34900000
+point seventeen -----6200
+spectrum -----7790000
+magnifying glass -----2550000
+offset -----6580000
+absent floods -----26
+average temperature -----2410000
+omega n o -----134000
+half residue theorem -----20
+intuitive point -----29000
+periodic signal -----144000
+phase alignment -----48400
+real discrete time signal -----84
+obtained response -----8200
+critical sampling -----20000
+exhibit -----10900000
+scale change -----288000
+quantitative evolution -----5200
+integer multiple -----105000
+tails -----5340000
+frequency response -----3760000
+microphone forty -----793
+standard dft matrix -----8
+relationship -----23100000
+paradigm -----1400000
+topic -----26200000
+phase increment -----8280
+existence -----12800000
+resulting effect -----81300
+discrete time world -----1930
+nd n -----500000
+friends -----35500000
+properties -----20300000
+cauchy unsurpassably -----3
+rplus -----237000
+convenience -----10600000
+single prototype function -----997
+x n -----986000
+orthogonal bases -----36600
+home -----654000000
+echo canceler -----82800
+evolution -----11200000
+fourier -----1970000
+constitutive elements -----38600
+simple sum -----169000
+e -----517000000
+self standing entity -----1090
+dtft plot -----35
+violin -----5650000
+m roots -----55600
+numerical algorithm -----81600
+decision -----13900000
+l k -----1900000
+analog world -----188000
+filter performance -----313000
+attack -----17400000
+quantity n tau -----1
+cauchy schwartz inequality -----72900
+voltage level -----942000
+alternative filter structures -----38
+neighboring samples -----6120
+normal processing order -----38
+denominator polynomials -----39400
+sampling cycle -----30900
+complex exponential -----183000
+discrete time domain -----66900
+signals converges -----94
+tau n -----52700
+value d -----8290000
+average value -----2370000
+active area -----661000
+physical dimension -----241000
+interval ik -----1520000
+fir lowpass -----23900
+ideal lowpass -----62500
+effects -----23100000
+left panel -----1960000
+class -----83500000
+point thirteen -----14500
+example time domain -----8150
+audio processing -----1460000
+mathematical models -----1670000
+general notion -----129000
+dc -----29100000
+n periodic sequence -----3240
+zeno -----976000
+assume -----14200000
+quantity -----11500000
+frequency component -----145000
+switch -----19300000
+continuous model -----82500
+unit -----33100000
+kaiser -----4950000
+input output characteristic -----32100
+cosine shaper -----18
+communication systems signals -----11700
+multidimensional case -----16700
+necessary step -----1180000
+electromechanical switches -----92800
+frequency response hd -----1830
+rightmost end -----7040
+basics -----12000000
+synthetic sequence -----31400
+analog circuitry -----88700
+extraordinary power -----239000
+discrete time -----741000
+generalized linear phase -----4390
+increasing complexity -----683000
+overall degradation -----35500
+integral criterion -----4050
+notation -----6590000
+constant n one -----47
+rocks -----10700000
+kinds -----16800000
+impulse -----3210000
+general expression -----265000
+relative alignment -----43000
+design problem -----937000
+initial difficulties -----45500
+interface -----10900000
+square integrable functions -----28500
+case copies -----51700
+discrete time sequence -----31500
+order difference -----153000
+figure beta -----21900
+input samples -----72700
+routine -----11100000
+art -----128000000
+minimum euclidean distance -----20900
+realizable filter -----1790
+resulting spectrum -----36500
+time indices ik -----1
+hard slicer -----88
+fine resolution -----99000
+world filters -----27800
+figure point sixteen -----2
+finger -----11300000
+awkward -----5700000
+real wheel increases -----4
+linear time invariant transformation -----28
+flood -----10300000
+respective definitions -----18200
+main lobe -----61600
+conjugate pairs -----150000
+fifty -----8970000
+cornerstone role -----2580
+turn n vectors y -----1
+analysis dtft formula -----1
+complex vectors -----90600
+cases -----20700000
+unit size interval -----83
+k pi -----243000
+mobile devices -----6890000
+incompatible sampling rate -----10
+vectors w -----46300
+dc removal -----32000
+unit norm -----39100
+optimization -----4180000
+filter specifications amount -----3
+implications -----7440000
+time localization -----31500
+omega w -----94100
+trigonometric polynomial -----29600
+formal equivalence -----46600
+input interface -----339000
+usual omega n -----2
+efficient utilization -----187000
+single sinusoidal oscillation -----39
+bibliography -----9510000
+absolute summability -----6900
+high outputs -----47600
+gamma n -----81400
+extremal points -----11700
+comfortable feeling -----231000
+stochastic process x n -----31300
+rect -----969000
+bandlimited input signal -----87
+above derivation -----16300
+one come mind -----15
+communication domains -----12100
+same signal -----240000
+particular concept -----73900
+world digital -----1360000
+lower frequencies -----651000
+realization -----3460000
+realm -----5730000
+way -----86300000
+pressure wave -----295000
+good review -----1710000
+slot -----6840000
+times n matrix -----23500
+fifty -----8970000
+actual implementations -----30600
+continuous time functions -----10300
+riemann approximation -----10100
+own sake -----2370000
+analytical functions -----157000
+form representation -----124000
+rho j theta -----12
+lagrange interpolator -----65900
+analog signals -----606000
+vector product -----251000
+maximum representable frequency -----32
+machinery -----6480000
+trade -----37500000
+question -----35200000
+coexistence -----2610000
+competing models -----154000
+impractical components -----642
+sampling period ts -----4380
+core theory -----74200
+sledgehammers -----492000
+intuitive requirement -----3400
+summable sequences -----22900
+review euclidean geometry -----50
+time average -----1100000
+regular intervals -----3720000
+eye -----29900000
+much friendlier lowpass characteristic -----1
+sampler -----2320000
+numbers -----57300000
+time limited -----2450000
+order system -----1290000
+wired telecommunication devices -----18
+computer -----62400000
+same time -----12900000
+modulated signal -----206000
+designs -----29300000
+flexibility -----11500000
+spectral properties -----168000
+n tuple -----57200
+x y -----21100000
+fruitful perspective -----2640
+arbitrary integrable function -----1140
+x n -----986000
+overlapping spectral copies -----4
+assumption -----7170000
+finite subset -----132000
+research -----47400000
+odder -----295000
+k th element -----36200
+same frequency fs -----27
+statistical independence -----72000
+properties linearity -----12200
+eigensequences -----863
+symmetric structures -----21800
+early geometric treatises -----5
+input signals -----739000
+telecommunication systems -----554000
+naive notion -----19100
+greater -----12700000
+floods -----2080000
+qam signal -----63400
+analog signal s -----621000
+zero plot -----104000
+particular telephone lines -----34
+bits -----10200000
+constant discrete time signal -----10
+zi -----3620000
+optimal boundaries -----9010
+mean gaussian variable -----1300
+upper -----17900000
+compact disk -----487000
+reference voltage -----612000
+optimal quantization points -----5
+spacing -----2320000
+particular instance -----635000
+fast fourier transform -----467000
+piano playing -----1400000
+linear phase filter -----26200
+point one khz -----1
+smaller -----13100000
+time slice -----990000
+continuous time systems -----64500
+original quantizer -----62
+system -----83800000
+version -----90200000
+vocal cords -----1700000
+palermo stone -----58400
+slowly rolling paper -----6
+highpass filter -----1200000
+block -----28300000
+idea -----30500000
+abstract internal representation -----1330
+wss process -----6840
+periodic spectrum -----2550
+original samples -----197000
+ts fs -----31800
+compact expression -----13600
+wn -----2600000
+terms -----41600000
+quick reference -----3990000
+simple signal -----79600
+value theorem -----402000
+physical analog value -----2
+finite memory filters -----90
+mathematical description -----316000
+classic result -----120000
+filter specifications -----144000
+attenuation -----3270000
+versatility -----6250000
+real use -----594000
+operational amplifier -----690000
+signal processing books -----22100
+suitable difference equation -----30
+canonical inner product -----6900
+dtft pair -----5570
+j omega n -----2110
+realizable system -----2480
+nt -----14300000
+underlying hilbert space -----2420
+analytical evaluation -----71600
+spectrum outside -----21900
+multirate theory -----73
+norm y y -----5180
+signal values note -----48
+dvds -----13000000
+expanse -----3060000
+sections -----13300000
+means -----33200000
+upsampling factor -----2880
+digital pll -----68700
+spectral characterization -----31800
+symbols -----11800000
+intelligibility -----945000
+movie -----120000000
+single copies -----383000
+operator -----10500000
+n n d -----923000
+degree polynomial -----221000
+thought -----15600000
+column vector -----355000
+normalization factor -----58500
+discrete time random process -----26500
+reconstructed original signal -----46
+random sequence -----270000
+finite support signals -----26
+multitude -----14900000
+matrix element -----184000
+stable crystal oscillator -----5660
+discrete time impulse conversely -----1
+general class -----664000
+alternative structure -----62200
+integer factor -----64600
+y r -----1130000
+abstract signals -----5010
+mapper -----811000
+complete theory -----201000
+vector quantization -----150000
+angles -----7710000
+energy folding -----11600
+external oscillatory input -----4590
+self explanatory block diagrams -----45
+processing chain -----71700
+dichotomy paradox zeno states -----6
+measurement -----10800000
+abstract concept -----488000
+human ear -----863000
+angle omega -----30300
+largest nonzero frequency -----28
+point fourier -----8670
+formalism -----1670000
+anti -----24100000
+n one -----13700000
+delta notation -----52000
+means scaling -----8920
+finite dimensions -----31500
+section point one -----33
+final step -----4100000
+list -----148000000
+m one -----615000
+basic signals -----41200
+equations -----3860000
+leakage -----2810000
+separate series -----123000
+minimax method -----7870
+following interesting property -----1810
+practical application -----3290000
+propagation -----2000000
+digital communication parlance -----1
+disruptive consequences -----10200
+pstricks -----142000
+practical sampling scenario -----4
+usual way -----2000000
+occupancy -----4660000
+increasing capacity -----265000
+additional bit -----46300
+square root -----3070000
+subtle technicalities -----1580
+j omega s -----1780
+linear electronic network -----18
+design steps -----159000
+omega max omega min -----10
+particular location -----2320000
+geometrical solutions -----7780
+usual dtft inversion formula -----1
+omega c omega -----17800
+close association -----1040000
+increase -----23300000
+maximum value -----3670000
+variable m -----122000
+fundamental ways -----165000
+decoding symbols -----36100
+aliasing proof -----29
+independent internal clock -----2570
+low cost deployment -----9050
+vector random variable t -----9
+simplest form -----2220000
+j omega h -----1500
+flute -----4380000
+analytical results -----384000
+crosses -----8230000
+a -----269000000
+generated signal -----39600
+probability distribution -----1430000
+following variations -----50000
+discrete time samples -----9020
+resampled signal -----1680
+problem -----45000000
+fundamental strategies -----57500
+defining delta -----6210
+error free sequence -----1110
+direct -----32900000
+elementary operations -----88400
+digital filter designer -----3680
+hamming window -----51000
+exact form -----283000
+output voltage -----3640000
+complex bandpass signal c -----1
+bandlimited function -----4370
+variable fractional delay -----8520
+illusion -----5660000
+doubling -----3990000
+pulse train -----172000
+summable -----71800
+minimax sense -----3590
+power signals -----81500
+gaps -----6050000
+time difference -----1550000
+frequencies fs -----2840
+error measure -----78400
+luciano sbaiz -----1730
+precious information -----68000
+branch -----15000000
+specific processing -----85600
+collection -----40000000
+accurate optimal filters -----1590
+superscript -----2250000
+mechanical design -----1900000
+additional design choices -----4460
+linear phase response -----35200
+sampled value -----25900
+multiples -----10200000
+shop -----92400000
+ancillary origin -----44
+processing time -----3430000
+processing delay -----102000
+copies -----12200000
+microphone -----3490000
+resulting overlap -----3430
+analytic formula -----45700
+above properties -----72200
+synthesis formula -----41800
+real world phenomena -----49100
+padded version -----11800
+binary modulation scheme -----6250
+reconstructed signal -----33800
+different approach -----3970000
+probabilistic behavior -----13500
+scalar multiplication operator -----7870
+parallel structure -----221000
+fascinating excursus -----562
+guarantee -----14400000
+rational transfer function h -----1900
+answers -----28000000
+days -----54600000
+sampling period ts -----4380
+empirical formula -----901000
+powerful consequence -----2990
+practical measurement -----62200
+teachers -----26000000
+non inverting buffer -----50600
+center -----195000000
+appropriate coefficients -----15100
+process -----50400000
+transmission reliability -----107000
+spectral frequency support -----1
+book -----122000000
+radio waves -----3200000
+discrete time abstraction -----27
+summability -----63700
+wanner analysis -----2270
+point transform -----48400
+work -----120000000
+mathematical theory -----761000
+j theta -----12200
+improvement -----11700000
+digital information -----1940000
+ideal model -----427000
+demodulation processing -----6460
+nothing -----23700000
+times -----83400000
+finite time interval -----30000
+estimate beta -----66200
+sinc sampling -----84
+original dft samples -----13
+fly -----25900000
+absolute values -----753000
+final design -----2070000
+ladder -----5730000
+synchronism -----185000
+linear phase system -----4440
+dots -----6320000
+discrete time system -----80300
+positive -----18100000
+plus j y -----310000
+derivatives -----2500000
+fx -----9910000
+j -----91700000
+detailed -----26400000
+page -----314000000
+little loss -----167000
+theoretical derivations -----16100
+basis vectors -----203000
+p orthogonal orthonormal basis -----1
+reason -----28300000
+basic iir -----5440
+orthogonal decomposition -----74000
+frequency leakage -----22200
+prescribed band -----4250
+one -----148000000
+phase delay -----172000
+demodulation chain -----598
+above mentionned error -----89700
+delta notation -----52000
+fundamental interpolation properties -----1
+resonator -----1850000
+interpolation property -----6150
+inner product spaces -----57900
+higher order interpolation functions -----10800
+technique -----14800000
+voltages -----4020000
+efficient filtering schemes -----20
+long input sequence -----1260
+associated roc -----11700
+assertion -----3670000
+maximum integer value -----36500
+underlying sequence -----14700
+convenient entities -----85
+following formulas -----301000
+above point interpolator -----10
+algorithms -----1790000
+weighting function -----97100
+i one -----548000
+presence -----12300000
+gd -----6370000
+simple downsampling -----1490
+hilbert demodulation -----2060
+platonic ideal -----100000
+fb -----23400000
+precise formal link -----6
+quantum leap -----1950000
+filming process -----123000
+numerical precision -----61200
+nonlinearity -----821000
+real periodic sequences -----44
+imaginary part -----329000
+easy primer -----48900
+carriers -----6710000
+roc -----5390000
+generalized delay -----4090
+following chapters -----411000
+power series xa -----5
+n predecessors -----2100
+important difference -----1780000
+pieces -----14900000
+sharp digital bandpass filter -----5
+circular convolution coincide -----1
+oversampling -----378000
+subset p -----26500
+natural phenomena -----1930000
+regard -----15300000
+above equality -----23300
+infinite support -----18800
+high energy content -----63900
+u -----255000000
+ghost sample -----15000
+contact -----576000000
+linear phase -----211000
+network -----39400000
+irrespective -----5080000
+gain g -----98900
+undergraduate text -----34600
+independent clocks -----8370
+strong spectral line -----4330
+complete treatment -----425000
+core -----24300000
+square summable -----16100
+mild -----11400000
+digital signals -----852000
+elements -----15400000
+further analysis -----2220000
+favorite cd -----200000
+classic scenarios -----25300
+adaptive equalizer -----37400
+noble history -----97400
+resulting analog spectrum -----1
+bona fide infinite sequences -----1
+sampling rate changes -----11000
+overall mean square error -----12700
+fir types -----23000
+conjunction -----19800000
+lowpass filters -----409000
+coherent notation -----3410
+digital frequency omega -----22
+band noise -----131000
+space p -----316000
+cassette -----3390000
+type i filter -----29200
+finite precision floating point -----12300
+river banks -----967000
+practical example -----601000
+fruitful synergy -----6770
+th order stationarity meaning -----11
+middle panel -----179000
+drawback -----4080000
+random vectors -----157000
+basis function -----259000
+pulse -----9310000
+unstable behavior -----48600
+powerful concepts -----36800
+narrowband signal -----26200
+impulse response -----520000
+dirac delta -----294000
+real life -----10600000
+global interpo -----11000
+above table -----1830000
+drawbacks -----3620000
+stability -----7230000
+simple case -----1210000
+town -----50000000
+binary representation -----494000
+decision boundaries -----35700
+dimensionless -----864000
+noncausal filters -----2080
+n periodic extension -----35
+beautiful -----35800000
+filter design procedure -----23100
+unprecedented way -----57400
+above assumption -----33600
+interval pi -----31000
+played note -----36900
+frequency value -----111000
+random variables -----1120000
+high impedance headphones -----26100
+optimization algorithm -----266000
+range -----37000000
+best design strategy -----24900
+iir filters -----82700
+scaled sinc function -----52
+general vector spaces -----22200
+plus alpha -----211000
+modulated sinc -----756
+interpolation condition -----6790
+parameters -----7290000
+resulting data set -----34100
+proper sequences -----28800
+amplifier -----3270000
+complex sequences -----57500
+punctual value -----1530
+derived parameters -----36200
+digital frequencies -----134000
+chapters -----6970000
+training sequence e -----1540
+only phase -----89000
+spectrogram -----621000
+success -----31200000
+parks mcclellan algorithm -----4120
+inversion -----6210000
+superior cost -----40600
+measured values cn -----6
+iii -----24700000
+dc value -----106000
+n aku n -----20300
+dat -----11900000
+n th element -----31300
+hundred seventy -----209000
+intuitive feeling -----146000
+phase sinusoid -----37800
+alpha beta -----2120000
+b spline functions -----15500
+energy content -----879000
+condition -----19200000
+wires -----4490000
+tends -----23700000
+texts -----10800000
+further ad hoc optimizations -----4
+integer k -----220000
+analytic form -----43600
+protocol -----9080000
+integer multiples -----78600
+infinity -----6660000
+aliasing filter -----109000
+support interval -----19700
+corresponding points -----176000
+musical example -----166000
+handy -----10600000
+left hand side -----5070000
+available sampled signal -----1
+derivation -----5300000
+quantization interval delta -----5
+actual point -----143000
+sequences convolution -----4390
+lloyd max quantizer -----5810
+analog bandwidth requirements -----23
+approximation error -----110000
+tributary -----4030000
+reconstructed real function -----3
+impulses -----4610000
+excess error -----6220
+mathematical properties -----2760000
+specific form -----1180000
+basic properties -----805000
+nonzero -----1690000
+mp -----22600000
+union -----29600000
+linear combinations -----335000
+cosine carrier -----2520
+current pharaoh -----18400
+explicit analysis -----42200
+adaptive equalizer e -----19
+empirical measurements -----48700
+note -----32200000
+spectral density -----312000
+sampling frequency omega -----10
+simple conversions -----132000
+calculus -----2100000
+ln -----9490000
+orthogonal vectors -----122000
+fine grid -----83700
+highpass signal -----10100
+invariant filter -----17800
+signal processing system -----97700
+superposition aliasing -----2
+year calculus student -----6960
+periodized version -----2840
+corresponding generalized linear phase parameters -----1
+points -----33700000
+continuum -----2900000
+discrete time filter -----14900
+transducer -----1480000
+isomorphism -----607000
+inner -----13800000
+odd order systems -----20
+p infinity -----41600
+time varying quantity -----4700
+others -----32300000
+simple considerations -----24600
+point fourteen -----14200
+discrete time unit step -----17600
+analog amplifier -----82200
+useful intermediate representation -----73
+n roots -----236000
+immediate question -----73000
+real world application -----563000
+dimensionless time -----36600
+linear transformation -----354000
+exp -----7940000
+frequency k -----54800
+iterations -----3610000
+finite support -----24000
+resulting time domain signal -----2980
+synthesis formulas -----14100
+music -----156000000
+parametric functions -----76400
+section eleven -----102000
+sampling theorem -----111000
+eigenfunctions -----2480000
+mixed domain convolution -----1
+minimum size fir -----365000
+digital representation -----189000
+finite length equivalent -----15
+spatial intuition -----3390
+stable output value -----2280
+following symmetries -----4500
+capacitor -----1080000
+formalized art -----7020
+bandpass signals -----24600
+idependent set -----185000
+powerful operational view -----2
+sided cosine -----40
+interaction -----24700000
+sufficient condition -----460000
+signal component -----74500
+warning message -----2810000
+practical alphabet -----8650
+following question -----2160000
+neglect everything -----10000
+rationale -----3480000
+resolution -----73400000
+product expansion -----240000
+k th vector -----1990
+percussive instrument -----52500
+next choice -----360000
+type i filters -----5950
+excess -----10700000
+say v -----174000
+high frequency energy -----46000
+parameter beta -----57300
+fir approximations -----1440
+power constraints -----49000
+sequence conjugated -----2610
+vector addition operation -----2480
+undergraduate program -----4460000
+periodic sequences -----18000
+length n signals -----3170
+regular uniformly -----3240
+n samples -----187000
+filtering -----3060000
+discrete time nature -----1950
+fundamental theorem -----581000
+digital communication system -----129000
+weighting trigonometric function -----1
+dicrete frequency index -----1380
+rn -----9970000
+interpolation interval ts -----2
+explicit algorithmic form -----15
+impossibility -----2700000
+stochastic signal processing -----12500
+steps -----30700000
+practical signal processing -----13000
+applied digital signal processing -----15400
+socket -----3650000
+specific programming language -----44800
+equivalence -----3330000
+oscillation omega -----74
+oscillatory behavior -----54900
+development -----49500000
+mathematical formalism -----57200
+classic analog filters -----2280
+multiple radio channels -----15800
+inverse fourier -----139000
+clock cycle -----362000
+enlargement -----2390000
+algorithm -----2180000
+mainlobe width -----2310
+individual connections -----39200
+point adaptive -----7550
+legendre polynomials -----81700
+rigorous proof -----80400
+generality -----1960000
+easy stability criteria -----7
+unavoidable errata -----11
+maximum frequency omega m -----2
+narrow passband -----7440
+n discrete frequency components -----11
+pointers -----2560000
+conversations -----7080000
+land property -----490000
+discrete transforms method -----12
+polynomial degree k -----4020
+resulting fir -----1110
+signal -----11200000
+minimax optimization -----11900
+emax -----656000
+hydrological research -----32900
+practical implementation -----539000
+designer -----29200000
+bandpass -----1040000
+fundamental questions -----1240000
+diametrically opposite standpoint -----55
+plus -----38800000
+point one definitions -----3
+beta -----12200000
+entire pi -----6370
+bandwidth expansion -----25300
+iterative numerical algorithms -----2270
+appropriate filter -----55000
+frequency content -----179000
+shape exercices -----132000
+important cases -----319000
+ensemble average -----50200
+experiment -----9970000
+n times -----431000
+wm -----6800000
+overall snr -----4470
+fundamental form -----94600
+original -----94300000
+propagation delays -----89600
+square integrable -----76300
+simplest interpolation schemes -----4
+demodulator -----515000
+say omega -----11900
+important type -----278000
+finite support sequences -----20
+stochastic process -----308000
+sampling rate -----1610000
+higher rate sequence -----35
+wider range -----4030000
+phone -----115000000
+whisker -----2000000
+decoding -----1490000
+repeating pattern -----414000
+relations -----19900000
+information -----130000000
+discrete time equivalent -----6870
+parts -----71400000
+sampled measurement -----2110
+familiar example -----61300
+solution manual -----606000
+mass -----23600000
+square summability -----3380
+term discrete time -----4960
+bounded input bounded output -----14000
+power spectral density -----175000
+protective -----7030000
+algebraic structure -----116000
+arrangement -----11400000
+maximum degree n -----4550
+analog transmission system -----10500
+inner product -----500000
+reconstruction chain -----2300
+basic definitions -----522000
+specifications -----17200000
+empirical evidence -----2400000
+same frequency -----1880000
+nilometers -----6830
+complex zero -----94700
+grows -----9200000
+loop -----10400000
+absolute value -----2970000
+time scaling property -----8550
+conjugate -----2510000
+own skeleton -----76700
+n y -----9660000
+original -----94300000
+further analog filtering -----4
+faith -----12100000
+normalization term -----4920
+smoothest interpolation -----86
+downsampling proceeds -----6
+equivalent fir filter -----1330
+engineering branches -----230000
+same way -----25500000
+time continuum -----445000
+lowest frequency -----308000
+parameter space -----228000
+mse -----1260000
+particular structure -----136000
+uneasiness -----1630000
+anticausality -----7590
+aliasing intuition -----3
+complex conjugate zeros -----5380
+time index n -----7530
+input sequence -----216000
+n n -----10800000
+formal derivations -----4180
+general signal -----107000
+distinct solutions -----50900
+slight frequency -----7380
+net result -----415000
+sample -----45300000
+signal -----11200000
+windowing minimizes -----21
+equality -----5560000
+numerical packages -----10900
+dc component -----145000
+entire basis -----43700
+appropriate normalization factors -----1250
+pulses k -----3030
+detail -----71400000
+association -----34300000
+n vectors -----47400
+important orthonormal basis -----5
+anyone -----27800000
+negative displacement -----58500
+modulator -----1800000
+cutoff frequency -----281000
+scant -----2300000
+polynomial -----2380000
+system one -----1600000
+analog media -----69500
+neighboring quantization levels -----22
+corresponding z transform -----1100
+electromagnetic spectrum -----1470000
+foundations -----6940000
+average -----22900000
+attractiveness -----3320000
+shows -----50100000
+causal behavior -----2850
+leaks -----2240000
+famous pythagorean theorem -----11900
+periodic component -----21600
+zone -----29400000
+dtft -----98100
+additive complex noise -----95
+repeated instants -----36
+above matrix -----31400
+linear time invariant system h -----1850
+alternative intuitive -----2360
+general case -----994000
+signal processing core -----12300
+sifting property -----25300
+hypotheses -----2880000
+denominator polynomial -----23500
+simple processing operations -----2470
+compact disk players -----20100
+sidelobe amplitude -----1310
+needed equipment -----281000
+convolution sum -----50000
+computable -----786000
+processing hardware -----745000
+optimal minimax fir filters -----2
+original signal -----281000
+further investigation -----3380000
+twon -----1440000
+logic -----8490000
+following example -----5300000
+transfer -----26500000
+functional hilbert space -----12100
+synchronicity -----1970000
+downsampling operator -----3460
+minimum cutoff frequency -----1520
+chosen length m -----13
+intuitively -----3830000
+simple signal model -----1730
+link further firstly -----1
+abstract entities -----44200
+pointwise criterion -----46
+table point one -----26
+input bitstream -----6780
+right sidelobe -----11100
+sequence notation -----110000
+channel -----37900000
+sampling period -----184000
+d -----358000000
+situation -----14700000
+loudspeaker -----2110000
+reconstruction values -----4300
+physical meaning -----396000
+term product integration -----77
+light -----48900000
+noise level -----3740000
+nearest central office -----17400
+leibnitz -----1160000
+above summation -----4790
+omega plus tau -----1
+invention -----6780000
+frequency multiple -----68700
+arbitrary continuous time signal -----38
+sinc filter -----22500
+real line -----498000
+numerical samples -----7010
+general lack -----1050000
+specialization -----2500000
+beta -----12200000
+values -----22100000
+sophisticated techniques -----139000
+discrete time approximation -----15100
+rigorous terms -----6100
+integer values -----774000
+half band highpass signal -----51
+nominal speed -----83500
+digital lowpass filter -----37900
+padded dft -----722
+analog paradigm -----3300
+sinc response -----9350
+fast adsl connections -----91
+algorithmic reality -----88
+finite support sequence -----19
+manifestation -----3980000
+exact copy -----1280000
+symmetric length n signals -----1
+classics -----11100000
+compression techniques -----209000
+linear systems -----866000
+decorrelation -----78100
+factor alpha -----1510000
+causal filter -----19700
+snr -----765000
+approximation error function -----9110
+tried -----15100000
+intrinsic power -----40800
+bottom branch -----31000
+temperature -----18600000
+adaptive equalization -----39700
+computational reasons -----13100
+finite energy signal -----2980
+final chord -----74800
+iteration -----3880000
+infinite generalization -----78
+single complex -----88400
+z -----58900000
+shifted sequence -----7040
+simple system -----1190000
+z -----58400000
+ensemble -----10700000
+basic complex exponential sequence -----1
+ordinary function -----30000
+point ten -----114000
+d -----358000000
+bit rate -----2810000
+white gaussian noise -----136000
+stochastic input signals -----815
+analog image -----68200
+optical fiber -----1480000
+latin word -----4200000
+example sums -----139000
+length n support -----26
+trick -----10900000
+test -----74900000
+spaced deltas -----18
+overall transfer function -----11700
+term oversampling -----2250
+voltage divider -----542000
+transactions -----11000000
+simplest ones -----36600
+pseudo randomization -----12300
+omega -----7770000
+upsampling -----169000
+complex noise sample -----31
+local -----88600000
+k one -----222000
+output values -----496000
+forms -----41700000
+generalization -----3420000
+long range dependencies -----6280
+d n -----2050000
+periodization -----406000
+obvious advantage -----205000
+paper -----46400000
+m n zeros -----6510
+o -----269000000
+naive sense -----12200
+single transfer functions -----1870
+spectral estimation problem -----4680
+abstraction -----2580000
+output pieces -----3370
+m terms -----178000
+proper manner -----524000
+signal processing signal processing -----2310000
+average -----22900000
+full transparency -----309000
+fft algorithms -----30100
+much help -----2620000
+finiteness -----161000
+ej theta -----6700
+following formula -----2770000
+example -----58600000
+pole plot -----15500
+global delay -----64200
+fundamental reason -----262000
+inverting input -----137000
+interpolation interpolation -----47600
+same series -----1200000
+convolution -----1470000
+simplest type -----199000
+zn -----1580000
+classic example -----2630000
+leakage factor lambda -----3
+hermitian transpose -----32700
+certain time interval -----61100
+bandlimited -----75500
+same prototype function -----1320
+commute -----2300000
+heating element -----2040000
+m delays -----13900
+successive discrete time indices -----1
+time domain shape -----3380
+lloyd max algorithm -----1880
+advanced processing techniques -----30900
+fft implementation -----28700
+filter type -----263000
+d block -----644000
+continuous time -----697000
+wss -----711000
+regular hexagonal lattice -----7330
+subject -----101000000
+nonzero samples -----1810
+hellenic period western civilization -----3
+operation -----25600000
+machine -----46300000
+stochastic sequences -----3130
+above limit -----83700
+reproducing formula -----1870
+plotting range -----23800
+audio processing -----1460000
+x -----120000000
+conjugates -----1230000
+time lag -----3560000
+full fledged digital signal -----6
+delay term -----22000
+following properties closure -----5390
+fiber optic cable -----1200000
+continuous variable -----486000
+parallel tracks -----91600
+multiplications -----1040000
+voiceband modems -----2660
+continuous time spectrum -----2990
+d converter -----585000
+single sinusoid -----11200
+optimal signaling -----3650
+core subject -----323000
+fundamental question -----807000
+fir filter types -----5280
+flow -----16100000
+formal demonstration -----48400
+representations -----10000000
+propagation time -----140000
+optimal -----7210000
+spite -----8800000
+expectations -----10200000
+characterization -----1820000
+same cable -----361000
+analog delay lines -----7580
+mechanical inertia -----20500
+general digital processor -----18
+longer signal -----13700
+j omega n omega -----9
+intuitive results -----31800
+given alphabet -----14500
+simplest case digital -----3
+same -----69000000
+type iv -----1720000
+architectures -----2090000
+quick visual assessment -----3600
+oversampling factor -----9370
+nonzero taps -----665
+particular rxx -----6
+sine function -----299000
+history -----122000000
+eta n -----991000
+months -----32300000
+radio emissions -----302000
+moderate values -----38400
+alternative example -----53600
+local spectrum -----14300
+low -----54300000
+numerical analysis packages -----4240
+finite amount -----288000
+corresponding signals -----31100
+matters -----11700000
+quick estimate -----2310000
+area -----114000000
+n complex values -----5410
+simple counting cattle -----5
+pulse shaper -----33800
+dual -----15700000
+mandatory -----6960000
+books -----83300000
+d terms -----213000
+loss -----22000000
+width delta -----23100
+high data rates -----117000
+nile -----2670000
+dow -----8260000
+quantization interval xk -----2
+linear types -----51400
+decay -----2490000
+continuous time models -----38800
+code -----88300000
+cost precision -----48900
+historical names -----351000
+impulse response truncation -----987
+fantastic trick -----19700
+single output -----852000
+y axis -----3160000
+negative components -----88200
+formal orthogonality -----67
+usual wn -----85
+zero i one -----16800
+sampling theorem guarantees -----92
+invaluable help -----162000
+sampling quantization -----29000
+extra alternation -----59
+hilbert filter -----8340
+single handedly -----3160000
+polynomial optimization problem -----3200
+synchronization problems -----101000
+simple upsampling -----79
+linearity -----2820000
+point point one -----23600
+digital discrete time domain -----16
+causality -----2830000
+special cases -----2930000
+filtering methods -----84700
+ground mismatches -----92
+addition operator -----153000
+fft -----837000
+bulk delay -----3520
+shifts -----10100000
+decoding errors -----27800
+spectral support omega -----1
+existing cds -----16900
+translated version -----2730000
+boundaries -----8040000
+d -----358000000
+phenomena -----7610000
+orthonormal bases -----40500
+fs n -----636000
+linear algebra textbook -----50700
+time domain -----1600000
+hands -----25200000
+techniques -----20200000
+samples td -----2280
+convergent sequences -----84400
+sampled sequence -----6540
+infinite summation -----73200
+e -----517000000
+expected value -----1540000
+intricacies -----2990000
+digital revolution -----1220000
+discontinuous function -----90100
+physical phenomena -----581000
+feedback method -----80800
+radius -----5530000
+narrowband envelope -----584
+next chapter -----3690000
+fourier basis w -----12
+technological progress -----902000
+high energy activity -----19200
+anticausal sequence -----58
+positive frequency axis -----2270
+typical example -----1840000
+theoretical case -----33900
+filter expression -----380000
+interpolation frequency -----9310
+reference clock -----213000
+successive rows -----32300
+fundamental derivations -----834
+khz frequency slot -----25
+zero -----18400000
+demodulated signal -----50800
+natural one -----399000
+discrete time impulse -----5910
+local maximum -----215000
+pe -----20500000
+dtft inversion formula -----3
+abstract types -----81500
+teaching -----30200000
+variety -----18500000
+original sinusoid -----1570
+clipping -----1500000
+actual response -----84500
+flavor -----7240000
+increasing frequency -----917000
+independent realizations -----9120
+reverse steps -----30400
+weighting function hw -----2
+fw -----7200000
+final result -----3670000
+human visual -----300000
+interpolation rate -----18500
+n m multiplications -----85
+particularization -----42900
+contrast -----11000000
+knowledge -----18900000
+convolution y -----3390
+paradoxes -----2530000
+certain quantity -----127000
+constituent sinusoids -----1180
+n signal -----229000
+movement -----20300000
+short remark -----17300
+tau -----2430000
+pi interval -----9640
+efficient algorithmic design -----44
+storage -----18400000
+transmitted symbol -----25100
+baseband envelope -----1210
+onset -----4710000
+darker colors -----639000
+internal reference -----458000
+proper binary value -----45
+row -----12400000
+continuous time world -----4150
+minimum values -----477000
+ideal lowpass filter -----58500
+words -----76800000
+theoretical abstractions -----6410
+fax machines -----3280000
+frequency components -----333000
+transmission -----13400000
+varying value -----39600
+square wave -----1350000
+sinusoidal component -----13400
+explicit repetitions -----2230
+design approach -----1300000
+orientation -----10600000
+infinite sequence -----170000
+satellite link -----223000
+antisymmetric signals -----48
+fundamental relationship -----74500
+r bracewell -----4020
+electronics -----30600000
+digital galena demodulator -----1
+reconstruction sum -----2300
+generic binary data -----3630
+complementary material -----22000
+nomenclature -----4280000
+infinite support signal -----3
+slow drift -----36900
+processing chain -----71700
+edges -----7620000
+finite length signals -----2540
+middle -----33000000
+nyquist frequency -----94800
+complete alternative representation -----2
+structured form -----90800
+bandlimited functions -----4330
+abstract -----12800000
+digital filter -----479000
+dimensionality -----1300000
+intellectual machinery -----2310
+analytic results -----56700
+phi i -----151000
+x k -----1210000
+square matrices -----171000
+sine cosine -----403000
+intersection -----6000000
+physical signals -----57000
+reliability figure -----21200
+file sharing -----1430000
+n almosr -----90300
+rare cases -----4430000
+discrete time fourier transform -----94900
+frequency responses h -----1320
+resonator filter -----39600
+budget -----22000000
+largest magnitude pole -----19
+k point shift -----17
+sophisticated interplay -----6400
+good initial estimate -----6650
+half band -----97300
+scaled -----3430000
+practical idea -----73800
+count -----35200000
+fir filter -----211000
+vector notation -----164000
+following sequences -----154000
+simplest model -----75800
+ac signal -----196000
+upsampling -----169000
+immediate consequence -----130000
+filter transfer function -----104000
+shifted versions -----20200
+infinite dimensional spaces -----33200
+important -----46400000
+middle -----33000000
+ax -----6270000
+length signals -----14800
+center tap -----197000
+corresponding dft coefficients -----28
+data transmitter -----80000
+nonlinear flow control coexist -----3
+home equipment -----2500000
+analog conversion -----174000
+twisted pair -----1730000
+length n signal -----3100
+miracle -----8940000
+capricious meteorological phenomenon -----5
+squared signal -----21300
+periodic pattern -----62500
+n periodic -----97300
+sufficient representation -----14100
+chebyshev polynomials -----55700
+sk -----11700000
+coefficient alpha k k -----5
+scaled -----3430000
+displayed characteristic -----7940
+low numerical precision -----45
+deterministic signals -----28300
+above example -----3620000
+local average -----1400000
+center frequency note -----3160
+straightforward formalization -----909
+order filter -----311000
+final interpolator -----1250
+equation -----6710000
+associated step -----9760
+complex dedicated hardware -----40
+signal processing -----2620000
+snapshot -----9600000
+quality -----104000000
+discipline -----9750000
+computer code -----1730000
+process samples -----160000
+time domain representation -----54200
+andrea ridolfi -----8880
+filters -----8890000
+sinusoidal carrier -----19500
+applications -----35300000
+discrete time signal processing -----164000
+algorithmic side -----3730
+communication channel -----1030000
+reasonable amount -----2920000
+sign -----80800000
+iir filters -----81900
+following requirement -----109000
+time instants -----35300
+alternative point -----69600
+z transform -----190000
+significant effect -----2710000
+domain analysis -----195000
+figure eleven -----14200
+technical textbooks -----30700
+output -----12000000
+personal gratitude -----40600
+example closure -----26700
+height -----33000000
+onei n -----11200000
+neighboring transmission bands -----13
+continuous time function -----16800
+true analytical representation -----9
+definition -----68000000
+spectral occupancy -----18500
+circular shift -----50600
+special d converter -----1
+pure delay system -----4560
+someone -----34000000
+unrealistic assumptions -----44300
+codes -----32300000
+past -----38000000
+simplest cases -----34500
+optimal quantizer -----3080
+additive noise -----105000
+maximum values -----883000
+i -----576000000
+only memoryless -----8260
+human safety concerns -----13400
+translates -----8240000
+demodulation scheme -----18800
+special function names -----3770
+locality -----1510000
+length n periodic extensions -----1
+low frequency -----3380000
+positive bandwidth -----2870
+finite length discrete time signal -----42
+precise analysis -----64700
+nothing procedures -----445
+spatial intuitions -----2340
+physical properties -----2730000
+dsp chip -----74300
+measures -----11400000
+n u n -----961000
+counting -----9090000
+discontinuity -----1840000
+maximum transmission power -----24700
+initial guess -----176000
+pll works -----6750
+staggering capacities -----47
+complex analytic signal -----2400
+decoding error -----73000
+usual orthonormal basis -----81
+ideal frequency response -----32300
+j sigma n -----9160
+nutshell fourier -----6
+time indices -----108000
+aku n -----84300
+conjugate symmetric -----14300
+next sections ans -----1
+standard convolution operator -----15
+better repeaters -----1230
+average converges -----7710
+convenient -----14000000
+practice -----31200000
+mean gaussian random variable -----12100
+standard vector notation -----13300
+general convolution operator -----33
+downsampler -----10500
+sin -----26300000
+method -----24400000
+instance l -----51600
+y k -----1300000
+memory locations -----398000
+numerator polynomial -----9970
+cascade realizations -----1950
+cosmetic fashion -----84600
+input signal xc -----23
+highest frequency -----470000
+kilometers -----3840000
+e j -----4000000
+resulting object -----57100
+free response -----346000
+full pi pi range -----3
+order hold -----111000
+energy property -----1220000
+time shift -----1560000
+homomorphism -----543000
+dimensionless quantity -----49800
+adaptive signal processing -----66000
+negative -----16100000
+market -----42100000
+magnitude dft -----1300
+vector space -----769000
+auditory system -----344000
+nonzero values -----166000
+redistribution mechanism -----8940
+fun topic -----243000
+natural act -----65400
+everyday life -----5570000
+ntwo -----109000
+optimal value -----272000
+reliability -----6940000
+trigonometric function -----286000
+ordinate -----816000
+fmax -----406000
+inductance values -----52200
+constraints -----4110000
+upsampled spectrum -----29
+century algebra -----7480
+transmitted power -----188000
+delay td -----22300
+overall energy -----748000
+consequences -----11300000
+local energy distribution -----41500
+td seconds -----2140
+channels -----12500000
+vector random variable -----11600
+noise variance -----71200
+complexity -----7090000
+telephone posts -----29200
+analog design -----346000
+t -----310000000
+uniform sampling -----45900
+main lines -----949000
+discrete sample values -----1580
+digital communication devices -----30800
+n sinusoidal components -----22
+analog equivalent -----19400
+underlying physical nature -----8990
+stretched version -----55100
+time being -----5310000
+symmetric firs -----38
+joint quantization -----1410
+j omega g -----82
+commutative property -----251000
+thorough description -----261000
+localization measure -----1430
+equalized signal -----13000
+reality things -----48600
+interpolation schemes -----36200
+linear phase term -----2660
+real coefficients -----123000
+term -----43300000
+upsampling operation -----1290
+original finite length signal -----3
+use -----130000000
+bandwidth constraints -----44300
+qualitative measure -----80800
+original impulse responses -----1250
+dashed line -----1000000
+tasks -----11500000
+pencil -----6010000
+symmetric infinite -----7700
+replicas -----1570000
+above -----30500000
+reference time -----318000
+spread -----12600000
+bridges -----8150000
+lagrange -----1060000
+sequence h -----47400
+times n square matrix m -----3
+type ii filters -----6120
+past -----38000000
+example phi i -----7
+ideal low pass -----52200
+arbitrary set -----84200
+information theory -----2220000
+causal -----2880000
+suitable s -----31700
+interpolated signal -----5010
+statistical description -----504000
+intuitive way -----651000
+half band lowpass filter -----7490
+padding -----2640000
+hd -----49600000
+distinct levels -----258000
+voice signal end -----10
+corrective factor -----14000
+familiar matrix notation -----37
+final leap -----73200
+device -----19600000
+tape -----14000000
+d tau -----38000
+phase filter -----81800
+basic taxonomy -----47200
+finite set -----433000
+fir filter response h -----7
+basis change -----95100
+epfl -----588000
+period k -----96200
+linear time invariant systems -----46300
+different classes -----2980000
+picture -----104000000
+wnin -----105000
+belong -----11400000
+mathematical proofs -----214000
+modeling -----8610000
+change -----82200000
+log -----49000000
+latitude -----4270000
+electrical current -----3080000
+fundamental frequency -----347000
+plusone v -----58800
+interested reader -----178000
+high parts -----111000
+transform -----7440000
+time frequency representation -----33600
+right meaning -----205000
+omega max -----45200
+transform theory -----65000
+degrees -----13300000
+output process y n -----35
+gaussian distribution -----436000
+uniformly input -----83
+system g -----477000
+alpha -----11100000
+pulse train delta -----11
+eponimous signals -----5
+outwards -----3420000
+simplest approach -----159000
+synthesis -----4360000
+physical bounds -----11300
+resulting impulse response -----1990
+digital computing devices -----10200
+proof -----13600000
+practice subject -----256000
+recording machines -----161000
+error function -----1030000
+k i k -----594000
+disparate requirements -----4920
+infinite precision -----31200
+following cases -----1280000
+internal oscillator -----101000
+complex conjugate -----330000
+karplus strong algorithm -----5680
+descartes -----1720000
+digitus -----325000
+phase shift -----1260000
+unique order l polynomial -----1
+n linearity -----2160
+practical implementations -----57200
+transform -----7440000
+bottom panel -----849000
+n tap fir filter -----3640
+uniform samples -----65500
+complex analysis -----775000
+infinite dimensional generalization -----2420
+square -----29800000
+constellation points -----43200
+baseband signal -----90700
+geometrical point -----23500
+formula point -----140000
+black -----104000000
+works -----46200000
+attenuate -----1630000
+white noise -----2480000
+naive sampling scheme -----13
+additional features -----5220000
+resulting bandwidth -----5280
+rise -----14600000
+n orthogonal vectors -----4830
+filters impulse responses -----5370
+direct estimate -----36500
+omega n u -----105000
+instants tn -----81
+higher computational cost -----14200
+causal realization -----96
+finite precision integers -----26
+radio -----37800000
+parallel forms -----80500
+point nineteen -----4630
+clutches -----2460000
+trigonometric functions maps -----3
+global spectral energy distribution -----2820
+modulation -----1890000
+upsampler -----38400
+benefit tradeoff -----45600
+non negligible instances -----5
+task -----12100000
+opposite direction -----4680000
+linear phase fir filters -----33200
+tapes -----6610000
+signaling constellation -----932
+feedback -----32000000
+correlation -----3010000
+natural requirements -----29800
+bn -----6880000
+particular case -----3270000
+substitution exp -----530
+infinite sequences -----109000
+mathematical hypotheses -----6540
+voltage adder -----12800
+actual signals stock -----2
+famished population -----726
+radio receiver -----1400000
+river -----33600000
+robustness -----3130000
+analytic bandpass signal -----20
+rhythmic shouts -----4120
+hold circuit -----121000
+seventy -----1650000
+fir filter design -----102000
+convention -----11000000
+spectral tails -----1570
+relation -----15700000
+different criteria -----1140000
+simple continuous time signal -----3
+rational sampling rate changes -----23
+morals -----3240000
+modem functionality -----20900
+delta p delta -----13100
+nonzero coefficients h -----9
+facts -----79000000
+above definitions -----61100
+xi -----10000000
+preliminaries -----1620000
+key element -----3410000
+computing -----10100000
+step -----33400000
+successive frames -----37600
+oscillations -----2650000
+beta k -----74600
+unique solution -----1320000
+proximity -----5690000
+b symbols -----96800
+celebration -----11800000
+linear system -----688000
+usual summation -----2380
+j omega phi -----23
+numerical recipe -----31000
+general prime example -----32
+computational speed storage requirement -----2
+factor beta -----533000
+mathematical point -----110000
+digital signal processing scenario -----7
+algorithmic procedures -----10400
+degree l one -----32
+capacitors inductances -----17600
+correct design choice -----1800
+maximum error -----181000
+basic approach -----472000
+computation -----3380000
+ears -----8880000
+information loss -----258000
+immense import -----3660
+chronological order -----4420000
+n h -----13100000
+fulfills -----4470000
+sort -----20100000
+quantization noise -----73200
+boundary voltages -----1190
+finite time -----212000
+full revolution -----330000
+future terms -----187000
+hilbert space -----386000
+mechanics -----8750000
+orthonormal basis y -----1130
+linear algebra -----2440000
+duration -----32700000
+full set -----1790000
+initialization problem -----42300
+fir impulse response -----7200
+interleaved copies -----3420
+short sequences -----112000
+faithful record -----24600
+band -----43000000
+point filter -----122000
+afterthought -----2640000
+overall notation -----6190
+support l -----726000
+n finite support signals -----1
+numerical filter -----17400
+parallel delays -----2230
+antisymmetric linear phase filters -----10
+above result -----139000
+crude lowpass -----990
+discrete -----14000000
+periodic digital spectrum -----1
+slicer -----1110000
+analytical point -----56200
+dfs reconstruction formula -----2
+oscillatory effect -----1650
+mundane act -----19800
+subscript xn -----11
+specific hypotheses -----61400
+passive -----6450000
+early days -----8010000
+frame -----31600000
+oscillator -----2270000
+linear combination -----699000
+dtft operator -----14
+particular point -----1590000
+conceptual representation -----57400
+piecewise constant interpolation -----11100
+ivana jovanovic florence benezit -----3
+norm -----5900000
+error power -----95100
+angle approximation -----87300
+frequency differences -----46900
+ii filters -----70000
+functions sk -----1440
+quantitative problems -----73600
+quantization bins -----1670
+constant group delay -----12600
+i k -----19100000
+linear operator -----262000
+infinite non periodic sequences -----3
+stochastic i i -----2210
+form -----84200000
+bi n -----21400000
+scheme -----11000000
+nonlinear thresholding -----2040
+numbers -----57300000
+law -----43300000
+uniform quantizers -----2460
+conversion -----15500000
+alpha k -----169000
+real problems -----2370000
+beauty -----49100000
+features -----40500000
+z almosr -----55600
+elementary operators -----4920
+different signal processing system -----43
+error -----31400000
+tap -----10200000
+real poles -----14800
+above integrals -----4330
+basis matrix -----70900
+land -----42300000
+care -----66800000
+banks -----15400000
+length m -----830000
+pulse trains delta -----6
+livelier -----800000
+real quantities -----19700
+dfs properties -----11300
+compression strategy -----17800
+same product -----3240000
+different filter lengths -----3030
+ensemble averages -----31100
+db -----12100000
+signal processing parlance -----39
+common condition -----1780000
+basic signal -----96400
+analytical precision -----54400
+w n k -----355000
+representative value -----66200
+periodized signal -----23
+alternative representation -----47500
+original signal x n -----27600
+special techniques -----1200000
+real world -----6780000
+basic filtering operation -----41
+received symbol -----37400
+polynomial representation -----25200
+lambda -----1150000
+important effect -----400000
+fourier analysis formula -----26
+discrete time counterpart -----3730
+actual signal acquisition -----44
+frequency axis -----53900
+filter recall -----50200
+discrete fourier series -----52200
+sharpness -----4130000
+correspondences -----1810000
+sampling operation -----28700
+dtft convolution -----3540
+little effort -----3440000
+opposite end -----2920000
+single realization -----22700
+following characteristics -----2180000
+system theory parlance -----7
+alpha -----11100000
+realizable filters -----1600
+ar -----41400000
+cascade forms -----8500
+underlying physical phenomenon -----5210
+integral -----9900000
+phenomenon -----11400000
+origins -----11500000
+ck -----9900000
+background -----31000000
+downsampling operator -----3460
+past values -----176000
+nile etc -----9230
+disruptive artifacts -----88
+tradeoffs -----1770000
+linear phase fir impulse responses -----1
+axis -----6020000
+triangular waveform -----77000
+linear shift -----70600
+sampling theorem -----111000
+commutative properties -----193000
+telephone companies -----1050000
+sampling rate -----1610000
+maximum efficiency -----2520000
+input vectors -----57800
+efficient algorithms -----220000
+manual -----42800000
+deterministic impulse response -----61
+ten -----37800000
+modulation theorem -----3000
+current -----89100000
+newton -----9510000
+voice -----29500000
+low values -----630000
+man -----80000000
+basic trigonometric functions -----121000
+energy distribution -----548000
+space -----33900000
+shorter filter m -----3
+pairs -----9770000
+appropriate -----14300000
+dynamics -----6770000
+training sequence -----122000
+basic notation -----125000
+planets -----5140000
+span rn -----6970
+key design choices -----13500
+original spectral efficiency -----9
+operational fashion -----1480
+angle -----12900000
+students -----46200000
+electrical engineering computer science -----4540000
+discrete time noise -----2050
+real world sequences -----7530
+distribution -----20000000
+sequence identically -----751
+discrete quantities -----38700
+real world devices -----23100
+next choice m -----27
+sharp analog lowpass filters -----24
+general type -----1450000
+nts -----959000
+inverse fourier operators -----10
+stopband -----84300
+expectation -----5310000
+output signal y n -----30000
+passband tolerance delta -----1
+sort intuitive way -----1
+introduction -----27400000
+periodic nature -----73500
+telephone channels -----33400
+set ik -----36200
+orthonormality -----45900
+neat form -----32800
+sequence values -----69800
+group -----82700000
+starting point -----16800000
+strength -----17300000
+effective simulations -----4290
+corresponding magnitude response -----72
+grasp -----6570000
+true mean -----132000
+programmable fractional delay -----3
+early ninety -----45700
+larger intervals -----18200
+standard deviation -----3090000
+ccde coefficients -----1
+degree l p -----5410
+fs hz -----49400
+graphical representations -----276000
+algorithmic nature -----4940
+groove -----6580000
+standard sense -----25700
+larger -----14300000
+electromagnetic waves -----1690000
+denote random variables -----4260
+heart -----57500000
+set exp -----40700
+general purpose architectures -----4050
+frequency omega p -----1970
+arbitrary shift -----2560
+certain cases -----3330000
+omega m -----76300
+upsampled symbol sequence -----9
+magnitude spectra -----12200
+above examples -----683000
+components -----15300000
+representative values xk -----2
+wss processes -----3970
+voluminous books -----8960
+beautiful way -----2560000
+signal processing literature -----7280
+practitioners -----6590000
+stock market index -----1320000
+classic book -----1110000
+acts -----11100000
+formula -----20700000
+integer arithmetic -----194000
+r w schafer -----21900
+reasons -----23200000
+processing device -----207000
+tradition -----11700000
+e j omega d -----24
+pyramids -----2340000
+door -----32200000
+discrete time sinc -----893
+tenths -----2630000
+constant phase factor ejalpha -----1350
+problems -----74300000
+puzzle -----10600000
+special role -----889000
+expensive -----15300000
+simplest constellations -----20
+gibbs phenomenon -----40700
+integration operator -----11700
+scarce resource -----231000
+sketching -----2610000
+view -----149000000
+s k m -----942000
+size fit -----2370000
+sided signal -----5220
+far west -----2210000
+reconstruction problems -----56600
+reconstruction -----5510000
+medium -----18800000
+pmax -----163000
+key tool -----713000
+smaller sections -----244000
+exercises -----12900000
+sinc squared sequences -----1
+practical circuitry -----2530
+rho -----1100000
+converter -----11100000
+above impulse response -----1080
+autocorrelation -----571000
+cdf -----955000
+current -----89100000
+only difference -----4800000
+sigma n -----118000
+noncausal form -----36
+plots -----12300000
+usual fact -----6040
+aperiodic signals -----25800
+precision errors -----40600
+radius p zero -----1
+pulses -----3300000
+filter design problem -----23100
+analysis purposes -----202000
+rhythmic pattern -----168000
+associates -----10500000
+data sequence -----124000
+n -----238000000
+likely compiler -----5130
+finite value -----74300
+key results -----1010000
+applied science -----3460000
+polynomials square summable functions -----1
+galena receiver -----75
+complex conjugate poles -----14500
+bins -----1770000
+penultimate line -----35200
+digital -----32800000
+ieee transactions -----1970000
+powerful kingdom -----91100
+c -----24000000
+negative feedback loop -----225000
+full fledged space -----3800
+physical sense -----310000
+sigma a -----311000
+above classifications -----14700
+n practical applications -----2770
+regulated electromagnetic channel -----1
+periodicity -----1460000
+instantaneous voltage values -----3190
+polynomial optimization procedure -----2
+r -----263000000
+discrete set -----109000
+quality loss -----722000
+average filter -----96000
+corner -----16500000
+original c -----648000
+output value -----908000
+folding -----5740000
+actual pieces -----62500
+n element vector -----5090
+following finite euclidean spaces -----1
+discrete time positions -----1570
+materials -----31100000
+wiggles -----1270000
+detailed example -----429000
+expanding world -----142000
+typical linear phase -----48
+aliasing -----2240000
+modulation frequency -----159000
+formal step -----41900
+t outside -----147000
+j pi -----150000
+analog recording device -----21600
+qam carrier recovery -----2880
+discrete time sequences -----10200
+finite length sinusoidal signals -----2
+recursive fashion -----10500
+good intuition -----59500
+key intuition -----4690
+product -----62100000
+recitations -----1140000
+maximum allowable error -----11600
+am transmitter -----125000
+final note -----2060000
+y -----177000000
+estimate -----10700000
+signaling -----1550000
+k vectors -----51900
+different sampling rate -----26800
+course notes -----820000
+sequence x -----219000
+precise approximation -----5820
+position -----31800000
+harmonics -----3330000
+present day -----20600000
+point thirty -----24700
+late ninety -----15200
+infinite discrete time sequence -----7
+design parameter -----149000
+key notions -----29500
+effort -----14800000
+phases -----9370000
+order term -----231000
+mainframe computers -----250000
+impasse -----1920000
+limitation -----9740000
+invertible operator -----6140
+group delay -----166000
+luenberger optimization -----1490
+error correction -----2230000
+analog world views -----10
+cosmetics -----5930000
+discrete time one -----19200
+different working implementations -----16
+leading factor -----110000
+relationships -----16500000
+long history -----6680000
+available bandwidth -----427000
+neglect -----4830000
+generic ccde -----1
+columns -----9700000
+standard telephone lines -----47500
+sophisticated -----11500000
+finite length original signal -----1
+mind -----24100000
+technical requirements -----3840000
+ik -----11800000
+multiple -----34300000
+j omega tau -----1070
+digital simulation -----112000
+case omega n -----27
+experiments -----6400000
+magnitude spectrum -----48800
+underlying continuous time reality -----1
+indulgent ear -----2290
+limited ability -----787000
+right inverse -----66100
+circumstances -----22700000
+complex oscillations -----6120
+institute -----24900000
+symmetry constraints -----20200
+study -----43500000
+polynomial p -----191000
+familiar euclidean space -----7620
+important consequences -----352000
+mid way -----4700000
+changes -----38200000
+melody -----10200000
+same continuous time signal -----16
+finite degree polynomial -----6100
+reality zeno -----724
+hi -----29300000
+integer index -----113000
+original dft points -----3
+opposite -----10800000
+continuous time paradigm -----49
+discrete time filters -----18300
+w n -----961000
+quadrant -----1720000
+snr improvement -----19800
+subspaces -----399000
+omega n -----94100
+l infinity -----82900
+uniform quantizer -----15100
+omega c -----156000
+pole p -----175000
+index k -----894000
+cylinder -----7560000
+pitch patterns -----27500
+effective sampling frequency -----5430
+signal y -----93300
+compact -----11000000
+polynomial functions -----340000
+taps h m -----893
+real world signal -----12400
+constructs -----3280000
+recorded digital signal -----5740
+phase distortion -----78000
+regular figure -----136000
+data -----51600000
+noise ratio -----2490000
+notational flexibility -----83
+simplest case -----274000
+received signal -----494000
+respective z -----5510
+analog lowpass -----13600
+increasing hiss -----774
+design complexities -----10200
+beginning -----27800000
+value -----44100000
+inverse fs -----106
+throughput -----3100000
+coefficients x k -----4580
+hand duplication -----1150
+matrix vector multiplication -----71600
+foldover aliasing -----64
+complex functions -----449000
+strict sense -----525000
+digital processing -----506000
+k tuples -----17300
+stationary random signals -----5840
+smooth function -----138000
+x -----120000000
+mh -----6540000
+sigma alpha -----906000
+outer sum -----2770
+lower computational cost -----25700
+feature -----35700000
+particular ft -----7510
+psychoperceptual models -----12
+customary way -----59600
+digital formats -----879000
+good frequency response -----36500
+mean estimation -----45100
+physical variable celsius -----6
+joint distribution -----335000
+countable set -----110000
+digital discrete time signal -----62
+conceptually fulfillment -----1
+point eleven -----24100
+power constraint -----41400
+doubt -----12000000
+land line communications -----32200
+decoding algorithm -----97400
+stronger condition -----19400
+following -----39000000
+portion -----15200000
+spatial sensory experience -----41
+different possibilities -----531000
+interesting results -----785000
+transmitted symbols -----29400
+sample rate increase -----23100
+efficient demodulation schemes -----5
+musical sound -----468000
+incremental steps -----124000
+cosine modulation -----13100
+interpolation period ts -----2
+underlying periodic extension -----1
+part -----96500000
+chebyshev expansion -----6870
+same applies -----2570000
+noise floor -----490000
+maximum magnitude error -----91
+filtered version -----134000
+extra detail -----284000
+lagrange interpolation -----64200
+rotation -----6410000
+entire set -----1920000
+vector alpha -----11200
+fourier transforms -----408000
+sound -----37000000
+transmission circuitry -----23600
+associated border effects -----8
+signals -----6340000
+length n -----2310000
+prolific literature -----2920
+periodization formula -----25
+caution -----7400000
+optimal m -----24700
+only trouble spots -----2190
+overall delay -----34200
+fir taps -----7630
+separate sets -----243000
+complex roots -----281000
+costly -----8390000
+time interval -----2770000
+maximum resolution -----1650000
+approximation sin -----6000
+measurements -----16000000
+different discrete time signals -----16
+proviso -----917000
+corresponding spectral information -----2950
+nawab -----1320000
+decomposition -----2700000
+integer -----2590000
+multirate signal -----39300
+term sum -----85400
+length n sequence -----3390
+vectors orthonormal bases projection -----5
+manipulation -----6010000
+bottom -----22400000
+m m -----9820000
+abstract nature -----365000
+worse situation -----111000
+indices -----8230000
+latter -----12600000
+square summable sequence -----3540
+sided -----7180000
+polynomial optimization -----13100
+factored representation -----3130
+wave equation -----474000
+variable -----13200000
+fundamental assumption -----118000
+i i -----11100000
+entire real line -----15700
+different ways -----14200000
+vector form -----253000
+nineteen constellation -----33
+arithmetic precision -----17800
+wheat counting days -----6
+dft suffices -----3
+amplitude values -----42200
+inner product space -----96600
+relation hh -----991
+further set -----125000
+monotonic iir filter -----1
+processing -----12700000
+propagation delay -----492000
+nonzero constant -----44900
+antialiasing filters -----42400
+estimation -----3640000
+instantaneous value -----118000
+partial fraction expansion -----93400
+contributions -----10700000
+signal reproducing formula -----1
+sound pressure wave -----45300
+digital signal processing system -----62200
+destination -----12300000
+resulting function -----30800
+pn -----7600000
+element vector -----192000
+fashion -----32300000
+chapter -----19400000
+tolerances -----3770000
+correct -----22500000
+familiar periodization -----31
+discretization -----425000
+numerical behavior -----8630
+physical unit -----188000
+dependency -----2400000
+followings -----1510000
+increasing values -----112000
+seventy cables -----95
+data communications -----2250000
+course corresponds -----20400
+modem -----3820000
+sake -----6360000
+converter working -----117000
+dft coefficient -----5730
+complex representation -----72800
+variation -----11100000
+bases -----10700000
+infinite energy -----287000
+minutest glimpse -----50
+sophisticated frequency responses -----6
+fundamental problems -----600000
+ubiquitous presence -----65500
+bitstream -----279000
+order sections -----71800
+conformity -----2760000
+quantization error outside -----11
+same fate -----2030000
+elementary sum -----11800
+combination -----15500000
+only source -----3160000
+sampled domain energy -----1
+random processes -----218000
+transatlantic telephone cable -----24500
+simple iir structures -----5
+subscripts i -----29000
+decoding error -----73000
+psd -----1730000
+inputs -----4700000
+processing system -----2210000
+quotes -----28100000
+ergodic process -----18100
+philosophy one point -----11400
+physical quantities -----377000
+integer n -----588000
+largest sampling period -----40
+cosine basis functions -----6030
+modulated signals -----87700
+frequency omega zero -----2
+years -----93200000
+prototypical frequency response -----1
+passband -----301000
+square matrix w -----6440
+linear time invariant system -----47900
+severe mechanical limitations -----62
+paradigmatic example -----45900
+time duration -----63600000
+tightness -----4030000
+highpass signal -----10100
+original digital spectrum -----7
+independent -----19700000
+capacitance -----3270000
+full description -----3620000
+symmetry -----2460000
+disparate objects -----24600
+passband -----301000
+span -----11600000
+transmission system -----1960000
+paradigmatic instance -----2780
+full duplex system -----22100
+antisymmetric phase response -----3
+infinity care -----51600
+which -----132000000
+ts seconds -----12400
+abstract point -----64600
+frequency response reduction -----1950
+alignment -----5060000
+fir vs iir -----7490
+minima -----8210000
+block diagram -----2040000
+real valued -----494000
+conversely equation -----3450
+direct form i -----17600
+magnitude -----3380000
+iir filter design -----63900
+graphical example -----133000
+engineers -----9460000
+k i zero -----24200
+remarks -----6590000
+local maxima -----172000
+orthogonal projection -----173000
+highest real frequency -----5
+phase -----11300000
+streamlined processing units -----5
+repetitions -----3650000
+domain representation -----80800
+piecewise constant signal -----1700
+set delta -----62600
+delta formalism -----56
+remarkable consequence -----5220
+practical circuits -----114000
+real time system -----438000
+pll -----1210000
+type i fir -----1370
+story -----90500000
+direct electromagnetic transmission -----9
+cassette tape example -----42
+general fact -----206000
+expression -----10700000
+n periodicity -----2080
+signaling scheme -----24800
+standard notation -----613000
+research work -----2740000
+precise quantitative way -----2420
+main questions -----538000
+ways -----44500000
+statement affirms -----10200
+fractional delay tau -----8
+obvious route -----41000
+following triangular function -----15
+final chapter -----3120000
+mathematical proof -----364000
+fundamental information -----185000
+users -----32500000
+common data model -----65800
+generic infinite complex sequence -----1
+transfer functions -----387000
+present text -----170000
+textbook -----6920000
+prime factors -----611000
+distinct frequencies -----26300
+irregular -----6670000
+dissemination -----4530000
+frequency domain representation -----53500
+century -----21000000
+membrane -----3920000
+sinusoid -----372000
+feedback resistor -----99300
+support -----68900000
+coordinates -----11400000
+variable lc bandpass filter -----3
+manuscript -----5500000
+point eighty -----6560
+filtering operation -----44700
+pitch values -----41700
+certain maturity -----31400
+brief excursion -----32400
+lowpass filter -----1890000
+sequences -----10200000
+levels -----23500000
+gramm schmidt procedure -----7560
+oversampled signal -----3500
+maximum generality -----2810
+linear constant coefficient difference equations -----5650
+same architecture -----140000
+delta n -----287000
+square constellations -----1800
+electrical engineers -----2410000
+infinite energy delta -----4
+digital modulation process -----3460
+sinc interpolation -----32900
+sync obtain -----88
+poisson sum formula -----2580
+differential equation -----1410000
+digital cassette players -----43
+distinct term -----12500
+design parameters -----812000
+actual impulse response -----1510
+resulting numerical behavior -----4
+mapping technique -----178000
+interpolation formula -----119000
+scrambler -----1520000
+oscillation -----3410000
+tn x n -----30000
+nowadays phone lines -----10
+converse -----3430000
+hilbert spaces -----254000
+further adaptation -----28100
+iterative procedure -----98300
+real variable t -----3990
+floods -----2090000
+symbol interval -----37500
+pole -----10000000
+real frequency response -----3950
+simple example -----3680000
+great attenuations -----20
+europe north america -----5180000
+local interpolation -----15900
+quick flexible -----34900
+abstract view -----550000
+point sixty -----21000
+following relationship -----155000
+outcome -----8800000
+corollary -----2170000
+compact representation -----77300
+ballistics -----3050000
+circular symmetry -----43700
+antisymmetric fir filters -----1400
+spaces -----13500000
+innate geometrical intuition -----2
+covariance -----2040000
+speed -----33300000
+cumulative distribution function fx -----11800
+bad news -----2170000
+delay lines -----126000
+following expression -----790000
+polynomial approximation -----126000
+low energy tails -----6220
+constant -----10900000
+reconstruction formula n -----11
+elementary concepts -----86600
+analog world model -----7
+standards -----18600000
+oversampled discrete time signal -----15
+half -----32300000
+polynomials -----2340000
+simplest discrete time signal -----4
+voltage -----5770000
+useful unifying framework -----45
+corresponding roots -----17600
+suitable optimization criterion -----91
+time information -----3300000
+interpolator filter -----48400
+readers -----12500000
+standard pointwise sum -----4
+customary practice -----132000
+scaled version -----77100
+chart -----50000000
+sigma -----4470000
+neighboring spectral repetitions -----1
+z transform -----190000
+pdf fx -----37600
+digital one -----335000
+h -----140000000
+set -----86200000
+negative frequencies -----30000
+particular sum -----42200
+bounded input sequences -----22
+final topic multirate signal processing -----3
+underutilization -----186000
+circuit -----11700000
+apparent incompatibility -----13100
+periods -----69400000
+pll loop -----35700
+designed filter -----28100
+ubiquitous broadcast method -----1
+level -----44900000
+magnetic deflection -----62400
+audio standards -----128000
+mod n -----108000
+characteristics -----19500000
+solid state -----1450000
+aperiodic signal -----17800
+arbitrary discrete time signal -----25
+uniformly spaced instants -----50
+suitable sampling frequency fs -----4
+filtering characteristics -----29700
+lagrangian interpolation -----31300
+copper wire -----2340000
+satisfactory algorithm -----1480
+following family -----228000
+negative digital frequency -----1
+center tap h -----30
+pharaohs -----2800000
+point -----51200000
+reality -----13600000
+product y -----282000
+decision regions -----29000
+z transform sum -----35
+current signal processing research -----18
+ground -----24600000
+key properties -----535000
+good types -----188000
+discrete time estimators -----556
+top panel -----1670000
+adsl box -----76200
+inverse fourier transform -----128000
+transmitter data transmission -----8490
+full agricultural cycle -----75
+maxwell -----5470000
+processing applications -----1100000
+corresponding spectrum -----19700
+order coefficient -----30400
+multiple copies -----3040000
+quantizer -----176000
+disadvantageous -----637000
+b -----277000000
+fourier coefficient -----39900
+practical algorithms -----35900
+building blocks -----2940000
+important case -----373000
+beautiful ideas -----363000
+wide sense stationarity -----3700
+n x -----1140000
+period -----24300000
+practical concerns -----133000
+k note -----180000
+signal processing hardware -----629000
+auxiliary z -----2550
+noise -----12100000
+processing gain -----72100
+heat -----19800000
+base spectrum -----14300
+basis sets -----101000
+modulates -----1690000
+nonzero spectral components -----24
+frequency characterization -----16100
+difficult analog design -----19
+resampling -----912000
+xc -----3080000
+n m -----11400000
+sampled signal -----64100
+particular sinc interpolator -----4
+processing delay -----102000
+worlds -----15600000
+discrete time representation -----8410
+only part -----4640000
+general purpose -----2110000
+inconsistency -----3690000
+n point dft -----14600
+simple lowpass filter -----44000
+trailing linear phase term -----1
+complex gaussian noise -----16500
+analog devices -----696000
+linear operators -----192000
+outside world -----4420000
+pair -----12200000
+member -----37100000
+hardware -----14700000
+n representation -----59100
+transform values -----32400
+creation -----19800000
+wss input -----906
+account transition band -----2
+suitably -----3220000
+output process -----747000
+digital signal processing -----2160000
+interval x -----121000
+pi pi -----401000
+w t -----6060000
+sin pi beta n -----2
+underlying principles -----781000
+indices n -----45000
+price -----84400000
+fractional delay filter -----4050
+schemes -----6490000
+continuous function -----572000
+particular version -----783000
+filtered process -----14600
+infinite dimensional objects -----3320
+same band -----560000
+perturbations -----2260000
+appeal -----11400000
+stranger entity -----71
+canonical orthonormal expansion -----1
+measured level -----44000
+radio transmission -----576000
+subtleties -----2220000
+analyzes -----5200000
+format -----33100000
+fruitful applications -----5170
+real world signals -----23100
+above concepts -----35800
+electrical interference -----201000
+framework -----8710000
+allotted frequency band -----3110
+void formalism -----15
+original type i transfer function -----1
+standard gramm schmidt procedure -----7
+slicer associates -----1400
+complex plane outside -----93
+highpass -----293000
+context -----12700000
+quiet signal -----30300
+figures eleven -----7810
+finite norm -----6160
+advantages -----16800000
+physical telephone -----10500
+digital player -----390000
+baseband signal -----90700
+transformations -----4210000
+approximation -----907000
+aliasing phenomenon -----2450
+n periodic extension x n -----1
+stations -----14900000
+gentlemen calculemus -----8
+important properties -----562000
+bottom panels -----159000
+finite energy -----54800
+inner product definition -----18800
+theme -----33300000
+real mean -----220000
+simpler way -----1230000
+advance -----14300000
+resulting discrete time spectrum -----1
+signal processing structures -----5580
+usual caveats -----42400
+alphabet symbol -----267000
+frequency offsets -----37100
+baseband pam signal -----58
+finite way -----11400
+powerful intuition -----12600
+stationarity -----256000
+phase content -----35600
+future -----33600000
+arsenal -----6370000
+keeping samples -----33000
+am channel -----291000
+error integral -----30200
+component -----20300000
+initial synchronism -----32
+hz -----4560000
+output sample -----167000
+real part -----682000
+vector -----6240000
+factored form -----773000
+dfs magnitude -----12
+differentiation operator -----24000
+complex symbol sequence -----1200
+real valued filters -----1090
+concept -----22500000
+order -----85600000
+time reversals -----4390
+cutoff frequency khz -----2320
+distance -----23400000
+internal mechanics -----74700
+possibles iir filters -----1
+guidelines -----33700000
+speech recognition system -----156000
+consecutive groups -----12500
+particular -----15600000
+advent -----5610000
+input output relationship -----40600
+non -----77500000
+piecewise linear interpolation -----41800
+selector sequence -----4050
+time limited signal -----9290
+above equation delta -----39
+values alpha -----41300
+cases data transmission -----5490
+relative coefficients -----7220
+matrix vector product -----55300
+general results -----274000
+real function -----347000
+region -----30700000
+kilometres -----18200000
+generic n th element -----3
+function i -----2550000
+thirteen taps -----1310
+exponential sequences -----27700
+variance sigma -----43400
+non aliasing condition -----6
+patience -----9290000
+practical difficulties -----254000
+time base -----601000
+square constellation -----11200
+increasing angular velocity -----3640
+main types -----4370000
+delving -----2550000
+x tau -----147000
+disciplines -----11600000
+particular -----15600000
+local clock -----179000
+non linear effects -----116000
+k k -----5370000
+particular functions -----91900
+pi -----12500000
+actual sampling frequency -----3240
+recent results -----3300000
+longer windows -----63400
+n orthogonal vectors -----4830
+simple parametric -----39400
+mn -----20600000
+recipe -----20400000
+optimal solution -----948000
+lti systems -----80700
+kbit -----1670000
+output bit -----67600
+complete taxonomy -----154000
+s k -----3350000
+analog designs -----31400
+orthonormal rows -----11700
+pole zero cancellation -----20400
+real numbers -----2780000
+zeros -----2130000
+filtered signal -----49800
+easiest way -----8650000
+ways -----44500000
+unbridgeable gap -----25500
+analog signal processing system -----35000
+basis functions exp -----78
+example convergence -----16500
+numerical tool -----34900
+omega c h -----5910
+spectral point -----9620
+ecole polytechnique federale lausanne -----17700
+comprehensive books -----66700
+linear operations -----66100
+components -----15300000
+underlying notion -----25600
+demodulation -----554000
+digital domain -----666000
+quick results -----1230000
+negative group -----174000
+procedure -----20000000
+analysis textbooks -----60500
+s pi -----224000
+discretized version -----14600
+cost -----138000000
+antennas -----1620000
+discrete time sinusoids -----7640
+error emax -----1200
+analog electromagnetic wave -----39
+symmetric signal -----8220
+case h -----316000
+sampling offsets -----1010
+next section -----5980000
+expansion -----11500000
+coefficients x k -----4580
+dtft properties -----7080
+cross correlation -----612000
+algebra states -----8800
+usual dtft inversion formula -----1
+functions modeling signals -----1
+integrator -----871000
+interpolating function -----29100
+conservation -----8400000
+very dynamic taxation -----7
+timeline -----13700000
+m vectors -----23100
+lattices -----952000
+p best approximations -----17
+interference -----5070000
+single real pole -----3230
+telephone -----34600000
+denser -----3350000
+actual values -----1390000
+advanced signal processing books -----11
+commercial radio -----1690000
+formal change -----105000
+infinite -----6770000
+digital filters -----416000
+design ccdes -----324000
+computational point -----30600
+resulting structure -----76000
+noise function -----49000
+complex part -----239000
+inverse lie -----5340
+values -----22100000
+z converges -----4620
+working frequency -----150000
+argument -----9260000
+modern signal processing techniques -----4570
+processing noise -----39900
+gain intuition -----7680
+wide frequency content -----13900
+interpolators -----49100
+power -----75600000
+algorithmic optimization procedure -----14
+triangle inequality -----263000
+textbooks -----6790000
+rate vs -----775000
+neighborhood -----10400000
+transmitted sequence -----10400
+formidable tool -----15300
+discrete time case -----20100
+adaptive synchronization -----17600
+partial sums -----200000
+physical interpretation -----256000
+response impulse -----20300
+local interpolation techniques -----1230
+j g proakis -----19000
+windows -----60300000
+communication systems -----2500000
+interesting signals -----12500
+convenient abstract representation -----10
+questions -----39400000
+corresponding output sample -----2580
+frequency response h -----26400
+option -----34400000
+symmetric function -----77200
+square magnitude -----11500
+closed form representation -----14000
+mean value theorem -----290000
+optimality -----667000
+filtering structures -----27200
+iterative algorithm -----175000
+separate hilbert spaces -----42
+coefficients -----3140000
+nonlinear problem -----46300
+realizable iir -----33
+upper half -----1960000
+maximum frequency -----510000
+underlying ccde -----154000
+complex plane -----378000
+clock period ts -----47
+n random variables -----29100
+length -----27600000
+trend -----11500000
+engineering application -----361000
+circular convolution -----56000
+spectral support -----2570
+multiplication -----4650000
+angular speed -----227000
+type i lowpass -----29000
+smoothed version -----22900
+dfs dtft relationship -----1
+n tuples -----52100
+higher dimensions -----428000
+criteria -----12800000
+pi n -----17200000
+bandwidth limitations -----112000
+further limitations -----226000
+opening example fir filter design -----1
+approximation properties -----26600
+distortion -----2660000
+uniform distribution -----781000
+start -----90700000
+m complex roots -----39
+above paragraphs -----47800
+cat -----30200000
+infinite discrete time sequences -----6
+analog continuous time signal -----7590
+polynomial equivalent -----13300
+pi -----12500000
+insightful mathematical remarks -----2
+music production -----2320000
+standard orthonormal basis -----2520
+function d -----2600000
+continuous function f -----137000
+ideal highpass filter -----13800
+dimensional plot -----64500
+case hd -----143000
+figure bar -----21100
+perfect copy -----236000
+extremum -----466000
+standard function -----301000
+sampling gaps -----3180
+nature decays -----2490
+fmin -----133000
+canonical basis -----43600
+physical value -----86100
+wavelets -----438000
+basis w -----68600
+bandwith constraint data -----17
+intellectual pursuit -----56500
+coil -----5300000
+quantization error -----69200
+sampling frequency -----582000
+k th bit position -----2530
+general rule -----5380000
+theoretical results -----253000
+time offsets -----58700
+inner sum -----10700
+finite power -----27900
+interpretation -----10600000
+adaptive filter theory -----31900
+x axis -----3110000
+centralized correlation -----691
+n w -----11900000
+sample value -----202000
+binary input value -----4380
+following special symmetries -----2
+resulting interpolation -----2040
+tp -----14000000
+rectangular window -----117000
+limitations -----8120000
+pi omega -----123000
+signal processing practice -----1390
+communication -----21300000
+differential -----4830000
+time interval n ts -----1
+music format -----937000
+square shape -----1390000
+reed solomon error -----29300
+xm -----2770000
+closed intervals -----72300
+intuition -----2490000
+yore -----1060000
+constant changes -----400000
+resulting frequency response -----9600
+methods -----19200000
+sampling instants -----14700
+temperature model -----107000
+ideal filter -----67700
+maximum permissible power -----4840
+same approach -----1500000
+course things -----292000
+thumb -----8980000
+mean square sense -----30500
+amount -----21500000
+vertical line -----2670000
+gains -----7300000
+convergence -----1920000
+ghz band -----375000
+physical depth -----26800
+padding fft algorithms -----2
+alternation points -----800
+derivations -----1590000
+error signal -----193000
+filter types -----392000
+resulting phase -----29800
+level signal -----235000
+illustrated -----10500000
+order fir section -----66400
+processing manipulations -----6260
+successive samples -----32300
+mean gaussian noise -----24300
+leaky integrator -----9940
+underlying sampling rate -----44
+reconstruction formula -----16000
+notice -----27600000
+impact -----25000000
+rule -----17600000
+flood data set -----7060
+value tomorrow -----30800
+random variable -----1030000
+cheap -----65200000
+lambda j omega -----32
+polynomials ln -----845
+simple matrix multiplication -----16000
+minimum distance -----1470000
+practical applications -----3000000
+polynomial formulation -----1990
+understanding -----26500000
+z plane -----229000
+yield -----8650000
+only increases -----856000
+optimality criterion -----40000
+numerically computing -----6930
+above mentioned machine -----3300
+plotted -----4420000
+iir solutions -----2260
+circus tent -----393000
+one point one -----198000
+entails -----5410000
+smooth interpolation -----18000
+overlap -----5860000
+y belong -----41900
+conflict -----10400000
+frequency drift -----62700
+approximation that is -----41700
+completeness -----6950000
+same function -----2260000
+body -----68300000
+specific length -----313000
+complex conjugate roots -----41000
+fir frequency response -----6440
+direction -----19300000
+multirate signal processing -----38400
+high frequency noise -----201000
+sixty -----4740000
+impedance -----2820000
+physical nature -----495000
+special care be -----26800
+interesting mathematical subtleties -----5
+typical result -----115000
+subscript c -----28200
+quadrature -----1320000
+precision -----8360000
+goal -----14900000
+shift register -----516000
+artificial increase -----20900
+shift -----11200000
+complex oscillation -----4480
+entire complex plane -----12800
+possibility -----15100000
+frequency omega -----69600
+maximum information sequence -----1
+way quantization deals -----3
+base station -----2440000
+achieved implementation -----5250
+meaningful -----11200000
+complex bandpass signal -----78
+khz bandwidth -----59800
+n corresponds -----40100
+digital frequency -----270000
+representative portion -----37000
+analytical derivation -----24000
+b -----277000000
+matrix vector form -----7320
+sequence notations -----1740
+full spectrum -----3220000
+analog circuits -----299000
+larger periods -----23600
+reliable throughput -----5760
+broad categories -----2130000
+analog filter designer -----12000
+continuous time worlds -----3
+discrete time exponential decay -----1
+color -----45000000
+exponentially increasing -----105000
+past input samples -----3180
+yearly flood -----26200
+nts n -----33900
+r bit integer -----32
+boundary -----6490000
+binary sequence -----127000
+xdc -----586000
+signed binary -----131000
+original sinusoids -----55
+x -----119000000
+mean square error -----348000
+wax cylinder -----96800
+remarkable result -----47000
+baud rate -----934000
+causality specification -----71
+initial question -----386000
+insightful answer -----19200
+purpose -----28000000
+analog filters -----89000
+nd -----19800000
+orthonormal expansion -----1980
+dimensionless frequency -----12200
+final d -----899000
+interpolator -----185000
+m -----236000000
+strict value -----8770
+sum vector -----57100
+truth -----13300000
+square lattices -----33800
+subspace p -----4020
+lti system -----88900
+unavoidable lack -----2340
+square norm -----16200
+numerator value -----5050
+simple nature -----272000
+advanced topics -----3110000
+next steps -----4780000
+above expression -----223000
+conclusion -----12800000
+subsequent cable -----2650
+radio channel -----2000000
+r n -----12300000
+usefulness -----4610000
+head -----268000000
+linear interpolator -----459000
+future values -----263000
+finite length version -----23
+overlap -----5860000
+particular information -----355000
+mx -----36900000
+environment -----27200000
+c code sample -----70700
+need -----126000000
+largest -----33300000
+results -----58100000
+beta fs -----24000
+light bulb -----1070000
+measuring instants -----53
+symmetries -----938000
+n nk -----87300
+tuning coil -----48800
+dimension m -----127000
+perfect digital copies -----7930
+eighty -----1760000
+rotated symbol alpha -----1
+time varying voltage -----17500
+dirac delta notation -----18
+absence -----11300000
+lower ends -----213000
+euclidean geometry -----614000
+lti filter -----4610
+inverse ft -----4700
+probability -----5660000
+mapping -----8820000
+nominal sampling frequency -----1730
+compander -----95600
+continuum model -----133000
+difficulty -----13700000
+achievable signal -----4220
+tabulated form -----141000
+received looks -----30200
+operations -----19400000
+point modem design -----3
+functional analysis -----1430000
+field -----44700000
+classic scheme -----18100
+strict equality -----26300
+cos omega -----39700
+neighbors -----6670000
+bushels -----1580000
+children -----91400000
+different flavors -----2790000
+temperature sequence -----34800
+well -----40900000
+spectral value -----14900
+general characteristic -----182000
+finite precision -----33000
+absolute maximum capacity -----25900
+choice people -----273000
+parks mcclellan optimal -----2440
+distances -----7500000
+help -----124000000
+discrete time oversampling -----8
+connection -----25900000
+memory storage -----3090000
+evident formula -----802
+complex patterns -----375000
+simple web searches -----6890
+real axis -----142000
+expectation operator -----32200
+entire frequency range -----45400
+good ones -----4850000
+rational transfer -----15700
+positive indices -----57400
+signaling alphabets -----838
+distributivity -----130000
+joint probability distribution -----120000
+eleven point -----112000
+following quantization function -----18
+look -----92600000
+index -----402000000
+internal signals -----74300
+input side -----210000
+classic -----40500000
+step delta -----15500
+frequency domains -----65100
+pesky problem -----43900
+signal processing engineer -----52000
+processing engineers -----65700
+left meaning -----106000
+practical purposes -----2080000
+comparators -----1720000
+formal proofs -----92500
+disk -----13900000
+complex analog -----23500
+gibbs phenomenon -----40700
+electronic circuits -----2030000
+real sequence -----52800
+mean random vectors -----2450
+b interval -----47100
+fewer components -----68200
+imaginary parts -----243000
+enlarged picture -----264000
+pam alphabet -----1600
+galena receivers -----39
+sharp bandpass filter -----1670
+efficient algorithmic implementation -----99
+student -----51600000
+lower rate sequence -----12
+degree n -----315000
+advanced quantizers -----9
+lagrange polynomial -----49700
+successful codes -----2810
+ballistics ship -----25
+capacitive effects -----15400
+easy discrete time -----25
+unknown filter -----27400
+analysis formula -----218000
+low frequency energy -----36800
+unit signal -----40800
+padded shift -----1120
+underlying complex exponentials -----2
+prescribed bandwidth -----10400
+good reason -----4830000
+filter structures -----56400
+carrier -----11100000
+speech -----18000000
+white noise process -----39800
+rectifying nonlinearity -----659
+rate changer -----49400
+actual discrete time signal -----3
+n dfs coefficients -----4
+analytical paradigm -----19000
+standard r -----365000
+r bits -----42700
+length n data vector -----22
+projections -----3490000
+classification -----9540000
+efficient computational procedures -----2890
+high frequency -----2430000
+adder -----784000
+sharp transition -----36500
+canonical basis vector -----3980
+same definition -----413000
+abuse -----16800000
+amplitude distortions -----3570
+example point one -----1340
+trademark -----23200000
+original lowpass shape -----4
+type ii -----2780000
+electric signal -----231000
+optimal tradeoff -----37300
+mitra -----1080000
+reasonable requirement -----38800
+real complex roots -----8400
+fourier representation -----62800
+shape -----17600000
+time interval m m -----2
+countable -----5290000
+k intervals -----8980
+only type -----2110000
+archetypal types -----15000
+dual understanding -----9040
+commutativity -----296000
+arbitrary probability density function -----3730
+complementary filter -----17200
+numerical stability -----83200
+joint distributions -----63600
+oscillatory components -----10400
+top -----152000000
+analog filter -----166000
+smooth signal -----18100
+exhaustive lists -----28800
+orchestral music -----983000
+physical medium -----201000
+hypothesis -----7700000
+associate -----11600000
+digitally signal propagation -----3
+standard sampling rate -----13600
+sampled -----2900000
+full blast -----1360000
+fundamental relationships -----53700
+case omega m -----8
+low computational price -----16
+spectral copies -----995
+generic realizable filter -----1
+fourier machinery -----20
+interpolator i -----1880
+practical side vector notation -----1
+optimization problem -----594000
+value xk -----1450
+errors -----11700000
+pythagorean theorem -----1490000
+discrete time signal processing filter design -----1
+classic fourier basis -----6
+stationary random process -----23900
+geometric roots -----10400
+joint pdf -----111000
+sinusoidal oscillation -----25600
+coordinates -----11400000
+unstable filter -----6190
+random process w n -----20
+judges -----6580000
+ripples -----2290000
+following properties -----1530000
+time varying delay -----29300
+concepts -----10700000
+similarity -----3420000
+n dft coefficients -----42
+hand leverage -----6430
+natural numbers -----875000
+frequency intervals -----60100
+bandpass component -----550
+discrete -- time signals -----77100
+fundamental result -----30800
+odd -----10300000
+oscillatory signals -----6280
+processing context -----27300
+same quantities -----53000
+table -----68300000
+power spectral -----223000
+scope -----9720000
+global energy -----1530000
+fundamental building block -----103000
+empirical de -----2210
+unit step -----246000
+harmonic analysis -----379000
+time frequency analysis filter banks -----34
+sufficiency -----3530000
+same strategy -----658000
+periodized spectrum -----6
+unit step u -----10100
+wave travels -----120000
+spectra -----1010000
+output signal -----1900000
+readability -----4110000
+periodic signals -----120000
+carrier frequency -----475000
+simple variant -----35000
+analog domain -----44800
+converters -----2640000
+latter case -----1950000
+euclidean distance -----312000
+equivalence dft dfs -----1
+ambiguity -----4020000
+maps -----30700000
+trigonometric -----2130000
+probability mass -----191000
+upsampling factors n -----1
+used windows -----993000
+necessary -----16100000
+years teaching -----1360000
+convenient starting point -----30300
+current parlance -----8380
+analytical forms -----20500
+fundamental idea -----218000
+complex nature -----927000
+inspection -----10700000
+algebraic form -----176000
+filtering devices -----66400
+filter usage scenario -----8
+square brackets -----2960000
+discussion -----23100000
+indispensable model -----1880
+phase term -----34300
+example minimum -----58700
+carrier recovery -----66800
+voltage v zero -----20
+economical explanation -----3040
+stability problems -----408000
+permanent record -----1950000
+formal description -----190000
+downsampling operation -----1680
+closing word -----90500
+families -----21700000
+vectors -----1240000
+backwards -----8790000
+following forms -----2120000
+analytic signal -----37400
+ip -----22400000
+physical insight -----33800
+practical interest -----99700
+ejpin -----3260
+longer length m -----4000
+paramount importance -----1920000
+absolute convergence -----94200
+ink -----9980000
+time -----124000000
+fractional delay -----27500
+orchestra -----9270000
+compact way -----102000
+increasing function -----313000
+doubts -----4360000
+bessel -----904000
+nonlinear phase -----34600
+pen -----10200000
+highpass shape -----41
+data transmission scheme -----29800
+continuous -- -----10300000
+allpass delay system -----1
+negative indices -----156000
+pi pi range -----1580
+complex white gaussian noise term -----10
+physical variable -----44500
+slide rule reality -----9
+complex exponentials -----61500
+primitive entities -----2840
+length n vector -----6690
+rescaling -----223000
+cell phone -----8340000
+sigma w -----65700
+sequence index n -----5910
+details -----66100000
+difficulties -----12400000
+quirky mathematical entity -----2
+sigma x n z n -----1
+point twelve -----35100
+audio applications -----563000
+logarithmic tables -----53200
+higher order -----3070000
+lowpass signal -----41200
+vinyl record -----672000
+interpolation properties -----4350
+random process -----283000
+generic complex exponential -----7
+main points -----2960000
+round trip delay -----56600
+olivier roy -----96600
+dtft pair -----5570
+pcm digital telephony -----23
+coding -----6120000
+half periods -----17300
+fundamental staple -----1900
+causal sequence -----34300
+f -----191000000
+constant one equation -----15
+single input -----523000
+processes -----11400000
+orthogonal basis -----121000
+calculus machinery -----369
+positive frequency components -----4760
+equivalent -----13300000
+uncountability -----23400
+n th order polynomial -----29500
+practical rule -----35800
+binary internal representation -----79
+order section -----357000
+maximum frequency condition -----9
+image processing -----2380000
+example xr -----1610
+necessary amplification -----4000
+point ten shows -----2
+fourier representation lives -----1
+jnt n -----3960
+building periodic signals -----1
+simple application -----1960000
+higher dimensional case -----24400
+complex demodulation -----12000
+generation noise -----23100
+sine modulation -----8360
+sixteen bits -----33200
+david foster wallace -----1110000
+physics -----8890000
+request -----30800000
+full band -----2170000
+original binary stream -----1980
+i i d uniformly -----2520
+flagship -----6240000
+memory support -----1790000
+kingdom -----27200000
+finite length window w -----8
+impulse response h -----33700
+complex half band -----51
+physical coordinates -----26600
+quick tour -----4210000
+size -----84000000
+maturity -----2630000
+regenerability -----15800
+stark contrast -----2740000
+sinusoidal components -----22000
+adjustment -----6840000
+later convenience -----8280
+data length -----902000
+standard texts -----108000
+obtained filter -----3150
+arbitrary signal -----30400
+frames -----21700000
+real world telephone lines -----5
+peer -----7900000
+fast fourier -----557000
+authors -----12100000
+historical reasons -----754000
+displacement -----3970000
+sidelobes -----59800
+temperature example -----107000
+simple fraction -----321000
+arbitrary filter types -----2
+window -----36700000
+continuous time lowpass filter -----29300
+strict sense stationary -----5110
+century bc -----4400000
+droughts -----3070000
+simplest sampling system -----1
+modern representation -----54800
+mean -----73600000
+practical use -----2590000
+orthonormal vectors -----47800
+wich -----6310000
+common method -----2750000
+acronym fft -----76
+inner products -----105000
+black box -----1200000
+spoked wagon wheels -----12600
+own right -----6160000
+e j omega -----5460
+synchronization signals -----37800
+mathematics books -----174000
+completion -----14100000
+world view -----2000000
+frequency representation -----50000
+act -----32900000
+removal -----18700000
+left -----36100000
+expression delta -----17200
+closer lambda -----40
+ideal highpass -----14200
+different -----82300000
+stopband error -----94
+radio communications -----2600000
+co -----296000000
+non linear operation -----26800
+constructive criticism -----2760000
+derivation firstly -----4990
+cauchy schwarz inequality -----51400
+op amps -----816000
+ingredients -----17200000
+real frequency -----39600
+following way -----1900000
+telecommunication -----2200000
+best -----126000000
+necessity -----10500000
+cd -----44000000
+former -----19200000

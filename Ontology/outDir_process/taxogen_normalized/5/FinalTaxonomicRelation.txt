@@ -1,0 +1,10 @@
+filter kernel coef>>>filter kernel nr coef
+tt bsin tt>>>acos tt bsin tt
+µsec time µsec>>>time µsec time µsec
+windowed sinc filter kernels>>>conventional windowed sinc filter kernel
+fp conventional convolution>>>floating point math fp conventional convolution
+time time µsec>>>time µsec time µsec
+chebyshev recursive filter>>>pole chebyshev recursive filter
+sample signal start>>>odd sample signal start
+input side viewpoint>>>corresponding input side viewpoint
+instance high fidelity consumer audio system>>>cd player

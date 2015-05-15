@@ -1,0 +1,51 @@
+continuous time frequencies>>>corresponding continuous time frequency
+discrete instance>>>particular discrete time
+j omega t>>>j omega k t
+j omega n>>>minus j omega n
+particular graphs>>>particular view graph
+complex exponential signals>>>complex exponential carrier signal
+inverse scaling>>>inverse linear scaling
+sinusoidal term>>>additional sinusoidal term
+discrete time ideas>>>discrete time concepts
+origin corresponding>>>line spectrum corresponding
+j omega t>>>minus j omega t
+continuous time representation>>>continuous time images
+minus j omega t>>>minus j omega c t
+scaled step>>>scaled unit step
+equivalent continuous time system>>>equivalent overall continuous time system
+j omega n>>>j omega k n
+unit step u k>>>unit step u n k
+cases sinusoidal>>>discrete time sinusoidal
+individual impulses>>>individual delayed impulses
+general exponentials>>>general complex exponential
+nonideal filters>>>nonideal highpass filter
+j omega t>>>e j n omega t
+j omega t>>>minus j omega c t
+reconstructed waveform>>>reconstructed continuous waveform
+kilohertz sampling frequency>>>ten kilohertz sampling frequency
+continuous periodic function>>>continuous periodic time function
+omega k t>>>j omega k t
+discrete instance>>>example discrete time
+periodic time functions>>>discrete periodic time function
+sinusoidal case>>>sinusoidal continuous time
+origin corresponding>>>single line corresponding
+nonideal filter>>>nonideal highpass filter
+continuous time frequencies>>>corresponding continuous time frequencies
+desampling filter>>>desampling low pass filter
+nonideal filters>>>notion nonideal filters
+envelopes functions>>>x envelope function
+appropriate input voltage>>>appropriate applied input voltage
+discrete time filtering>>>additional discrete time filtering
+periodic time functions>>>continuous periodic time function
+sided sequence>>>left sided sequence
+k capital t>>>s sub k capital t
+j omega sub cn>>>minus j omega sub cn
+sided signal>>>right sided signal
+discrete time feedback system>>>basic discrete time feedback system
+times square wave>>>continuous time square wave
+sinusoidal terms>>>additional sinusoidal term
+discreet time spectrum>>>resulting discreet time spectrum
+argument omega>>>argument j omega
+j omega t>>>j omega sub r capital t
+growing envelope>>>growing exponential envelope
+particular corresponds>>>particular filter corresponds

@@ -1,0 +1,14 @@
+j omega cn>>>minus j omega sub cn
+filter kernel coef>>>filter kernel nr coef
+minus j omega t>>>minus j omega c t
+tt bsin tt>>>acos tt bsin tt
+j omega cn>>>j omega sub cn
+windowed sinc filter kernels>>>conventional windowed sinc filter kernel
+fp conventional convolution>>>floating point math fp conventional convolution
+j omega sub cn>>>minus j omega sub cn
+negative frequency t>>>corresponding negative frequency t
+continuous time system functions>>>resulting continuous time system function
+overall continuous time system>>>equivalent overall continuous time system
+sample signal start>>>odd sample signal start
+simple continuous time signal>>>x
+instance high fidelity consumer audio system>>>cd player

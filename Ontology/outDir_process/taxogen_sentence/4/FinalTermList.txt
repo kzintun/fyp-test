@@ -1,0 +1,1001 @@
+bandlimited time function
+demodulated waveforms characteristic
+second-order discrete-time difference equations
+discrete-time sequence corresponds
+unique Fourier series coefficients
+principal analytical difference
+unstable discrete-time filters
+overall continuous-time filter
+frequency-selective discrete-time filters
+resulting continuous-time system function
+accompanying suggested reading
+aperiodic discrete sequence
+overall cascade combination
+resulting analysis equation
+basic inputs-complex exponentials
+periodic time-domain sequence
+discrete-time aperiodic sequence
+eigenfunction zo
+weighted delayed impulse responses
+transmodulation systems
+complex exponentials es
+high-frequency day-to-day fluctuations
+discrete-time technologies
+simple modulating waveforms
+aperiodic signal corresponding
+simpler algebraic operation
+Butterworth filter meeting
+periodic sequence be
+appropriate discrete-time filter
+impulse train carrier
+Fourier Transform Properties The Fourier transform
+well-developed design procedures
+independent variable indexing
+basic complex exponentials
+overall continuous-time system
+different digital audio systems
+feedback gain negative
+associated continuous-time system
+expensive demodulator
+corresponding analysis equation
+resulting discrete-time sequence
+continuous-time signal be
+overall discrete-time system
+discrete-time Fourier series analysis
+higher-order singularity functions
+continuous-time Butterworth filters
+exponentially weighted sequence
+Fourier transform maps convolution
+carrier wave shape
+memory invertibility causality stability time invariance
+overall input-output response
+same complex exponentials
+basic feedback equation
+block diagram realizations
+aliasing intro
+real-valued time function
+periodic time sampling
+inherent nonlinear distortion
+reconstructing lowpass filter
+linearity-the fact
+second-order linear constant-coefficient differential equation
+continuous-time impulse function
+same envelope function
+linear discrete-time feedback
+staircase-like approximation
+arbitrary time position
+basic sampling process
+Fourier series synthesis equation
+discrete-time difference equation
+discrete-time system be
+discrete-time feedback systems
+corresponding continuous-time system
+oscillatory impulse response
+important basic signals
+further band-limiting
+resulting system function
+Fourier synthesis equation
+discrete-time frequency response
+arbitrary constants present
+filtered output sequence
+continuous-time frequency response
+input sinusoidal frequency
+parameter flo
+7r times
+tard growth
+recursive discrete-time filters
+delayed impulse responses
+approximate cutoff frequency
+entire imaginary axis
+continuous-to-discrete-time conversion
+nonzero content
+continuous-time designs
+sampling impulse train
+general exponentials
+approximate lowpass filter
+Frequency-shaping filters
+signal narrower
+nonideal frequency-selective filters
+discrete-time designs
+complex exponential carrier
+complex corjugate signal
+generating synthesized speech
+simple sinusoidal signals
+impulse response hi
+poles character
+continuous-frequency variable
+finite circumference
+timelimited sequence
+basic inputs e
+continuous sinusoids
+bandlimited continuous-time signal
+sinusoidal carrier signals
+Ideal frequency-selective filters
+aperiodic convolution
+spaced time samples
+decimated sequence
+initial capacitor voltages
+frequency flo
+stage interpolation
+normalized frequency axis
+ideal bandlimited interpolation
+computed output values
+mathematical complication
+correlate properties
+periodic continuous-time signals
+real exponentials
+homogeneous equation corresponding
+resulting output sequence
+original time function
+next sampling instant
+severe transition
+frequency-selective filtering
+aliasing results
+real-axis poles
+modern signal processing systems
+general complex variable
+proportional plus derivative feedback
+stopband region
+unit impulses
+variable center frequency
+cos wot
+complex exponential signal
+corresponding generalization
+lowpass filter corresponding
+principal demonstrations
+elegant relationship
+period approaches infinity
+rightmost pole
+highest frequency present
+continuous-time aperiodic signals
+continuous-time modulation
+Continuous-Time Modulation
+modulation theorem
+periodic pulse trains
+sinusoidal real
+continuous periodic function
+asynchronous demodulation
+realvalued time functions
+mapping filters
+complex exponentials e
+continuous-time linear feed back systems
+single complex exponential
+Discrete-Time Modulation
+discrete-time frequen cy variable
+linear phase factor
+exact interpolation
+corresponding frequency responses
+assumed period
+parallel topic
+individual Fourier
+name suggestive
+successive memory locations
+clever notion
+two-sided signal
+bandpass characteristic
+glockenspiel note
+flexible algorithms
+underdamped second-order systems
+lower-frequency behavior
+stopband edge
+frequency-selective filters
+Frequency-selective filters
+sampling theorem states
+infinite frequency range
+second-order underdamped systems
+resulting transform
+optional problems
+digital filtering systems
+inverse scaling
+scaled impulse
+weekly stock market index
+frequency axes
+right half-plane pole
+narrow rectangles
+real-valued signals
+periodic continuous function
+continuous-time application
+real-valued sequence
+pendulum fall
+sampled sequence
+weighted rod
+specific system properties
+simple time shift
+overall scale factor
+staircase approximation
+certain disturbances
+periodic train
+consistent interpretations
+passband region
+parallel roles
+frequency-selective filter
+cart stationary
+discrete-time representation
+Fourier transform property
+useful choices
+linear feed back systems
+impulse values
+sinusoidal frequency modulation
+interpolation procedures
+combined gain
+Fourier series analysis equation
+Discrete-Time Sampling
+unity magnitude
+continuous-time unit step
+same basic strategy
+pulse-amplitude-modulated signal
+frequency-domain sampling
+Frequency-domain sampling
+Dr. Harold Edgerton
+arbitrary systems
+inherent asymmetry
+continuous-time sampling
+pole-zero diagram
+later lecture
+resulting integral
+subsequent lectures
+complex conjugate pair
+complex-conjugate pair
+passband edge
+Continuous-Time Second-Order Systems
+time-domain sampling
+additional relationship
+modulation shift
+one-dimensional signals
+corresponding mapping
+successive locations
+corjugate symmetric
+Fourier series sum
+straightforward consequence
+inductor currents
+exponential damping
+linear contraction
+aliased frequency
+real exponential
+complex exponential form
+specific system parameters
+digital modulation systems
+sequence increases
+delayed impulse
+cart ac celeration
+complex s-plane
+derivative feedback
+percent modulation
+transmodulation
+circle corresponds
+system representations
+synchronous demodulation
+feed back equation
+corresponding roles
+time normalization
+filter center frequency
+Discrete-Time Filters
+corresponding Fourier
+form cet
+positive frequencies
+N coefficients
+step corresponding
+discrete-time periodic signals
+telescope plat form
+forward differences
+general signals
+periodic square wave
+corjugate symmetry
+sinusoidal carrier
+Continuous-Time Filters
+resulting representation
+well-defined sequence
+discrete-time LTI system
+overall system function
+finite-length impulse response
+different phase angles
+demonstration lecture
+important trade-offs
+initial rest
+continuous time LTI systems
+arbitrary sequences
+entertaining visit
+simple RC circuit
+Discrete-Time Processing
+discrete-time processing
+rich topic
+unique specification
+bandlimited signal
+periodic repetition
+eventual conclusion
+un certainties
+modulator box
+linear-phase filter
+sinusoidal oscillator
+one-dimensional signal
+error signal corresponding
+step discontinuity
+convolution properties
+sample frequencies
+unreasonable assumption
+equivalent condition
+parallel results
+very different sequences
+interpolating function
+continuous-time filter design
+corresponding signals
+non-overlapping frequency bands
+input spectrum
+discrete-time signal analysis
+important mechanism-through
+higher-order transfer functions
+straightforward interpretation
+adjacent values
+long-time trends
+certain tolerance
+lower sampling rate
+higher-order difference equations
+detailed issues
+interpolation process
+important interpretations
+two-dimensional signal
+critical frequencies
+discrete-time frequency
+certain frequency range
+impulse response h
+spatial variables
+course proceeds
+explicit relationship
+reconstructed signal
+periodic sampling
+higher-order systems
+poles move
+following lectures
+explicit computation
+mathematical manipulations
+different sampling rates
+second-order transfer functions
+discrete-time lowpass
+Systems Represented
+infinite height
+external disturbance
+powerful concepts
+additional signals
+imagi axis
+Continuous-Time Fourier Series
+gain factors
+imaginary components
+mathematical difficulties
+further emphasis
+further illustration
+Cyclical behavior
+final demonstration
+inverse system
+population size increases
+incompatible systems
+analyzer display
+current lecture
+successive values
+separate signals
+digital transmission systems
+simple approximation
+general complex
+finer spacing
+finite area
+Linear Time-Invariant Systems
+complex-valued function
+linear convolution
+Discrete-Time Fourier Series
+discrete-time Fourier series
+linear time-it variant system
+modern communication systems
+unstable systems
+frequent reference
+Fourier transform properties
+inherent difficulty
+first-order difference equation
+rod angle
+sample spacing
+Butterworth Filters
+Butterworthfilters
+ideal low-pass filter
+series RC circuit
+single framework
+scaled replica
+system frequency response
+dashpots
+nonlinear distortion
+time-domain signal
+strong similarities
+resulting sequences
+form est
+powerful array
+Fourier representation
+convergence issues
+time waveform
+unit samples
+recursive procedure
+pulse-amplitude modulation
+Continuous-Time Fourier Transform
+Sinusoidal signals
+sinusoidal signals
+phase characteristics
+transform analysis
+frequency location
+generalized functions
+Nyquist rate
+significant properties
+derivative terms
+spectral content
+bandlimited
+Continuous-Time Signals
+Fourier decomposition
+different motivation
+algebraic sign
+fundamental frequencies
+auxiliary information
+better approximation
+unstable equilibrium
+practical systems
+modern control systems
+finite impulse response
+stopband
+frequency variable
+un stable system
+First-order systems
+algebraic operation
+basic notion
+stroboscopy
+Discrete-Time Fourier Transform
+changing phase
+underlying basis
+sinc function
+particular choice
+overall output
+symmetry property
+signals be
+infinite length
+pole locations
+Fourier domain
+Similar kinds
+Fourier integral
+z-transforms
+straight line segments
+envelope function
+Inverted Pendulum
+past lectures
+linear feedback
+algebraic property
+lowpass filtering
+original input
+alternative procedure
+composite signal
+principal difference
+specific relationship
+inverse Fourier transform
+polynomial form
+filter specifications
+linear displacement
+individual ones
+linear expansion
+RLC circuits
+resulting output
+alternative interpretations
+important classes
+inverse Fourier
+Feedback Example
+parallel combination
+economic time series
+system instability
+time compression
+open-loop system
+stop-band
+open-loop control
+real axis
+eigenfunction
+transition region
+octave lower
+antenna arrays
+sponds
+z-Transform
+equal height
+discrete-time signal processing
+homogeneous solution
+upsampling
+Taylor series expansion
+signal processing systems
+considerable detail
+odd functions
+Parseval
+positive time
+ejn
+prior exposure
+less system
+simpler form
+narrow line
+frequency content
+digital numbers
+eye follow
+computer movie
+input sequence
+sample value
+data filtering
+bandpass filters
+remaining ones
+spectral line
+single period
+reasonable approach
+detailed discussions
+design procedures
+amplifier design
+simple property
+imaginary parts
+final property
+vocal tract
+effect results
+invertibility
+course text
+image brightness
+element characteristics
+dualities
+individual responses
+design procedure
+quick glimpse
+public address systems
+efficient algorithm
+Difference Equations
+aperiodic
+efficient implementation
+zero-order
+highpass
+algebraic terms
+integer variable
+operational definition
+external input
+Laplace Transform
+Laplace trans form
+useful properties
+complex variable s.
+important result
+system output
+powerful set
+important consequences
+basic mathematics
+rate conversion
+broader set
+basic equation
+above discussion
+phase difference
+center frequency
+exponentials
+time sequence
+basic tool
+Linear interpolation
+actual position
+input x
+stability analysis
+LTI
+continuous variable
+corresponding set
+thefrequency domain
+time-shifting
+data representation
+system input
+Amplitude modulation
+Amplitude Modulation
+7r
+cosines
+natural settings
+division multiplexing
+certain properties
+specific system
+different frequency
+distributive property
+particular example
+same channel
+tape recording
+memory location
+output frequency
+additional processing
+flon
+good representation
+ap propriate choice
+discrete-time
+analog-to-digital converter
+time series analysis
+same properties
+specific class
+speech synthesis
+basic properties
+time division
+time systems
+practical implications
+less memory
+system parameters
+invariance
+capacitor
+positive values
+resistor
+scale factor
+feed back system
+oscilloscope
+time constant
+transfer function
+discontinuities
+initial conditions
+cutoff
+general concepts
+certain factors
+block diagrams
+sampling-for
+difficult problem
+vectors
+Decimation
+principal interest
+sines
+strobe light
+locus
+capacitors
+sweeps
+right half
+left-sided
+practical terms
+single pole
+pen dulum
+negative time
+cornerstone
+single system
+right-sided
+converges
+system specifications
+Euler
+Convolution
+electrical circuits
+general form
+algorithms
+glockenspiel
+particular importance
+Modulation
+resistors
+resonance
+common example
+important concepts
+sound pressure
+analytically
+digital form
+resonances
+modulator
+equivalently
+system functions
+formalism
+power transmission
+important difference
+control systems
+minus sign
+Common examples
+independent variable
+discontinuity
+computer memory
+vertical position
+output signal
+common one
+systemfunction
+inductors
+integer
+block diagram
+algorithm
+s values
+feedback loop
+constraint
+registers
+current technology
+commutative
+overall system
+important differences
+coefficient
+general sense
+intuition
+time positions
+basic concept
+audio system
+input signal
+audio speakers
+contour
+Duality
+broad array
+modulating
+AM radio
+oscillations
+multiplexing
+digital technologies
+synchronization
+associative
+Interpolation
+interpolation
+exponential
+one-dimensional
+obvious , choice
+modulated
+thorough understanding
+inefficiency
+instability
+continuum
+different values
+distributive
+interconnection
+decay
+same procedure
+positioning system
+important one
+duty cycle
+particular situation
+oscillation
+dependence
+pulses
+weighting
+simple terms
+important features
+same one
+different set
+inputs
+bandwidth
+system performance
+normalization
+dis placement
+population growth
+inverse
+frequency re sponse
+close relationship
+perpendicular
+displacement
+anticipation
+important issues
+sharpness
+time origin
+same result
+usefulness
+disturbances
+triangular
+same amount
+implementations
+important aspect
+Transforms
+imaginary
+right-hand side
+key role
+convenient way
+e j
+rich history
+same period
+simplicity
+circuits
+shaping
+wide array
+Differential
+disadvantages
+alias
+distinctions
+elegance
+dynamics
+Foremost
+compatibility
+equation
+mains
+implications
+permits
+tapes
+paragraph
+transform
+framework
+fraction
+rocket
+Mounted
+limitations
+masses
+Filters
+limitation
+conclusions
+scope
+similarities
+motivation
+smallest
+continuous
+expressions
+parallel
+necessity
+principle
+transition
+ward
+reverse
+insights
+broad
+opposite
+blocks
+shift
+Demonstration
+processes
+fundamental
+modification
+behav ior
+entertain ing
+forces
+zo
+concern
+relationships
+conclusion
+combination
+calculation
+evaluation
+same time
+indication
+sophisticated
+e.g.
+lack
+distinction
+portion
+bands
+increasing
+roles
+ability
+attempt
+notion
+attention
+technique
+factor
+forward
+feeling
+theory
+procedures
+choices
+remainder
+except
+complex
+discussions
+dimensions
+extent
+matter
+enjoyable
+desired
+purposes
+conversion
+Conversion
+corresponding
+motion
+springs
+communications
+emphasis
+important part
+flight
+recovery
+restrictions
+conjunction
+techniques
+operations
+advantage
+Simultaneously
+approximately
+MIT
+effective
+direction
+Properties
+understanding
+reference
+specifically
+method
+recommended
+feed
+treatment
+reason
+operation
+hi
+interest
+Closely
+DC
+est
+block
+speed
+error
+equipment
+square
+practice
+digital
+train
+Con sequently
+base
+summary
+note
+unit
+question
+idea
+natural
+position
+daily
+Section
+material
+foundation
+others
+track
+forms
+problem
+weight
+fl
+requirements
+level
+energy
+key
+areas
+data
+Systems
+light
+right
+ex ample
+box
+Examples
+Central
+time duration
+application
+series
+place
+x.
+high
+long
+review
+area
+images
+out
+one
+top
+W
+w.
+w
+- o
+how
+T
+de
+s.
+increas
+essenis
+foward
+off part
+continuous-time ier transform
+particular properties exploit
+principal topseries ic
+Many simple used approximations
+-
+impulse-invariant design procedure
+developing convolution
+identical algebraic expressions
+discrete-time system function
+equivalent cutoff frequency
+Fourier transform synthesis equation
+jo-axis
+aperiodic one
+carrier pulse train
+original modulating signal
+periodic impulse train
+reconstructed output
+less sampling frequency
+discrete-time modulation
+video course manual
+outermost pole
+discrete-time complex exponentials
+periodic convolution
+spectrum analyzer output
+underdamped case
+running integral
+exponential signals
+Somewhat amazingly
+discrete-time sinusoidal signals
+next lectures
+Nth sample
+linear feedback systems
+linear constant-coefficient difference equation
+numerator polynomial
+sinusoidal amplitude modulation
+modulation properties
+two-dimensional signals
+successive segments
+conjugate symmetry
+continuous-time periodic signals
+denominator polynomial
+average filters
+discrete-time LTI systems
+feedback paths
+linear constant-coefficient differential
+causal systems
+periodic sequence

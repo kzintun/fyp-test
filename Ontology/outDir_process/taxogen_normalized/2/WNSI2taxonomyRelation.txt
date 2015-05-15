@@ -1,0 +1,7 @@
+filter kernel coef>>>filter kernel nr coef
+tt bsin tt>>>acos tt bsin tt
+windowed sinc filter kernels>>>conventional windowed sinc filter kernel
+fp conventional convolution>>>floating point math fp conventional convolution
+negative frequency t>>>corresponding negative frequency t
+sample signal start>>>odd sample signal start
+input side viewpoint>>>corresponding input side viewpoint
