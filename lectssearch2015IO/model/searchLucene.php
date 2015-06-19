@@ -43,15 +43,15 @@
 	}
 	else{
 	
-	$pathJar = './luceneJar/luceneTest1.jar';
+	$pathJar = './luceneJar/searchLucene.jar';
 	}
 	//echo $keyword . ' ' . $collection .' '. $pathJar . '<br>';
 	//	2. Execute Jar file with input keyword
 	$javaOutput = exec ('java -jar ' . $pathJar . ' ' . $keyword . ' ' . $collection, $luceneOut);
 	
-	echo'<pre>';
+	//echo'<pre>';
 	//print_r($luceneOut);
-	echo '</pre>';
+	//echo '</pre>';
 	if ( $luceneOut[0] == "the database does not exits" ){		
 		return -1;
 	}
