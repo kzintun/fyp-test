@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<collection date="10/06/2014" name="collections/aerospace.xml">
+	<document name="AaronHuey_2010X" xref="documents/AaronHuey_2010X.xml" video="documents/AaronHuey_2010X.mp3">
+		<metadata>
+			<media name="AaronHuey_2010X.mp4"/>
+			<category id="0" name="aerospace" />
+			<speakers>
+				<speaker id="0" name="Aaron Huey" />
+				<speaker id="1" name="Tim Ho" />
+			</speakers>
+			<description>This is a description for AH2010X</description>
+		</metadata>
+	</document>
+	<document  name="AdamSadowsky_2010X" xref="documents/AdamSadowsky_2010X.xml" video="AdamSadowsky_2010X.mp3" >
+		<metadata>
+			<media name="AdamSadowsky_2010X.mp3"/>
+			<category id="0" name="aerospace"/>
+			<speakers>
+				<speaker id="0" name="AdamSadowsky_2010X" />
+			</speakers>
+			<description>This is a description for AdamSadowsky_2010X</description>
+		</metadata>
+	</document>
+	<document name="AdamSavage_2008P" xref="documents/AdamSavage_2008P.xml" video="documents/AdamSavage_2008P.mp3">
+		<metadata>
+			<media name="AdamSavage_2008P.mp3"/>
+			<category id="0" name="aerospace" />
+			<speakers>
+				<speaker id="0" name="Adam Savage" />
+			</speakers>
+			<description>This is a description for AdamSavage_2008P</description>
+		</metadata>
+	</document>
+	<document name="AdamGrosser_2007" xref="documents/AdamGrosser_2007.xml" video="documents/AdamGrosser_2007.mp3">
+		<metadata>
+			<media name="AdamGrosser_2007.mp3"/>
+			<category id="0" name="aerospace" />
+			<speakers>
+				<speaker id="0" name="Adam Grosser" />
+				<speaker id="1" name="Glenn" />
+				<speaker id="2" name="Lucky" />
+			</speakers>
+			<description>This is a description for AdamGrosser_2007</description>
+		</metadata>
+	</document>
+	<document name="AimeeMullins_2009U" xref="documents/AimeeMullins_2009U.xml" video="documents/AimeeMullins_2009U.mp3">
+		<metadata>
+			<media name="AimeeMullins_2009U.mp3"/>
+			<category id="0" name="aerospace" />
+			<speakers>
+				<speaker id ="0" name="Unknown"/>
+			</speakers>
+			<description>This is a description for AimeeMullins_2009U</description>
+		</metadata>
+
+	</document>
+
+</collection>

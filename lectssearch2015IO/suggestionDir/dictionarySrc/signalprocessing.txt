@@ -1,0 +1,1292 @@
+acceleration
+acceleration angle
+acceleration cart
+acceleration system
+add solution solution
+alpha
+alpha greater
+alpha n
+alpha n course
+amount
+amount carrier
+amount carrier fact
+amount time shift
+amplifier
+amplifier example feedback
+amplitude
+amplitude modulation
+amplitude modulation modulation
+amplitude modulation system
+analog converter
+analog digital converter
+analog time time
+analysis
+analysis discrete time
+analysis equation
+analysis equation analysis
+analysis equation equation
+analyzer
+analyzer we'll look
+angle
+angle feedback
+angle output angle
+angle system
+angle system function
+angle use feedback
+anti aliasing filter
+anti filter
+aperiodic
+aperiodic signal
+approximation lowpass
+approximation lowpass filter
+approximation unit step
+array number direction
+attention fact
+attenuation selector switch
+audio
+audio control
+audio control panel
+average value
+b
+b b minus
+b minus
+b transfer function
+background noise
+band
+band interpolation
+band pass
+band pass filter
+band stop
+band stop band
+bilinear
+bilinear transformation
+bilinear transformation design
+block
+block diagram
+block diagram equation
+block diagram form
+block diagram spectrum
+bode plot
+bottom curve
+bridge time time
+broad class
+broad class fact
+build square
+build square wave
+building
+building form e
+butterworth
+butterworth filter
+c
+c alpha n
+c e
+c e beta
+c minus omega
+c theta c
+camera switching computer
+capacitor
+capacitor output
+capacitor output resistor
+capital
+capital n
+capital n capital
+capital n minus
+capital n omega
+capital n period
+carrier
+carrier capability carrier
+carrier carrier
+carrier carrier frequency
+carrier discrete time
+carrier frequency
+carrier frequency frequency
+carrier frequency omega
+carrier level
+carrier signal
+carrier signal carrier
+carrier signal spectrum
+cart
+cascade
+cascade linear time
+case
+case capital n
+case complex
+case difference equation
+case let remind
+case magnitude alpha
+case set building
+case time
+causal
+causal linear
+causal linear time
+causal region convergence
+causality linearity time
+causality region convergence
+center frequency
+center frequency resonator
+chain chain fact
+chain fact collapse
+change
+change carrier
+change carrier signal
+change complex amplitude
+change frequency
+change k
+change phase
+change phase change
+change phase shift
+change time
+change time shift
+channel
+choose
+choose k
+choose k greater
+circle
+circle fact
+circle frequency response
+circle z plane
+class discrete time
+cloud cover
+coefficient
+coefficient difference
+coefficient difference equation
+coefficient differential
+coefficient differential equation
+combination
+combination complex
+combination second order
+complex
+complex exponential
+complex exponential carrier
+complex exponential form
+complex exponential period
+complex exponential sinusoidal
+complex number
+complex time
+complex time case
+computer
+consider
+consider periodic signal
+constant
+constant coefficient
+constant coefficient difference
+constant coefficient differential
+constant frequency response
+constant k
+constant k angle
+construct periodic signal
+control
+control acceleration cart
+control center frequency
+control panel
+control room
+convergence
+convergence auxiliary information
+convergence fact
+convergence fourier transform
+convergence laplace
+convergence laplace transform
+convergence magnitude z
+convergence outermost pole
+convergence pole
+convergence real
+convergence real part
+convergence region convergence
+convergence system
+convergence system function
+convergence unit circle
+convergence z transform
+conversion
+convert digital form
+convert discrete time
+converter
+convolution
+convolution fourier transform
+convolution frequency domain
+convolution property
+convolution spectrum sequence
+convolution sum
+convolution time domain
+convolution want
+convolution want product
+correspond linear
+correspond linear system
+cosine
+course
+course time
+cursor
+cursor line
+curve
+cutoff
+cutoff frequency
+cutoff frequency kilohertz
+cutoff frequency omega
+cutoff frequency stopband
+cutoff frequency th
+cycle sine wave
+db
+db attenuation selector
+db gain db
+db pi
+dc offset
+dc offset level
+decimation
+decimation interpolation
+decimation interpolation discrete
+define fourier transform
+definition
+definition fourier transform
+delta
+delta delta
+demodulator
+demonstration
+denominator
+design
+design discrete
+design discrete time
+design impulse invariant
+design procedure
+diagram
+diagram spectrum analyzer
+difference
+difference equation
+difference equation equation
+difference partial sum
+differential
+differential equation
+differentiation
+differentiation property
+digital
+digital converter
+digital discrete time
+digital filter
+digital filter frequency
+discreet
+discreet time
+discreet time filter
+discreet time processing
+discreet time sequence
+discreet time time
+discrete
+discrete time
+discrete time analysis
+discrete time case
+discrete time conversion
+discrete time converter
+discrete time convolution
+discrete time fact
+discrete time feedback
+discrete time filter
+discrete time fourier
+discrete time frequency
+discrete time lowpass
+discrete time modulation
+discrete time order
+discrete time phase
+discrete time processing
+discrete time signal
+discrete time sinusoidal
+discrete time system
+discrete time time
+discrete time unit
+display
+doc
+domain
+domain convolution
+domain frequency
+domain frequency domain
+domain frequency response
+domain representation
+domain time
+domain time domain
+done
+downward trend
+draw attention fact
+duality
+duality time
+duality time fourier
+e
+e j
+e j k
+e j omega
+e j pi
+e minus
+e minus capital
+e minus j
+e minus sigma
+e minus unit
+e st
+effect
+effect pass filter
+eigenfunction property
+eliminate part spectrum
+energy
+energy error
+energy error we'll
+envelope
+envelope detector
+envelope detector type
+envelope fourier
+envelope fourier period
+envelope function
+envelope magnitude alpha
+equalizer
+equalizer circuit
+equation
+equation analysis equation
+equation block diagram
+equation equation
+equation equation equation
+equation equation x
+equation feedback equation
+equation fourier
+equation fourier transform
+equation loop
+equation loop system
+equation n
+equation overall system
+equation synthesis
+equation synthesis equation
+equipment look
+equivalent time filter
+error
+essence
+example
+example discrete
+example discrete time
+example fact
+example feedback
+example feedback system
+example processing
+example signal
+example time
+example use feedback
+exponential
+exponential carrier
+exponential carrier carrier
+exponential unit step
+expression
+expression fourier transform
+expression period infinity
+expression system
+expression system function
+expression z transform
+extract portion spectrum
+eye
+eye follow
+eye track
+eye track see
+fact
+fact discrete time
+fact done
+fact envelope
+fact envelope fourier
+fact feedback
+fact fourier
+fact fourier transform
+fact frequency
+fact fundamental period
+fact k
+fact laplace
+fact laplace transform
+fact look
+fact magnitude z
+fact nonideal lowpass
+fact odd function
+fact region convergence
+fact represent issue
+fact system
+fact z transform
+factor
+feedback
+feedback equation
+feedback fact
+feedback feedback
+feedback feedback fact
+feedback loop
+feedback loop system
+feedback measurement angle
+feedback path
+feedback path microphone
+feedback stabilize
+feedback stabilize system
+feedback system
+feedback system feedback
+feedback system function
+feedback time
+feedback time system
+filter
+filter bilinear
+filter bilinear transformation
+filter butterworth filter
+filter cutoff
+filter cutoff frequency
+filter discreet time
+filter discrete time
+filter fact
+filter filter
+filter frequency
+filter frequency frequency
+filter frequency response
+filter impulse invariance
+filter impulse response
+filter resistor output
+filter time
+form
+form convert digital
+form convolution
+form convolution want
+form e
+form e j
+form e minus
+form fourier
+form solution
+forward path
+forward path gain
+fourier
+fourier framework fourier
+fourier period
+fourier representation
+fourier time
+fourier transform
+fourier transform aperiodic
+fourier transform consider
+fourier transform fact
+fourier transform impulse
+fourier transform input
+fourier transform laplace
+fourier transform magnitude
+fourier transform output
+fourier transform pair
+fourier transform period
+fourier transform periodic
+fourier transform sequence
+fourier transform signal
+fourier transform synthesis
+fourier transform time
+fourier transform transform
+fourier transform x
+fourier transform z
+framework fourier transform
+frequency
+frequency discrete
+frequency discrete time
+frequency domain
+frequency domain convolution
+frequency domain frequency
+frequency domain representation
+frequency fact
+frequency filter
+frequency filter cutoff
+frequency frequency
+frequency frequency half
+frequency frequency pi
+frequency frequency scale
+frequency half
+frequency half frequency
+frequency impulse
+frequency impulse frequency
+frequency impulse train
+frequency input
+frequency input frequency
+frequency kilohertz
+frequency kilohertz pass
+frequency line
+frequency normalization
+frequency omega
+frequency omega c
+frequency omega sub
+frequency pass filter
+frequency phase
+frequency phase modulation
+frequency pi
+frequency pulse
+frequency pulse train
+frequency response
+frequency response butterworth
+frequency response digital
+frequency response fact
+frequency response frequency
+frequency response gain
+frequency response move
+frequency response system
+frequency response time
+frequency scale
+frequency scale kilohertz
+frequency signal
+frequency sine
+frequency sine wave
+frequency square wave
+frequency th pi
+frequency twice frequency
+function
+function feedback path
+function fourier transform
+function frequency
+function laplace transform
+function loop system
+function region convergence
+function sample
+function sin nx
+function time
+g
+gain
+gain forward path
+glockenspiel note
+greater
+greater minus
+guess
+guess incandescent light
+h
+h k
+h k h
+h k n
+h n
+h n k
+h tau
+h tau h
+half
+half frequency
+half frequency input
+half frequency kilohertz
+half plane
+half plane pole
+hand side
+hand side equation
+highpass
+highpass filter
+hold
+hold order hold
+ideal
+ideal highpass filter
+ideal lowpass
+ideal lowpass filter
+ideal pass
+ideal pass filter
+imaginary
+imaginary part
+impulse
+impulse fourier transform
+impulse frequency
+impulse function
+impulse invariance
+impulse invariant
+impulse invariant design
+impulse n
+impulse n impulse
+impulse response
+impulse response case
+impulse response frequency
+impulse response laplace
+impulse response system
+impulse response time
+impulse time
+impulse train
+impulse train convolution
+impulse train fourier
+impulse train frequency
+impulse train impulse
+impulse train sample
+impulse train sequence
+impulse train time
+incandescent light
+independent
+index
+index year period
+indicate
+infinity
+input
+input frequency
+input frequency half
+input impulse response
+input signal
+input system
+input x
+inside unit circle
+instability
+integer
+integer multiple pi
+integration pi interval
+integrator
+interconnection
+intermediate frequency
+intermediate frequency signal
+interpolation
+interpretation convolution property
+invariance
+invariant
+invariant design
+invariant system
+inverse
+inverse fourier transform
+issue
+j
+j k omega
+j omega
+j omega c
+j omega k
+j omega see
+j omega sub
+j omega transform
+j omega unit
+j pi n
+justine
+k
+k h
+k h k
+k h n
+k j omega
+k k
+k k change
+k k k
+k n
+k omega
+k root locus
+k see
+k shift loop
+k unit step
+kilohertz
+kilohertz frequency
+kilohertz kilohertz
+kilohertz rate sweep
+kind
+laplace
+laplace transform
+laplace transform error
+laplace transform expression
+laplace transform fourier
+laplace transform impulse
+laplace transform laplace
+laplace transform output
+laplace transform region
+laplace transform time
+laplace transform transform
+laplace transform z
+lecture
+left half
+left half plane
+length
+let
+let period infinity
+light
+line
+line frequency
+line frequency content
+linear
+linear combination
+linear combination complex
+linear constant
+linear constant coefficient
+linear interpolation
+linear magnitude scale
+linear time
+linear time invariant
+linearity time invariance
+locus
+log frequency scale
+look
+look block diagram
+look feedback equation
+look frequency domain
+look frequency response
+look pi omega
+look spectrum analyzer
+look time domain
+loop
+loop gain
+loop system
+loop system function
+loop system k
+lowpass
+lowpass filter
+lowpass filter highpass
+magnitude
+magnitude alpha
+magnitude alpha greater
+magnitude fourier
+magnitude fourier transform
+magnitude frequency
+magnitude frequency response
+magnitude z
+market
+market index
+measurement
+measurement angle
+measurement angle feedback
+mechanism
+memoryless
+memoryless system
+microphone
+microphone feedback path
+minus
+minus capital
+minus capital k
+minus fact
+minus j omega
+minus n
+minus n frequency
+minus omega sub
+minus sigma
+minus unit step
+minus z
+minus z minus
+modulating
+modulation
+modulation complex exponential
+modulation discrete time
+modulation impulse train
+modulation modulating signal
+modulation property
+modulation sinusoidal carrier
+modulator
+modulator demodulator
+move
+move j
+move j omega
+moving average
+multiple pi
+n
+n alpha
+n alpha n
+n capital n
+n h
+n h n
+n impulse n
+n k
+n k h
+n k n
+n n
+n n n
+n omega
+n omega sub
+n period
+n unit impulse
+n x
+n x n
+non constant frequency
+nonideal lowpass filter
+normalization
+note
+note time
+notion
+nth order
+number
+numerator denominator
+nx sin x
+odd
+odd function
+odd function building
+odd function frequency
+omega
+omega c
+omega c theta
+omega capital
+omega fourier
+omega fourier transform
+omega k
+omega n
+omega omega
+omega period
+omega pi
+omega see
+omega sub
+omega sub c
+omega sub cn
+omega sub m
+omega sub minus
+omega sub n
+order
+order difference
+order difference equation
+order differential equation
+order hold
+order hold effect
+order hold order
+order hold sample
+order system
+outermost pole
+output
+output angle
+output angle feedback
+output fourier transform
+output frequency
+output input
+output modulator
+output system
+output system input
+output system linear
+output system output
+output system system
+output time
+output time time
+overall
+overall system
+overall system function
+parameter
+parameter omega sub
+part
+part greater
+part greater minus
+part imaginary
+part imaginary part
+part spectrum
+partial sum
+pass
+pass band
+pass band stop
+pass filter
+pass filter fact
+path
+pendulum
+pendulum pivot bottom
+percent modulation
+period
+period capital n
+period infinity
+period period
+period period period
+period pi
+period pi omega
+periodic
+periodic signal
+periodic signal impulse
+periodic signal transform
+periodicity
+phase
+phase change
+phase change time
+phase difference
+phase reversal
+phase theta
+phase theta sub
+phase time
+photograph
+pi
+pi omega
+pi omega period
+pi pi
+plane
+plane pole
+plane pole move
+plane pole origin
+pole
+pole vector
+pole vector shorter
+population
+pressure function time
+procedure
+process
+process impulse train
+process time
+processing
+processing discreet time
+product
+property
+property convolution
+property discrete time
+property fact
+property fourier
+property fourier transform
+property laplace
+property laplace transform
+property time
+pulse
+pulse amplitude
+pulse amplitude modulation
+pulse train
+r
+r e j
+r minus
+r minus n
+radio
+radio frequency signal
+rate
+rate change
+rate change angle
+rate conversion
+real
+real exponential
+real exponential unit
+real part
+real part greater
+reconstruction
+reconstruction order hold
+reconstruction process
+region
+region convergence
+region convergence fact
+region convergence laplace
+region convergence outermost
+region convergence pole
+region convergence real
+region convergence region
+region convergence system
+region convergence z
+relationship
+relationship time frequency
+relationship unit step
+replication spectrum
+representation
+representation signal
+representation time
+resistor output
+resonance
+response
+response butterworth filter
+response case
+response digital filter
+response frequency
+response frequency response
+response ideal
+response ideal lowpass
+response ideal pass
+response impulse
+response impulse response
+response impulse time
+response laplace transform
+response minus n
+response step response
+response time
+response unit circle
+rest
+restoration
+restoration switch channel
+result
+result convolution
+result processing
+right h k
+rod
+root
+root g l
+root locus
+sample
+sample sequence
+sample sequence sequence
+sample sine x
+sample value
+sample wave form
+sampling
+sampling frequency
+sampling period
+sandy
+sandy change carrier
+scale
+second order
+see
+see square wave
+see stabilize
+see stabilize system
+sequence
+sequence fourier transform
+sequence sample
+sequence sample sequence
+sequence sequence
+sequence time
+sequence x
+sequence x n
+set building
+shift
+shift phase
+shift phase change
+shift time
+shift time shift
+show
+show example
+side
+side equation
+side equation omega
+sigma
+sigma j
+sigma j omega
+signal
+signal carrier
+signal carrier signal
+signal envelope detector
+signal fact
+signal fourier
+signal impulse
+signal impulse train
+signal stock market
+signal time
+signal transform
+signal x
+sin nx sin
+sin x
+sin x function
+sin x x
+sine
+sine wave
+sine wave fact
+sine wave square
+sine x
+sine x x
+sinusoidal
+sinusoidal amplitude modulation
+sinusoidal carrier
+sinusoidal modulation
+sinusoidal modulation discrete
+sinusoidal signal
+sinusoidal signal time
+solution
+solution equation
+solution form
+solution solution
+solution solution equation
+speaker
+speaker microphone
+spectra
+spectrum
+spectrum analyzer
+spectrum carrier
+spectrum carrier frequency
+spectrum carrier signal
+spectrum frequency
+spectrum impulse train
+spectrum output
+spectrum output modulator
+spectrum pass filter
+spectrum sequence
+spectrum signal
+spectrum spectrum
+speech signal
+square
+square root minus
+square wave
+square wave example
+square wave see
+stability
+stabilize
+stabilize system
+stabilize system feedback
+stable causal
+statement
+step
+step function
+step response
+step sequence
+step unit
+step unit impulse
+stock
+stock market
+stock market crash
+stock market index
+stop
+stop band
+strobe
+sub
+sub c
+sub cn
+sub k
+sub k capital
+sub m
+sub m frequency
+sub minus omega
+sub n
+sum
+sum x k
+sweep
+sweep range
+sweep range kilohertz
+synchronization modulator demodulator
+synthesis
+synthesis equation
+system
+system b
+system causal
+system causal linear
+system fact
+system feedback
+system feedback stabilize
+system function
+system function system
+system illustrate example
+system impulse
+system impulse response
+system input
+system linear
+system linear time
+system memoryless output
+system output
+system output input
+system output system
+system stable
+system stable causal
+system system
+system system input
+system system output
+system system system
+system time
+system time discrete
+system time invariant
+system you'll hear
+tape
+tau
+tau h
+tau h tau
+tau want h
+term
+term k
+term k k
+theta sub
+theta sub c
+time
+time case
+time case independent
+time case time
+time convolution
+time discreet time
+time discrete
+time discrete time
+time domain
+time domain convolution
+time domain frequency
+time domain time
+time example
+time feedback
+time filter
+time filter bilinear
+time filter cutoff
+time filter discrete
+time filter impulse
+time fourier
+time fourier time
+time fourier transform
+time frequency
+time frequency discrete
+time frequency response
+time function
+time function region
+time impulse
+time impulse response
+time impulse train
+time invariance
+time invariant
+time invariant order
+time invariant system
+time laplace
+time laplace transform
+time modulation
+time modulation property
+time order hold
+time origin
+time processing
+time pulse amplitude
+time sequence
+time shift
+time shift change
+time shift phase
+time shift time
+time signal
+time signal stock
+time signal time
+time sinusoidal
+time sinusoidal signal
+time square wave
+time system
+time system function
+time system time
+time time
+time time example
+time time time
+time unit
+time unit impulse
+time unit step
+time wave
+time wave form
+train
+train fourier
+train frequency
+train impulse
+train impulse train
+train time
+transfer function
+transform
+transform discrete time
+transform example
+transform expression
+transform fact
+transform fourier
+transform fourier transform
+transform impulse
+transform impulse response
+transform impulse train
+transform input
+transform laplace
+transform laplace transform
+transform magnitude
+transform output
+transform period
+transform periodic
+transform periodic signal
+transform region convergence
+transform sequence
+transform sequence fourier
+transform signal
+transform time
+transform time function
+transform transform
+transform x
+transform x n
+transform z
+transform z transform
+transformation
+twice frequency
+twice frequency signal
+u
+u delta
+unit
+unit circle
+unit circle fact
+unit impulse
+unit impulse function
+unit impulse unit
+unit step
+unit step function
+unit step sequence
+unit step unit
+use
+use feedback
+value
+vector
+voltage source input
+want
+wave
+wave example
+wave fact
+wave form
+wave square
+wave square wave
+way
+we'll
+we'll see
+we'll see energy
+we're
+x
+x function
+x k
+x k h
+x n
+x n h
+x n x
+x omega
+x omega fourier
+x tau
+x tau h
+x x
+x x function
+x z
+y
+y n
+z
+z e
+z e j
+z minus
+z plane
+z transform
+z transform impulse
+z transform sequence
+z transform transform
+z transform z
+z z
+zeta
+zeta omega sub

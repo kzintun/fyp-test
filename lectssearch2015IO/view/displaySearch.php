@@ -1,0 +1,242 @@
+<!--26 JAN 2015 - AMENDED BY JH TO FIX VARIOUS UI BUGS-->
+<!--
+ * The MIT License (MIT)
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ * 
+ * @license http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @author Ong Jia Hui (c) 2015
+-->
+<?php include_once('header.php'); ?>
+<script type="text/javascript">
+	function ExpandCollapse(theDiv) {
+			el = document.getElementById(theDiv);
+			if(el.style.display == 'none'){
+				el.style.display = ''; }
+			else {
+				el.style.display = 'none'; }
+			return false; }
+</script>
+
+<script >
+// Jquery to limit overflow of text into ...
+$(document).ready(function() {
+     $(".ellipsis").dotdotdot();
+});
+</script>
+
+
+<script>
+//Jquery to display tooltip for concept related keywords
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<div class="container">
+	<!--<script type="text/javascript">
+		$(document).ready(function(){
+			var options = {  
+				xmlUrl: './static/xml/conceptTree.xml',
+				storeState: true
+			};
+			//console.log(options);
+			$('#xmlMenuTree').xmltree(options);
+		});
+	</script>-->
+	<div class="rowa">
+		<!-- LEFT SIDE-->
+		<div class="col-lg-3">
+			<div class="well" >
+				<div id="xmlMenuTree"></div>
+			</div>
+		</div>
+		<div class="col-lg-7 col-lg-offset-1">
+			<div class="alert alert-success alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>Found <strong><?php echo sizeof($finalResultArray); ?></strong> result(s)!</span></div>
+			<ul class="list-group">
+			<?php foreach($finalResultArray as $key => $value) {
+				/*$audioFormat = array('wav','mp3','aac');
+				$videoFormat = array('mp4');
+				if (in_array($finalResultArray[(string)$key]['type'],$audioFormat)) {
+					$defaultIcon = "./img/default/audio.png";
+				}
+				elseif (in_array($finalResultArray[(string)$key]['type'],$videoFormat)) {
+					$defaultIcon = "./img/default/video.png";
+				}
+				else {*/
+					$defaultIcon = "./img/default/video.png";
+				//}
+
+			?>
+				<li class="list-group-item ">
+					<div class="media">
+						<div class="media-body col-lg-9">
+
+					  		<table class="tableContainer">
+								<tr>
+									<td class="leftTableCol">Title: </td>
+									<td class="rightTableCol"><?php echo $key?><br></td>
+								</tr>
+								<tr>
+									<td class="leftTableCol">Collection: </td>
+									<td class="rightTableCol"><?php echo $finalResultArray[$key][0]['collection']?><br></td>
+								</tr>
+								<tr>
+									<td class="leftTableCol">No. of Sentence  (keyword) Found: </td>
+									<td class="rightTableCol"><?php 
+																	if (isset($finalResultArray[$key]['score']['tf']) && !isset($_GET['concept']))
+																		echo $finalDisplayArray[$key] . '  <i>('.$finalResultArray[$key]['score']['tf'].')</i>  ';
+																	else
+																		echo $finalDisplayArray[$key];
+																	?><br></td>
+								</tr>
+								<tr>
+									<td class="leftTableCol">Preview Text: </td>
+									<td class="rightTableCol"><div class="ellipsis" style="word-wrap: break-word;"><?php echo $finalResultArray[$key][0]['text']?></div></td>
+								</tr>
+								<tr>
+									<td class="leftTableCol"></td>
+									<td class="rightTableCol">
+										<br>
+										<button class="btn btn-primary btn-sm" type="submit" name="go" onclick="ExpandCollapse('<?php echo 'idS-'.$key; ?>'); ">Show more results</button>
+									</td>
+								</tr>
+								<tr id="<?php echo 'idS-'.$key; ?>" style="display:none">
+									<td class="leftTableCol"></td>
+									<td class="rightTableCol">
+										<div >
+											<table class="table table-hover">
+												<thead>
+													<tr>
+														<th align="center" width="20%"> Start Time</th>
+														<th align="center" width="80%"> In Text</th>
+													</tr>
+												</thead>
+												<tbody>
+													<?php for ($k= 0 ; $k < sizeof($finalResultArray[$key])-1; $k++){
+																$time = $finalResultArray[$key][$k]['startTime'];?>
+													<tr>
+														<td><a id="<?php echo $key; ?>" class ="inline img-redirect"  href="index.php?database=<?php echo $finalResultArray[$key][$k]['collection'];?>&document=<?php echo $key;?>&seek=<?php echo $time;?>">
+														<?php echo $finalResultArray[$key][$k]['startTime'] ?></a></td>
+														<td><?php echo $finalResultArray[$key][$k]['text'] ?></td>
+													</tr>
+													<?php } ?>
+												</tbody>
+											</table>
+										</div>
+									</td>
+								</tr>
+
+							</table>
+						 </div>
+					 		<a id="<?php echo $key; ?>" class="media-right media-middle img-redirect" href="index.php?database=<?php echo $finalResultArray[$key][0]['collection'];?>&document=<?php echo $key; ?>">
+					    		<img class="docIcon" src="<?php echo './img/thumbnails/'.$key.'.png'?>" border="0" alt="database icon" onerror='this.onerror = null; this.src="<?php echo $defaultIcon?>"'>
+						  	</a>
+						
+					</div>
+			  </li>
+
+			<?php } ?>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+			<script>
+			$('.img-redirect').click(function() { 
+				//console.log("CLICKED");
+				//console.log(this.id);
+				var key = this.id;
+				
+				/*<?php
+					$js_array = json_encode($finalResultArray);
+					echo "var passArray = ". $js_array . ";\n";
+				?>*/
+				var passArray = <?php echo json_encode($finalResultArray);?>;
+				console.log(passArray);
+				passArray = passArray[key];
+				var outerArray = {};
+				outerArray[0] = passArray;
+				outerArray = JSON.stringify(outerArray);
+
+				//console.log(outerArray);
+
+				var vars = {};
+				var url = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+					vars[key] = value;
+				});
+				var db =  vars["database"];
+				//console.log(db);
+				//console.log(urlSearch);
+
+				//var arr = $.map(passArray, function(el) { return el; });
+				//console.log(passArray);
+				//console.log(arr);
+				var currentURL = window.location.href;
+				console.log(currentURL);
+				if (currentURL.search("&keyword=") > -1) currentURL= currentURL.substring(0,currentURL.search("&keyword="));
+				else if (currentURL.search("&concept=") > -1) currentURL= currentURL.substring(0,currentURL.search("&concept="));
+				var urlSearch = currentURL + "&document=" + key;
+				console.log(urlSearch);
+				
+				$.ajax({
+			        url: urlSearch,
+			        type: 'POST',
+			        data: {'database':db, 'document':key,'matches': outerArray},
+			        success: function(data){
+			        	results = data.trim();
+
+			        	results = results.substring(1,results.length-1);
+			        	console.log(results);
+			        	console.log("IT WORKED");
+			        	//console.log(results);
+			        	localStorage.setItem("matches", JSON.stringify(results));
+						console.log(localStorage.getItem("matches"));
+			        	//if (results.length == 0) {
+		        			//message=results;
+			        		//$('#alertResults').html('<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>'+message+'</span></div>');
+		        		//}
+			        },
+			        //dataType:'json'
+			        
+			    });
+			    //return false;
+			    //'./controller/obtainMatchList.php'
+			    //'database':db, 'document':key, 
+				/*$.ajax({
+					type: 'POST',
+					url: urlSearch,
+					
+					success: function(data){
+						console.log(data);
+					},
+					dataType:'json'
+				});*/
+
+				
+
+				//this.href="index.php?database="+<?php echo $finalResultArray[$key][0]['collection'];?>="&document="+key;
+				//href="index.php?database=<?php echo $finalResultArray[$key][0]['collection'];?>&document=<?php echo $key; ?>"
+				//return false; 
+
+			});
+			</script>
+
+<?php include_once('footer.php'); ?>

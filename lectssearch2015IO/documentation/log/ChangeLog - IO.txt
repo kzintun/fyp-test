@@ -1,0 +1,7 @@
+
+Removal
+-------
+
+ln 41 include_once('model/getFileList.php') from 'controller/searchConceptInDocument.php
+ln 42 include_once('model/getFileList.php') from 'controller/searchKeywordInDocument.php
+
